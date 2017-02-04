@@ -1,8 +1,10 @@
 # Student Guide
 
-Hack for a Cause is open to all students. There are a few things you should come prepared for.
+Hack for a Cause is open to all students.:mortar_board:
 
-Github account - Hack for a Cause uses GitHub to collect each entry. 
+There are a few things you should come prepared for.
+
+Github account :octocat: - Hack for a Cause uses GitHub to collect each entry. 
 Have your account ready and if you are not familiar with GitHub or git please feel free to visit the following resources before the hackathon:
 * https://guides.github.com/activities/hello-world/
 * https://www.codeschool.com/courses/try-git
