@@ -1,8 +1,8 @@
 # Challenge Submissions
 
-Submitting a challenge to Hack for a Cause is a great jump start to a technological solution. Great developers from Eugene can use their tech skills to help bring a solution to life. To do this well, developers taking on your challenge will need the resources to create code that truely meets the needs of the challenge.
+Thank you for your interest in submitting a challenge for Hack for a Cause. Submitting a challenge is a great way to jump start the process for finding a technological solution for your business. Accomplished and enthusiastic developers from all over Eugene are excited to utlize their tech skills to help bring you the solution your business needs. To ensure the best possible project, developers taking on your challenge will need help and input from your business with detailed information on your needs, assets such as copy and images, and your support.
 
-The fact that this event is only a weekend means developers need all the specs, assets, copy, and any other considerations at the beginning of the hackathon.
+Since this event is limited to only one weekend, the development teams will need all the specs, assets, copy, and any other considerations at the beginning of the hackathon.
 
 ## Resources and Specs
 
@@ -14,9 +14,8 @@ The more resources available the better.
 
 Here are some resource that will help developers with your challenge:
 
-* Image assets
-* Text copy
-* List of data that is sensitve or restrictions with data
+* Assets such as images, copy, logos, and data
+* List of rules and restrictions with data if any
 
 Making these resources easily available will also help teams with your challange.
 
