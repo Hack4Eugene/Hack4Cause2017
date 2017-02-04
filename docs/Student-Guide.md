@@ -8,4 +8,7 @@ Have your account ready and if you are not familiar with GitHub or git please fe
 * https://www.codeschool.com/courses/try-git
 * https://www.youtube.com/playlist?list=PLg7s6cbtAD17uAwaZwiykDci\_q3te3CTY
 
-We do have a code of conduct doc you will want to reference
+We do have a code of conduct doc you will want to reference as well.
+https://github.com/Hack4Eugene/Hack4Cause2017/blob/master/docs/Code-of-Conduct.md
+
+
