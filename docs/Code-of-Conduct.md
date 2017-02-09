@@ -15,6 +15,7 @@ Our hackathon is dedicated to providing a harassment-free experience for everyon
 * previous hackathon attendance or lack of
 * computing experience or lack of
 * chosen programming language or tech stack
+
 We do not tolerate harassment of hackathon participants in any form. Sexual language and imagery is not appropriate at any hackathon venue, this includes the following.
 
 * hacks
@@ -32,4 +33,4 @@ Hackathon participants violating these rules
 
 * without a refund
 
-(if applicable) at the discretion of the hackathon organisers.
+(if applicable) at the discretion of the hackathon organizers.

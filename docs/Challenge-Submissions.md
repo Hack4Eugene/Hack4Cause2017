@@ -10,19 +10,19 @@ Any restrictions on the application or data should be made apparent from the sta
 
 Well written descriptions make for better development and a better product.
 
-The more resources available the better. 
+The more resources available the better.
 
-Here are some resource that will help developers with your challenge:
+Here are some resources that will help developers with your challenge:
 
 * Assets such as images, copy, logos, and data
 * List of rules and restrictions with data if any
 
-Making these resources easily available will also help teams with your challange.
+Making these resources easily available will also help teams with your challenge.
 
 ## Additional Resources
 
 A person representing the challenge on site for the hackathon is also a big help.
-Developers may have further questions about the nature for the challenge or direction to head in meeting the challenge.
+Developers may have further questions about the nature of the challenge or direction to head in during the challenge.
 
 ## Only 48 Hours of Development
 Keep in mind that 48 hours may not be enough time to fully complete the challenge into a production ready solution.
