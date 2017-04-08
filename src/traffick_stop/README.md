@@ -1,13 +1,16 @@
-# Hack for a Cause2017 Team "Example"
+# Hack for a Cause2017 Team "Traffick Stop"
 
-We are addressing the "bla bla bal" challenge.
+We are addressing the sex trafficking challenge.
 
 Team Members:
 
-me      my@gmail.com  
-friend  friend@school.edu  
-hodor   hodor@hodor.hodor  
+Eric Leslie  eric@ericleslie.me 
+Dan Johnson  danimal.johnson@gmail.com
 
-We using the following components:
-
+We are using the following components:
+PHP
+MySQL
+Bootstrap
+Pizza and Energy Drinks
+Android SDK
 
