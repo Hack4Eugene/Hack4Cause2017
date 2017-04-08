@@ -1,12 +1,12 @@
-# Hack for a Cause2017 Team "Example"
+# Hack for a Cause2017 Team "SecondPlace
 
-We are addressing the "bla bla bal" challenge.
+We are addressing the "Hult Center" challenge.
 
 Team Members:
 
-me      my@gmail.com  
-friend  friend@school.edu  
-hodor   hodor@hodor.hodor  
+Aaron Grieger     amgrieger@gmail.com
+
+
 
 We using the following components:
 
