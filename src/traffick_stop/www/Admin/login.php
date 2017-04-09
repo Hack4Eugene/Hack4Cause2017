@@ -48,7 +48,7 @@
 			<div class="form-group"><input name="password" class="form-control" placeholder="Password" type="password" required></div>
 			<div class="form-group"><input type="submit" class="btn btn-info" value="Log In"></div>
 		</form> -->
-		<form class="form-horizontal">
+		<form class="form-horizontal" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
   <div class="form-group" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 	  <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
     <div class="col-sm-8">
