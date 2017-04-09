@@ -5,7 +5,7 @@ We are addressing the "Sex Trafficking" challenge.
 Team Members:
 
 Katie Kizer       katiekizer09@gmail.com  
-Foster Kizer      kizer713@gmail.com 
+Foster Kizer      kizer713@gmail.com
 Ben Matson        ben@xsmedia.com    
 
 We using the following components:
