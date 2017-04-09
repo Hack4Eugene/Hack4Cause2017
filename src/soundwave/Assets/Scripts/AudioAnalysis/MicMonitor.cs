@@ -85,7 +85,7 @@ public class MicMonitor : MonoBehaviour
     float previousBufferEvaluationTime;
     int readHead;
     int sampleRate = 8000;
-    string micDeviceName;
+    public string micDeviceName;
     float[] voxRmsLevels;
     public float minBufferValue;
     public float maxBufferValue;

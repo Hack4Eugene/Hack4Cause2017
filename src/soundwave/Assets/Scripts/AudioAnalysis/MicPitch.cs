@@ -11,6 +11,12 @@ public class MicPitch : MonoBehaviour {
 	private int upperBounds;
 	private int maxFrequency; 
 
+	private void Awake ()
+	{
+		lowerBounds = 10;
+		upperBounds = 80;
+	}
+
 	// returns a value of zero to one
 	public float GetNormalizedPitch ()
 	{
