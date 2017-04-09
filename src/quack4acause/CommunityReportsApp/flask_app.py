@@ -82,10 +82,7 @@ def getMarkers():
 
 	for report in reports:
 		epoch = report.event_dt.strftime('%s')
-		if (report.isEmergency):
-			data.append([report.latitude, report.longitude, report.text, "Crime", epoch])
-		else:
-			data.append([report.latitude, report.longitude, report.text, "Event", epoch])
+		data.append([report.latitude, report.longitude, report.text, report.isEmergency, epoch])
 
 	return jsonify(result = data)
 
@@ -93,8 +90,8 @@ def getMarkers():
 @app.route("/_submitReport")
 def submitReport():
 	text = request.args.get('description', 0, type=str)
-	isEmergency = request.args.get('isEmergency',0, type=bool)
-	isAnonymous = request.args.get('anonymous', 0, type=bool)
+	isEm = request.args.get('isEmergency',0, type=str)
+	isAm = request.args.get('anonymous', 0, type=str)
 	latitude = request.args.get('lat', 0, type=float)
 	longitude = request.args.get('long', 0, type=float)
 
@@ -102,6 +99,10 @@ def submitReport():
 
 	if (user == None):
 		return jsonify(result = "NO USER")
+
+
+	isEmergency = (isEm == "true")
+	isAnonymous = (isAm == "true")
 
 	newReport = Report(
 		latitude = latitude,
