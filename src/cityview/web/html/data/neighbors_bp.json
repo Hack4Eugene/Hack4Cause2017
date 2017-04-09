@@ -1,0 +1,23 @@
+{ "neighbor_bps":
+    [
+{"neighborhood":"Active Bethel Citizens","count":12},
+{"neighborhood":"Amazon Neighbors Association","count":1},
+{"neighborhood":"Cal Young Neighborhood Association","count":33},
+{"neighborhood":"Churchill Area Neighbors","count":28},
+{"neighborhood":"Downtown Neighborhood Association","count":1},
+{"neighborhood":"Fairmount Neighbors","count":1},
+{"neighborhood":"Far West Neighborhood Association","count":1},
+{"neighborhood":"Friendly Area Neighbors","count":8},
+{"neighborhood":"Harlow Neighbors","count":7},
+{"neighborhood":"Jefferson Westside Neighbors","count":2},
+{"neighborhood":"Laurel Hill Valley Citizens","count":9},
+{"neighborhood":"Northeast Neighbors","count":88},
+{"neighborhood":"River Road Community Organization","count":33},
+{"neighborhood":"Santa Clara Community Organization","count":37},
+{"neighborhood":"Southeast Neighbors","count":10},
+{"neighborhood":"South University Neighborhood Association","count":1},
+{"neighborhood":"Southwest Hills Neighborhood Association","count":5},
+{"neighborhood":"Unknown","count":8},
+{"neighborhood":"West Eugene Community Organization","count":1},
+{"neighborhood":"West University Neighbors","count":1}
+]}
