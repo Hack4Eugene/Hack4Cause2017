@@ -3,11 +3,8 @@
 We are addressing the "bla bla bal" challenge.
 
 Team Members:
-
-me      my@gmail.com  
-friend  friend@school.edu  
-hodor   hodor@hodor.hodor  
+assorted peopl  
 
 We using the following components:
 
-
+mockup for final product as slide show presentation.
