@@ -1,0 +1,5 @@
+/Users/katiekizer09/Projects/Trafficing/Trafficing/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Users/katiekizer09/Projects/Trafficing/Trafficing/bin/Debug/Trafficing.dll.mdb
+/Users/katiekizer09/Projects/Trafficing/Trafficing/bin/Debug/Trafficing.dll
+/Users/katiekizer09/Projects/Trafficing/Trafficing/obj/Debug/Trafficing.dll
+/Users/katiekizer09/Projects/Trafficing/Trafficing/obj/Debug/Trafficing.dll.mdb
