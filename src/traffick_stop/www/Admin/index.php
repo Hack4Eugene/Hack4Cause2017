@@ -14,9 +14,9 @@
 <body>
 	<div class="container">
 		<div class="row">
-		<div class="col-md-4"><h2>Welcome <?php echo $login_session; ?></h2></div>
+		<div class="col-md-4"><h2 class="center">Welcome <?php echo $login_session; ?></h2></div>
 		<div class="col-md-4"><h2 class="center">Admin Panel</h2></div>
-		<div class="col-md-4"><h5 class="right"><a class="btn btn-default" href="logout.php">Sign Out</a></h5></div>
+		<div class="col-md-4"><h5 class="center"><a class="btn btn-default" href="logout.php">Sign Out</a></h5></div>
 		</div>
 		<div class="row">
 			<div class="col-md-3"></div>
