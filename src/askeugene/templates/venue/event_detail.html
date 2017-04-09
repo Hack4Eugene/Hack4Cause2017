@@ -1,0 +1,79 @@
+{% extends "base/base_venue.html" %}
+{% load static i18n %}
+{% block title %}Events{% endblock %}
+
+{% block HeaderStyles %}
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+    .panel{padding: 10px}
+    </style>
+
+
+    <script>
+    $(function() {
+         $(".finish").click(function(){
+            $.get( "/venue/un-publish-poll/" + this.id + "/", function( data ) {
+                window.location.replace("venue/event_detail/" + data + "/");
+            });
+        });
+
+         $(".start-poll").click(function(){
+            $.get( "/venue/publish-poll/" + this.id + "/", function( data ) {
+              window.location.replace("venue/event_detail/" + data + "/");
+            });
+        });
+    });
+    </script>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+         <!--Live Panel START-->
+        <div class="panel panel-default" >
+          <div class="panel-heading">
+            <h3 class="panel-title">Details for: {{ event.name }} event</h3>
+          </div>
+          <div class="panel-body">
+              <div class="row">
+                {% for decision in decisions %}                        <!--
+                        <label for="start_time_{{ decision.id }}">Polling Start Time:</label><input type="text" id="start_time_{{ decision.id }}"name="d_start_time{{ decision.id }}" value="{{ decision.start_time }}"><br>
+                        <label for="end_time_{{ decision.id }}">Polling End Time:</label><input type="text" id="end_time_{{ decision.id }}" name="d_end_time{{ decision.id }}" value="{{ decision.end_time }}"><br>
+                        -->
+                        <b>Question to ask:</b><br>
+                        <textarea id="decision{{ decision.id }}" class="ta_change_question" data-d_id="{{ decision.id }}" rows="4" cols="75">{{ decision.question_to_be_asked }}</textarea><br><br>
+                        <b>Possible Answers:</b><br>
+                        {% for da in decision_answers %}
+                            {% if da.decision == decision %}
+                                <textarea id="decision_answer{{ da.id }}" class="ta_change_question_answer" data-qa_id="{{ da.id }}" rows="4" cols="75">{{ da.name }}</textarea><br><br>
+                            {% endif %}
+                        {% endfor %}
+                        <button type="button" class="btn btn-secondary">Add another answer</button><br><br>
+
+                       {% if decision.published %}
+                            <button type="button" class="btn btn-danger finish" id="{{ decision.id }}">Finish Poll</button>
+                       {% else %}
+                            <button type="button" class="btn btn-success start-poll" id="{{ decision.id }}">Begin Poll</button>
+                       {% endif %}
+                      </div>
+                    <hr>
+                {% endfor %}
+                <button type="button" class="btn btn-primary">Create a new Poll for this event</button>
+              </div>
+
+          </div>
+        </div>
+        <!--Live Panel END-->
+
+
+    <br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+    </div>
+{% endblock %}

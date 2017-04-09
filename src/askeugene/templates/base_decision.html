@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+{% load i18n static %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% block title %}Board Concierge{% endblock %}</title>
+
+    <!-- JQUERY START -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- JQUERY END -->
+
+
+    <!-- BOOTSTRAP START -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP END -->
+
+    <!-- CHARTING START -->
+        <script src="{% static "js/Chart.js" %}"></script>
+    <!-- CHARTING END -->
+
+    <!-- DATATABLES START -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.13/r-2.1.1/datatables.min.css"/>
+        <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.13/r-2.1.1/datatables.min.js"></script>
+    <!-- DATATABLES END -->
+
+    {% block HeaderStyles %}{% endblock %}
+    {% block head %}{% endblock %}
+
+</head>
+<body>
+    {% block Menu %}{% endblock %}
+    {% block HeroBefore %}{% endblock %}
+
+    {% block Hero %}
+        <div class="container-fluid bc-page-hero">
+            <div class="container">
+                <h2 style="margin-left:100px">{% block BoardConciergeHeroText %}{% endblock %}</h2>
+            </div>
+        </div>
+    {% endblock %}
+
+    {% block HeroAfter %}{% endblock %}
+    <div id="base_board_concierge_body_container"  class="container">
+        {% block body %}
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{% block BCPanelTitle %}{% endblock %}</h3>
+                </div>
+                <div class="panel-body">
+                    {% block BCPanelContents %}{% endblock %}
+                </div>
+            </div>
+        {% endblock%}
+    </div>
+
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+          <div class="bc-footer-text">
+              Copyright &copy; {% now "Y" %} <span class="hidden-xs visible-sm-inline visible-md-inline visible-lg-inline">Hackathon Eugene</span>
+
+          </div>
+        </div>
+    </div>
+
+    {% block global_scripts %}{% endblock %}
+
+    {% block FooterScripts %}{% endblock %}
+  </body>
+</html>
+
