@@ -1,5 +1,31 @@
 <?php
    include('session.php');
+	$hide_recent = false;
+	$hide_reports = true;
+	$hide_vehicles = true;
+	$hide_people = true;
+	if ($_SERVER["REQUEST_METHOD"] == "POST") {
+		$search =  $_POST['search'];
+		$filter =  $_POST['filter'];
+		if ($_POST['table'] == 'reports'){
+			$hide_recent = true;
+			$hide_reports = false;
+			$hide_vehicles = true;
+			$hide_people = true;
+		}
+		if ($_POST['table'] == 'vehicles'){
+			$hide_recent = true;
+			$hide_reports = true;
+			$hide_vehicles = false;
+			$hide_people = true;
+		}
+		if ($_POST['table'] == 'people'){
+			$hide_recent = true;
+			$hide_reports = true;
+			$hide_vehicles = true;
+			$hide_people = false;
+		}
+	}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,79 +47,243 @@
 		<div class="row">
 			<div class="col-md-4">
 			</div>
-			<div class="col-md-4 center">
+			<div class="col-md-4 center police_auth">
 			Thing to authorize police users, ignore this for now
 			</div>
 			<div class="col-md-4">
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-12">
+				<h3>Find a Report: Filter By</h3>
+			</div>
+		</div>
+		
+		<div class="row">
 			<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 				<div class="col-md-4">
+				
 					<div class="form-group"><input name="search" class="form-control" placeholder="Search Term"></div>
 				</div>
 				<div class="col-md-4">
-					<div class="form-group"><select class="form-control">
+					<div class="form-group"><select name="filter" class="form-control">
 						<option value="id">Report ID</option>
+						<option value="username">Username</option>
 						<option value="location">Location</option>
-						<option value="room_number">Room Number</option>
-						<option value="person_type">Person Type</option>
-						<option value="name">Name</option>
-						<option value="sex">Sex</option>
-						<option value="race">Race</option>
-						<option value="age">Age</option>
-						<option value="build">Build</option>
-						<option value="hair_color">Hair Color</option>
-						<option value="hair_length">Hair Length</option>
-						<option value="eye_color">Eye Color</option>
-						<option value="clothing">Clothing</option>
-						<option value="person_blob">Person Additional Details</option>
-						<option value="car_color">Car Color</option>
-						<option value="car_make">Car Make</option>
-						<option value="car_model">Car Model</option>
-						<option value="plate">Plate Number</option>
-						<option value="state">Plate State</option>
-						<option value="driven_by">Driver</option>
-						<option value="car_blob">Car Additional Details</option>
-						<option value="reporter_details">Other Additional Details</option>
 					</select></div>
 				</div>
 				<div class="col-md-4 center">
-					<div class="form-group"><input type="submit" value="search" class="form-control btn btn-info"></div>
-				</div>
-			
-				
+					<input type="hidden" name="table" value="reports">
+					<div class="form-group"><input type="submit" value="Search" class="form-control btn btn-info"></div>
+				</div>			
 			</form>
 		</div>
 		<div class="row">
-			<dive class="col-md-12">
+			<div class="col-md-12">
+				<h3>Find a Vehicle: Filter By</h3>
+			</div>
+		</div>
+		<div class="row">
+			<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+				<div class="col-md-4">
+				
+					<div class="form-group"><input name="search" class="form-control" placeholder="Search Term"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group"><select name="filter" class="form-control">
+						<option value="make">Make</option>
+						<option value="model">Model</option>
+						<option value="color">Color</option>
+						<option value="plate">Plate Number</option>
+						<option value="state">Plate State</option>
+					</select></div>
+				</div>
+				<div class="col-md-4 center">
+					<input type="hidden" name="table" value="vehicles">
+					<div class="form-group"><input type="submit" value="Search" class="form-control btn btn-info"></div>
+				</div>			
+			</form>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Find a Person: Filter By</h3>
+			</div>
+		</div>
+		<div class="row">
+			<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+				<div class="col-md-4">
+				
+					<div class="form-group"><input name="search" class="form-control" placeholder="Search Term"></div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group"><select name="filter" class="form-control">
+						<option value="name">Name</option>
+						<option value="age">Age</option>
+						<option value="race">Race</option>
+						<option value="sex">Sex</option>
+						<option value="height">Height</option>
+						<option value="eye_color">Eye Color</option>
+						<option value="hair_color">Hair Color</option>
+						<option value="hair_length">Hair Length</option>
+						<option value="clothing">Clothing</option>
+					</select></div>
+				</div>
+				<div class="col-md-4 center">
+					<input type="hidden" name="table" value="people">
+					<div class="form-group"><input type="submit" value="Search" class="form-control btn btn-info"></div>
+				</div>			
+			</form>
+		</div>
+		<div class="row">
+			<?php if (!$hide_recent) { ?>
+			<dive class="col-md-12" id="recent_reports">
+				<h3>Recent Reports</h3>
 				<table class="table table-striped table-condensed  table-responsive">
-					<tr>
+						<tr>
+							<th>Report ID</th>
+							<th>Location</th>
+							<th>Person Type</th>
+							<th>Age Range</th>
+							<th>Sex</th>
+							<th>Hair Color</th>
+							<th>Additional Info</th>
+						</tr>
 						<?php
-						$Table = 'vehicles';
-						$sql = "SHOW COLUMNS FROM $Table";
-						$result = mysqli_query($db,$sql);
+							$sql = "(SELECT * FROM reports ORDER BY ReportID DESC LIMIT 50) ORDER BY ReportID DESC";
+							$sql2 = "(SELECT * FROM people ORDER BY ReportID DESC LIMIT 50) ORDER BY ReportID DESC";
+							$result = mysqli_query($db,$sql);
+							$result2 = mysqli_query($db,$sql2);
 							while ($row = mysqli_fetch_array($result)) {
-								echo "<th>".$row['Field']."</th>";
+								$row2 = mysqli_fetch_array($result2);
+                   				echo "<tr>";
+								echo "<td>".$row['ReportID']."</td>";
+								echo "<td>".$row['location']."</td>";
+								echo "<td>".$row2['person_type']."</td>";
+								echo "<td>".$row2['age_low']." - ".$row2['age_high']."</td>";
+								echo "<td>".$row2['sex']."</td>";
+								echo "<td>".$row2['hair_color']."</td>";
+								echo "<td>".$row['reporter_details']."</td>";
+								echo "</tr>";
 							}
 						?>
-					</tr>
-					<?php
-					$search = $_POST['search'];
-						$Table = 'vehicles';
-						$sql = "SHOW COLUMNS FROM $Table";
-						$result = mysqli_query($db,$sql);
-							while ($row = mysqli_fetch_array($result)) {
-								$row_ = $row['Field'];
-								$sql2 = "SELECT $row_ FROM $Table WHERE $row_ LIKE '%$search%'";
-								$result2 = mysqli_query($db,$sql2);
-								while ($row2 = mysqli_fetch_array($result2)){
-									
-								}
-							}
-					?>
 				</table>
-			</dive>
+				<?php } ?>
+			<?php if (!$hide_reports) { ?>
+			<dive class="col-md-12" id="recent_reports">
+				<h3>Filtered Reports</h3>
+				<table class="table table-striped table-condensed  table-responsive">
+						<tr>
+							<th>Report ID</th>
+							<th>Location</th>
+							<th>Person Type</th>
+							<th>Age Range</th>
+							<th>Sex</th>
+							<th>Hair Color</th>
+							<th>Additional Info</th>
+						</tr>
+						<?php
+							$sql = "SELECT * FROM reports WHERE $filter LIKE '%$search%' ORDER BY ReportID DESC LIMIT 50";
+							$sql2 = "SELECT * FROM people ORDER BY ReportID DESC LIMIT 50";
+							$result = mysqli_query($db,$sql);
+							$result2 = mysqli_query($db,$sql2);
+							while ($row = mysqli_fetch_array($result)) {
+								$row2 = mysqli_fetch_array($result2);
+                   				echo "<tr>";
+								echo "<td>".$row['ReportID']."</td>";
+								echo "<td>".$row['location']."</td>";
+								echo "<td>".$row2['person_type']."</td>";
+								echo "<td>".$row2['age_low']." - ".$row2['age_high']."</td>";
+								echo "<td>".$row2['sex']."</td>";
+								echo "<td>".$row2['hair_color']."</td>";
+								echo "<td>".$row['reporter_details']."</td>";
+								echo "</tr>";
+							}
+						?>
+				</table>
+				<?php } ?>
+			<?php if (!$hide_vehicles) { ?>
+			<dive class="col-md-12" id="recent_reports">
+				<h3>Filtered Vehicle Reports</h3>
+				<table class="table table-striped table-condensed  table-responsive">
+						<tr>
+							<th>Report ID</th>
+							<th>Vehicle ID</th>
+							<th>Location</th>
+							<th>Driver</th>
+							<th>Make</th>
+							<th>Model</th>
+							<th>Color</th>
+							<th>License Number</th>
+							<th>License State</th>
+							<th>Additional Info</th>
+						</tr>
+						<?php
+							$sql = "(SELECT * FROM reports ORDER BY ReportID DESC LIMIT 50) ORDER BY ReportID DESC";
+							$sql2 = "SELECT * FROM vehicles WHERE $filter LIKE '%$search%' ORDER BY ReportID DESC LIMIT 50;";
+							$result = mysqli_query($db,$sql);
+							$result2 = mysqli_query($db,$sql2);
+							while ($row2 = mysqli_fetch_array($result2)) {
+								$row = mysqli_fetch_array($result);
+                   				echo "<tr>";
+								echo "<td>".$row['ReportID']."</td>";
+								echo "<td>".$row2['VehicleID']."</td>";
+								echo "<td>".$row['location']."</td>";
+								echo "<td>".$row2['driven_by']."</td>";
+								echo "<td>".$row2['make']."</td>";
+								echo "<td>".$row2['model']."</td>";
+								echo "<td>".$row2['color']."</td>";
+								echo "<td>".$row2['plate']."</td>";
+								echo "<td>".$row2['state']."</td>";
+								echo "<td>".$row['reporter_details']."</td>";
+								echo "</tr>";
+							}
+						?>
+				</table>
+				<?php } ?>
+			<?php if (!$hide_people) { ?>
+			<dive class="col-md-12" id="recent_reports">
+				<h3>Recent Reports</h3>
+				<table class="table table-striped table-condensed  table-responsive">
+						<tr>
+							<th>Report ID</th>
+							<th>Location</th>
+							<th>Name</th>
+							<th>Race</th>
+							<th>Age Range</th>
+							<th>Sex</th>
+							<th>Height (In)</th>
+							<th>Hair Color</th>
+							<th>Hair Length</th>
+							<th>Eye Color</th>
+							<th>Clothing</th>
+							<th>Additional Info</th>
+						</tr>
+						<?php
+							$sql = "SELECT * FROM reports ORDER BY ReportID DESC LIMIT 50 ";
+							$sql2 = "SELECT * FROM people WHERE $filter LIKE '%$search%' ORDER BY ReportID DESC LIMIT 50;";
+							$result = mysqli_query($db,$sql);
+							$result2 = mysqli_query($db,$sql2);
+							while ($row2 = mysqli_fetch_array($result2)) {
+								$row = mysqli_fetch_array($result);
+                   				echo "<tr>";
+								echo "<td>".$row['ReportID']."</td>";
+								echo "<td>".$row['location']."</td>";
+								echo "<td>".$row2['name']."</td>";
+								echo "<td>".$row2['race']."</td>";
+								echo "<td>".$row2['age_low']." - ".$row2['age_high']."</td>";
+								echo "<td>".$row2['sex']."</td>";
+								echo "<td>".$row2['height_inches']."</td>";
+								echo "<td>".$row2['hair_color']."</td>";
+								echo "<td>".$row2['hair_length']."</td>";
+								echo "<td>".$row2['eye_color']."</td>";
+								echo "<td>".$row2['clothing']."</td>";
+								echo "<td>".$row['reporter_details']."</td>";
+								echo "</tr>";
+							}
+						?>
+				</table>
+				<?php } ?>
+			</div>
 		</div>
 	</div>
 

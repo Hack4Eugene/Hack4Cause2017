@@ -20,7 +20,13 @@ body {
 	border: 1px solid #707070;
 	border-radius: 1vh;
 }
-
+.police_auth{
+	color: #742424;
+	background-color: #D37676;
+	border: 1px solid #a23333;
+	border-radius: 1vh;
+	margin:5px;
+}
 /*input {
 	width: 67%;
 	margin: 4px;
