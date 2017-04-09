@@ -1,0 +1,188 @@
+#address {
+  width: 180px;
+  height: 32px;
+  margin: 10px;
+  font-size: 10pt;
+}
+
+#time {
+  width: 180px;
+  height: 32px;
+  margin: 10px;
+  font-size: 10pt;
+}
+
+#activity {
+  width: 180px;
+  height: 32px;
+  margin: 10px;
+  font-size: 10pt;
+}
+
+#description {
+  width: 400px;
+  font-size: 10pt;
+  margin: auto;
+}
+
+#mapHeadline {
+  text-align: center;
+  margin-bottom: 24px;
+  color: white;
+}
+
+#mainHeadline {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  margin: 8px;
+  font-size: 42px;
+  color: white;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+#stubbornColumn {
+  margin: auto;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+h5 {
+  text-align: center;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.col-sm-4 {
+  text-align: center;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  background-color: #000099;
+}
+
+.topLinkLeft {
+  margin-top: 14px;
+  text-align: left;
+}
+
+.topLinkRight {
+  margin-top: 14px;
+  text-align: right;
+}
+
+p {
+  text-align: center;
+}
+
+p a {
+  color: white;
+}
+
+p a:visited {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+#address {
+  width: 180px;
+  height: 32px;
+  margin: 10px;
+  font-size: 10pt;
+}
+
+#time {
+  width: 180px;
+  height: 32px;
+  margin: 10px;
+  font-size: 10pt;
+}
+
+#activity {
+  width: 180px;
+  height: 32px;
+  margin: 10px;
+  font-size: 10pt;
+}
+
+#description {
+  width: 400px;
+  font-size: 10pt;
+  margin: auto;
+}
+
+#mapHeadline {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+#mainHeadline {
+  text-align: center;
+  margin: 8px;
+  font-size: 42px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+#stubbornColumn {
+  margin: auto;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+.col-sm-4 {
+  text-align: center;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  background-color: #0099ff;
+}
+
+.topLinkLeft {
+  margin-top: 14px;
+  text-align: left;
+}
+
+.topLinkRight {
+  margin-top: 14px;
+  text-align: right;
+}
+
+p a {
+  color: white;
+}
