@@ -1,13 +1,14 @@
-# Hack for a Cause2017 Team "Example"
+# Hack for a Cause2017 Team "XSMedia-FTW"
 
-We are addressing the "bla bla bal" challenge.
+We are addressing the "Sex Trafficking" challenge.
 
 Team Members:
 
-me      my@gmail.com  
-friend  friend@school.edu  
-hodor   hodor@hodor.hodor  
+Katie Kizer       katiekizer09@gmail.com  
+Foster Kizer      kizer713@gmail.com
+Ben Matson        ben@xsmedia.com    
 
 We using the following components:
-
+Xamarin Studio
+Xcode
 
