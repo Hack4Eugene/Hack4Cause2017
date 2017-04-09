@@ -1,13 +1,13 @@
 # Hack for a Cause2017 Team "Example"
 
-We are addressing the "bla bla bal" challenge.
+We are addressing the "Sex Trafficking" challenge.
 
 Team Members:
 
-me      my@gmail.com  
-friend  friend@school.edu  
-hodor   hodor@hodor.hodor  
+Scott Lively scott.lively@gmail.com
+Evey Edward evyymail@gmail.com
+Garrett Seward h4c@spectralsun.com
 
 We using the following components:
 
-
+See `emcit/README.md` for more details.
