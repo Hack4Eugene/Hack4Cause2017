@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Error</title>
+	</head>
+	<body>
+        <h1>Debugging page!</h1>
+        <h3>Here's what you said to say:</h3>
+        {% for report in error %}
+		<p style="color:red;">{{ report.text }}</p>
+		{% endfor %}
+	</body>
+</html>
