@@ -28,6 +28,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 	
 	$when_created = NULL; //TODO: Get the timestamp when created, currently testing MySQL NOW()
 	//TODO: Add support for additional media
+	$today = date("Y-m-d H:i:s"); 
+	
 	$sql_report = "INSERT INTO reports (
 		when_occurred,
 		when_created,
@@ -40,7 +42,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		reporter_details
 	) VALUES (
 		'$date',
-		NULL,
+		UTC_TIMESTAMP(),
 		'$login_session',
 		'',
 		'',
@@ -106,6 +108,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		)";
 		if (mysqli_query($db, $sql_person)) {
 			//echo "New person record created successfully";
+			
 		} else {
 			echo "Error: " . $sql_person . mysqli_error($db);
 		}
@@ -118,7 +121,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 	} else {
 		echo "Error: " . $sql_report . mysqli_error($db);
 	}
-	
 	
 }
 ?>
