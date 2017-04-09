@@ -1,0 +1,183 @@
+.vc_clipboard {
+	float: right;
+	position: static !important;
+	line-height: normal;
+	margin-right: 1em;
+}
+
+.vc_clipboard span, .vc_clipboard_col span, .vc_clipboard_element span {
+	cursor: pointer;
+}
+
+.vc_clipboard_col {
+	position: relative;
+	top: -3px;
+	left: 10px;
+}
+
+.vcc_paste_top {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.vcc_number_reset_top {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.vcc_export, .vcc_import, .vcc_gc_load, .vcc_gc_save, .vcc_gc_settings, .vcc_prefs, .vcc_dialog_buttons a  {
+	border-radius: 4px;
+}
+
+.composer-switch a:hover {
+	background-color: #0d3d63 !important;
+}
+
+.vcc_input {
+	width: 60px;
+	font-size: 11px;
+	line-height: normal;
+}
+
+.vcc_container {
+	position: relative;
+	display: inline-block;
+}
+
+.vcc_dialog {
+	visibility: hidden;
+	border: 5px solid rgba(0,0,0,.3);
+	z-index: 100000;
+	border-radius: 4px;
+	color: #777;
+	background-color: #fff;
+	background-clip: padding-box;
+	padding: 15px;
+	text-align: left;
+	position: absolute;
+	top: 100%;
+	right: 0px;
+	margin-top: 3px;
+}
+
+.vcc_activate_dialog  {
+	width: 400px;
+}
+
+.vcc_prefs_dialog {
+	width: 200px;
+}
+
+.vcc_prefs_dialog label {
+	position: relative;
+	top: -3px;
+}
+
+.vcc_activate_dialog  input {
+	width: 100%;
+}
+
+.vcc_activate_dialog div {
+	line-height: normal;
+	margin-bottom: 15px;
+}
+
+.vcc_activate_dialog div a.vcc_obtain {
+	background: none;
+	display: inline;
+	line-height: normal;
+	color: #114C7F;
+	text-decoration: underline;
+	padding: 0px;
+}
+
+.vcc_activate_dialog div a.vcc_obtain:hover {
+	background: none !important;
+	color: #2ea2cc !important;
+}
+
+.vcc_dialog_buttons {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	padding-top: 15px;
+}
+
+.vcc_loader {
+	vertical-align: middle;
+	display:none;
+	margin: 2px;
+}
+
+.vcc_load_dialog {
+	overflow-y: scroll;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.vcc_list_item_container {
+	position: relative;
+}
+
+.vcc_list_item {
+	color: #777;
+	transition: color .2s;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-right: 30px;
+}
+
+.vcc_list_item_delete:before {
+	position: absolute;
+	top: 3px;
+	right: 0px;
+}
+
+.vcc_list_item_delete:before {
+	content: "\f335";
+	-webkit-font-smoothing: antialiased;
+	font: normal 20px/1 'dashicons';
+}
+
+.vcc_list_item_delete:hover {
+	color: #ccc;
+	cursor: pointer;
+}
+
+.vcc_list_item:hover {
+	color: #ccc;
+	cursor: pointer;
+}
+
+.vcc_oc_button {
+	font: 400 20px/1 dashicons;
+	position: relative;
+	top: 6px;
+	cursor: pointer;
+}
+
+.vcc_oc_button.o:before {
+	content: '\f341';
+}
+
+.vcc_oc_button.c:before {
+	content: '\f345';
+}
+
+#vcc_paste_indicator {
+	border: 5px solid rgba(0,0,0,.3);
+	border-radius: 4px;
+	color: #777;
+	background-color: #fff;
+	background-clip: padding-box;
+	padding: 15px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 200000;
+	display: none;
+	-ms-transform: translate( -50%, -50% );
+   	-webkit-transform: translate( -50%, -50% );
+    transform: translate( -50%, -50% );
+}

@@ -1,0 +1,10 @@
+[08-Apr-2017 04:19:42 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, string given in /home/affec/public_html/searchreplacedb2.php on line 455
+[08-Apr-2017 04:19:42 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/affec/public_html/searchreplacedb2.php on line 466
+[08-Apr-2017 04:21:20 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, string given in /home/affec/public_html/searchreplacedb2.php on line 455
+[08-Apr-2017 04:21:20 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/affec/public_html/searchreplacedb2.php on line 466
+[08-Apr-2017 04:21:28 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, string given in /home/affec/public_html/searchreplacedb2.php on line 455
+[08-Apr-2017 04:21:28 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/affec/public_html/searchreplacedb2.php on line 466
+[08-Apr-2017 04:22:02 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, string given in /home/affec/public_html/searchreplacedb2.php on line 455
+[08-Apr-2017 04:22:02 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/affec/public_html/searchreplacedb2.php on line 466
+[08-Apr-2017 04:22:55 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, string given in /home/affec/public_html/searchreplacedb2.php on line 455
+[08-Apr-2017 04:22:55 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/affec/public_html/searchreplacedb2.php on line 466

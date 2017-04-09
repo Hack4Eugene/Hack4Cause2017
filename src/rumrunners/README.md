@@ -1,13 +1,16 @@
 # Hack for a Cause2017 Team "Example"
 
-We are addressing the "bla bla bal" challenge.
+We are addressing the "adoption" challenge.
 
 Team Members:
 
-me      my@gmail.com  
-friend  friend@school.edu  
-hodor   hodor@hodor.hodor  
+Krell TheHuman      krell@wolfandporter.com  
+Megan Hobbs         megan@wolfandporter.com
 
 We using the following components:
-
-
+WordPress
+MySQL
+Visual Composer
+Contact Form 7
+reCAPTCHA
+User Role Editor

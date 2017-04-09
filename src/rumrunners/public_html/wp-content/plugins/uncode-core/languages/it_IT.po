@@ -1,0 +1,5343 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Uncode Core\n"
+"POT-Creation-Date: 2016-10-11 00:56+0200\n"
+"PO-Revision-Date: 2016-10-11 00:56+0200\n"
+"Last-Translator: Undsgn Team <info@undsgn.com>\n"
+"Language-Team: Undsgn Team <info@undsgn.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: custom-post-type.php:23 custom-post-type.php:133
+#, php-format
+msgid "%s Post"
+msgstr "%s Articolo"
+
+#: custom-post-type.php:25 custom-post-type.php:135
+#, php-format
+msgid "All %s"
+msgstr "Tutti %s"
+
+#: custom-post-type.php:27 custom-post-type.php:137
+msgid "Add New"
+msgstr "Aggiungere nuovo"
+
+#: custom-post-type.php:29 custom-post-type.php:139
+#, php-format
+msgid "Add New %s"
+msgstr "Aggiungere nuovo %s"
+
+#: custom-post-type.php:31 custom-post-type.php:141
+msgid "Edit"
+msgstr "Modificare"
+
+#: custom-post-type.php:33 custom-post-type.php:143
+#, php-format
+msgid "Edit %s"
+msgstr "Modificare %s"
+
+#: custom-post-type.php:35 custom-post-type.php:145
+#, php-format
+msgid "New %s"
+msgstr "Nuovo %s"
+
+#: custom-post-type.php:37 custom-post-type.php:147
+#, php-format
+msgid "View %s"
+msgstr "Vedi %s"
+
+#: custom-post-type.php:39 custom-post-type.php:149
+#, php-format
+msgid "Search %s"
+msgstr "Cercare %s"
+
+#: custom-post-type.php:41 custom-post-type.php:151
+msgid "Nothing found in the Database."
+msgstr "Non è stato trovato niente nel database"
+
+#: custom-post-type.php:43 custom-post-type.php:153
+msgid "Nothing found in Trash"
+msgstr "Non è stato trovato niente nel cestino"
+
+#: custom-post-type.php:95 custom-post-type.php:193 custom-post-type.php:223
+#, php-format
+msgid "%s Categories"
+msgstr "%s Categorie"
+
+#: custom-post-type.php:96 custom-post-type.php:194 custom-post-type.php:224
+#, php-format
+msgid "%s Category"
+msgstr "%s Categoria"
+
+#: custom-post-type.php:97 custom-post-type.php:195 custom-post-type.php:225
+#, php-format
+msgid "Search %s Categories"
+msgstr "Cercare %s categorie"
+
+#: custom-post-type.php:98 custom-post-type.php:196 custom-post-type.php:226
+#, php-format
+msgid "All %s Categories"
+msgstr "Tutte le %s categorie"
+
+#: custom-post-type.php:99 custom-post-type.php:197 custom-post-type.php:227
+#, php-format
+msgid "Parent %s Category"
+msgstr "Categoria %s genitore"
+
+#: custom-post-type.php:100 custom-post-type.php:198 custom-post-type.php:228
+#, php-format
+msgid "Parent %s Category:"
+msgstr "Categoria %s genitore:"
+
+#: custom-post-type.php:101 custom-post-type.php:199 custom-post-type.php:229
+#, php-format
+msgid "Edit %s Category"
+msgstr "Modificare %s categoria"
+
+#: custom-post-type.php:102 custom-post-type.php:200 custom-post-type.php:230
+#, php-format
+msgid "Update %s Category"
+msgstr "Aggiornare %s categoria"
+
+#: custom-post-type.php:103 custom-post-type.php:201 custom-post-type.php:231
+#, php-format
+msgid "Add New %s Category"
+msgstr "Aggiungere una nuova %s categoria"
+
+#: custom-post-type.php:104 custom-post-type.php:202 custom-post-type.php:232
+#, php-format
+msgid "New %s Category Name"
+msgstr "Nuovo nome %s categoria"
+
+#: custom-post-type.php:124 vc_extend/config/uncode_map.php:2745
+msgid "Content Block"
+msgstr "Blocco contenuto"
+
+#: custom-post-type.php:209 vc_extend/config/override_map.php:949
+#: vc_extend/config/override_map.php:1343
+#: vc_extend/config/override_map.php:1942
+#: vc_extend/config/override_map.php:1950
+#: vc_extend/config/override_map.php:3056
+#: vc_extend/config/override_map.php:3210
+#: vc_extend/config/override_map.php:3222 vc_extend/config/uncode_map.php:21
+#: vc_extend/config/uncode_map.php:329 vc_extend/config/uncode_map.php:506
+#: vc_extend/config/uncode_map.php:635
+msgid "Media"
+msgstr "Media"
+
+#: custom-post-type.php:221
+#, fuzzy
+msgctxt "Category Slug"
+msgid "media-category"
+msgstr "Categoria"
+
+#: uncode-core.php:85 uncode-core.php:122 uncode-core.php:159
+#, php-format
+msgid "Show All %s"
+msgstr "Mostrare tutti %s"
+
+#: vc_extend/add_components.php:114
+msgid "Add media"
+msgstr "Aggiungere media"
+
+#: vc_extend/add_components.php:192
+msgid "Edit Image"
+msgstr "Modificare immagine"
+
+#: vc_extend/add_components.php:200
+msgid "Saved."
+msgstr "Salvato."
+
+#: vc_extend/add_components.php:203
+msgid "File name:"
+msgstr "Nome file:"
+
+#: vc_extend/add_components.php:204
+msgid "File type:"
+msgstr "Tipo file:"
+
+#: vc_extend/add_components.php:205
+msgid "Uploaded on:"
+msgstr "Caricato il"
+
+#: vc_extend/add_components.php:207
+msgid "File size:"
+msgstr "Dimensione file:"
+
+#: vc_extend/add_components.php:210
+msgid "Dimensions:"
+msgstr "Dimensioni:"
+
+#: vc_extend/add_components.php:215
+msgid "Length:"
+msgstr "Durata"
+
+#: vc_extend/add_components.php:220
+msgid "Bitrate:"
+msgstr "Bitrate:"
+
+#: vc_extend/add_components.php:236
+msgid "URL"
+msgstr "URL"
+
+#: vc_extend/add_components.php:245 vc_extend/config/override_map.php:1982
+#: vc_extend/config/override_map.php:2764
+#: vc_extend/config/override_map.php:3240
+#: vc_extend/config/override_map.php:3752
+#: vc_extend/config/override_map.php:3901
+#: vc_extend/config/override_map.php:3976
+#: vc_extend/config/override_map.php:4268
+#: vc_extend/config/override_map.php:5730 vc_extend/config/uncode_map.php:63
+#: vc_extend/config/uncode_map.php:371 vc_extend/config/uncode_map.php:548
+#: vc_extend/config/uncode_map.php:687 vc_extend/config/uncode_map.php:2119
+#: vc_extend/config/uncode_map.php:2541
+msgid "Title"
+msgstr "Titolo"
+
+#: vc_extend/add_components.php:250
+msgid "Artist"
+msgstr "Artista"
+
+#: vc_extend/add_components.php:251
+msgid "Album"
+msgstr "Album"
+
+#: vc_extend/add_components.php:260 vc_extend/config/override_map.php:1986
+#: vc_extend/config/override_map.php:2774
+#: vc_extend/config/override_map.php:3064
+#: vc_extend/config/override_map.php:3244
+#: vc_extend/config/override_map.php:3762
+#: vc_extend/config/override_map.php:4282 vc_extend/config/uncode_map.php:2129
+msgid "Caption"
+msgstr "Didascalia"
+
+#: vc_extend/add_components.php:265
+msgid "Alt Text"
+msgstr "Alt Text"
+
+#: vc_extend/add_components.php:270 vc_extend/config/override_map.php:1990
+#: vc_extend/config/override_map.php:3248
+msgid "Description"
+msgstr "Descrizione"
+
+#: vc_extend/add_components.php:274
+msgid "Uploaded By"
+msgstr "Aggiornato da"
+
+#: vc_extend/add_components.php:279
+msgid "Uploaded To"
+msgstr "Caricato a"
+
+#: vc_extend/add_components.php:291
+msgid "View attachment page"
+msgstr "Vedi allegato pagina"
+
+#: vc_extend/add_components.php:292
+msgid "Edit more details"
+msgstr "Modificare più dettagli"
+
+#: vc_extend/add_components.php:296
+msgid "Untrash"
+msgstr "Ripristinare il cestino"
+
+#: vc_extend/add_components.php:298
+msgid "Trash"
+msgstr "Cestino"
+
+#: vc_extend/add_components.php:301
+msgid "Delete Permanently"
+msgstr "Cancellare permanentemente"
+
+#: vc_extend/add_components.php:320
+msgid "External Image"
+msgstr "Immagine esterna"
+
+#: vc_extend/add_components.php:360
+msgid "Remove"
+msgstr "Rimuovere"
+
+#: vc_extend/add_components.php:364
+msgid "Deselect"
+msgstr "Deselezionare"
+
+#: vc_extend/add_components.php:372
+msgid "Caption this image&hellip;"
+msgstr "Sottotitolare questa immagine&hellip;"
+
+#: vc_extend/add_components.php:376
+msgid "Describe this video&hellip;"
+msgstr "Descrivere questo video&hellip;"
+
+#: vc_extend/add_components.php:378
+msgid "Describe this audio file&hellip;"
+msgstr "Descrivere questo audio&hellip;"
+
+#: vc_extend/add_components.php:380
+msgid "Describe this media file&hellip;"
+msgstr "Descrivere questo media&hellip;"
+
+#: vc_extend/config/override_map.php:28 vc_extend/config/override_map.php:37
+#: vc_extend/config/override_map.php:2501
+#: vc_extend/config/override_map.php:3472 vc_extend/config/uncode_map.php:1824
+msgid "Standard"
+msgstr "Standard"
+
+#: vc_extend/config/override_map.php:29
+msgid "Small"
+msgstr "Piccolo"
+
+#: vc_extend/config/override_map.php:30
+msgid "Large"
+msgstr "Grande"
+
+#: vc_extend/config/override_map.php:31
+msgid "Extra-Large"
+msgstr "Molto grande"
+
+#: vc_extend/config/override_map.php:32
+#, fuzzy
+msgid "Button link"
+msgstr "Link pulsante."
+
+#: vc_extend/config/override_map.php:33 vc_extend/config/uncode_map.php:439
+msgid "Standard link"
+msgstr "Link standard"
+
+#: vc_extend/config/override_map.php:38 vc_extend/config/override_map.php:2010
+#: vc_extend/config/override_map.php:3264 vc_extend/config/uncode_map.php:113
+#: vc_extend/config/uncode_map.php:461 vc_extend/config/uncode_map.php:590
+#: vc_extend/config/uncode_map.php:733
+msgid "2x"
+msgstr "2x"
+
+#: vc_extend/config/override_map.php:39
+msgid "3x"
+msgstr "3x"
+
+#: vc_extend/config/override_map.php:40
+msgid "4x"
+msgstr "4x"
+
+#: vc_extend/config/override_map.php:41
+msgid "5x"
+msgstr "5x"
+
+#: vc_extend/config/override_map.php:45 vc_extend/config/override_map.php:57
+#: vc_extend/config/uncode_map.php:256
+msgid "h1"
+msgstr "h1"
+
+#: vc_extend/config/override_map.php:46 vc_extend/config/override_map.php:58
+#: vc_extend/config/uncode_map.php:257
+msgid "h2"
+msgstr "h2"
+
+#: vc_extend/config/override_map.php:47 vc_extend/config/override_map.php:59
+#: vc_extend/config/uncode_map.php:258
+msgid "h3"
+msgstr "h3"
+
+#: vc_extend/config/override_map.php:48 vc_extend/config/override_map.php:60
+#: vc_extend/config/uncode_map.php:259
+msgid "h4"
+msgstr "h4"
+
+#: vc_extend/config/override_map.php:49 vc_extend/config/override_map.php:61
+#: vc_extend/config/uncode_map.php:260
+msgid "h5"
+msgstr "h5"
+
+#: vc_extend/config/override_map.php:50 vc_extend/config/override_map.php:62
+#: vc_extend/config/uncode_map.php:261
+msgid "h6"
+msgstr "h6"
+
+#: vc_extend/config/override_map.php:51
+msgid "p"
+msgstr "p"
+
+#: vc_extend/config/override_map.php:52
+msgid "div"
+msgstr "div"
+
+#: vc_extend/config/override_map.php:56 vc_extend/config/override_map.php:76
+#: vc_extend/config/override_map.php:86 vc_extend/config/override_map.php:102
+#: vc_extend/config/override_map.php:112 vc_extend/config/override_map.php:2622
+#: vc_extend/config/override_map.php:3633
+#: vc_extend/config/override_map.php:5484 vc_extend/config/uncode_map.php:255
+#: vc_extend/config/uncode_map.php:275 vc_extend/config/uncode_map.php:285
+#: vc_extend/config/uncode_map.php:299 vc_extend/config/uncode_map.php:309
+#: vc_extend/config/uncode_map.php:1971 vc_extend/config/uncode_map.php:2364
+#: vc_extend/config/uncode_map.php:2445
+msgid "Default CSS"
+msgstr "CSS Predefinito"
+
+#: vc_extend/config/override_map.php:72 vc_extend/config/uncode_map.php:271
+msgid "BigText"
+msgstr "Testo grande"
+
+#: vc_extend/config/override_map.php:113 vc_extend/config/uncode_map.php:286
+msgid "100"
+msgstr "100"
+
+#: vc_extend/config/override_map.php:114 vc_extend/config/uncode_map.php:287
+msgid "200"
+msgstr "200"
+
+#: vc_extend/config/override_map.php:115 vc_extend/config/uncode_map.php:288
+msgid "300"
+msgstr "300"
+
+#: vc_extend/config/override_map.php:116 vc_extend/config/uncode_map.php:289
+msgid "400"
+msgstr "400"
+
+#: vc_extend/config/override_map.php:117 vc_extend/config/uncode_map.php:290
+msgid "500"
+msgstr "500"
+
+#: vc_extend/config/override_map.php:118 vc_extend/config/uncode_map.php:291
+msgid "600"
+msgstr "600"
+
+#: vc_extend/config/override_map.php:119 vc_extend/config/uncode_map.php:292
+msgid "700"
+msgstr "700"
+
+#: vc_extend/config/override_map.php:120 vc_extend/config/uncode_map.php:293
+msgid "800"
+msgstr "800"
+
+#: vc_extend/config/override_map.php:121 vc_extend/config/uncode_map.php:294
+msgid "900"
+msgstr "900"
+
+#: vc_extend/config/override_map.php:125
+msgid "Same window"
+msgstr "Stessa finestra"
+
+#: vc_extend/config/override_map.php:126
+msgid "New window"
+msgstr "Una nuova finestra"
+
+#: vc_extend/config/override_map.php:130 vc_extend/config/override_map.php:167
+#: vc_extend/config/override_map.php:4014
+#: vc_extend/config/override_map.php:4105
+#: vc_extend/config/override_map.php:5515
+#: vc_extend/config/override_map.php:5688 vc_extend/config/uncode_map.php:183
+msgid "None"
+msgstr "Nessuno"
+
+#: vc_extend/config/override_map.php:131
+msgid "Solid"
+msgstr "Solido"
+
+#: vc_extend/config/override_map.php:132
+msgid "Dotted"
+msgstr "Punteggiato"
+
+#: vc_extend/config/override_map.php:133
+msgid "Dashed"
+msgstr "Linea tratteggiata"
+
+#: vc_extend/config/override_map.php:134
+msgid "Double"
+msgstr "Doppio"
+
+#: vc_extend/config/override_map.php:135
+msgid "Groove"
+msgstr "Scanalatura"
+
+#: vc_extend/config/override_map.php:136
+msgid "Ridge"
+msgstr "Cresta"
+
+#: vc_extend/config/override_map.php:137
+msgid "Inset"
+msgstr "Incassato"
+
+#: vc_extend/config/override_map.php:138
+msgid "Outset"
+msgstr "Dall'inizio"
+
+#: vc_extend/config/override_map.php:139
+msgid "Initial"
+msgstr "Iniziale"
+
+#: vc_extend/config/override_map.php:140 vc_extend/config/override_map.php:236
+#: vc_extend/config/override_map.php:254 vc_extend/config/override_map.php:923
+#: vc_extend/config/override_map.php:1306 vc_extend/config/uncode_map.php:1870
+msgid "Inherit"
+msgstr "Ereditato"
+
+#: vc_extend/config/override_map.php:145 vc_extend/config/override_map.php:158
+#: vc_extend/config/override_map.php:189 vc_extend/config/override_map.php:216
+#: vc_extend/config/uncode_map.php:160 vc_extend/config/uncode_map.php:173
+#: vc_extend/config/uncode_map.php:206 vc_extend/config/uncode_map.php:232
+msgid "Animation"
+msgstr "Animazione"
+
+#: vc_extend/config/override_map.php:149 vc_extend/config/uncode_map.php:164
+msgid "No"
+msgstr "No"
+
+#: vc_extend/config/override_map.php:150 vc_extend/config/override_map.php:2464
+#: vc_extend/config/override_map.php:3423 vc_extend/config/uncode_map.php:165
+#: vc_extend/config/uncode_map.php:1787
+msgid "Opacity"
+msgstr "Opacità"
+
+#: vc_extend/config/override_map.php:151 vc_extend/config/uncode_map.php:166
+msgid "Zoom in"
+msgstr "Ingrandire"
+
+#: vc_extend/config/override_map.php:152 vc_extend/config/uncode_map.php:167
+msgid "Zoom out"
+msgstr "Rimpicciolire"
+
+#: vc_extend/config/override_map.php:153 vc_extend/config/uncode_map.php:168
+msgid "Top to bottom"
+msgstr "Dall'alto al basso"
+
+#: vc_extend/config/override_map.php:154 vc_extend/config/override_map.php:2465
+#: vc_extend/config/override_map.php:3424 vc_extend/config/uncode_map.php:169
+#: vc_extend/config/uncode_map.php:1788
+msgid "Bottom to top"
+msgstr "Dal basso all'alto"
+
+#: vc_extend/config/override_map.php:155 vc_extend/config/uncode_map.php:170
+msgid "Left to right"
+msgstr "Da sinistra a destra"
+
+#: vc_extend/config/override_map.php:156 vc_extend/config/uncode_map.php:171
+msgid "Right to left"
+msgstr "Da destra a sinistra"
+
+#: vc_extend/config/override_map.php:159 vc_extend/config/uncode_map.php:174
+msgid "Specify the entrance animation."
+msgstr "Specificare l'animazione di ingresso"
+
+#: vc_extend/config/override_map.php:164 vc_extend/config/uncode_map.php:179
+msgid "Animation delay"
+msgstr "Ritardo animazione"
+
+#: vc_extend/config/override_map.php:168 vc_extend/config/override_map.php:205
+#: vc_extend/config/uncode_map.php:184 vc_extend/config/uncode_map.php:220
+msgid "ms 100"
+msgstr "ms 100"
+
+#: vc_extend/config/override_map.php:169 vc_extend/config/override_map.php:206
+#: vc_extend/config/uncode_map.php:185 vc_extend/config/uncode_map.php:221
+msgid "ms 200"
+msgstr "ms 200"
+
+#: vc_extend/config/override_map.php:170 vc_extend/config/override_map.php:207
+#: vc_extend/config/uncode_map.php:186 vc_extend/config/uncode_map.php:222
+msgid "ms 300"
+msgstr "ms 300"
+
+#: vc_extend/config/override_map.php:171 vc_extend/config/override_map.php:208
+#: vc_extend/config/uncode_map.php:187 vc_extend/config/uncode_map.php:223
+msgid "ms 400"
+msgstr "ms 400"
+
+#: vc_extend/config/override_map.php:172 vc_extend/config/override_map.php:209
+#: vc_extend/config/uncode_map.php:188 vc_extend/config/uncode_map.php:224
+msgid "ms 500"
+msgstr "ms 500"
+
+#: vc_extend/config/override_map.php:173 vc_extend/config/override_map.php:210
+#: vc_extend/config/uncode_map.php:189 vc_extend/config/uncode_map.php:225
+msgid "ms 600"
+msgstr "ms 600"
+
+#: vc_extend/config/override_map.php:174 vc_extend/config/override_map.php:211
+#: vc_extend/config/uncode_map.php:190 vc_extend/config/uncode_map.php:226
+msgid "ms 700"
+msgstr "ms 700"
+
+#: vc_extend/config/override_map.php:175 vc_extend/config/override_map.php:212
+#: vc_extend/config/uncode_map.php:191 vc_extend/config/uncode_map.php:227
+msgid "ms 800"
+msgstr "ms 800"
+
+#: vc_extend/config/override_map.php:176 vc_extend/config/override_map.php:213
+#: vc_extend/config/uncode_map.php:192 vc_extend/config/uncode_map.php:228
+msgid "ms 900"
+msgstr "ms 900"
+
+#: vc_extend/config/override_map.php:177 vc_extend/config/override_map.php:214
+#: vc_extend/config/uncode_map.php:193 vc_extend/config/uncode_map.php:229
+msgid "ms 1000"
+msgstr "ms 1000"
+
+#: vc_extend/config/override_map.php:178 vc_extend/config/uncode_map.php:194
+msgid "ms 1100"
+msgstr "ms 1100"
+
+#: vc_extend/config/override_map.php:179 vc_extend/config/uncode_map.php:195
+msgid "ms 1200"
+msgstr "ms 1200"
+
+#: vc_extend/config/override_map.php:180 vc_extend/config/uncode_map.php:196
+msgid "ms 1300"
+msgstr "ms 1300"
+
+#: vc_extend/config/override_map.php:181 vc_extend/config/uncode_map.php:197
+msgid "ms 1400"
+msgstr "ms 1400"
+
+#: vc_extend/config/override_map.php:182 vc_extend/config/uncode_map.php:198
+msgid "ms 1500"
+msgstr "ms 1500"
+
+#: vc_extend/config/override_map.php:183 vc_extend/config/uncode_map.php:199
+msgid "ms 1600"
+msgstr "ms 1600"
+
+#: vc_extend/config/override_map.php:184 vc_extend/config/uncode_map.php:200
+msgid "ms 1700"
+msgstr "ms 1700"
+
+#: vc_extend/config/override_map.php:185 vc_extend/config/uncode_map.php:201
+msgid "ms 1800"
+msgstr "ms 1800"
+
+#: vc_extend/config/override_map.php:186 vc_extend/config/uncode_map.php:202
+msgid "ms 1900"
+msgstr "ms 1900"
+
+#: vc_extend/config/override_map.php:187 vc_extend/config/uncode_map.php:203
+msgid "ms 2000"
+msgstr "ms 2000"
+
+#: vc_extend/config/override_map.php:190 vc_extend/config/uncode_map.php:205
+msgid "Specify the entrance animation delay in milliseconds."
+msgstr "Specificare il ritardo dell'animazione di ingresso in millisecondi"
+
+#: vc_extend/config/override_map.php:200 vc_extend/config/uncode_map.php:215
+msgid "Animation speed"
+msgstr "Velocità animazione"
+
+#: vc_extend/config/override_map.php:204 vc_extend/config/uncode_map.php:219
+msgid "Default (400)"
+msgstr "Predefinito (400)"
+
+#: vc_extend/config/override_map.php:217 vc_extend/config/uncode_map.php:231
+msgid "Specify the entrance animation speed in milliseconds."
+msgstr "Specificare la velocità dell'animazione di ingresso in millisecondi"
+
+#: vc_extend/config/override_map.php:227
+msgid ""
+"Define the background repeat. <a href='http://www.w3schools.com/cssref/"
+"pr_background-repeat.asp' target='_blank'>Check this for reference</a>"
+msgstr ""
+"Definire la ripetizione dello sfondo. <a href='http://www.w3schools.com/"
+"cssref/pr_background-repeat.asp' target='_blank'>Controlla questo come "
+"riferimento</a>"
+
+#: vc_extend/config/override_map.php:231
+msgid "background-repeat"
+msgstr "ripetizione sfondo"
+
+#: vc_extend/config/override_map.php:232
+msgid "No Repeat"
+msgstr "Nessuna ripetizione"
+
+#: vc_extend/config/override_map.php:233
+msgid "Repeat All"
+msgstr "Ripetere tutto"
+
+#: vc_extend/config/override_map.php:234
+msgid "Repeat Horizontally"
+msgstr "Ripetere orizzontalmente"
+
+#: vc_extend/config/override_map.php:235
+msgid "Repeat Vertically"
+msgstr "Ripetere vericalmente"
+
+#: vc_extend/config/override_map.php:242 vc_extend/config/override_map.php:260
+#: vc_extend/config/override_map.php:284 vc_extend/config/override_map.php:296
+#: vc_extend/config/override_map.php:419 vc_extend/config/override_map.php:430
+#: vc_extend/config/override_map.php:438 vc_extend/config/override_map.php:452
+#: vc_extend/config/override_map.php:459 vc_extend/config/override_map.php:471
+#: vc_extend/config/override_map.php:638 vc_extend/config/override_map.php:647
+#: vc_extend/config/override_map.php:665 vc_extend/config/override_map.php:672
+#: vc_extend/config/override_map.php:684 vc_extend/config/override_map.php:927
+#: vc_extend/config/override_map.php:937 vc_extend/config/override_map.php:945
+#: vc_extend/config/override_map.php:953 vc_extend/config/override_map.php:971
+#: vc_extend/config/override_map.php:978 vc_extend/config/override_map.php:990
+#: vc_extend/config/override_map.php:1310
+#: vc_extend/config/override_map.php:1331
+#: vc_extend/config/override_map.php:1339
+#: vc_extend/config/override_map.php:1347
+#: vc_extend/config/override_map.php:1365
+#: vc_extend/config/override_map.php:1372
+#: vc_extend/config/override_map.php:1384
+#: vc_extend/config/override_map.php:1641
+#: vc_extend/config/override_map.php:2948 vc_extend/config/uncode_map.php:880
+msgid "Style"
+msgstr "Stile"
+
+#: vc_extend/config/override_map.php:248
+msgid ""
+"Define the background attachment. <a href='http://www.w3schools.com/cssref/"
+"pr_background-attachment.asp' target='_blank'>Check this for reference</a>"
+msgstr ""
+"Definire lo sfondo dell'allegato. <a href='http://www.w3schools.com/cssref/"
+"pr_background-attachment.asp' target='_blank'>Controlla questo come "
+"riferimento</a>"
+
+#: vc_extend/config/override_map.php:251
+msgid "background-attachement"
+msgstr "Sfondo allegato"
+
+#: vc_extend/config/override_map.php:252
+msgid "Fixed"
+msgstr "Fisso"
+
+#: vc_extend/config/override_map.php:253
+msgid "Scroll"
+msgstr "Scorrevole"
+
+#: vc_extend/config/override_map.php:266
+msgid ""
+"Define the background position. <a href='http://www.w3schools.com/cssref/"
+"pr_background-position.asp' target='_blank'>Check this for reference</a>"
+msgstr ""
+"Definire la posizione dello sfondo. <a href='http://www.w3schools.com/cssref/"
+"pr_background-position.asp' target='_blank'>Controlla questo come "
+"riferimento</a>"
+
+#: vc_extend/config/override_map.php:269
+msgid "background-position"
+msgstr "Posizione sfondo"
+
+#: vc_extend/config/override_map.php:270
+msgid "Left Top"
+msgstr "In alto a sinistra"
+
+#: vc_extend/config/override_map.php:271
+msgid "Left Center"
+msgstr "Al centro a sinistra"
+
+#: vc_extend/config/override_map.php:272
+msgid "Left Bottom"
+msgstr "In basso a sinistra"
+
+#: vc_extend/config/override_map.php:273
+msgid "Center Top"
+msgstr "Al centro in alto"
+
+#: vc_extend/config/override_map.php:274
+msgid "Center Center"
+msgstr "Centro Centro"
+
+#: vc_extend/config/override_map.php:275
+msgid "Center Bottom"
+msgstr "Al centro in basso"
+
+#: vc_extend/config/override_map.php:276
+msgid "Right Top"
+msgstr "A destra in alto"
+
+#: vc_extend/config/override_map.php:277
+msgid "Right Center"
+msgstr "A destra al centro"
+
+#: vc_extend/config/override_map.php:278
+msgid "Right Bottom"
+msgstr "A destra in basso"
+
+#: vc_extend/config/override_map.php:290
+msgid ""
+"Define the background size (Default value is 'cover'). <a href='http://www."
+"w3schools.com/cssref/css3_pr_background-size.asp' target='_blank'>Check this "
+"for reference</a>"
+msgstr ""
+"Definire la dimensione dello sfondo (Il valore predefinito è 'cover'). <a "
+"href='http://www.w3schools.com/cssref/pr_background-position.asp' "
+"target='_blank'>Controlla questo come riferimento</a>"
+
+#: vc_extend/config/override_map.php:300 vc_extend/config/override_map.php:596
+msgid "Row"
+msgstr "Riga"
+
+#: vc_extend/config/override_map.php:307 vc_extend/config/override_map.php:1570
+#: vc_extend/config/override_map.php:2851
+#: vc_extend/config/override_map.php:2913
+#: vc_extend/config/override_map.php:3007
+#: vc_extend/config/override_map.php:3045
+#: vc_extend/config/override_map.php:3854
+#: vc_extend/config/override_map.php:3931
+#: vc_extend/config/override_map.php:4055
+#: vc_extend/config/override_map.php:4382
+#: vc_extend/config/override_map.php:4526
+#: vc_extend/config/override_map.php:4596
+#: vc_extend/config/override_map.php:4683
+#: vc_extend/config/override_map.php:4793
+#: vc_extend/config/override_map.php:5341
+#: vc_extend/config/override_map.php:5403
+#: vc_extend/config/override_map.php:5630 vc_extend/config/uncode_map.php:2221
+#: vc_extend/config/uncode_map.php:2297 vc_extend/config/uncode_map.php:2400
+#: vc_extend/config/uncode_map.php:2481 vc_extend/config/uncode_map.php:2536
+#: vc_extend/config/uncode_map.php:2619 vc_extend/config/uncode_map.php:2691
+#: vc_extend/config/uncode_map.php:2740
+msgid "Content"
+msgstr "Contenuto"
+
+#: vc_extend/config/override_map.php:308
+msgid "Row container element"
+msgstr "Elemento contenitore riga"
+
+#: vc_extend/config/override_map.php:312
+msgid "Container width"
+msgstr "Larghezza contenitore"
+
+#: vc_extend/config/override_map.php:314
+msgid "Define the width of the container."
+msgstr "Definire la larghezza del contenitore."
+
+#: vc_extend/config/override_map.php:319 vc_extend/config/override_map.php:329
+#: vc_extend/config/override_map.php:344 vc_extend/config/override_map.php:351
+#: vc_extend/config/override_map.php:358 vc_extend/config/override_map.php:372
+#: vc_extend/config/override_map.php:389 vc_extend/config/override_map.php:406
+#: vc_extend/config/override_map.php:614 vc_extend/config/override_map.php:621
+#: vc_extend/config/override_map.php:628 vc_extend/config/override_map.php:813
+#: vc_extend/config/override_map.php:827 vc_extend/config/override_map.php:838
+#: vc_extend/config/override_map.php:855 vc_extend/config/override_map.php:867
+#: vc_extend/config/override_map.php:879 vc_extend/config/override_map.php:886
+#: vc_extend/config/override_map.php:896 vc_extend/config/override_map.php:910
+#: vc_extend/config/override_map.php:1196
+#: vc_extend/config/override_map.php:1210
+#: vc_extend/config/override_map.php:1221
+#: vc_extend/config/override_map.php:1238
+#: vc_extend/config/override_map.php:1250
+#: vc_extend/config/override_map.php:1262
+#: vc_extend/config/override_map.php:1269
+#: vc_extend/config/override_map.php:1279
+#: vc_extend/config/override_map.php:1293
+#: vc_extend/config/override_map.php:3104
+#: vc_extend/config/override_map.php:3118
+#: vc_extend/config/override_map.php:3129
+#: vc_extend/config/override_map.php:3151
+#: vc_extend/config/override_map.php:3164
+#: vc_extend/config/override_map.php:3176
+#: vc_extend/config/override_map.php:3183
+#: vc_extend/config/override_map.php:3193
+#: vc_extend/config/override_map.php:3203
+msgid "Aspect"
+msgstr "Aspetto"
+
+#: vc_extend/config/override_map.php:323 vc_extend/config/override_map.php:809
+#: vc_extend/config/override_map.php:1192
+msgid "Content width"
+msgstr "Larghezza contenuto"
+
+#: vc_extend/config/override_map.php:325
+msgid "Define the width of the content area."
+msgstr "Definire la larghezza dell'area del contenuto."
+
+#: vc_extend/config/override_map.php:337 vc_extend/config/override_map.php:607
+#: vc_extend/config/override_map.php:2328
+#: vc_extend/config/override_map.php:5346 vc_extend/config/uncode_map.php:1654
+msgid "Height"
+msgstr "Altezza"
+
+#: vc_extend/config/override_map.php:343
+msgid ""
+"Set the row height with a percent value.<br>N.B. This value is including the "
+"top and bottom padding."
+msgstr ""
+"Impostare l'altezza della riga come valore percentuale.<br>N.B. N.B. Questo "
+"valore comprende il padding superiore e inferiore."
+
+#: vc_extend/config/override_map.php:348 vc_extend/config/override_map.php:618
+msgid "Min height"
+msgstr "Altezza minima"
+
+#: vc_extend/config/override_map.php:350 vc_extend/config/override_map.php:620
+msgid "Insert the row minimum height in pixel."
+msgstr "Inserire l'altezza minima della riga in pixel."
+
+#: vc_extend/config/override_map.php:355 vc_extend/config/override_map.php:893
+#: vc_extend/config/override_map.php:903 vc_extend/config/override_map.php:1276
+#: vc_extend/config/override_map.php:1286
+msgid "Custom padding"
+msgstr "Padding predefinito"
+
+#: vc_extend/config/override_map.php:357 vc_extend/config/override_map.php:895
+#: vc_extend/config/override_map.php:1278
+msgid "Activate this to define custom paddings."
+msgstr "Attivare questo per definire i padding castomizzati."
+
+#: vc_extend/config/override_map.php:365
+msgid "Left and right padding"
+msgstr "Padding sinistro e destro"
+
+#: vc_extend/config/override_map.php:371
+msgid "Set the left and right padding."
+msgstr "Impostare il padding sinistro e destro."
+
+#: vc_extend/config/override_map.php:382
+msgid "Top padding"
+msgstr "Padding superiore"
+
+#: vc_extend/config/override_map.php:388
+msgid "Set the top padding."
+msgstr "Impostare il padding superiore"
+
+#: vc_extend/config/override_map.php:399
+msgid "Bottom padding"
+msgstr "Padding inferiore"
+
+#: vc_extend/config/override_map.php:405
+msgid "Set the bottom padding."
+msgstr "Impostare il padding inferiore."
+
+#: vc_extend/config/override_map.php:416 vc_extend/config/override_map.php:635
+#: vc_extend/config/override_map.php:2376
+#: vc_extend/config/override_map.php:3334
+#: vc_extend/config/override_map.php:4736 vc_extend/config/uncode_map.php:1699
+msgid "Background color"
+msgstr "Colore sfondo"
+
+#: vc_extend/config/override_map.php:418 vc_extend/config/override_map.php:637
+msgid "Specify a background color for the row."
+msgstr "Scegliere un colore di fondo per la riga."
+
+#: vc_extend/config/override_map.php:424
+#, fuzzy
+msgid "Automatic background"
+msgstr "Nessuno sfondo"
+
+#: vc_extend/config/override_map.php:426
+#, fuzzy
+msgid "Activate to pickup the background media from the category."
+msgstr "Attiva questa opzione per rimuovere l'effetto hover dello sfondo."
+
+#: vc_extend/config/override_map.php:434 vc_extend/config/override_map.php:643
+msgid "Background media"
+msgstr "Media di fondo"
+
+#: vc_extend/config/override_map.php:437 vc_extend/config/override_map.php:646
+#: vc_extend/config/override_map.php:952 vc_extend/config/override_map.php:1346
+#: vc_extend/config/override_map.php:3059 vc_extend/config/uncode_map.php:2699
+#: vc_extend/config/uncode_map.php:2707
+msgid "Specify a media from the media library."
+msgstr "Scegliere un media dalla libreria media."
+
+#: vc_extend/config/override_map.php:446 vc_extend/config/override_map.php:655
+#: vc_extend/config/override_map.php:961 vc_extend/config/override_map.php:1355
+msgid "Parallax"
+msgstr "Parallasse"
+
+#: vc_extend/config/override_map.php:448 vc_extend/config/override_map.php:657
+#: vc_extend/config/override_map.php:963 vc_extend/config/override_map.php:1357
+msgid "Activate this to have the background parallax effect."
+msgstr "Attivare questo per avere l'effetto parallasse sullo sfondo."
+
+#: vc_extend/config/override_map.php:450 vc_extend/config/override_map.php:479
+#: vc_extend/config/override_map.php:659 vc_extend/config/override_map.php:692
+#: vc_extend/config/override_map.php:965 vc_extend/config/override_map.php:1359
+#: vc_extend/config/override_map.php:1626
+#: vc_extend/config/override_map.php:1733
+#: vc_extend/config/override_map.php:1783
+#: vc_extend/config/override_map.php:1821
+#: vc_extend/config/override_map.php:1846
+#: vc_extend/config/override_map.php:1864
+#: vc_extend/config/override_map.php:1882
+#: vc_extend/config/override_map.php:1900
+#: vc_extend/config/override_map.php:1929
+#: vc_extend/config/override_map.php:2137
+#: vc_extend/config/override_map.php:2151
+#: vc_extend/config/override_map.php:2165
+#: vc_extend/config/override_map.php:2194
+#: vc_extend/config/override_map.php:2208
+#: vc_extend/config/override_map.php:2222
+#: vc_extend/config/override_map.php:2236
+#: vc_extend/config/override_map.php:2250
+#: vc_extend/config/override_map.php:2598
+#: vc_extend/config/override_map.php:2608
+#: vc_extend/config/override_map.php:2699
+#: vc_extend/config/override_map.php:2709
+#: vc_extend/config/override_map.php:2768
+#: vc_extend/config/override_map.php:2778
+#: vc_extend/config/override_map.php:2788
+#: vc_extend/config/override_map.php:2798
+#: vc_extend/config/override_map.php:2808
+#: vc_extend/config/override_map.php:2818
+#: vc_extend/config/override_map.php:2828
+#: vc_extend/config/override_map.php:2971
+#: vc_extend/config/override_map.php:3077
+#: vc_extend/config/override_map.php:3086
+#: vc_extend/config/override_map.php:3601
+#: vc_extend/config/override_map.php:3615
+#: vc_extend/config/override_map.php:3756
+#: vc_extend/config/override_map.php:3766
+#: vc_extend/config/override_map.php:3776
+#: vc_extend/config/override_map.php:3786
+#: vc_extend/config/override_map.php:3796
+#: vc_extend/config/override_map.php:3806
+#: vc_extend/config/override_map.php:3816
+#: vc_extend/config/override_map.php:3826
+#: vc_extend/config/override_map.php:3869
+#: vc_extend/config/override_map.php:3916
+#: vc_extend/config/override_map.php:4116
+#: vc_extend/config/override_map.php:4135
+#: vc_extend/config/override_map.php:4144
+#: vc_extend/config/override_map.php:4153
+#: vc_extend/config/override_map.php:4162
+#: vc_extend/config/override_map.php:4208
+#: vc_extend/config/override_map.php:4272
+#: vc_extend/config/override_map.php:4286
+#: vc_extend/config/override_map.php:4300
+#: vc_extend/config/override_map.php:4314
+#: vc_extend/config/override_map.php:4328
+#: vc_extend/config/override_map.php:4342
+#: vc_extend/config/override_map.php:4356
+#: vc_extend/config/override_map.php:4662
+#: vc_extend/config/override_map.php:4841
+#: vc_extend/config/override_map.php:5053
+#: vc_extend/config/override_map.php:5120
+#: vc_extend/config/override_map.php:5574
+#: vc_extend/config/override_map.php:5708
+#: vc_extend/config/override_map.php:5721
+#: vc_extend/config/override_map.php:5801
+#: vc_extend/config/override_map.php:5817 vc_extend/config/uncode_map.php:875
+#: vc_extend/config/uncode_map.php:972 vc_extend/config/uncode_map.php:1022
+#: vc_extend/config/uncode_map.php:1060 vc_extend/config/uncode_map.php:1085
+#: vc_extend/config/uncode_map.php:1103 vc_extend/config/uncode_map.php:1121
+#: vc_extend/config/uncode_map.php:1139 vc_extend/config/uncode_map.php:1157
+#: vc_extend/config/uncode_map.php:1173 vc_extend/config/uncode_map.php:1193
+#: vc_extend/config/uncode_map.php:1217 vc_extend/config/uncode_map.php:1344
+#: vc_extend/config/uncode_map.php:1371 vc_extend/config/uncode_map.php:1477
+#: vc_extend/config/uncode_map.php:1491 vc_extend/config/uncode_map.php:1505
+#: vc_extend/config/uncode_map.php:1534 vc_extend/config/uncode_map.php:1548
+#: vc_extend/config/uncode_map.php:1562 vc_extend/config/uncode_map.php:1576
+#: vc_extend/config/uncode_map.php:1947 vc_extend/config/uncode_map.php:1957
+#: vc_extend/config/uncode_map.php:2026 vc_extend/config/uncode_map.php:2055
+#: vc_extend/config/uncode_map.php:2065 vc_extend/config/uncode_map.php:2078
+#: vc_extend/config/uncode_map.php:2123 vc_extend/config/uncode_map.php:2133
+#: vc_extend/config/uncode_map.php:2143 vc_extend/config/uncode_map.php:2153
+#: vc_extend/config/uncode_map.php:2163 vc_extend/config/uncode_map.php:2173
+#: vc_extend/config/uncode_map.php:2183 vc_extend/config/uncode_map.php:2267
+#: vc_extend/config/uncode_map.php:2376 vc_extend/config/uncode_map.php:2457
+#: vc_extend/config/uncode_map.php:2495 vc_extend/config/uncode_map.php:2592
+#: vc_extend/config/uncode_map.php:2638 vc_extend/config/uncode_map.php:2651
+#: vc_extend/config/uncode_map.php:2670 vc_extend/config/uncode_map.php:2758
+msgid "Yes, please"
+msgstr "Si, per favore"
+
+#: vc_extend/config/override_map.php:456 vc_extend/config/override_map.php:669
+#: vc_extend/config/override_map.php:975 vc_extend/config/override_map.php:1369
+#: vc_extend/config/override_map.php:2407
+#: vc_extend/config/override_map.php:3346 vc_extend/config/uncode_map.php:1730
+msgid "Overlay color"
+msgstr "Colore di sovrapposizione"
+
+#: vc_extend/config/override_map.php:458 vc_extend/config/override_map.php:671
+#: vc_extend/config/override_map.php:977 vc_extend/config/override_map.php:1371
+msgid "Specify an overlay color for the background."
+msgstr "Scegliere un colore di sovrapposizione per lo sfondo."
+
+#: vc_extend/config/override_map.php:470 vc_extend/config/override_map.php:683
+#: vc_extend/config/override_map.php:989 vc_extend/config/override_map.php:1383
+msgid "Set the transparency for the overlay."
+msgstr "Impostare la trasparenza per la sovrapposizone."
+
+#: vc_extend/config/override_map.php:475 vc_extend/config/override_map.php:688
+msgid "Columns with equal height"
+msgstr "Colonne con altezza uguale"
+
+#: vc_extend/config/override_map.php:477 vc_extend/config/override_map.php:690
+msgid ""
+"Activate this to have columns that are all equally tall, matching the height "
+"of the tallest."
+msgstr ""
+"Attivare questo per avere le colonne tutte ugualmente alte, corrispondente "
+"all'altezza della più alta."
+
+#: vc_extend/config/override_map.php:481 vc_extend/config/override_map.php:492
+#: vc_extend/config/override_map.php:694 vc_extend/config/override_map.php:705
+msgid "Inner columns"
+msgstr "Colonne interne"
+
+#: vc_extend/config/override_map.php:485 vc_extend/config/override_map.php:698
+msgid "Columns gap"
+msgstr "Spazio colonne"
+
+#: vc_extend/config/override_map.php:491 vc_extend/config/override_map.php:704
+msgid "Set the columns gap."
+msgstr "Impostare lo spazio colonne."
+
+#: vc_extend/config/override_map.php:496 vc_extend/config/override_map.php:760
+#: vc_extend/config/override_map.php:1005
+#: vc_extend/config/override_map.php:1388
+#: vc_extend/config/override_map.php:2881
+msgid "Css"
+msgstr "Css"
+
+#: vc_extend/config/override_map.php:498 vc_extend/config/override_map.php:505
+#: vc_extend/config/override_map.php:513 vc_extend/config/override_map.php:762
+#: vc_extend/config/override_map.php:769 vc_extend/config/override_map.php:777
+#: vc_extend/config/override_map.php:1007
+#: vc_extend/config/override_map.php:1014
+#: vc_extend/config/override_map.php:1022
+#: vc_extend/config/override_map.php:1390
+#: vc_extend/config/override_map.php:1397
+#: vc_extend/config/override_map.php:1405
+#: vc_extend/config/override_map.php:2883
+#: vc_extend/config/override_map.php:2890
+#: vc_extend/config/override_map.php:2898 vc_extend/config/uncode_map.php:33
+#: vc_extend/config/uncode_map.php:341 vc_extend/config/uncode_map.php:518
+#: vc_extend/config/uncode_map.php:647 vc_extend/init.php:452
+msgid "Custom"
+msgstr "Personalizzato"
+
+#: vc_extend/config/override_map.php:502 vc_extend/config/override_map.php:766
+#: vc_extend/config/override_map.php:1011
+#: vc_extend/config/override_map.php:1394
+#: vc_extend/config/override_map.php:2887
+msgid "Border color"
+msgstr "Colore del  bordo"
+
+#: vc_extend/config/override_map.php:504 vc_extend/config/override_map.php:768
+#: vc_extend/config/override_map.php:1013
+#: vc_extend/config/override_map.php:1396
+#: vc_extend/config/override_map.php:2889
+msgid "Specify a border color."
+msgstr "Scegliere il colore del bordo."
+
+#: vc_extend/config/override_map.php:510 vc_extend/config/override_map.php:774
+#: vc_extend/config/override_map.php:1019
+#: vc_extend/config/override_map.php:1402
+#: vc_extend/config/override_map.php:2895
+msgid "Border style"
+msgstr "Stile del bordo"
+
+#: vc_extend/config/override_map.php:512 vc_extend/config/override_map.php:776
+#: vc_extend/config/override_map.php:1021
+#: vc_extend/config/override_map.php:1404
+#: vc_extend/config/override_map.php:2897
+msgid "Specify a border style."
+msgstr "Scegliere lo stile del bordo."
+
+#: vc_extend/config/override_map.php:518 vc_extend/config/override_map.php:709
+#: vc_extend/config/override_map.php:1027
+#: vc_extend/config/override_map.php:1410
+#: vc_extend/config/override_map.php:5356
+#: vc_extend/config/override_map.php:5580
+msgid "Desktop"
+msgstr "Desktop"
+
+#: vc_extend/config/override_map.php:520 vc_extend/config/override_map.php:711
+#: vc_extend/config/override_map.php:1029
+#: vc_extend/config/override_map.php:1412
+#: vc_extend/config/override_map.php:5358
+#: vc_extend/config/override_map.php:5582
+msgid "Choose the visibiliy of the element in desktop layout mode (960px >)."
+msgstr ""
+"Scegliere la visibilità dell'elemento nella modalità desktop (960px >)."
+
+#: vc_extend/config/override_map.php:521 vc_extend/config/override_map.php:531
+#: vc_extend/config/override_map.php:541 vc_extend/config/override_map.php:712
+#: vc_extend/config/override_map.php:722 vc_extend/config/override_map.php:732
+#: vc_extend/config/override_map.php:1030
+#: vc_extend/config/override_map.php:1040
+#: vc_extend/config/override_map.php:1055
+#: vc_extend/config/override_map.php:1065
+#: vc_extend/config/override_map.php:1072
+#: vc_extend/config/override_map.php:1087
+#: vc_extend/config/override_map.php:1093
+#: vc_extend/config/override_map.php:1413
+#: vc_extend/config/override_map.php:1423
+#: vc_extend/config/override_map.php:1438
+#: vc_extend/config/override_map.php:1448
+#: vc_extend/config/override_map.php:1455
+#: vc_extend/config/override_map.php:1470
+#: vc_extend/config/override_map.php:1476
+#: vc_extend/config/override_map.php:5359
+#: vc_extend/config/override_map.php:5369
+#: vc_extend/config/override_map.php:5379
+#: vc_extend/config/override_map.php:5583
+#: vc_extend/config/override_map.php:5593
+#: vc_extend/config/override_map.php:5603
+msgid "Responsive"
+msgstr "Responsivo"
+
+#: vc_extend/config/override_map.php:528 vc_extend/config/override_map.php:719
+#: vc_extend/config/override_map.php:1037
+#: vc_extend/config/override_map.php:1420
+#: vc_extend/config/override_map.php:5366
+#: vc_extend/config/override_map.php:5590
+msgid "Tablet"
+msgstr "Tablet"
+
+#: vc_extend/config/override_map.php:530 vc_extend/config/override_map.php:721
+#: vc_extend/config/override_map.php:1039
+#: vc_extend/config/override_map.php:1071
+#: vc_extend/config/override_map.php:1422
+#: vc_extend/config/override_map.php:5368
+#: vc_extend/config/override_map.php:5592
+msgid ""
+"Choose the visibiliy of the element in tablet layout mode (570px > < 960px)."
+msgstr ""
+"Scegliere la visibilità dell'elemento nella modalità tablet (570px> <960px)."
+
+#: vc_extend/config/override_map.php:538 vc_extend/config/override_map.php:729
+#: vc_extend/config/override_map.php:1069
+#: vc_extend/config/override_map.php:1452
+#: vc_extend/config/override_map.php:2830
+#: vc_extend/config/override_map.php:3832
+#: vc_extend/config/override_map.php:4463
+#: vc_extend/config/override_map.php:5376
+#: vc_extend/config/override_map.php:5600 vc_extend/config/uncode_map.php:2185
+msgid "Mobile"
+msgstr "Mobile"
+
+#: vc_extend/config/override_map.php:540 vc_extend/config/override_map.php:731
+#: vc_extend/config/override_map.php:1454
+#: vc_extend/config/override_map.php:5378
+#: vc_extend/config/override_map.php:5602
+msgid "Choose the visibiliy of the element in mobile layout mode (< 570px)."
+msgstr "Scegliere la visibilità dell'elemento nella modalità mobile (<570px)."
+
+#: vc_extend/config/override_map.php:548 vc_extend/config/override_map.php:739
+#: vc_extend/config/override_map.php:1118
+#: vc_extend/config/override_map.php:1501
+msgid "Shift y-axis"
+msgstr "Cambiare asse-y"
+
+#: vc_extend/config/override_map.php:554 vc_extend/config/override_map.php:745
+#: vc_extend/config/override_map.php:1124
+#: vc_extend/config/override_map.php:1507
+msgid "Set how much the element has to shift in the Y axis."
+msgstr "Impostare quanto l'elemento deve spostare l'asse Y."
+
+#: vc_extend/config/override_map.php:555 vc_extend/config/override_map.php:562
+#: vc_extend/config/override_map.php:746 vc_extend/config/override_map.php:753
+#: vc_extend/config/override_map.php:1104
+#: vc_extend/config/override_map.php:1111
+#: vc_extend/config/override_map.php:1125
+#: vc_extend/config/override_map.php:1132
+#: vc_extend/config/override_map.php:1146
+#: vc_extend/config/override_map.php:1487
+#: vc_extend/config/override_map.php:1494
+#: vc_extend/config/override_map.php:1508
+#: vc_extend/config/override_map.php:1515
+#: vc_extend/config/override_map.php:1529
+msgid "Off-grid"
+msgstr "Off-grid"
+
+#: vc_extend/config/override_map.php:559 vc_extend/config/override_map.php:750
+#: vc_extend/config/override_map.php:1129
+#: vc_extend/config/override_map.php:1512
+msgid "Shift y-axis fixed"
+msgstr "Cambia l'asse-y fisso"
+
+#: vc_extend/config/override_map.php:561 vc_extend/config/override_map.php:752
+#: vc_extend/config/override_map.php:1131
+#: vc_extend/config/override_map.php:1514
+msgid "Deactive shift-y responsiveness."
+msgstr "Disattivare la reattività dello spostamento y."
+
+#: vc_extend/config/override_map.php:569 vc_extend/config/override_map.php:782
+#: vc_extend/config/override_map.php:1160
+#: vc_extend/config/override_map.php:1543
+#, fuzzy
+msgid "Sticky"
+msgstr "In Evidenza"
+
+#: vc_extend/config/override_map.php:571 vc_extend/config/override_map.php:784
+#: vc_extend/config/override_map.php:1162
+#: vc_extend/config/override_map.php:1545
+#, fuzzy
+msgid "Activate this to stick the element when scrolling."
+msgstr "Attiva questa opzione per avere il filtro menu in maiuscolo."
+
+#: vc_extend/config/override_map.php:572 vc_extend/config/override_map.php:582
+#: vc_extend/config/override_map.php:589 vc_extend/config/override_map.php:785
+#: vc_extend/config/override_map.php:795 vc_extend/config/override_map.php:1156
+#: vc_extend/config/override_map.php:1163
+#: vc_extend/config/override_map.php:1173
+#: vc_extend/config/override_map.php:1539
+#: vc_extend/config/override_map.php:1546
+#: vc_extend/config/override_map.php:1556
+#: vc_extend/config/override_map.php:2837
+#: vc_extend/config/override_map.php:3838
+#: vc_extend/config/override_map.php:4368
+#: vc_extend/config/override_map.php:4472
+#: vc_extend/config/override_map.php:5389
+#: vc_extend/config/override_map.php:5616
+#: vc_extend/config/override_map.php:5852 vc_extend/config/uncode_map.php:401
+#: vc_extend/config/uncode_map.php:2192
+msgid "Extra"
+msgstr "Extra"
+
+#: vc_extend/config/override_map.php:579 vc_extend/config/override_map.php:792
+#: vc_extend/config/override_map.php:1170
+#: vc_extend/config/override_map.php:1553
+msgid "Extra class"
+msgstr "Classe extra"
+
+#: vc_extend/config/override_map.php:581 vc_extend/config/override_map.php:794
+#: vc_extend/config/override_map.php:1172
+#: vc_extend/config/override_map.php:1555
+#: vc_extend/config/override_map.php:2836
+#: vc_extend/config/override_map.php:2877
+#: vc_extend/config/override_map.php:2995
+#: vc_extend/config/override_map.php:3033
+#: vc_extend/config/override_map.php:3839
+#: vc_extend/config/override_map.php:3876
+#: vc_extend/config/override_map.php:3950
+#: vc_extend/config/override_map.php:4006
+#: vc_extend/config/override_map.php:4369
+#: vc_extend/config/override_map.php:4473
+#: vc_extend/config/override_map.php:4583
+#: vc_extend/config/override_map.php:4672
+#: vc_extend/config/override_map.php:4757
+#: vc_extend/config/override_map.php:4848
+#: vc_extend/config/override_map.php:4872
+#: vc_extend/config/override_map.php:4902
+#: vc_extend/config/override_map.php:4926
+#: vc_extend/config/override_map.php:4968
+#: vc_extend/config/override_map.php:5009
+#: vc_extend/config/override_map.php:5060
+#: vc_extend/config/override_map.php:5089
+#: vc_extend/config/override_map.php:5127
+#: vc_extend/config/override_map.php:5190
+#: vc_extend/config/override_map.php:5224
+#: vc_extend/config/override_map.php:5257
+#: vc_extend/config/override_map.php:5328
+#: vc_extend/config/override_map.php:5388
+#: vc_extend/config/override_map.php:5615
+#: vc_extend/config/override_map.php:5853 vc_extend/config/uncode_map.php:2191
+#: vc_extend/config/uncode_map.php:2275 vc_extend/config/uncode_map.php:2714
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+"Se vuoi disegnare un particolare elemento di contenuto in maniera "
+"differente, usa questo campo per aggiungere il nome e poi fare riferimento a "
+"questo nel file css."
+
+#: vc_extend/config/override_map.php:586
+msgid "Section name"
+msgstr "Nome sezione"
+
+#: vc_extend/config/override_map.php:588
+msgid "Required for the onepage scroll, this gives the name to the section."
+msgstr ""
+"Richiesto per lo scorrimento di una pagina, questo attribuisce il nome alla "
+"sezione."
+
+#: vc_extend/config/override_map.php:613
+msgid ""
+"Set the row height with a percent value.<br>N.B. This value is relative to "
+"the row parent."
+msgstr ""
+"Impostare l'altezza della tiga con un valore percentuale. <br>N.B. Questo "
+"valore è relativo alla riga genitore."
+
+#: vc_extend/config/override_map.php:625
+msgid "Force width 100%"
+msgstr "Forzare la larghezza al 100%"
+
+#: vc_extend/config/override_map.php:627
+msgid ""
+"Set this value if you need to force the width to 100%.<br>N.B. This is "
+"needed only when all the columns are OFF-GRID."
+msgstr ""
+"Impostare questo valore se ti serve forzare la larghezza al 100%.<br>N.B. "
+"Questo è necessario solo quando tutte le colonne sono OFF-GRID."
+
+#: vc_extend/config/override_map.php:802 vc_extend/config/override_map.php:1180
+msgid "Column"
+msgstr "Colonna"
+
+#: vc_extend/config/override_map.php:826 vc_extend/config/override_map.php:1209
+msgid "Set the column width with a percent value."
+msgstr "Impostare la larghezza della colonna con un valore percentuale."
+
+#: vc_extend/config/override_map.php:837 vc_extend/config/override_map.php:1220
+msgid "Insert the column width in pixel."
+msgstr "Inserire la larghezza della colonna in pixel."
+
+#: vc_extend/config/override_map.php:846 vc_extend/config/override_map.php:1229
+msgid "Horizontal position"
+msgstr "Posizione orizzontale"
+
+#: vc_extend/config/override_map.php:848 vc_extend/config/override_map.php:1231
+msgid ""
+"Specify the horizontal position of the content if you have decreased the "
+"width value."
+msgstr ""
+"Scegliere la posizione orizzontale del contenuto se è stato diminuito il "
+"valore della larghezza."
+
+#: vc_extend/config/override_map.php:859 vc_extend/config/override_map.php:1242
+msgid "Vertical position"
+msgstr "Posizione verticale"
+
+#: vc_extend/config/override_map.php:861 vc_extend/config/override_map.php:1244
+msgid "Specify the vertical position of the content."
+msgstr "Scegliere la posizione verticale del contenuto."
+
+#: vc_extend/config/override_map.php:871 vc_extend/config/override_map.php:1254
+msgid "Text alignment"
+msgstr "Allineamento testo"
+
+#: vc_extend/config/override_map.php:873 vc_extend/config/override_map.php:1256
+#: vc_extend/config/uncode_map.php:817
+msgid "Specify the alignment inside the content box."
+msgstr "Scegliere l'allineamento all'interno della casella del contenuto."
+
+#: vc_extend/config/override_map.php:883 vc_extend/config/override_map.php:1266
+msgid "Expand height to 100%"
+msgstr "Espandere l'altezza al 100%"
+
+#: vc_extend/config/override_map.php:885 vc_extend/config/override_map.php:1268
+msgid ""
+"Activate this to expand the height of the column to 100%, if you haven't "
+"activate the equal height row setting."
+msgstr ""
+"Attivare questo per espandere l'altezza della colonna al 100%, se non è "
+"stata attivata l'impostazione altezza uguale."
+
+#: vc_extend/config/override_map.php:909 vc_extend/config/override_map.php:1292
+msgid "Set the column padding"
+msgstr "Impostare il padding della colonna"
+
+#: vc_extend/config/override_map.php:920 vc_extend/config/override_map.php:1303
+msgid "Column text skin"
+msgstr "Colore del testo della colonna."
+
+#: vc_extend/config/override_map.php:924 vc_extend/config/override_map.php:1307
+#: vc_extend/config/override_map.php:1747
+#: vc_extend/config/override_map.php:2179
+#: vc_extend/config/override_map.php:2400
+#: vc_extend/config/override_map.php:2746
+#: vc_extend/config/override_map.php:3323
+#: vc_extend/config/override_map.php:3734
+#: vc_extend/config/override_map.php:4242 vc_extend/config/uncode_map.php:986
+#: vc_extend/config/uncode_map.php:1312 vc_extend/config/uncode_map.php:1519
+#: vc_extend/config/uncode_map.php:1723 vc_extend/config/uncode_map.php:2101
+msgid "Light"
+msgstr "Chiaro"
+
+#: vc_extend/config/override_map.php:925 vc_extend/config/override_map.php:1308
+#: vc_extend/config/override_map.php:1748
+#: vc_extend/config/override_map.php:2180
+#: vc_extend/config/override_map.php:2401
+#: vc_extend/config/override_map.php:2745
+#: vc_extend/config/override_map.php:3324
+#: vc_extend/config/override_map.php:3733
+#: vc_extend/config/override_map.php:4241 vc_extend/config/uncode_map.php:987
+#: vc_extend/config/uncode_map.php:1313 vc_extend/config/uncode_map.php:1520
+#: vc_extend/config/uncode_map.php:1724 vc_extend/config/uncode_map.php:2100
+msgid "Dark"
+msgstr "Scuro"
+
+#: vc_extend/config/override_map.php:928 vc_extend/config/override_map.php:1311
+msgid "Specify the text/skin color of the column."
+msgstr "Specificare il colore del testo/skin della colonna."
+
+#: vc_extend/config/override_map.php:932 vc_extend/config/override_map.php:1326
+msgid "Column font family"
+msgstr "Famiglia di font della colonna"
+
+#: vc_extend/config/override_map.php:934 vc_extend/config/override_map.php:1328
+msgid "Specify the column font family."
+msgstr "Specificare la famiglia di font della colonna."
+
+#: vc_extend/config/override_map.php:941 vc_extend/config/override_map.php:1335
+msgid "Column custom background color"
+msgstr "Colore di sfondo personalizzato della colonna"
+
+#: vc_extend/config/override_map.php:943 vc_extend/config/override_map.php:1337
+msgid "Specify a background color for the column."
+msgstr "Specificare un colore di fondo per la colonna."
+
+#: vc_extend/config/override_map.php:994 vc_extend/config/override_map.php:1315
+msgid "Vertical gap"
+msgstr "Spazio verticale"
+
+#: vc_extend/config/override_map.php:1000
+#: vc_extend/config/override_map.php:1321
+msgid "Set the vertical space between elements."
+msgstr "Impostare lo spazio verticale tra gli elementi."
+
+#: vc_extend/config/override_map.php:1001
+#: vc_extend/config/override_map.php:1322
+msgid "Inner elements"
+msgstr "Elemento interno"
+
+#: vc_extend/config/override_map.php:1048
+#: vc_extend/config/override_map.php:1431
+msgid ""
+"Specify the text alignment inside the content box in tablet layout mode."
+msgstr ""
+"Specificare l'allineamento del testo all'interno della casella del contenuto "
+"in modalità tablet."
+
+#: vc_extend/config/override_map.php:1064
+#: vc_extend/config/override_map.php:1447
+msgid ""
+"COLUMN WIDTH. N.B. If you change this value for one column you must specify "
+"a value for every column of the row."
+msgstr ""
+"LARGHEZZA COLONNA. N.B. Se si modifica questo valore per una colonna è "
+"necessario specificare un valore per ogni colonna della riga."
+
+#: vc_extend/config/override_map.php:1080
+#: vc_extend/config/override_map.php:1463
+msgid ""
+"Specify the text alignment inside the content box in mobile layout mode."
+msgstr ""
+"Specificare l'allineamento del testo all'interno della casella del contenuto "
+"in modalità mobile."
+
+#: vc_extend/config/override_map.php:1092
+#: vc_extend/config/override_map.php:1475
+msgid "MINIMUM HEIGHT. Insert the value in pixel."
+msgstr "ALTEZZA MINIMA. Inserire il valore in pixel."
+
+#: vc_extend/config/override_map.php:1097
+#: vc_extend/config/override_map.php:1480
+msgid "Shift x-axis"
+msgstr "Cambiare asse x"
+
+#: vc_extend/config/override_map.php:1103
+#: vc_extend/config/override_map.php:1486
+msgid "Set how much the element has to shift in the X axis."
+msgstr "Impostare quanto l'elemento deve spostare l'asse X."
+
+#: vc_extend/config/override_map.php:1108
+#: vc_extend/config/override_map.php:1491
+msgid "Shift x-axis fixed"
+msgstr "Cambia l'asse-x fisso"
+
+#: vc_extend/config/override_map.php:1110
+#: vc_extend/config/override_map.php:1493
+msgid "Deactive shift-x responsiveness."
+msgstr "Disattivare la reattività dello spostamento x."
+
+#: vc_extend/config/override_map.php:1139
+#: vc_extend/config/override_map.php:1522
+msgid "Custom z-index"
+msgstr "Indice z personalizzato"
+
+#: vc_extend/config/override_map.php:1145
+#: vc_extend/config/override_map.php:1528
+msgid "Set a custom z-index to ensure the visibility of the element."
+msgstr ""
+"Impostare un indice z personalizzato per assicurare la visibilità "
+"dell'elemento."
+
+#: vc_extend/config/override_map.php:1153
+#: vc_extend/config/override_map.php:1536
+#: vc_extend/config/override_map.php:1958
+#: vc_extend/config/override_map.php:2688 vc_extend/config/uncode_map.php:2044
+msgid "Custom link"
+msgstr "Link personalizzato"
+
+#: vc_extend/config/override_map.php:1155
+#: vc_extend/config/override_map.php:1538
+msgid "Enter a custom link for the column."
+msgstr "Inserire un link personalizzato per la colonna."
+
+#: vc_extend/config/override_map.php:1565
+msgid "Media Gallery"
+msgstr "Galleria Media"
+
+#: vc_extend/config/override_map.php:1571 vc_extend/config/uncode_map.php:2204
+msgid "Isotope grid or carousel layout"
+msgstr "Griglia Isotope o layout carosello"
+
+#: vc_extend/config/override_map.php:1575
+#: vc_extend/config/override_map.php:3050
+#: vc_extend/config/override_map.php:3859
+#: vc_extend/config/override_map.php:3936
+#: vc_extend/config/override_map.php:4387
+#: vc_extend/config/override_map.php:4531
+#: vc_extend/config/override_map.php:4601
+#: vc_extend/config/override_map.php:4688
+#: vc_extend/config/override_map.php:4832
+#: vc_extend/config/override_map.php:4864
+#: vc_extend/config/override_map.php:4888
+#: vc_extend/config/override_map.php:4918
+#: vc_extend/config/override_map.php:4942
+#: vc_extend/config/override_map.php:4994
+#: vc_extend/config/override_map.php:5036
+#: vc_extend/config/override_map.php:5076
+#: vc_extend/config/override_map.php:5105
+#: vc_extend/config/override_map.php:5206
+#: vc_extend/config/override_map.php:5240
+#: vc_extend/config/override_map.php:5273 vc_extend/config/uncode_map.php:798
+msgid "Widget title"
+msgstr "Titolo Widget"
+
+#: vc_extend/config/override_map.php:1577
+#: vc_extend/config/override_map.php:2737
+#: vc_extend/config/override_map.php:3052
+#: vc_extend/config/override_map.php:3861
+#: vc_extend/config/override_map.php:3938
+#: vc_extend/config/override_map.php:4389
+#: vc_extend/config/override_map.php:4533
+#: vc_extend/config/override_map.php:4603
+#: vc_extend/config/override_map.php:4690 vc_extend/config/uncode_map.php:801
+#: vc_extend/config/uncode_map.php:2092
+msgid ""
+"Enter text which will be used as widget title. Leave blank if no title is "
+"needed."
+msgstr ""
+"Inserire il testo che sarà usato come titolo del widget. Lasciare vuoto se "
+"non serve il titolo."
+
+#: vc_extend/config/override_map.php:1578
+#: vc_extend/config/override_map.php:1587
+#: vc_extend/config/override_map.php:1599
+#: vc_extend/config/override_map.php:1614
+#: vc_extend/config/override_map.php:1628
+#: vc_extend/config/override_map.php:1637
+#: vc_extend/config/override_map.php:5414
+#: vc_extend/config/override_map.php:5421
+#: vc_extend/config/override_map.php:5433
+#: vc_extend/config/override_map.php:5442
+#: vc_extend/config/override_map.php:5450
+#: vc_extend/config/override_map.php:5458
+#: vc_extend/config/override_map.php:5467
+#: vc_extend/config/override_map.php:5476
+#: vc_extend/config/override_map.php:5489
+#: vc_extend/config/override_map.php:5499
+#: vc_extend/config/override_map.php:5507
+#: vc_extend/config/override_map.php:5520
+#: vc_extend/config/override_map.php:5534
+#: vc_extend/config/override_map.php:5548
+#: vc_extend/config/override_map.php:5555
+#: vc_extend/config/override_map.php:5566
+#: vc_extend/config/override_map.php:5576 vc_extend/config/uncode_map.php:802
+#: vc_extend/config/uncode_map.php:810 vc_extend/config/uncode_map.php:822
+#: vc_extend/config/uncode_map.php:836 vc_extend/config/uncode_map.php:858
+#: vc_extend/config/uncode_map.php:866 vc_extend/config/uncode_map.php:873
+msgid "General"
+msgstr "Generale"
+
+#: vc_extend/config/override_map.php:1583 vc_extend/config/uncode_map.php:806
+msgid "Widget ID"
+msgstr "ID WIdget"
+
+#: vc_extend/config/override_map.php:1586 vc_extend/config/uncode_map.php:809
+msgid "This value has to be unique. Change it in case it's needed."
+msgstr "Questo valore deve essere unico. Cambiarlo nel caso in cui serva."
+
+#: vc_extend/config/override_map.php:1591
+msgid "Gallery module"
+msgstr "Modulo galleria"
+
+#: vc_extend/config/override_map.php:1594 vc_extend/config/uncode_map.php:819
+msgid "Isotope"
+msgstr "Isotope"
+
+#: vc_extend/config/override_map.php:1595 vc_extend/config/uncode_map.php:820
+msgid "Carousel"
+msgstr "Carosello"
+
+#: vc_extend/config/override_map.php:1598
+msgid "Specify gallery module type."
+msgstr "Specificare il tipo di modulo galleria."
+
+#: vc_extend/config/override_map.php:1603 vc_extend/config/uncode_map.php:826
+msgid "Layout modes"
+msgstr "Modalità di layout"
+
+#: vc_extend/config/override_map.php:1606 vc_extend/config/uncode_map.php:828
+msgid ""
+"Specify the isotpe layout mode. <a href='http://isotope.metafizzy.co/layout-"
+"modes.html' target='_blank'>Check this for reference</a>"
+msgstr ""
+"Specificare la modalità layout isotope. <a href='http://isotope.metafizzy.co/"
+"layout-modes.html' target='_blank'>Controlla questo come riferimento</a>"
+
+#: vc_extend/config/override_map.php:1608
+#: vc_extend/config/override_map.php:1651 vc_extend/config/uncode_map.php:830
+#: vc_extend/config/uncode_map.php:884
+msgid "Masonry"
+msgstr "Masonry"
+
+#: vc_extend/config/override_map.php:1609 vc_extend/config/uncode_map.php:831
+msgid "Fit rows"
+msgstr "Entrare nelle righe"
+
+#: vc_extend/config/override_map.php:1610 vc_extend/config/uncode_map.php:832
+msgid "Cells by row"
+msgstr "Celle per roga"
+
+#: vc_extend/config/override_map.php:1611
+#: vc_extend/config/override_map.php:2757
+#: vc_extend/config/override_map.php:3745
+#: vc_extend/config/override_map.php:4257 vc_extend/config/uncode_map.php:833
+#: vc_extend/config/uncode_map.php:2112
+msgid "Vertical"
+msgstr "Verticale"
+
+#: vc_extend/config/override_map.php:1612 vc_extend/config/uncode_map.php:834
+msgid "Packery"
+msgstr "Packery"
+
+#: vc_extend/config/override_map.php:1622
+#, fuzzy
+msgid "Random order"
+msgstr "Bordo personalizzato"
+
+#: vc_extend/config/override_map.php:1624
+#, fuzzy
+msgid "Activate this to have a media random order."
+msgstr "Attiva questa opzione per aggiungere una didascalia al media."
+
+#: vc_extend/config/override_map.php:1632
+msgid "Medias"
+msgstr "Medias"
+
+#: vc_extend/config/override_map.php:1636
+msgid "Specify images from media library."
+msgstr "Specificare le immagini dalla libreria media."
+
+#: vc_extend/config/override_map.php:1643 vc_extend/config/uncode_map.php:882
+msgid "Select the visualization mode."
+msgstr "Specifica la modalità di visualizzazione."
+
+#: vc_extend/config/override_map.php:1652 vc_extend/config/uncode_map.php:885
+msgid "Metro"
+msgstr "Metro"
+
+#: vc_extend/config/override_map.php:1654
+#: vc_extend/config/override_map.php:1663
+#: vc_extend/config/override_map.php:1671
+#: vc_extend/config/override_map.php:1683
+#: vc_extend/config/override_map.php:1695
+#: vc_extend/config/override_map.php:1721
+#: vc_extend/config/override_map.php:1735
+#: vc_extend/config/override_map.php:1750
+#: vc_extend/config/override_map.php:1767
+#: vc_extend/config/override_map.php:1785
+#: vc_extend/config/override_map.php:1805
+#: vc_extend/config/override_map.php:1823
+#: vc_extend/config/override_map.php:1848
+#: vc_extend/config/override_map.php:1866
+#: vc_extend/config/override_map.php:1884
+#: vc_extend/config/override_map.php:1902
+#: vc_extend/config/override_map.php:1921
+#: vc_extend/config/override_map.php:1931
+#: vc_extend/config/override_map.php:1946
+#: vc_extend/config/override_map.php:2057
+#: vc_extend/config/override_map.php:2069
+#: vc_extend/config/override_map.php:2092
+#: vc_extend/config/override_map.php:2110
+#: vc_extend/config/override_map.php:2129
+#: vc_extend/config/override_map.php:2139
+#: vc_extend/config/override_map.php:2153
+#: vc_extend/config/override_map.php:2167
+#: vc_extend/config/override_map.php:2182
+#: vc_extend/config/override_map.php:2196
+#: vc_extend/config/override_map.php:2210
+#: vc_extend/config/override_map.php:2224
+#: vc_extend/config/override_map.php:2238
+#: vc_extend/config/override_map.php:2252
+#: vc_extend/config/override_map.php:2264
+#: vc_extend/config/override_map.php:2278
+#: vc_extend/config/override_map.php:2292 vc_extend/config/uncode_map.php:17
+#: vc_extend/config/uncode_map.php:325 vc_extend/config/uncode_map.php:502
+#: vc_extend/config/uncode_map.php:631 vc_extend/config/uncode_map.php:814
+#: vc_extend/config/uncode_map.php:887 vc_extend/config/uncode_map.php:902
+#: vc_extend/config/uncode_map.php:910 vc_extend/config/uncode_map.php:922
+#: vc_extend/config/uncode_map.php:934 vc_extend/config/uncode_map.php:960
+#: vc_extend/config/uncode_map.php:974 vc_extend/config/uncode_map.php:989
+#: vc_extend/config/uncode_map.php:1006 vc_extend/config/uncode_map.php:1024
+#: vc_extend/config/uncode_map.php:1044 vc_extend/config/uncode_map.php:1062
+#: vc_extend/config/uncode_map.php:1087 vc_extend/config/uncode_map.php:1105
+#: vc_extend/config/uncode_map.php:1123 vc_extend/config/uncode_map.php:1141
+#: vc_extend/config/uncode_map.php:1159 vc_extend/config/uncode_map.php:1175
+#: vc_extend/config/uncode_map.php:1195 vc_extend/config/uncode_map.php:1219
+#: vc_extend/config/uncode_map.php:1240 vc_extend/config/uncode_map.php:1261
+#: vc_extend/config/uncode_map.php:1290 vc_extend/config/uncode_map.php:1315
+#: vc_extend/config/uncode_map.php:1330 vc_extend/config/uncode_map.php:1346
+#: vc_extend/config/uncode_map.php:1363 vc_extend/config/uncode_map.php:1373
+#: vc_extend/config/uncode_map.php:1397 vc_extend/config/uncode_map.php:1409
+#: vc_extend/config/uncode_map.php:1432 vc_extend/config/uncode_map.php:1450
+#: vc_extend/config/uncode_map.php:1469 vc_extend/config/uncode_map.php:1479
+#: vc_extend/config/uncode_map.php:1493 vc_extend/config/uncode_map.php:1507
+#: vc_extend/config/uncode_map.php:1522 vc_extend/config/uncode_map.php:1536
+#: vc_extend/config/uncode_map.php:1550 vc_extend/config/uncode_map.php:1564
+#: vc_extend/config/uncode_map.php:1578 vc_extend/config/uncode_map.php:1590
+#: vc_extend/config/uncode_map.php:1604 vc_extend/config/uncode_map.php:1618
+msgid "Module"
+msgstr "Modulo"
+
+#: vc_extend/config/override_map.php:1658
+msgid "Gallery background color"
+msgstr "Colore di fondo della galleria"
+
+#: vc_extend/config/override_map.php:1660 vc_extend/config/uncode_map.php:899
+msgid "Specify a background color for the module."
+msgstr "Specificare un colore di fondo per il modulo."
+
+#: vc_extend/config/override_map.php:1667 vc_extend/config/uncode_map.php:906
+msgid "Number columns ( > 960px )"
+msgstr "Numero colonne ( > 960px )"
+
+#: vc_extend/config/override_map.php:1670 vc_extend/config/uncode_map.php:909
+msgid "Insert the numbers of columns for the viewport from 960px."
+msgstr "Inserire i numeri delle colonne "
+
+#: vc_extend/config/override_map.php:1679 vc_extend/config/uncode_map.php:918
+msgid "Number columns ( > 570px and < 960px )"
+msgstr "Numero colonne ( > 570px and < 960px )"
+
+#: vc_extend/config/override_map.php:1682 vc_extend/config/uncode_map.php:921
+msgid "Insert the numbers of columns for the viewport from 570px to 960px."
+msgstr "Inserisci i numeri delle colonne per la finestra da 570px to 960px."
+
+#: vc_extend/config/override_map.php:1691 vc_extend/config/uncode_map.php:930
+msgid "Number columns ( > 0px and < 570px )"
+msgstr "Numero colonne > 0px and < 570px )"
+
+#: vc_extend/config/override_map.php:1694 vc_extend/config/uncode_map.php:933
+msgid "Insert the numbers of columns for the viewport from 0 to 570px."
+msgstr "Inserisci i numeri delle colonne per la finestra da 0px to 570px."
+
+#: vc_extend/config/override_map.php:1703 vc_extend/config/uncode_map.php:942
+msgid "Thumbnail size"
+msgstr "Dimensione thumbnail"
+
+#: vc_extend/config/override_map.php:1705
+#: vc_extend/config/override_map.php:2351
+#: vc_extend/config/override_map.php:3139 vc_extend/config/uncode_map.php:944
+#: vc_extend/config/uncode_map.php:1675
+msgid "Specify the aspect ratio for the media."
+msgstr "Specificare il rapporto di aspetto per il media."
+
+#: vc_extend/config/override_map.php:1707
+#: vc_extend/config/override_map.php:2353
+#: vc_extend/config/override_map.php:3141 vc_extend/config/uncode_map.php:946
+#: vc_extend/config/uncode_map.php:1677
+msgid "Regular"
+msgstr "Regolare"
+
+#: vc_extend/config/override_map.php:1729 vc_extend/config/uncode_map.php:968
+msgid "Filtering"
+msgstr "Filtraggio"
+
+#: vc_extend/config/override_map.php:1731 vc_extend/config/uncode_map.php:970
+msgid "Activate this to add the isotope filtering."
+msgstr "Attiva questa opzione per aggiungere il filtraggio isotope."
+
+#: vc_extend/config/override_map.php:1743 vc_extend/config/uncode_map.php:982
+msgid "Filter skin"
+msgstr "Filtro skin"
+
+#: vc_extend/config/override_map.php:1745 vc_extend/config/uncode_map.php:984
+msgid "Specify the filter skin color."
+msgstr "Specifica il colore skin del filtro."
+
+#: vc_extend/config/override_map.php:1762 vc_extend/config/uncode_map.php:1001
+msgid "Filter menu color"
+msgstr "Colore filtro menu"
+
+#: vc_extend/config/override_map.php:1764 vc_extend/config/uncode_map.php:1003
+msgid "Specify a background color for the filter menu."
+msgstr "Specifica un colore di fondo per il filtro menu."
+
+#: vc_extend/config/override_map.php:1779 vc_extend/config/uncode_map.php:1018
+msgid "Filter menu full width"
+msgstr "Filtro menu a larghezza massima"
+
+#: vc_extend/config/override_map.php:1781 vc_extend/config/uncode_map.php:1020
+msgid "Activate this to force the full width of the filter."
+msgstr "Attiva questa opzione per forzare la massima larghezza del filtro."
+
+#: vc_extend/config/override_map.php:1797 vc_extend/config/uncode_map.php:1036
+msgid "Filter menu position"
+msgstr "Posizione filtro menu"
+
+#: vc_extend/config/override_map.php:1799 vc_extend/config/uncode_map.php:1038
+msgid "Specify the filter menu positioning."
+msgstr "Specifica la posizione del menu filtro."
+
+#: vc_extend/config/override_map.php:1801
+#: vc_extend/config/override_map.php:2534
+#: vc_extend/config/override_map.php:2571
+#: vc_extend/config/override_map.php:2941
+#: vc_extend/config/override_map.php:3517
+#: vc_extend/config/override_map.php:3566
+#: vc_extend/config/override_map.php:4184 vc_extend/config/uncode_map.php:1040
+#: vc_extend/config/uncode_map.php:1857 vc_extend/config/uncode_map.php:1871
+#: vc_extend/config/uncode_map.php:1916 vc_extend/config/uncode_map.php:2602
+msgid "Left"
+msgstr "Sinistra"
+
+#: vc_extend/config/override_map.php:1802
+#: vc_extend/config/override_map.php:2535
+#: vc_extend/config/override_map.php:2572
+#: vc_extend/config/override_map.php:2940
+#: vc_extend/config/override_map.php:3518
+#: vc_extend/config/override_map.php:3567 vc_extend/config/uncode_map.php:1041
+#: vc_extend/config/uncode_map.php:1858 vc_extend/config/uncode_map.php:1872
+#: vc_extend/config/uncode_map.php:1917 vc_extend/config/uncode_map.php:2601
+msgid "Center"
+msgstr "Centro"
+
+#: vc_extend/config/override_map.php:1803
+#: vc_extend/config/override_map.php:2536
+#: vc_extend/config/override_map.php:2573
+#: vc_extend/config/override_map.php:2942
+#: vc_extend/config/override_map.php:3519
+#: vc_extend/config/override_map.php:3568
+#: vc_extend/config/override_map.php:4185 vc_extend/config/uncode_map.php:1042
+#: vc_extend/config/uncode_map.php:1859 vc_extend/config/uncode_map.php:1873
+#: vc_extend/config/uncode_map.php:1918
+msgid "Right"
+msgstr "Destra"
+
+#: vc_extend/config/override_map.php:1817 vc_extend/config/uncode_map.php:1056
+msgid "'Show all' opposite"
+msgstr "'Mostra tutti' al contrario"
+
+#: vc_extend/config/override_map.php:1819 vc_extend/config/uncode_map.php:1058
+msgid "Activate this to position the 'Show all' button opposite to the rest."
+msgstr ""
+"Attiva questa opzione per posizionare il pulsante 'Mostra tutti' opposto al "
+"resto."
+
+#: vc_extend/config/override_map.php:1842 vc_extend/config/uncode_map.php:1081
+msgid "Filter menu uppercase"
+msgstr "Filtro menu maiuscolo"
+
+#: vc_extend/config/override_map.php:1844 vc_extend/config/uncode_map.php:1083
+msgid "Activate this to have the filter menu in uppercase."
+msgstr "Attiva questa opzione per avere il filtro menu in maiuscolo."
+
+#: vc_extend/config/override_map.php:1860 vc_extend/config/uncode_map.php:1099
+msgid "Filter menu mobile hidden"
+msgstr "Filtro menu mobile nascosto"
+
+#: vc_extend/config/override_map.php:1862 vc_extend/config/uncode_map.php:1101
+msgid "Activate this to hide the filter menu in mobile mode."
+msgstr ""
+"Attiva questa opzione per nascondere il filtro menu nella modalità mobile."
+
+#: vc_extend/config/override_map.php:1878 vc_extend/config/uncode_map.php:1117
+msgid "Filter scroll"
+msgstr "Filtro scorrevole"
+
+#: vc_extend/config/override_map.php:1880 vc_extend/config/uncode_map.php:1119
+msgid "Activate this to scroll to the  module when filtering."
+msgstr "Attiva questo per scorrere al modulo durante il filtraggio."
+
+#: vc_extend/config/override_map.php:1896 vc_extend/config/uncode_map.php:1135
+#, fuzzy
+msgid "Filter sticky"
+msgstr "Filtro skin"
+
+#: vc_extend/config/override_map.php:1898 vc_extend/config/uncode_map.php:1137
+#, fuzzy
+msgid "Activate this to have a sticky filter menu when scrolling."
+msgstr "Attiva questa opzione per avere il filtro menu in maiuscolo."
+
+#: vc_extend/config/override_map.php:1914 vc_extend/config/uncode_map.php:1356
+msgid "Items gap"
+msgstr "Distanza articoli"
+
+#: vc_extend/config/override_map.php:1920 vc_extend/config/uncode_map.php:1362
+msgid "Set the items gap."
+msgstr "Impostare lo spazio articoli."
+
+#: vc_extend/config/override_map.php:1925 vc_extend/config/uncode_map.php:1367
+msgid "Inner module padding"
+msgstr "Padding modulo interno"
+
+#: vc_extend/config/override_map.php:1927 vc_extend/config/uncode_map.php:1369
+msgid ""
+"Activate this to have an inner padding with the same size as the items gap."
+msgstr ""
+"Attiva questo per avere un padding interno con la stessa dimensione dello "
+"spazio tra le voci."
+
+#: vc_extend/config/override_map.php:1944
+#: vc_extend/config/override_map.php:3212 vc_extend/config/uncode_map.php:15
+#: vc_extend/config/uncode_map.php:323 vc_extend/config/uncode_map.php:500
+#: vc_extend/config/uncode_map.php:629
+msgid ""
+"Control teasers look. Enable blocks and place them in desired order. Note: "
+"This setting can be overridden on post to post basis."
+msgstr ""
+"Controllo aspetto teasers. Attiva i blocchi e mettili nell'ordine "
+"desiderato. Nota: Questa impostazione può essere sovrascritta dall'articolo "
+"all'articolo base"
+
+#: vc_extend/config/override_map.php:1954
+#: vc_extend/config/override_map.php:2749
+#: vc_extend/config/override_map.php:2760
+#: vc_extend/config/override_map.php:2770
+#: vc_extend/config/override_map.php:2780
+#: vc_extend/config/override_map.php:2790
+#: vc_extend/config/override_map.php:2800
+#: vc_extend/config/override_map.php:2810
+#: vc_extend/config/override_map.php:2820
+#: vc_extend/config/override_map.php:3073
+#: vc_extend/config/override_map.php:3737
+#: vc_extend/config/override_map.php:3748
+#: vc_extend/config/override_map.php:3758
+#: vc_extend/config/override_map.php:3768
+#: vc_extend/config/override_map.php:3778
+#: vc_extend/config/override_map.php:3788
+#: vc_extend/config/override_map.php:3798
+#: vc_extend/config/override_map.php:3808
+#: vc_extend/config/override_map.php:3818
+#: vc_extend/config/override_map.php:4245
+#: vc_extend/config/override_map.php:4260
+#: vc_extend/config/override_map.php:4274
+#: vc_extend/config/override_map.php:4288
+#: vc_extend/config/override_map.php:4302
+#: vc_extend/config/override_map.php:4316
+#: vc_extend/config/override_map.php:4330
+#: vc_extend/config/override_map.php:4344
+#: vc_extend/config/override_map.php:4358 vc_extend/config/uncode_map.php:43
+#: vc_extend/config/uncode_map.php:351 vc_extend/config/uncode_map.php:528
+#: vc_extend/config/uncode_map.php:657 vc_extend/config/uncode_map.php:2104
+#: vc_extend/config/uncode_map.php:2115 vc_extend/config/uncode_map.php:2125
+#: vc_extend/config/uncode_map.php:2135 vc_extend/config/uncode_map.php:2145
+#: vc_extend/config/uncode_map.php:2155 vc_extend/config/uncode_map.php:2165
+#: vc_extend/config/uncode_map.php:2175
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: vc_extend/config/override_map.php:1962 vc_extend/config/uncode_map.php:47
+#: vc_extend/config/uncode_map.php:355 vc_extend/config/uncode_map.php:532
+#: vc_extend/config/uncode_map.php:661
+msgid "No link"
+msgstr "Nessun link"
+
+#: vc_extend/config/override_map.php:1968
+#: vc_extend/config/override_map.php:3226 vc_extend/config/uncode_map.php:53
+#: vc_extend/config/uncode_map.php:361 vc_extend/config/uncode_map.php:538
+#: vc_extend/config/uncode_map.php:667
+msgid "Original"
+msgstr "Originale"
+
+#: vc_extend/config/override_map.php:1972
+#: vc_extend/config/override_map.php:3082
+#: vc_extend/config/override_map.php:3230 vc_extend/config/uncode_map.php:57
+#: vc_extend/config/uncode_map.php:365 vc_extend/config/uncode_map.php:542
+#: vc_extend/config/uncode_map.php:671
+msgid "Poster"
+msgstr "Poster"
+
+#: vc_extend/config/override_map.php:1978
+#: vc_extend/config/override_map.php:2673
+#: vc_extend/config/override_map.php:2925
+#: vc_extend/config/override_map.php:3236
+#: vc_extend/config/override_map.php:3708
+#: vc_extend/config/override_map.php:4167
+#: vc_extend/config/override_map.php:4639
+#: vc_extend/config/override_map.php:5658 vc_extend/config/uncode_map.php:97
+#: vc_extend/config/uncode_map.php:445 vc_extend/config/uncode_map.php:574
+#: vc_extend/config/uncode_map.php:717 vc_extend/config/uncode_map.php:2032
+#: vc_extend/config/uncode_map.php:2500
+msgid "Icon"
+msgstr "Icona"
+
+#: vc_extend/config/override_map.php:1994 vc_extend/config/uncode_map.php:79
+#: vc_extend/config/uncode_map.php:387 vc_extend/config/uncode_map.php:556
+#: vc_extend/config/uncode_map.php:695
+msgid "Category"
+msgstr "Categoria"
+
+#: vc_extend/config/override_map.php:1998
+#: vc_extend/config/override_map.php:3252 vc_extend/config/uncode_map.php:101
+#: vc_extend/config/uncode_map.php:449 vc_extend/config/uncode_map.php:578
+#: vc_extend/config/uncode_map.php:721
+msgid "Spacer"
+msgstr ""
+
+#: vc_extend/config/override_map.php:2002
+#: vc_extend/config/override_map.php:3256 vc_extend/config/uncode_map.php:105
+#: vc_extend/config/uncode_map.php:453 vc_extend/config/uncode_map.php:582
+#: vc_extend/config/uncode_map.php:725
+msgid "0.5x"
+msgstr ""
+
+#: vc_extend/config/override_map.php:2006
+#: vc_extend/config/override_map.php:3260 vc_extend/config/uncode_map.php:109
+#: vc_extend/config/uncode_map.php:457 vc_extend/config/uncode_map.php:586
+#: vc_extend/config/uncode_map.php:729
+msgid "1x"
+msgstr ""
+
+#: vc_extend/config/override_map.php:2016
+#: vc_extend/config/override_map.php:3270 vc_extend/config/uncode_map.php:119
+#: vc_extend/config/uncode_map.php:467 vc_extend/config/uncode_map.php:596
+#: vc_extend/config/uncode_map.php:739
+msgid "Separator One"
+msgstr "Separatore uno"
+
+#: vc_extend/config/override_map.php:2020
+#: vc_extend/config/override_map.php:2034
+#: vc_extend/config/override_map.php:3274
+#: vc_extend/config/override_map.php:3288 vc_extend/config/uncode_map.php:123
+#: vc_extend/config/uncode_map.php:137 vc_extend/config/uncode_map.php:471
+#: vc_extend/config/uncode_map.php:485 vc_extend/config/uncode_map.php:600
+#: vc_extend/config/uncode_map.php:614 vc_extend/config/uncode_map.php:743
+#: vc_extend/config/uncode_map.php:757
+msgid "Full width"
+msgstr "Larghezza massima"
+
+#: vc_extend/config/override_map.php:2024
+#: vc_extend/config/override_map.php:2038
+#: vc_extend/config/override_map.php:3278
+#: vc_extend/config/override_map.php:3292 vc_extend/config/uncode_map.php:127
+#: vc_extend/config/uncode_map.php:141 vc_extend/config/uncode_map.php:475
+#: vc_extend/config/uncode_map.php:489 vc_extend/config/uncode_map.php:604
+#: vc_extend/config/uncode_map.php:618 vc_extend/config/uncode_map.php:747
+#: vc_extend/config/uncode_map.php:761
+msgid "Reduced width"
+msgstr "Larghezza ridotta"
+
+#: vc_extend/config/override_map.php:2030
+#: vc_extend/config/override_map.php:3284 vc_extend/config/uncode_map.php:133
+#: vc_extend/config/uncode_map.php:481 vc_extend/config/uncode_map.php:610
+#: vc_extend/config/uncode_map.php:753
+msgid "Separator Two"
+msgstr "Separatore due"
+
+#: vc_extend/config/override_map.php:2044
+#: vc_extend/config/override_map.php:3298
+msgid "Team socials"
+msgstr "Team socials"
+
+#: vc_extend/config/override_map.php:2050 vc_extend/config/uncode_map.php:1390
+msgid "Carousel items height"
+msgstr "Altezza voci carosello"
+
+#: vc_extend/config/override_map.php:2052 vc_extend/config/uncode_map.php:1392
+msgid "Specify the carousel items height."
+msgstr "Specificare l'altezza delle voci del carosello."
+
+#: vc_extend/config/override_map.php:2054 vc_extend/config/uncode_map.php:1394
+msgid "Auto"
+msgstr "Automatico"
+
+#: vc_extend/config/override_map.php:2055 vc_extend/config/uncode_map.php:1395
+msgid "Equal height"
+msgstr "Altezza uguale"
+
+#: vc_extend/config/override_map.php:2061 vc_extend/config/uncode_map.php:1401
+msgid "Items vertical alignment"
+msgstr "Voci allineamento verticale"
+
+#: vc_extend/config/override_map.php:2063 vc_extend/config/uncode_map.php:1403
+msgid "Specify the items vertical alignment."
+msgstr "Specificare le voci dell'allineamento verticale."
+
+#: vc_extend/config/override_map.php:2065
+#: vc_extend/config/override_map.php:2548
+#: vc_extend/config/override_map.php:3535 vc_extend/config/uncode_map.php:1405
+#: vc_extend/config/uncode_map.php:1885
+msgid "Top"
+msgstr "Inizio"
+
+#: vc_extend/config/override_map.php:2066
+#: vc_extend/config/override_map.php:2547
+#: vc_extend/config/override_map.php:3534 vc_extend/config/uncode_map.php:1406
+#: vc_extend/config/uncode_map.php:1884
+msgid "Middle"
+msgstr "Centro"
+
+#: vc_extend/config/override_map.php:2067
+#: vc_extend/config/override_map.php:2549
+#: vc_extend/config/override_map.php:3536 vc_extend/config/uncode_map.php:1407
+#: vc_extend/config/uncode_map.php:1886
+msgid "Bottom"
+msgstr "Fine"
+
+#: vc_extend/config/override_map.php:2081 vc_extend/config/uncode_map.php:1421
+#: vc_extend/config/uncode_map.php:2226
+msgid "Transition type"
+msgstr "Tipo transizione"
+
+#: vc_extend/config/override_map.php:2084 vc_extend/config/uncode_map.php:1424
+#: vc_extend/config/uncode_map.php:2229
+msgid "Slide"
+msgstr "Slide"
+
+#: vc_extend/config/override_map.php:2085 vc_extend/config/uncode_map.php:1425
+#: vc_extend/config/uncode_map.php:2230
+msgid "Fade"
+msgstr "Fade"
+
+#: vc_extend/config/override_map.php:2087 vc_extend/config/uncode_map.php:1427
+#: vc_extend/config/uncode_map.php:2232
+msgid "Specify the transition type."
+msgstr "Specificare il tipo di transizione."
+
+#: vc_extend/config/override_map.php:2096 vc_extend/config/uncode_map.php:1436
+#: vc_extend/config/uncode_map.php:2236
+msgid "Auto rotate slides"
+msgstr "Slide auto rotanti"
+
+#: vc_extend/config/override_map.php:2103
+#: vc_extend/config/override_map.php:2121 vc_extend/config/uncode_map.php:1443
+#: vc_extend/config/uncode_map.php:1461 vc_extend/config/uncode_map.php:2243
+#: vc_extend/config/uncode_map.php:2257
+msgid "Disable"
+msgstr "Disabilitare"
+
+#: vc_extend/config/override_map.php:2105 vc_extend/config/uncode_map.php:1445
+#: vc_extend/config/uncode_map.php:2246
+msgid "Specify the automatic timeout between slides in milliseconds."
+msgstr "Specifica la pausa automatica tra le slide in millisecondi."
+
+#: vc_extend/config/override_map.php:2114 vc_extend/config/uncode_map.php:1454
+#: vc_extend/config/uncode_map.php:2250
+msgid "Navigation speed"
+msgstr "Velocità di navigazione"
+
+#: vc_extend/config/override_map.php:2124 vc_extend/config/uncode_map.php:1464
+#: vc_extend/config/uncode_map.php:2260
+msgid "Specify the navigation speed between slides in milliseconds."
+msgstr "Specifica la velocità di navigazione tra le slide in millisecondi."
+
+#: vc_extend/config/override_map.php:2133 vc_extend/config/uncode_map.php:1473
+#: vc_extend/config/uncode_map.php:2264
+msgid "Loop"
+msgstr "Loop"
+
+#: vc_extend/config/override_map.php:2135 vc_extend/config/uncode_map.php:1475
+msgid "Activate the loop option to make the carousel infinite."
+msgstr "Attiva l'opzione loop per rendere il carosello infinito."
+
+#: vc_extend/config/override_map.php:2147 vc_extend/config/uncode_map.php:1487
+msgid "Navigation"
+msgstr "Navigatione"
+
+#: vc_extend/config/override_map.php:2149 vc_extend/config/uncode_map.php:1489
+msgid "Activate the navigation to show navigational arrows."
+msgstr "Attiva la navigazione per mostrare le frecce di navigazione."
+
+#: vc_extend/config/override_map.php:2161 vc_extend/config/uncode_map.php:1501
+msgid "Mobile navigation"
+msgstr "Navigazione mobile"
+
+#: vc_extend/config/override_map.php:2163 vc_extend/config/uncode_map.php:1503
+msgid "Activate the navigation to show navigational arrows for mobile devices."
+msgstr ""
+"Attiva la navigazione per mostrare le frecce di navigazione per i "
+"dispositivi mobili."
+
+#: vc_extend/config/override_map.php:2175 vc_extend/config/uncode_map.php:1515
+msgid "Navigation skin"
+msgstr "Navigazione skin"
+
+#: vc_extend/config/override_map.php:2177 vc_extend/config/uncode_map.php:1517
+msgid "Specify the navigation arrows skin."
+msgstr "Specifica il colore/skin delle frecce di navigazione."
+
+#: vc_extend/config/override_map.php:2190 vc_extend/config/uncode_map.php:1530
+msgid "Dots navigation"
+msgstr "Navigazione a punti"
+
+#: vc_extend/config/override_map.php:2192 vc_extend/config/uncode_map.php:1532
+msgid "Activate the dots navigation to show navigational dots in the bottom."
+msgstr ""
+"Attiva la navigazione a punti per mostrare i punti di navigazione in fondo."
+
+#: vc_extend/config/override_map.php:2204 vc_extend/config/uncode_map.php:1544
+msgid "Mobile dots navigation"
+msgstr "Navigazione a punti mobile"
+
+#: vc_extend/config/override_map.php:2206 vc_extend/config/uncode_map.php:1546
+msgid ""
+"Activate the dots navigation to show navigational dots in the bottom for "
+"mobile devices."
+msgstr ""
+"Attiva la navigazione a punti per mostrare i punti di navigazione in fondo "
+"per i dispositivi mobili."
+
+#: vc_extend/config/override_map.php:2218 vc_extend/config/uncode_map.php:1558
+msgid "Dots navigation inside"
+msgstr "Navigazione a punti interna"
+
+#: vc_extend/config/override_map.php:2220 vc_extend/config/uncode_map.php:1560
+msgid "Activate to have the dots navigation inside the carousel."
+msgstr "Attiva per avere la navigazione a punti nel carosello."
+
+#: vc_extend/config/override_map.php:2232 vc_extend/config/uncode_map.php:1572
+msgid "Autoheight"
+msgstr "Altezza automatica"
+
+#: vc_extend/config/override_map.php:2234 vc_extend/config/uncode_map.php:1574
+msgid "Activate to adjust the height automatically when possible."
+msgstr "Attiva per aggiustare l'altezza automaticamente quando è possibile."
+
+#: vc_extend/config/override_map.php:2246
+msgid "Textual carousel "
+msgstr "Carosello testuale"
+
+#: vc_extend/config/override_map.php:2248
+msgid "Activate this to have a carousel with only text."
+msgstr "Attiva questo per avere un carosello sono con il testo."
+
+#: vc_extend/config/override_map.php:2260 vc_extend/config/uncode_map.php:1586
+msgid "Breakpoint - First step"
+msgstr "Breakpoint - Primo passo"
+
+#: vc_extend/config/override_map.php:2263 vc_extend/config/uncode_map.php:1589
+msgid ""
+"Insert the isotope large layout breakpoint in pixel.<br />N.B. This is "
+"referring to the width of the isotope container, not to the window width."
+msgstr ""
+"Inserisci il breakpoint del layout isotope grande in pixel.<br />N.B. Questo "
+"è riferito alla larghezza del contenitore isotope, non alla larghezza della "
+"finestra."
+
+#: vc_extend/config/override_map.php:2274 vc_extend/config/uncode_map.php:1600
+msgid "Breakpoint - Second step"
+msgstr "Breakpoint - Secondo passo"
+
+#: vc_extend/config/override_map.php:2277 vc_extend/config/uncode_map.php:1603
+msgid ""
+"Insert the isotope medium layout breakpoint in pixel.<br />N.B. This is "
+"referring to the width of the isotope container, not to the window width."
+msgstr ""
+"Inserisci il breakpoint del layout isotope medio in pixel.<br />N.B. Questo "
+"è riferito alla larghezza del contenitore isotope, non alla larghezza della "
+"finestra."
+
+#: vc_extend/config/override_map.php:2288 vc_extend/config/uncode_map.php:1614
+msgid "Breakpoint - Third step"
+msgstr "Breakpoint - Terzo passo"
+
+#: vc_extend/config/override_map.php:2291 vc_extend/config/uncode_map.php:1617
+msgid ""
+"Insert the isotope small layout breakpoint in pixel.<br />N.B. This is "
+"referring to the width of the isotope container, not to the window width."
+msgstr ""
+"Inserisci il breakpoint del layout isotope piccolo in pixel.<br />N.B. "
+"Questo è riferito alla larghezza del contenitore isotope, non alla larghezza "
+"della finestra."
+
+#: vc_extend/config/override_map.php:2302
+#: vc_extend/config/override_map.php:3304 vc_extend/config/uncode_map.php:1628
+msgid "Block layout"
+msgstr "Layout blocco "
+
+#: vc_extend/config/override_map.php:2304
+#: vc_extend/config/override_map.php:3306 vc_extend/config/uncode_map.php:1630
+msgid "Specify the text positioning inside the box."
+msgstr "Specifica il posizionamento del testo nella casella."
+
+#: vc_extend/config/override_map.php:2306
+#: vc_extend/config/override_map.php:3308 vc_extend/config/uncode_map.php:1633
+msgid "Content overlay"
+msgstr "Sovrapposizione contenuto"
+
+#: vc_extend/config/override_map.php:2307
+#: vc_extend/config/override_map.php:3309 vc_extend/config/uncode_map.php:1632
+msgid "Content under image"
+msgstr "Contenuto sotto l'immagine"
+
+#: vc_extend/config/override_map.php:2309
+#: vc_extend/config/override_map.php:2324
+#: vc_extend/config/override_map.php:2335
+#: vc_extend/config/override_map.php:2367
+#: vc_extend/config/override_map.php:2380
+#: vc_extend/config/override_map.php:2392
+#: vc_extend/config/override_map.php:2403
+#: vc_extend/config/override_map.php:2411
+#: vc_extend/config/override_map.php:2423
+#: vc_extend/config/override_map.php:2434
+#: vc_extend/config/override_map.php:2445
+#: vc_extend/config/override_map.php:2456
+#: vc_extend/config/override_map.php:2467
+#: vc_extend/config/override_map.php:2482
+#: vc_extend/config/override_map.php:2493
+#: vc_extend/config/override_map.php:2504
+#: vc_extend/config/override_map.php:2515
+#: vc_extend/config/override_map.php:2526
+#: vc_extend/config/override_map.php:2539
+#: vc_extend/config/override_map.php:2551
+#: vc_extend/config/override_map.php:2563
+#: vc_extend/config/override_map.php:2575
+#: vc_extend/config/override_map.php:2590
+#: vc_extend/config/override_map.php:2600
+#: vc_extend/config/override_map.php:2610
+#: vc_extend/config/override_map.php:2627
+#: vc_extend/config/override_map.php:2635
+#: vc_extend/config/override_map.php:2644
+#: vc_extend/config/override_map.php:2653
+#: vc_extend/config/override_map.php:2661
+#: vc_extend/config/override_map.php:2669
+#: vc_extend/config/override_map.php:2684
+#: vc_extend/config/override_map.php:2691
+#: vc_extend/config/override_map.php:2701
+#: vc_extend/config/override_map.php:2711
+#: vc_extend/config/override_map.php:2714
+#: vc_extend/config/override_map.php:2718
+#: vc_extend/config/override_map.php:2726 vc_extend/config/uncode_map.php:1635
+#: vc_extend/config/uncode_map.php:1644 vc_extend/config/uncode_map.php:1659
+#: vc_extend/config/uncode_map.php:1691 vc_extend/config/uncode_map.php:1703
+#: vc_extend/config/uncode_map.php:1715 vc_extend/config/uncode_map.php:1726
+#: vc_extend/config/uncode_map.php:1734 vc_extend/config/uncode_map.php:1746
+#: vc_extend/config/uncode_map.php:1757 vc_extend/config/uncode_map.php:1768
+#: vc_extend/config/uncode_map.php:1779 vc_extend/config/uncode_map.php:1790
+#: vc_extend/config/uncode_map.php:1805 vc_extend/config/uncode_map.php:1816
+#: vc_extend/config/uncode_map.php:1827 vc_extend/config/uncode_map.php:1838
+#: vc_extend/config/uncode_map.php:1849 vc_extend/config/uncode_map.php:1862
+#: vc_extend/config/uncode_map.php:1876 vc_extend/config/uncode_map.php:1888
+#: vc_extend/config/uncode_map.php:1904 vc_extend/config/uncode_map.php:1920
+#: vc_extend/config/uncode_map.php:1939 vc_extend/config/uncode_map.php:1949
+#: vc_extend/config/uncode_map.php:1959 vc_extend/config/uncode_map.php:1976
+#: vc_extend/config/uncode_map.php:1984 vc_extend/config/uncode_map.php:1993
+#: vc_extend/config/uncode_map.php:2002 vc_extend/config/uncode_map.php:2010
+#: vc_extend/config/uncode_map.php:2018 vc_extend/config/uncode_map.php:2028
+#: vc_extend/config/uncode_map.php:2040 vc_extend/config/uncode_map.php:2047
+#: vc_extend/config/uncode_map.php:2057 vc_extend/config/uncode_map.php:2067
+#: vc_extend/config/uncode_map.php:2069 vc_extend/config/uncode_map.php:2070
+#: vc_extend/config/uncode_map.php:2071
+msgid "Blocks"
+msgstr "Blocchi"
+
+#: vc_extend/config/override_map.php:2313
+#: vc_extend/config/override_map.php:3101 vc_extend/config/uncode_map.php:1639
+msgid "Width"
+msgstr "Larghezza "
+
+#: vc_extend/config/override_map.php:2315 vc_extend/config/uncode_map.php:1641
+msgid "Specify the box width."
+msgstr "Specificare la larghezza del box.."
+
+#: vc_extend/config/override_map.php:2330 vc_extend/config/uncode_map.php:1656
+msgid "Specify the box height."
+msgstr "Specificare l'altezza del box.."
+
+#: vc_extend/config/override_map.php:2332
+#: vc_extend/config/override_map.php:4093 vc_extend/config/uncode_map.php:427
+#: vc_extend/config/uncode_map.php:1263
+msgid "Default"
+msgstr "Predefinito"
+
+#: vc_extend/config/override_map.php:2349 vc_extend/config/uncode_map.php:1673
+msgid "Media ratio"
+msgstr "Rapporto media"
+
+#: vc_extend/config/override_map.php:2378
+#: vc_extend/config/override_map.php:2409
+#: vc_extend/config/override_map.php:3336
+#: vc_extend/config/override_map.php:3348 vc_extend/config/uncode_map.php:1701
+msgid "Specify a background color for the box."
+msgstr "Specifica un colore di fondo per il box."
+
+#: vc_extend/config/override_map.php:2384
+#: vc_extend/config/override_map.php:3168
+#: vc_extend/config/override_map.php:4089 vc_extend/config/uncode_map.php:1707
+msgid "Shape"
+msgstr "Forma"
+
+#: vc_extend/config/override_map.php:2387
+#: vc_extend/config/override_map.php:3171
+#: vc_extend/config/override_map.php:5014 vc_extend/config/uncode_map.php:1710
+msgid "Select…"
+msgstr "Seleziona..."
+
+#: vc_extend/config/override_map.php:2388
+#: vc_extend/config/override_map.php:3172 vc_extend/config/uncode_map.php:1711
+msgid "Rounded"
+msgstr "Arrotondato"
+
+#: vc_extend/config/override_map.php:2389
+#: vc_extend/config/override_map.php:3173 vc_extend/config/uncode_map.php:1712
+msgid "Circular"
+msgstr "Circolare"
+
+#: vc_extend/config/override_map.php:2391 vc_extend/config/uncode_map.php:1714
+msgid "Specify one if you want to shape the block."
+msgstr "Specificane uno se si vuole dare una forma al blocco."
+
+#: vc_extend/config/override_map.php:2396
+#: vc_extend/config/override_map.php:3319
+msgid "Skin"
+msgstr "Skin"
+
+#: vc_extend/config/override_map.php:2398
+#: vc_extend/config/override_map.php:3321 vc_extend/config/uncode_map.php:1721
+msgid "Specify the skin inside the content box."
+msgstr "Specificare il colore/skin all'interno del box del contenuto."
+
+#: vc_extend/config/override_map.php:2415
+#: vc_extend/config/override_map.php:3358 vc_extend/config/uncode_map.php:1738
+msgid "Overlay coloration"
+msgstr "Colore di sovrapposizione"
+
+#: vc_extend/config/override_map.php:2417
+#: vc_extend/config/override_map.php:3360 vc_extend/config/uncode_map.php:1740
+msgid ""
+"Specify the coloration style for the overlay.<br />N.B. For the gradient you "
+"can't customize the overlay color."
+msgstr ""
+"Specifica lo stile del colore overlay.<br />N.B. Per il gradiente non puoi "
+"personalizzare il colore overlay."
+
+#: vc_extend/config/override_map.php:2419
+#: vc_extend/config/override_map.php:3362 vc_extend/config/uncode_map.php:1742
+msgid "Fully colored"
+msgstr "Completamente colorato"
+
+#: vc_extend/config/override_map.php:2420
+#: vc_extend/config/override_map.php:3363 vc_extend/config/uncode_map.php:1743
+msgid "Gradient top"
+msgstr "Gradiente più alto"
+
+#: vc_extend/config/override_map.php:2421
+#: vc_extend/config/override_map.php:3364 vc_extend/config/uncode_map.php:1744
+msgid "Gradient bottom"
+msgstr "Gradiente più basso"
+
+#: vc_extend/config/override_map.php:2427
+#: vc_extend/config/override_map.php:3374 vc_extend/config/uncode_map.php:1750
+msgid "Overlay opacity"
+msgstr "Opacità di sovrapposizione"
+
+#: vc_extend/config/override_map.php:2433
+#: vc_extend/config/override_map.php:3380 vc_extend/config/uncode_map.php:1756
+msgid "Set the overlay opacity."
+msgstr "Impostare l'opacità per la sovrapposizione."
+
+#: vc_extend/config/override_map.php:2438
+#: vc_extend/config/override_map.php:3389 vc_extend/config/uncode_map.php:1761
+msgid "Overlay text visibility"
+msgstr "Visibilità testo di sovrapposizione"
+
+#: vc_extend/config/override_map.php:2440
+#: vc_extend/config/override_map.php:3391 vc_extend/config/uncode_map.php:1763
+msgid "Activate this to show the text as starting point."
+msgstr ""
+"Attivare questa opzione per visualizzare il testo come punto di partenza."
+
+#: vc_extend/config/override_map.php:2442
+#: vc_extend/config/override_map.php:2479
+#: vc_extend/config/override_map.php:3393
+#: vc_extend/config/override_map.php:3442 vc_extend/config/uncode_map.php:1765
+#: vc_extend/config/uncode_map.php:1802
+msgid "Hidden"
+msgstr "Nascosto"
+
+#: vc_extend/config/override_map.php:2443
+#: vc_extend/config/override_map.php:2480
+#: vc_extend/config/override_map.php:3394
+#: vc_extend/config/override_map.php:3443 vc_extend/config/uncode_map.php:1766
+#: vc_extend/config/uncode_map.php:1803
+msgid "Visible"
+msgstr "Visibile"
+
+#: vc_extend/config/override_map.php:2449
+#: vc_extend/config/override_map.php:3404 vc_extend/config/uncode_map.php:1772
+msgid "Overlay text animation"
+msgstr "Animazione testo di sovrapposizione"
+
+#: vc_extend/config/override_map.php:2451
+#: vc_extend/config/override_map.php:3406 vc_extend/config/uncode_map.php:1774
+msgid "Activate this to animate the text on mouse over."
+msgstr "Attiva questa opzione per animare il testo al passaggio del mouse."
+
+#: vc_extend/config/override_map.php:2453
+#: vc_extend/config/override_map.php:2490
+#: vc_extend/config/override_map.php:2513
+#: vc_extend/config/override_map.php:2523
+#: vc_extend/config/override_map.php:3408
+#: vc_extend/config/override_map.php:3457
+#: vc_extend/config/override_map.php:3488
+#: vc_extend/config/override_map.php:3502 vc_extend/config/uncode_map.php:1776
+#: vc_extend/config/uncode_map.php:1813 vc_extend/config/uncode_map.php:1836
+#: vc_extend/config/uncode_map.php:1846
+msgid "Animated"
+msgstr "Animato"
+
+#: vc_extend/config/override_map.php:2454
+#: vc_extend/config/override_map.php:2491
+#: vc_extend/config/override_map.php:2512
+#: vc_extend/config/override_map.php:2524
+#: vc_extend/config/override_map.php:3409
+#: vc_extend/config/override_map.php:3458
+#: vc_extend/config/override_map.php:3487
+#: vc_extend/config/override_map.php:3503 vc_extend/config/uncode_map.php:1777
+#: vc_extend/config/uncode_map.php:1814 vc_extend/config/uncode_map.php:1835
+#: vc_extend/config/uncode_map.php:1847
+msgid "Static"
+msgstr "Statico"
+
+#: vc_extend/config/override_map.php:2460
+#: vc_extend/config/override_map.php:3419 vc_extend/config/uncode_map.php:1783
+msgid "Overlay text animation type"
+msgstr "Tipo di animazione della sovrapposizione del testo"
+
+#: vc_extend/config/override_map.php:2462
+#: vc_extend/config/override_map.php:3421 vc_extend/config/uncode_map.php:1785
+msgid "Specify the animation type."
+msgstr "Specifica il tipo di animazione."
+
+#: vc_extend/config/override_map.php:2475
+#: vc_extend/config/override_map.php:3438 vc_extend/config/uncode_map.php:1798
+msgid "Overlay visibility"
+msgstr "Visibilità sovrapposizione"
+
+#: vc_extend/config/override_map.php:2477
+#: vc_extend/config/override_map.php:3440 vc_extend/config/uncode_map.php:1800
+msgid "Activate this to show the overlay as starting point."
+msgstr ""
+"Attivare questa opzione per mostrare la sovrapposizione come punto di "
+"partenza."
+
+#: vc_extend/config/override_map.php:2486
+#: vc_extend/config/override_map.php:3453 vc_extend/config/uncode_map.php:1809
+msgid "Overlay animation"
+msgstr "Animazione di sovrapposizione"
+
+#: vc_extend/config/override_map.php:2488
+#: vc_extend/config/override_map.php:3455 vc_extend/config/uncode_map.php:1811
+msgid "Activate this to animate the overlay on mouse over."
+msgstr ""
+"Attiva questa opzione per animare la sovrapposizione al passaggio del mouse."
+
+#: vc_extend/config/override_map.php:2497
+#: vc_extend/config/override_map.php:3468 vc_extend/config/uncode_map.php:1820
+msgid "Image coloration"
+msgstr "Colorazione immagine"
+
+#: vc_extend/config/override_map.php:2499
+#: vc_extend/config/override_map.php:3470 vc_extend/config/uncode_map.php:1822
+msgid "Specify the image coloration mode."
+msgstr "Specifica la modalità di colorazione dell'immagine."
+
+#: vc_extend/config/override_map.php:2502
+#: vc_extend/config/override_map.php:3473 vc_extend/config/uncode_map.php:1825
+msgid "Desaturated"
+msgstr "Desaturato"
+
+#: vc_extend/config/override_map.php:2508
+#: vc_extend/config/override_map.php:3483 vc_extend/config/uncode_map.php:1831
+msgid "Image coloration animation"
+msgstr "Animazione colorazione immagine"
+
+#: vc_extend/config/override_map.php:2510
+#: vc_extend/config/override_map.php:3485 vc_extend/config/uncode_map.php:1833
+msgid "Activate this to animate the image coloration on mouse over."
+msgstr ""
+"Attiva questa opzione per animare la colorazione dell'immagine al passaggio "
+"del mouse."
+
+#: vc_extend/config/override_map.php:2519
+#: vc_extend/config/override_map.php:3498 vc_extend/config/uncode_map.php:1842
+msgid "Image animation"
+msgstr "Animazione immagine"
+
+#: vc_extend/config/override_map.php:2521
+#: vc_extend/config/override_map.php:3500 vc_extend/config/uncode_map.php:1844
+msgid "Activate this to animate the image on mouse over."
+msgstr "Attiva questa opzione per animare l'immagine al passaggio del mouse."
+
+#: vc_extend/config/override_map.php:2530
+#: vc_extend/config/override_map.php:3513 vc_extend/config/uncode_map.php:1853
+msgid "Text horizontal alignment"
+msgstr "Allineamento testo orizzontale"
+
+#: vc_extend/config/override_map.php:2532
+#: vc_extend/config/override_map.php:3515 vc_extend/config/uncode_map.php:1855
+msgid "Specify the horizontal alignment."
+msgstr "Specifica l'allineamento orizzontale."
+
+#: vc_extend/config/override_map.php:2537
+#: vc_extend/config/override_map.php:3520 vc_extend/config/uncode_map.php:1860
+#: vc_extend/config/uncode_map.php:1874
+msgid "Justify"
+msgstr "Giustificare"
+
+#: vc_extend/config/override_map.php:2543
+#: vc_extend/config/override_map.php:3530 vc_extend/config/uncode_map.php:1880
+msgid "Content vertical position"
+msgstr "Posizione verticale del contenuto."
+
+#: vc_extend/config/override_map.php:2545
+#: vc_extend/config/override_map.php:3532 vc_extend/config/uncode_map.php:1882
+msgid "Specify the text vertical position."
+msgstr "Specificare la posizione verticale del testo."
+
+#: vc_extend/config/override_map.php:2555
+#: vc_extend/config/override_map.php:3546 vc_extend/config/uncode_map.php:1896
+msgid "Content dimension reduced"
+msgstr "Dimensione contenuto ridotta"
+
+#: vc_extend/config/override_map.php:2557
+#: vc_extend/config/override_map.php:3548 vc_extend/config/uncode_map.php:1898
+msgid ""
+"Specify the text reduction amount to shrink the overlay content dimension."
+msgstr ""
+"Specificare la quantità di riduzione del testo per ridurre la dimensione dei "
+"contenuti di sovrapposizione."
+
+#: vc_extend/config/override_map.php:2559
+#: vc_extend/config/override_map.php:3550 vc_extend/config/uncode_map.php:1900
+msgid "100%"
+msgstr "100%"
+
+#: vc_extend/config/override_map.php:2560
+#: vc_extend/config/override_map.php:3551 vc_extend/config/uncode_map.php:1901
+msgid "75%"
+msgstr "75%"
+
+#: vc_extend/config/override_map.php:2561
+#: vc_extend/config/override_map.php:3552 vc_extend/config/uncode_map.php:1902
+msgid "50%"
+msgstr "50%"
+
+#: vc_extend/config/override_map.php:2567
+#: vc_extend/config/override_map.php:3562 vc_extend/config/uncode_map.php:1912
+msgid "Content horizontal position"
+msgstr "Posizione orizzontale contenuto"
+
+#: vc_extend/config/override_map.php:2569
+#: vc_extend/config/override_map.php:3564 vc_extend/config/uncode_map.php:1914
+msgid "Specify the text horizontal position."
+msgstr "Specifica la posizione orizzontale del testo."
+
+#: vc_extend/config/override_map.php:2583
+#: vc_extend/config/override_map.php:3582 vc_extend/config/uncode_map.php:1932
+msgid "Padding around text"
+msgstr "Padding intorno al testo"
+
+#: vc_extend/config/override_map.php:2589
+#: vc_extend/config/override_map.php:3588 vc_extend/config/uncode_map.php:1938
+msgid "Set the text padding"
+msgstr "Imposta il padding del testo."
+
+#: vc_extend/config/override_map.php:2594
+#: vc_extend/config/override_map.php:3597 vc_extend/config/uncode_map.php:1943
+msgid "Reduce space between elements"
+msgstr "Riduci lo spazio tra gli elementi."
+
+#: vc_extend/config/override_map.php:2596
+#: vc_extend/config/override_map.php:3599 vc_extend/config/uncode_map.php:1945
+msgid ""
+"Activate this to have less space between all the text elements inside the "
+"box."
+msgstr ""
+"Attivare questa opzione per avere meno spazio tra tutti gli elementi del "
+"testo all'interno della casella."
+
+#: vc_extend/config/override_map.php:2604
+#: vc_extend/config/override_map.php:3611 vc_extend/config/uncode_map.php:1953
+msgid "Multiple click areas"
+msgstr "Aree a click multiplo"
+
+#: vc_extend/config/override_map.php:2606
+#: vc_extend/config/override_map.php:3613
+#, fuzzy
+msgid ""
+"Activate this to make every single elements clickable instead of the whole "
+"block (when available)."
+msgstr ""
+"Attivare questa opzione per rendere ogni elemento cliccabile invece "
+"dell'intero blocco (quando disponibile)."
+
+#: vc_extend/config/override_map.php:2618
+msgid "Title text trasnform"
+msgstr "Trasformare il titolo del testo"
+
+#: vc_extend/config/override_map.php:2620
+#: vc_extend/config/override_map.php:3631 vc_extend/config/uncode_map.php:1969
+msgid "Specify the title text transformation."
+msgstr "Specificare la trasformazione del testo del titolo."
+
+#: vc_extend/config/override_map.php:2623
+#: vc_extend/config/override_map.php:3634
+#: vc_extend/config/override_map.php:5485 vc_extend/config/uncode_map.php:1972
+#: vc_extend/config/uncode_map.php:2365 vc_extend/config/uncode_map.php:2446
+msgid "Uppercase"
+msgstr "Maiuscolo"
+
+#: vc_extend/config/override_map.php:2624
+#: vc_extend/config/override_map.php:3635
+#: vc_extend/config/override_map.php:5486 vc_extend/config/uncode_map.php:1973
+#: vc_extend/config/uncode_map.php:2366 vc_extend/config/uncode_map.php:2447
+msgid "Lowercase"
+msgstr "Minuscolo"
+
+#: vc_extend/config/override_map.php:2625
+#: vc_extend/config/override_map.php:3636
+#: vc_extend/config/override_map.php:5487 vc_extend/config/uncode_map.php:1974
+#: vc_extend/config/uncode_map.php:2367 vc_extend/config/uncode_map.php:2448
+msgid "Capitalize"
+msgstr "Scrivere in maiuscolo"
+
+#: vc_extend/config/override_map.php:2631
+#: vc_extend/config/override_map.php:3646 vc_extend/config/uncode_map.php:1980
+msgid "Title dimension"
+msgstr "Dimensione titolo"
+
+#: vc_extend/config/override_map.php:2633
+#: vc_extend/config/override_map.php:3648 vc_extend/config/uncode_map.php:1982
+msgid "Specify the title dimension."
+msgstr "Specifica la dimensione del titolo"
+
+#: vc_extend/config/override_map.php:2639
+#: vc_extend/config/override_map.php:3658
+#: vc_extend/config/override_map.php:5752 vc_extend/config/uncode_map.php:1988
+msgid "Title font family"
+msgstr "Famiglia di font del titolo"
+
+#: vc_extend/config/override_map.php:2641
+#: vc_extend/config/override_map.php:3660 vc_extend/config/uncode_map.php:1990
+msgid "Specify the title font family."
+msgstr "Specifica la famiglia di font del titolo.."
+
+#: vc_extend/config/override_map.php:2648
+#: vc_extend/config/override_map.php:3671 vc_extend/config/uncode_map.php:1997
+msgid "Title font weight"
+msgstr "Peso font del titolo"
+
+#: vc_extend/config/override_map.php:2650
+#: vc_extend/config/override_map.php:3673 vc_extend/config/uncode_map.php:1999
+msgid "Specify the title font weight."
+msgstr "Specificare il peso del font del titolo."
+
+#: vc_extend/config/override_map.php:2657
+#: vc_extend/config/override_map.php:3684
+#: vc_extend/config/override_map.php:5768 vc_extend/config/uncode_map.php:2006
+msgid "Title line height"
+msgstr "Altezza riga del titolo"
+
+#: vc_extend/config/override_map.php:2659
+#: vc_extend/config/override_map.php:3686 vc_extend/config/uncode_map.php:2008
+msgid "Specify the title line height."
+msgstr "Specifica l'altezza della riga del titolo."
+
+#: vc_extend/config/override_map.php:2665
+#: vc_extend/config/override_map.php:3696
+#: vc_extend/config/override_map.php:5775 vc_extend/config/uncode_map.php:2014
+msgid "Title letter spacing"
+msgstr "Spazio lettere del titolo"
+
+#: vc_extend/config/override_map.php:2667
+#: vc_extend/config/override_map.php:3698 vc_extend/config/uncode_map.php:2016
+msgid "Specify the title letter spacing."
+msgstr "Specifica lo spazio tra le lettere del titolo."
+
+#: vc_extend/config/override_map.php:2675
+#: vc_extend/config/override_map.php:2927
+#: vc_extend/config/override_map.php:3710
+#: vc_extend/config/override_map.php:4169
+#: vc_extend/config/override_map.php:4641
+#: vc_extend/config/override_map.php:5660 vc_extend/config/uncode_map.php:2034
+#: vc_extend/config/uncode_map.php:2502
+msgid "Specify icon from library."
+msgstr "Specificare un'icona dalla libreria."
+
+#: vc_extend/config/override_map.php:2690 vc_extend/config/uncode_map.php:2046
+msgid "Enter the custom link for the item."
+msgstr "Inserire un link personalizzato per l'articolo."
+
+#: vc_extend/config/override_map.php:2695
+#: vc_extend/config/override_map.php:3190
+#: vc_extend/config/override_map.php:4149 vc_extend/config/uncode_map.php:2051
+msgid "Shadow"
+msgstr "Ombra"
+
+#: vc_extend/config/override_map.php:2697 vc_extend/config/uncode_map.php:2053
+msgid "Activate this to have the shadow behind the block."
+msgstr "Attiva questa opzione per avere l'ombra dietro il blocco."
+
+#: vc_extend/config/override_map.php:2705
+msgid "No border"
+msgstr "Nessun bordo"
+
+#: vc_extend/config/override_map.php:2707 vc_extend/config/uncode_map.php:2063
+msgid "Activate this to remove the border around the block."
+msgstr "Attivare questa opzione per rimuovere il bordo intorno al blocco."
+
+#: vc_extend/config/override_map.php:2738 vc_extend/config/uncode_map.php:2080
+#: vc_extend/config/uncode_map.php:2086 vc_extend/config/uncode_map.php:2093
+msgid "Single block"
+msgstr "Blocco singolo"
+
+#: vc_extend/config/override_map.php:2748
+#: vc_extend/config/override_map.php:3736
+#: vc_extend/config/override_map.php:4244 vc_extend/config/uncode_map.php:2103
+msgid "Specify the lightbox skin color."
+msgstr "Specifica il colore skin del lightbox."
+
+#: vc_extend/config/override_map.php:2756
+#: vc_extend/config/override_map.php:3744
+#: vc_extend/config/override_map.php:4256 vc_extend/config/uncode_map.php:2111
+msgid "Horizontal"
+msgstr "Orizzontale"
+
+#: vc_extend/config/override_map.php:2759
+#: vc_extend/config/override_map.php:3747
+#: vc_extend/config/override_map.php:4259 vc_extend/config/uncode_map.php:2114
+msgid "Specify the lightbox sliding direction."
+msgstr "Specificare la direzione del lightbox scorrevole."
+
+#: vc_extend/config/override_map.php:2766
+#: vc_extend/config/override_map.php:3754
+#: vc_extend/config/override_map.php:4270 vc_extend/config/uncode_map.php:2121
+msgid "Activate this to add the media title."
+msgstr "Attiva questa opzione per aggiungere il titolo al media."
+
+#: vc_extend/config/override_map.php:2776
+#: vc_extend/config/override_map.php:3764
+#: vc_extend/config/override_map.php:4284 vc_extend/config/uncode_map.php:2131
+msgid "Activate this to add the media caption."
+msgstr "Attiva questa opzione per aggiungere una didascalia al media."
+
+#: vc_extend/config/override_map.php:2784
+#: vc_extend/config/override_map.php:3772
+#: vc_extend/config/override_map.php:4296 vc_extend/config/uncode_map.php:2139
+msgid "Social"
+msgstr "Social"
+
+#: vc_extend/config/override_map.php:2786
+#: vc_extend/config/override_map.php:3774
+#: vc_extend/config/override_map.php:4298 vc_extend/config/uncode_map.php:2141
+msgid "Activate this for the social sharing buttons."
+msgstr "Attivare questa opzione per i pulsanti di condivisione sociale."
+
+#: vc_extend/config/override_map.php:2794
+#: vc_extend/config/override_map.php:3782
+#: vc_extend/config/override_map.php:4310 vc_extend/config/uncode_map.php:2149
+msgid "Deeplinking"
+msgstr "Deeplinking"
+
+#: vc_extend/config/override_map.php:2796
+#: vc_extend/config/override_map.php:3784
+#: vc_extend/config/override_map.php:4312 vc_extend/config/uncode_map.php:2151
+msgid "Activate this for the deeplinking of every slide."
+msgstr "Attivare questa opzione per il deeplinking di ogni slide."
+
+#: vc_extend/config/override_map.php:2804
+#: vc_extend/config/override_map.php:3792
+#: vc_extend/config/override_map.php:4324 vc_extend/config/uncode_map.php:2159
+msgid "No thumbnails"
+msgstr "Nessuna miniatura"
+
+#: vc_extend/config/override_map.php:2806
+#: vc_extend/config/override_map.php:3794
+#: vc_extend/config/override_map.php:4326 vc_extend/config/uncode_map.php:2161
+msgid "Activate this for not showing the thumbnails."
+msgstr "Attiva questa opzione per nascondere le miniature."
+
+#: vc_extend/config/override_map.php:2814
+#: vc_extend/config/override_map.php:3802
+#: vc_extend/config/override_map.php:4338 vc_extend/config/uncode_map.php:2169
+msgid "No arrows"
+msgstr "Nessuna freccia"
+
+#: vc_extend/config/override_map.php:2816
+#: vc_extend/config/override_map.php:3804
+#: vc_extend/config/override_map.php:4340 vc_extend/config/uncode_map.php:2171
+msgid "Activate this for not showing the navigation arrows."
+msgstr "Attivare questa opzione per non mostrare le frecce di navigazione."
+
+#: vc_extend/config/override_map.php:2824
+#: vc_extend/config/override_map.php:3822 vc_extend/config/uncode_map.php:2179
+msgid "Remove double tap"
+msgstr "Rimuovere il doppio tap"
+
+#: vc_extend/config/override_map.php:2826
+#: vc_extend/config/override_map.php:3824 vc_extend/config/uncode_map.php:2181
+msgid "Remove the double tap action on mobile."
+msgstr "Rimuovere l’azione di doppio tap sul telefonino."
+
+#: vc_extend/config/override_map.php:2834
+#: vc_extend/config/override_map.php:2875
+#: vc_extend/config/override_map.php:2993
+#: vc_extend/config/override_map.php:3031
+#: vc_extend/config/override_map.php:3836
+#: vc_extend/config/override_map.php:3874
+#: vc_extend/config/override_map.php:3948
+#: vc_extend/config/override_map.php:4004
+#: vc_extend/config/override_map.php:4366
+#: vc_extend/config/override_map.php:4470
+#: vc_extend/config/override_map.php:4581
+#: vc_extend/config/override_map.php:4670
+#: vc_extend/config/override_map.php:4755
+#: vc_extend/config/override_map.php:4846
+#: vc_extend/config/override_map.php:4870
+#: vc_extend/config/override_map.php:4900
+#: vc_extend/config/override_map.php:4924
+#: vc_extend/config/override_map.php:4966
+#: vc_extend/config/override_map.php:5007
+#: vc_extend/config/override_map.php:5058
+#: vc_extend/config/override_map.php:5087
+#: vc_extend/config/override_map.php:5125
+#: vc_extend/config/override_map.php:5188
+#: vc_extend/config/override_map.php:5222
+#: vc_extend/config/override_map.php:5255
+#: vc_extend/config/override_map.php:5326
+#: vc_extend/config/override_map.php:5386
+#: vc_extend/config/override_map.php:5613
+#: vc_extend/config/override_map.php:5850 vc_extend/config/uncode_map.php:2189
+#: vc_extend/config/uncode_map.php:2273 vc_extend/config/uncode_map.php:2712
+msgid "Extra class name"
+msgstr "Nome classe extra"
+
+#: vc_extend/config/override_map.php:2845
+msgid "Text Block"
+msgstr "Blocco testo"
+
+#: vc_extend/config/override_map.php:2852
+msgid "Basic block of text"
+msgstr "Blocco di base de testo"
+
+#: vc_extend/config/override_map.php:2857
+#: vc_extend/config/override_map.php:4060
+#: vc_extend/config/override_map.php:5066
+#: vc_extend/config/override_map.php:5082
+#: vc_extend/config/override_map.php:5782 vc_extend/config/uncode_map.php:83
+#: vc_extend/config/uncode_map.php:409 vc_extend/config/uncode_map.php:560
+#: vc_extend/config/uncode_map.php:699
+msgid "Text"
+msgstr "Testo"
+
+#: vc_extend/config/override_map.php:2859
+msgid ""
+"<p>I am text block. Click edit button to change this text. Lorem ipsum dolor "
+"sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec "
+"ullamcorper mattis, pulvinar dapibus leo.</p>"
+msgstr "<p>Sono un blocco di testo. Clicca il pulsante"
+
+#: vc_extend/config/override_map.php:2863
+#: vc_extend/config/override_map.php:5560
+#: vc_extend/config/override_map.php:5788 vc_extend/config/uncode_map.php:2022
+msgid "Text lead"
+msgstr "Testo iniziale"
+
+#: vc_extend/config/override_map.php:2865
+#: vc_extend/config/override_map.php:5562
+#: vc_extend/config/override_map.php:5790 vc_extend/config/uncode_map.php:2024
+msgid "Transform the text to leading."
+msgstr "Trasforma il testo a principale."
+
+#: vc_extend/config/override_map.php:2908
+msgid "Divider"
+msgstr "Divisore"
+
+#: vc_extend/config/override_map.php:2914
+msgid "Horizontal divider"
+msgstr "Divisore orizzontale"
+
+#: vc_extend/config/override_map.php:2918
+msgid "Color"
+msgstr "Colore "
+
+#: vc_extend/config/override_map.php:2920
+msgid "Separator color."
+msgstr "Colore separatore."
+
+#: vc_extend/config/override_map.php:2937
+#: vc_extend/config/override_map.php:4180
+msgid "Icon position"
+msgstr "Posizione icona"
+
+#: vc_extend/config/override_map.php:2944
+msgid "Specify title location."
+msgstr "Specifica la posizione del titolo."
+
+#: vc_extend/config/override_map.php:2951
+msgid "Separator style."
+msgstr "Separatore stile."
+
+#: vc_extend/config/override_map.php:2955
+msgid "Custom width"
+msgstr "Larghezza personalizzata"
+
+#: vc_extend/config/override_map.php:2957
+#, php-format
+msgid "Insert the custom value in % or px."
+msgstr "Inserire il valore personalizzato in  % o px."
+
+#: vc_extend/config/override_map.php:2961
+msgid "Custom thickness"
+msgstr "Spessore personalizzato"
+
+#: vc_extend/config/override_map.php:2963
+#, fuzzy
+msgid ""
+"Insert the custom value in em or px. This option can't be used with the "
+"separator with the icon."
+msgstr ""
+"Inserire il valore personalizzato in em o px. Questa opzione non può essere "
+"utilizzata con il separatore con l'icona."
+
+#: vc_extend/config/override_map.php:2967
+msgid "Activate scroll to top"
+msgstr "Attivare per scorrere verso l'alto"
+
+#: vc_extend/config/override_map.php:2969
+msgid "Activate if you want the scroll top function with the icon."
+msgstr "Attiva se vuoi la funzione scorrimento verso l'alto con l'icona."
+
+#: vc_extend/config/override_map.php:2980
+#: vc_extend/config/override_map.php:3091
+#: vc_extend/config/override_map.php:4068
+#: vc_extend/config/override_map.php:5829
+msgid "URL (Link)"
+msgstr "URL (Link)"
+
+#: vc_extend/config/override_map.php:2982
+msgid "Separator link."
+msgstr "Separatore link."
+
+#: vc_extend/config/override_map.php:3003
+msgid "Message Box"
+msgstr "Casella messaggio"
+
+#: vc_extend/config/override_map.php:3008
+msgid "Notification element"
+msgstr "Elemento di notifica"
+
+#: vc_extend/config/override_map.php:3012
+msgid "Message box type"
+msgstr "Casella tipo messaggio"
+
+#: vc_extend/config/override_map.php:3016
+msgid "Specify message type."
+msgstr "Specificare il tipo di messaggio."
+
+#: vc_extend/config/override_map.php:3023
+msgid "Message text"
+msgstr "Testo messaggio"
+
+#: vc_extend/config/override_map.php:3024
+msgid "<p>I am message box. Click edit button to change this text.</p>"
+msgstr ""
+"<p>Sono una casella messaggio. Clicca il pulsante modifica per cambiare "
+"questo testo.</p>"
+
+#: vc_extend/config/override_map.php:3040
+msgid "Single Media"
+msgstr "Media singolo"
+
+#: vc_extend/config/override_map.php:3046
+msgid "Simple media item"
+msgstr "Articolo media singolo"
+
+#: vc_extend/config/override_map.php:3075
+msgid "Activate if you want to open the media in the lightbox."
+msgstr "Attiva se desideri aprire il media nel lightbox."
+
+#: vc_extend/config/override_map.php:3084
+msgid ""
+"Activate if you want to view the poster image instead (this is usefull for "
+"other media than images with the use of the lightbox)."
+msgstr ""
+
+#: vc_extend/config/override_map.php:3093
+msgid "Enter URL if you want this image to have a link."
+msgstr "Inserisci URL se voui che questa immagine abbia un link."
+
+#: vc_extend/config/override_map.php:3117
+msgid "Set the media width with a percent value."
+msgstr "Impostare la larghezza del media con un valore percentuale."
+
+#: vc_extend/config/override_map.php:3128
+msgid "Insert the media width in pixel."
+msgstr "Inserire la larghezza dei media in pixel."
+
+#: vc_extend/config/override_map.php:3137
+msgid "Aspect ratio"
+msgstr "Rapporto aspetto"
+
+#: vc_extend/config/override_map.php:3142
+msgid "1:1"
+msgstr "1:1"
+
+#: vc_extend/config/override_map.php:3143
+msgid "4:3"
+msgstr "4:3"
+
+#: vc_extend/config/override_map.php:3144
+msgid "3:2"
+msgstr "3:2"
+
+#: vc_extend/config/override_map.php:3145
+msgid "16:9"
+msgstr "16:9"
+
+#: vc_extend/config/override_map.php:3146
+msgid "21:9"
+msgstr "21:9"
+
+#: vc_extend/config/override_map.php:3147
+msgid "3:4"
+msgstr "3:4"
+
+#: vc_extend/config/override_map.php:3148
+msgid "2:3"
+msgstr "2:3"
+
+#: vc_extend/config/override_map.php:3149
+msgid "9:16"
+msgstr "9:16"
+
+#: vc_extend/config/override_map.php:3156 vc_extend/config/uncode_map.php:2597
+msgid "Alignment"
+msgstr "Allineamento "
+
+#: vc_extend/config/override_map.php:3159
+msgid "Align left"
+msgstr "Allineare a sinistra"
+
+#: vc_extend/config/override_map.php:3160
+msgid "Align right"
+msgstr "Allineare a destra"
+
+#: vc_extend/config/override_map.php:3161
+msgid "Align center"
+msgstr "Allineare al centro"
+
+#: vc_extend/config/override_map.php:3163
+msgid "Specify image alignment."
+msgstr "Specifica l'allineamento dell'immagiine."
+
+#: vc_extend/config/override_map.php:3175
+msgid "Specify media shape."
+msgstr "Specificare la forma del media."
+
+#: vc_extend/config/override_map.php:3180
+msgid "Thumbnail border"
+msgstr "Bordo miniatura"
+
+#: vc_extend/config/override_map.php:3200
+msgid "Activate advanced preset"
+msgstr "Attiva preset avanzato"
+
+#: vc_extend/config/override_map.php:3214
+#: vc_extend/config/override_map.php:3315
+#: vc_extend/config/override_map.php:3330
+#: vc_extend/config/override_map.php:3338
+#: vc_extend/config/override_map.php:3350
+#: vc_extend/config/override_map.php:3370
+#: vc_extend/config/override_map.php:3385
+#: vc_extend/config/override_map.php:3400
+#: vc_extend/config/override_map.php:3415
+#: vc_extend/config/override_map.php:3426
+#: vc_extend/config/override_map.php:3449
+#: vc_extend/config/override_map.php:3464
+#: vc_extend/config/override_map.php:3479
+#: vc_extend/config/override_map.php:3494
+#: vc_extend/config/override_map.php:3509
+#: vc_extend/config/override_map.php:3526
+#: vc_extend/config/override_map.php:3542
+#: vc_extend/config/override_map.php:3558
+#: vc_extend/config/override_map.php:3570
+#: vc_extend/config/override_map.php:3593
+#: vc_extend/config/override_map.php:3607
+#: vc_extend/config/override_map.php:3617
+#: vc_extend/config/override_map.php:3638
+#: vc_extend/config/override_map.php:3650
+#: vc_extend/config/override_map.php:3663
+#: vc_extend/config/override_map.php:3676
+#: vc_extend/config/override_map.php:3688
+#: vc_extend/config/override_map.php:3700
+#: vc_extend/config/override_map.php:3723
+msgid "Advanced"
+msgstr "Avanzato"
+
+#: vc_extend/config/override_map.php:3629 vc_extend/config/uncode_map.php:1967
+msgid "Title text transform"
+msgstr "Trasformare il testo del titolo"
+
+#: vc_extend/config/override_map.php:3812
+#: vc_extend/config/override_map.php:4352
+msgid "Connect to other media in page"
+msgstr "Collega ad altri media nella pagina"
+
+#: vc_extend/config/override_map.php:3814
+#: vc_extend/config/override_map.php:4354
+msgid ""
+"Activate this to connect the lightbox with other medias in the same page "
+"with this option active."
+msgstr ""
+"Attiva questa opzione per collegare il lightbox con altri media in pagina "
+"con la stessa opzione attivata."
+
+#: vc_extend/config/override_map.php:3849
+msgid "Tabs"
+msgstr "Schede"
+
+#: vc_extend/config/override_map.php:3855
+msgid "Tabbed contents"
+msgstr "Contenuti a schede"
+
+#: vc_extend/config/override_map.php:3865
+msgid "Vertical tabs"
+msgstr "Schede verticali"
+
+#: vc_extend/config/override_map.php:3867
+msgid "Specify checkbox to allow all sections to be collapsible."
+msgstr ""
+"Specifica la casella di controllo per consentire a tutte le sezioni di "
+"essere riducibili."
+
+#: vc_extend/config/override_map.php:3886
+msgid "Tab 1"
+msgstr "Scheda 1"
+
+#: vc_extend/config/override_map.php:3887
+msgid "Tab 2"
+msgstr "Scheda 2"
+
+#: vc_extend/config/override_map.php:3893
+msgid "Tab"
+msgstr "Scheda"
+
+#: vc_extend/config/override_map.php:3903
+msgid "Tab title."
+msgstr "Titolo scheda."
+
+#: vc_extend/config/override_map.php:3907
+msgid "Tab ID"
+msgstr "ID scheda"
+
+#: vc_extend/config/override_map.php:3912
+msgid "Remove top margin"
+msgstr "Rimuovi il margine superiore"
+
+#: vc_extend/config/override_map.php:3914
+msgid "Activate this to remove the top margin."
+msgstr "Attiva questa opzione per rimuovere il margine superiore."
+
+#: vc_extend/config/override_map.php:3926
+msgid "Accordion"
+msgstr "Fisarmonica"
+
+#: vc_extend/config/override_map.php:3932
+msgid "Collapsible panels"
+msgstr "Pannelli riducibili"
+
+#: vc_extend/config/override_map.php:3942
+msgid "Active section"
+msgstr "Attiva sezione"
+
+#: vc_extend/config/override_map.php:3944
+msgid "Enter section number to be active on load."
+msgstr "Inserisci il numero di sezione per essere attivo al caricamento."
+
+#: vc_extend/config/override_map.php:3958
+msgid "Add section"
+msgstr "Aggiungi sezione"
+
+#: vc_extend/config/override_map.php:3962
+msgid "Section 1"
+msgstr "Sezione 1"
+
+#: vc_extend/config/override_map.php:3963
+msgid "Section 2"
+msgstr "Sezione 2"
+
+#: vc_extend/config/override_map.php:3968
+msgid "Section"
+msgstr "Sezione"
+
+#: vc_extend/config/override_map.php:3978
+msgid "Accordion section title."
+msgstr "Titolo sezione a fisarmonica."
+
+#: vc_extend/config/override_map.php:3987
+msgid "Widgetised Sidebar"
+msgstr "Barra laterale widget"
+
+#: vc_extend/config/override_map.php:3992
+#: vc_extend/config/override_map.php:4484
+#: vc_extend/config/override_map.php:4505
+msgid "Structure"
+msgstr "Struttura"
+
+#: vc_extend/config/override_map.php:3993
+msgid "Place widgetised sidebar"
+msgstr "Posizione barra laterale widget"
+
+#: vc_extend/config/override_map.php:3997
+msgid "Sidebar"
+msgstr "Barra laterale"
+
+#: vc_extend/config/override_map.php:3999
+msgid "Specify which widget area output."
+msgstr "Specifica l'ouput dell'area widget."
+
+#: vc_extend/config/override_map.php:4015
+msgid "Address book icon"
+msgstr "Icona rubrica"
+
+#: vc_extend/config/override_map.php:4016
+msgid "Alarm clock icon"
+msgstr "Icona sveglia"
+
+#: vc_extend/config/override_map.php:4017
+msgid "Anchor icon"
+msgstr "Icona ancora"
+
+#: vc_extend/config/override_map.php:4018
+msgid "Application Image icon"
+msgstr "Icona applicazione immagine"
+
+#: vc_extend/config/override_map.php:4019
+msgid "Arrow icon"
+msgstr "Icona freccia"
+
+#: vc_extend/config/override_map.php:4020
+msgid "Asterisk icon"
+msgstr "Icona aterisco"
+
+#: vc_extend/config/override_map.php:4021
+msgid "Hammer icon"
+msgstr "Icona martello"
+
+#: vc_extend/config/override_map.php:4022
+msgid "Balloon icon"
+msgstr "Icona pallone"
+
+#: vc_extend/config/override_map.php:4023
+msgid "Balloon Buzz icon"
+msgstr "Icona fumetto "
+
+#: vc_extend/config/override_map.php:4024
+msgid "Balloon Facebook icon"
+msgstr "Icona Facebook"
+
+#: vc_extend/config/override_map.php:4025
+msgid "Balloon Twitter icon"
+msgstr "Icona Twitter"
+
+#: vc_extend/config/override_map.php:4026
+msgid "Battery icon"
+msgstr "Icona batteria"
+
+#: vc_extend/config/override_map.php:4027
+msgid "Binocular icon"
+msgstr "Icona  binocolo"
+
+#: vc_extend/config/override_map.php:4028
+msgid "Document Excel icon"
+msgstr "Icona documento Excel"
+
+#: vc_extend/config/override_map.php:4029
+msgid "Document Image icon"
+msgstr "Icona documento immagine"
+
+#: vc_extend/config/override_map.php:4030
+msgid "Document Music icon"
+msgstr "Icona documento musica"
+
+#: vc_extend/config/override_map.php:4031
+msgid "Document Office icon"
+msgstr "Icona documento Office"
+
+#: vc_extend/config/override_map.php:4032
+msgid "Document PDF icon"
+msgstr "Icona documento PDF"
+
+#: vc_extend/config/override_map.php:4033
+msgid "Document Powerpoint icon"
+msgstr "Icona documento Powerpoint"
+
+#: vc_extend/config/override_map.php:4034
+msgid "Document Word icon"
+msgstr "Icona documento Word"
+
+#: vc_extend/config/override_map.php:4035
+msgid "Bookmark icon"
+msgstr "Icona segnalibro"
+
+#: vc_extend/config/override_map.php:4036
+msgid "Camcorder icon"
+msgstr "Icona videocamera"
+
+#: vc_extend/config/override_map.php:4037
+msgid "Camera icon"
+msgstr "Icona fotocamera"
+
+#: vc_extend/config/override_map.php:4038
+msgid "Chart icon"
+msgstr "Icona grafico"
+
+#: vc_extend/config/override_map.php:4039
+msgid "Chart pie icon"
+msgstr "Icona grafico a torta"
+
+#: vc_extend/config/override_map.php:4040
+msgid "Clock icon"
+msgstr "Icona orologio"
+
+#: vc_extend/config/override_map.php:4041
+msgid "Fire icon"
+msgstr "Icona fuoco"
+
+#: vc_extend/config/override_map.php:4042
+msgid "Heart icon"
+msgstr "Icona cuore"
+
+#: vc_extend/config/override_map.php:4043
+msgid "Mail icon"
+msgstr "Icona mail"
+
+#: vc_extend/config/override_map.php:4044
+msgid "Play icon"
+msgstr "Icona play"
+
+#: vc_extend/config/override_map.php:4045
+msgid "Shield icon"
+msgstr "Icona scudo"
+
+#: vc_extend/config/override_map.php:4046
+msgid "Video icon"
+msgstr "Icona video"
+
+#: vc_extend/config/override_map.php:4050 vc_extend/config/uncode_map.php:2561
+msgid "Button"
+msgstr "Pulsante"
+
+#: vc_extend/config/override_map.php:4056 vc_extend/config/uncode_map.php:2214
+msgid "Button element"
+msgstr "Elemento pulsante"
+
+#: vc_extend/config/override_map.php:4063
+msgid "Text on the button"
+msgstr "Testo sul pulsante"
+
+#: vc_extend/config/override_map.php:4064
+msgid "Text on the button."
+msgstr "Testo sul pulsante."
+
+#: vc_extend/config/override_map.php:4070
+msgid "Button link."
+msgstr "Link pulsante."
+
+#: vc_extend/config/override_map.php:4074
+msgid "Button color"
+msgstr "Colore pulsante"
+
+#: vc_extend/config/override_map.php:4076
+#, fuzzy
+msgid "Specify button color."
+msgstr "Specifica colore icona."
+
+#: vc_extend/config/override_map.php:4081
+msgid "Size"
+msgstr "Dimensione"
+
+#: vc_extend/config/override_map.php:4085
+msgid "Button size."
+msgstr "Dimensione pulsante."
+
+#: vc_extend/config/override_map.php:4091
+msgid "You can shape the button with the corners round, squared or circle."
+msgstr "Puoi modellare il pulsante con angoli rotondi, quadrati o circolari."
+
+#: vc_extend/config/override_map.php:4094 vc_extend/config/uncode_map.php:431
+#: vc_extend/config/uncode_map.php:1264
+msgid "Round"
+msgstr "Rotondo"
+
+#: vc_extend/config/override_map.php:4095
+#: vc_extend/config/override_map.php:5689 vc_extend/config/uncode_map.php:435
+#: vc_extend/config/uncode_map.php:1265
+msgid "Circle"
+msgstr "Cerchio"
+
+#: vc_extend/config/override_map.php:4096
+#: vc_extend/config/override_map.php:5690 vc_extend/config/uncode_map.php:1266
+msgid "Square"
+msgstr "Quadrato"
+
+#: vc_extend/config/override_map.php:4101
+msgid "Border animation"
+msgstr "Animazione bordo"
+
+#: vc_extend/config/override_map.php:4103
+msgid "Specify a button border animation."
+msgstr "Specifica un'animazione per il bordo del pulsante."
+
+#: vc_extend/config/override_map.php:4106
+msgid "Ripple Out"
+msgstr "Onda fuori"
+
+#: vc_extend/config/override_map.php:4107
+msgid "Ripple In"
+msgstr "Onda dentro"
+
+#: vc_extend/config/override_map.php:4112
+msgid "Fluid"
+msgstr "Fluido"
+
+#: vc_extend/config/override_map.php:4114
+msgid "Fluid buttons has 100% width."
+msgstr "Pulsante fluido ha larghezza 100%."
+
+#: vc_extend/config/override_map.php:4121
+msgid "Fixed width"
+msgstr "Larghezza fissa"
+
+#: vc_extend/config/override_map.php:4123
+msgid "Add a fixed width in pixel."
+msgstr "Aggiungere una larghezza fissa in pixel."
+
+#: vc_extend/config/override_map.php:4131
+#, fuzzy
+msgid "Use skin text color"
+msgstr "Specificare il colore del testo."
+
+#: vc_extend/config/override_map.php:4133
+msgid ""
+"Keep the text color as the skin. NB. This option is only available when the "
+"button color is chosen."
+msgstr ""
+
+#: vc_extend/config/override_map.php:4140
+msgid "Outlined"
+msgstr "Tratteggiato"
+
+#: vc_extend/config/override_map.php:4142
+#, fuzzy
+msgid "Outlined buttons doesn't have a full background color."
+msgstr "Il pulsante tratteggiato non ha un colore di sfondo pieno."
+
+#: vc_extend/config/override_map.php:4151
+msgid "Button shadow."
+msgstr "Ombra pulsante."
+
+#: vc_extend/config/override_map.php:4158
+msgid "Italic text"
+msgstr "Testo italico"
+
+#: vc_extend/config/override_map.php:4160
+msgid "Button with italic text style."
+msgstr "Pulsante con testo in stile italico."
+
+#: vc_extend/config/override_map.php:4182
+msgid "Choose the position of the icon."
+msgstr "Scegli la posizione dell'icona."
+
+#: vc_extend/config/override_map.php:4194
+#: vc_extend/config/override_map.php:5648
+msgid "Layout display"
+msgstr "Visualizzazione del layout"
+
+#: vc_extend/config/override_map.php:4196
+#: vc_extend/config/override_map.php:5650
+msgid "Specify the display mode."
+msgstr "Specifica la modalità di visualizzazione."
+
+#: vc_extend/config/override_map.php:4198
+#: vc_extend/config/override_map.php:5652
+msgid "Block"
+msgstr "Blocco"
+
+#: vc_extend/config/override_map.php:4199
+#: vc_extend/config/override_map.php:5653
+msgid "Inline"
+msgstr "In riga"
+
+#: vc_extend/config/override_map.php:4204
+msgid "Margin top"
+msgstr "Margine superiore"
+
+#: vc_extend/config/override_map.php:4206
+msgid "Activate to add the top margin."
+msgstr "Attiva per aggiungere il margine superiore."
+
+#: vc_extend/config/override_map.php:4217
+msgid "Rel attribute"
+msgstr "Attributo rel"
+
+#: vc_extend/config/override_map.php:4219
+msgid ""
+"Here you can add value for the rel attribute.<br>Example values: <b"
+"%value>nofollow</b>, <b%value>lightbox</b>."
+msgstr ""
+"Qui puoi aggiungere un valore per l'attributo rel.<br>Valori di esempio: <b"
+"%value>nofollow</b>, <b%value>lightbox</b>."
+
+#: vc_extend/config/override_map.php:4223
+msgid "onClick"
+msgstr "onClick"
+
+#: vc_extend/config/override_map.php:4225
+msgid "Advanced JavaScript code for onClick action."
+msgstr "Codice JavaScript avanzato per l'azione onClick."
+
+#: vc_extend/config/override_map.php:4229
+#: vc_extend/config/override_map.php:5841
+msgid "Media lightbox"
+msgstr "Media lightbox"
+
+#: vc_extend/config/override_map.php:4231
+#: vc_extend/config/override_map.php:5843
+msgid "Specify a media from the lightbox."
+msgstr "Specifica un media dal lightbox."
+
+#: vc_extend/config/override_map.php:4378
+msgid "Google Maps"
+msgstr "Mappe Google"
+
+#: vc_extend/config/override_map.php:4383
+msgid "Map block"
+msgstr "Blocco mappa"
+
+#: vc_extend/config/override_map.php:4393
+msgid "Latitude, Longitude"
+msgstr "Latitudine, Longitudine"
+
+#: vc_extend/config/override_map.php:4395
+#, php-format
+msgid ""
+"To extract the Latitude and Longitude of your address, follow the "
+"instructions %s. 1) Use the directions under the section \"Get the "
+"coordinates of a place\" 2) Copy the coordinates 3) Paste the coordinates in "
+"the field with the \"comma\" sign."
+msgstr ""
+"Per estrarre la latitudine e longitudine del tuo indirizzo, seguire le "
+"istruzioni %s. 1) Utilizzare le direzioni nella sezione \"Ottenere le "
+"coordinate di un luogo \" 2) Copia le coordinate 3) Incolla le coordinate "
+"nel campo con il segno \"virgola \"."
+
+#: vc_extend/config/override_map.php:4399
+msgid "Map height"
+msgstr "Altezza mappa"
+
+#: vc_extend/config/override_map.php:4402
+msgid ""
+"Enter map height in pixels. Example: 200 or leave it empty to make map "
+"responsive (in this case you need to declare a minimun height for the row "
+"and the column equal height or expanded)."
+msgstr ""
+"Inserire la mappa altezza in pixel. Esempio: 200 o lascia vuoto per rendere "
+"la mappa reattivo (in questo caso è necessario dichiarare un minimo di "
+"altezza per la riga e la colonna di uguale altezza o espanso)."
+
+#: vc_extend/config/override_map.php:4406
+msgid "Address"
+msgstr "Indirizzo"
+
+#: vc_extend/config/override_map.php:4408
+msgid ""
+"Insert here the address in case you want it to be display on the bottom of "
+"the map."
+msgstr ""
+"Inserire qui l'indirizzo nel caso in cui si desideri che sia la visualizzato "
+"in fondo alla mappa."
+
+#: vc_extend/config/override_map.php:4412
+msgid "Map color"
+msgstr "Colore mappa"
+
+#: vc_extend/config/override_map.php:4415
+msgid "Specify the map base color."
+msgstr "Specifica un colore di fondo per la mappa."
+
+#: vc_extend/config/override_map.php:4421
+msgid "UI color"
+msgstr "Colore UI"
+
+#: vc_extend/config/override_map.php:4424
+msgid "Specify the UI color."
+msgstr "Specifica un colore per UI."
+
+#: vc_extend/config/override_map.php:4430
+msgid "Zoom"
+msgstr "Zoom"
+
+#: vc_extend/config/override_map.php:4436
+msgid "Set map zoom level."
+msgstr "Impostare il livello di zoom della mappa."
+
+#: vc_extend/config/override_map.php:4440
+msgid "Saturation"
+msgstr "Saturazione"
+
+#: vc_extend/config/override_map.php:4446
+msgid "Set map color saturation."
+msgstr "Imposta la saturazione del colore della mappa."
+
+#: vc_extend/config/override_map.php:4450
+msgid "Brightness"
+msgstr "Luminosità"
+
+#: vc_extend/config/override_map.php:4456
+msgid "Set map color brightness."
+msgstr "Imposta la luminosità del colore della mappa."
+
+#: vc_extend/config/override_map.php:4460
+msgid "Mobile no draggable"
+msgstr "Non trascinabile su mobile"
+
+#: vc_extend/config/override_map.php:4462
+msgid "Deactivate the drag function on mobile devices."
+msgstr "Disattivare la funzione di trascinamento sui dispositivi mobili."
+
+#: vc_extend/config/override_map.php:4481
+#: vc_extend/config/override_map.php:4491
+msgid "Raw HTML"
+msgstr "HTML grezzo"
+
+#: vc_extend/config/override_map.php:4486
+msgid "Output raw html code"
+msgstr "Output del codice html grezzo"
+
+#: vc_extend/config/override_map.php:4494
+msgid "Enter your HTML content."
+msgstr "Inserisci il tuo contenuto HTML."
+
+#: vc_extend/config/override_map.php:4502
+msgid "Raw JS"
+msgstr "JS grezzo"
+
+#: vc_extend/config/override_map.php:4507
+msgid "Output raw JavaScript code"
+msgstr "Output del codice JavaScript grezzo"
+
+#: vc_extend/config/override_map.php:4512
+msgid "Raw js"
+msgstr "js grezzo"
+
+#: vc_extend/config/override_map.php:4515
+msgid "Enter your JS code."
+msgstr "Inserisci il tuo codice JS."
+
+#: vc_extend/config/override_map.php:4524
+msgid "Flickr Widget"
+msgstr "Flickr Widget"
+
+#: vc_extend/config/override_map.php:4527
+msgid "Image feed from Flickr"
+msgstr "Immagine feed da Flickr"
+
+#: vc_extend/config/override_map.php:4537
+msgid "Flickr ID"
+msgstr "Flickr ID"
+
+#: vc_extend/config/override_map.php:4540
+#, php-format
+msgid "To find your flickID visit %s."
+msgstr "Per trovare il tuo flickID visita %s."
+
+#: vc_extend/config/override_map.php:4544
+msgid "Number of photos"
+msgstr "Numero di foto"
+
+#: vc_extend/config/override_map.php:4557
+msgid "Number of photos."
+msgstr "Numero di foto."
+
+#: vc_extend/config/override_map.php:4561
+msgid "Type"
+msgstr "Tipo"
+
+#: vc_extend/config/override_map.php:4564
+msgid "User"
+msgstr "Utente"
+
+#: vc_extend/config/override_map.php:4565
+msgid "Group"
+msgstr "Gruppo"
+
+#: vc_extend/config/override_map.php:4567
+msgid "Photo stream type."
+msgstr "Tipo di flusso foto."
+
+#: vc_extend/config/override_map.php:4571
+msgid "Display"
+msgstr "Schermo"
+
+#: vc_extend/config/override_map.php:4574
+msgid "Latest"
+msgstr "Ultimo"
+
+#: vc_extend/config/override_map.php:4575
+#: vc_extend/config/override_map.php:5167
+msgid "Random"
+msgstr "Casuale"
+
+#: vc_extend/config/override_map.php:4577
+msgid "Photo order."
+msgstr "Ordine foto."
+
+#: vc_extend/config/override_map.php:4592
+msgid "Pie chart"
+msgstr "Grafico a torta"
+
+#: vc_extend/config/override_map.php:4597
+msgid "Animated pie chart"
+msgstr "Grafico a torta animato"
+
+#: vc_extend/config/override_map.php:4608
+msgid "Pie value"
+msgstr "Valore torta"
+
+#: vc_extend/config/override_map.php:4610
+msgid "Input graph value here. Choose range between 0 and 100."
+msgstr "Valore di input del grafico qui. Scegli range tra 0 e 100."
+
+#: vc_extend/config/override_map.php:4616
+msgid "Pie label value"
+msgstr "Valore etichetta torta"
+
+#: vc_extend/config/override_map.php:4618
+msgid "Input integer value for label. If empty \"Pie value\" will be used."
+msgstr ""
+"Valore intero di input per l'etichetta. Se vuoto sarà utilizzato il \"Valore "
+"torta\" "
+
+#: vc_extend/config/override_map.php:4623
+#: vc_extend/config/override_map.php:4746
+msgid "Units"
+msgstr "Unità"
+
+#: vc_extend/config/override_map.php:4625
+#: vc_extend/config/override_map.php:4748
+msgid ""
+"Enter measurement units (if needed) Eg. %, px, points, etc. Graph value and "
+"unit will be appended to the graph title."
+msgstr ""
+"Inserisci l'unità di misura (se necessario) Es. %, px, punti, ecc. Valore "
+"grafico e unità verranno aggiunti al titolo del grafico."
+
+#: vc_extend/config/override_map.php:4629
+msgid "Circle thickness"
+msgstr "Spessore cerchio"
+
+#: vc_extend/config/override_map.php:4635
+msgid "Set the circle thickness."
+msgstr "Imposta lo spessore del cerchio."
+
+#: vc_extend/config/override_map.php:4652
+#: vc_extend/config/override_map.php:4728
+msgid "Bar color"
+msgstr "Colore barra"
+
+#: vc_extend/config/override_map.php:4655
+msgid "Specify pie chart color."
+msgstr "Specificare un colore per il grafico a torta."
+
+#: vc_extend/config/override_map.php:4659
+msgid "Coloring icon"
+msgstr "Icona colorare"
+
+#: vc_extend/config/override_map.php:4680
+msgid "Progress Bar"
+msgstr "Barra di avanzamento"
+
+#: vc_extend/config/override_map.php:4684
+msgid "Animated progress bar"
+msgstr "Barra di avanzamento animata"
+
+#: vc_extend/config/override_map.php:4694
+msgid "Graphic values"
+msgstr "Valori grafico"
+
+#: vc_extend/config/override_map.php:4696
+msgid "Enter values for graph - value, title and color."
+msgstr "Immettere i valori per il grafico - valore, titolo e colore."
+
+#: vc_extend/config/override_map.php:4699
+msgid "Development"
+msgstr "Sviluppo"
+
+#: vc_extend/config/override_map.php:4703
+msgid "Design"
+msgstr "Disegno"
+
+#: vc_extend/config/override_map.php:4707
+msgid "Marketing"
+msgstr "Marketing"
+
+#: vc_extend/config/override_map.php:4714 vc_extend/config/uncode_map.php:2660
+msgid "Label"
+msgstr "Etichetta"
+
+#: vc_extend/config/override_map.php:4716
+msgid "Enter text used as title of bar."
+msgstr "Inserire il testo utilizzato come titolo della barra."
+
+#: vc_extend/config/override_map.php:4721
+msgid "Value"
+msgstr "Valore"
+
+#: vc_extend/config/override_map.php:4723
+msgid "Enter value of bar."
+msgstr "Inserisci un valore della barra."
+
+#: vc_extend/config/override_map.php:4732
+msgid "Specify bar color."
+msgstr "Specificare il colore della barra."
+
+#: vc_extend/config/override_map.php:4740
+msgid "Specify bar background color."
+msgstr "Specificare il colore di fondo della barra."
+
+#: vc_extend/config/override_map.php:4777
+#, fuzzy
+msgid "Select a form…"
+msgstr "Seleziona..."
+
+#: vc_extend/config/override_map.php:4787
+msgid "No contact forms found"
+msgstr "Non è stato trovato nessun modulo"
+
+#: vc_extend/config/override_map.php:4791
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: vc_extend/config/override_map.php:4794
+msgid "Place Contact Form7"
+msgstr "Posizione Contact Form 7"
+
+#: vc_extend/config/override_map.php:4798
+msgid "Form title"
+msgstr "Titolo modulo"
+
+#: vc_extend/config/override_map.php:4801
+msgid "What text use as form title. Leave blank if no title is needed."
+msgstr ""
+"Quale testo utilizzato come titolo modulo. Lasciare vuoto se non è "
+"necessario alcun titolo."
+
+#: vc_extend/config/override_map.php:4805
+msgid "Specify contact form"
+msgstr "Specifica il modulo contatto"
+
+#: vc_extend/config/override_map.php:4808
+msgid "Choose previously created contact form from the drop down list."
+msgstr "Scegli il modulo di contatto creato in precedenza dal menu a tendina."
+
+#: vc_extend/config/override_map.php:4822
+msgid "Search"
+msgstr "Cercare"
+
+#: vc_extend/config/override_map.php:4825
+#: vc_extend/config/override_map.php:4857
+#: vc_extend/config/override_map.php:4881
+#: vc_extend/config/override_map.php:4911
+#: vc_extend/config/override_map.php:4935
+#: vc_extend/config/override_map.php:4987
+#: vc_extend/config/override_map.php:5029
+#: vc_extend/config/override_map.php:5069
+#: vc_extend/config/override_map.php:5098
+#: vc_extend/config/override_map.php:5147
+#: vc_extend/config/override_map.php:5199
+#: vc_extend/config/override_map.php:5233
+#: vc_extend/config/override_map.php:5266
+msgid "WordPress Widgets"
+msgstr "WordPress Widgets"
+
+#: vc_extend/config/override_map.php:4828
+msgid "A search form for your site"
+msgstr "Un modulo di ricerca per il tuo sito"
+
+#: vc_extend/config/override_map.php:4834
+#: vc_extend/config/override_map.php:4866
+#: vc_extend/config/override_map.php:4890
+#: vc_extend/config/override_map.php:4920
+#: vc_extend/config/override_map.php:4944
+#: vc_extend/config/override_map.php:4996
+#: vc_extend/config/override_map.php:5038
+#: vc_extend/config/override_map.php:5078
+#: vc_extend/config/override_map.php:5107
+#: vc_extend/config/override_map.php:5208
+#: vc_extend/config/override_map.php:5242
+#: vc_extend/config/override_map.php:5275
+msgid ""
+"What text use as a widget title. Leave blank to use default widget title."
+msgstr ""
+"Quale testo usare come titolo del widget. Lasciare vuoto per usare il titolo "
+"predefinito del widget ."
+
+#: vc_extend/config/override_map.php:4838
+msgid "Live search"
+msgstr ""
+
+#: vc_extend/config/override_map.php:4854
+msgid "Meta"
+msgstr "Meta"
+
+#: vc_extend/config/override_map.php:4860
+msgid "Log in/out, admin, feed and WordPress links"
+msgstr "Link per log in/out, admin, feed e WordPress"
+
+#: vc_extend/config/override_map.php:4878
+msgid "Recent Comments"
+msgstr "Commenti recenti"
+
+#: vc_extend/config/override_map.php:4884
+msgid "The most recent comments"
+msgstr "I commenti più recenti"
+
+#: vc_extend/config/override_map.php:4894
+msgid "Number of comments to show"
+msgstr "Numero di commenti da mostrare"
+
+#: vc_extend/config/override_map.php:4908
+msgid "Calendar"
+msgstr "Calendario"
+
+#: vc_extend/config/override_map.php:4914
+msgid "A calendar of your sites posts"
+msgstr "Un calendario per gli articoli del tuo sito"
+
+#: vc_extend/config/override_map.php:4932 vc_extend/config/uncode_map.php:498
+msgid "Pages"
+msgstr "Pagine"
+
+#: vc_extend/config/override_map.php:4938
+msgid "Your sites WordPress Pages"
+msgstr "Le pagine del tuo sito Wordpress"
+
+#: vc_extend/config/override_map.php:4948
+#: vc_extend/config/override_map.php:5161
+msgid "Sort by"
+msgstr "Ordina per"
+
+#: vc_extend/config/override_map.php:4951
+msgid "Page title"
+msgstr "Titolo pagina"
+
+#: vc_extend/config/override_map.php:4952
+msgid "Page order"
+msgstr "Ordine pagina"
+
+#: vc_extend/config/override_map.php:4953
+msgid "Page ID"
+msgstr "ID pagina"
+
+#: vc_extend/config/override_map.php:4959
+msgid "Exclude"
+msgstr "Escludere"
+
+#: vc_extend/config/override_map.php:4961
+msgid "Page IDs, separated by commas."
+msgstr "ID pagina, separato da virgole."
+
+#: vc_extend/config/override_map.php:4984
+msgid "Tag Cloud"
+msgstr "Tag Cloud"
+
+#: vc_extend/config/override_map.php:4990
+msgid "Your most used tags in cloud format"
+msgstr "I tuoi tag più usati in formato nuvola"
+
+#: vc_extend/config/override_map.php:5000
+msgid "Taxonomy"
+msgstr "Tassonomia"
+
+#: vc_extend/config/override_map.php:5026
+msgid "Custom Menu"
+msgstr "Menu personalizzato"
+
+#: vc_extend/config/override_map.php:5032
+msgid "Use this widget to add one of your custom menus as a widget"
+msgstr ""
+"Utilizzare questo widget per aggiungere uno dei tuoi menu personalizzati "
+"come un widget"
+
+#: vc_extend/config/override_map.php:5042
+msgid "Menu"
+msgstr "Menu"
+
+#: vc_extend/config/override_map.php:5045
+msgid ""
+"Custom menus not found. Please visit <b>Appearance > Menus</b> page to "
+"create new menu."
+msgstr ""
+"Nessun menu personalizzato trovato. Si prega di visitare <b> Aspetto> Menu "
+"</ b> per creare nuovo menu."
+
+#: vc_extend/config/override_map.php:5045
+msgid "Specify menu"
+msgstr "Specifica il menu"
+
+#: vc_extend/config/override_map.php:5050
+#, fuzzy
+msgid "Horizontal menu"
+msgstr "Orizzontale"
+
+#: vc_extend/config/override_map.php:5072
+msgid "Arbitrary text or HTML"
+msgstr "Testo casuale o HTML"
+
+#: vc_extend/config/override_map.php:5095
+msgid "Recent Posts"
+msgstr "Articoli recenti"
+
+#: vc_extend/config/override_map.php:5101
+msgid "The most recent posts on your site"
+msgstr "Gli articoli più recenti nel tuo sito"
+
+#: vc_extend/config/override_map.php:5111
+msgid "Number of posts to show"
+msgstr "Numero di articoli da mostrare"
+
+#: vc_extend/config/override_map.php:5117
+msgid "Display post date?"
+msgstr "Visualizzare la data dell'articolo?"
+
+#: vc_extend/config/override_map.php:5133
+msgid "All Links"
+msgstr "Tutti i link"
+
+#: vc_extend/config/override_map.php:5144
+msgid "Links"
+msgstr "Links"
+
+#: vc_extend/config/override_map.php:5150
+msgid "Your blogroll"
+msgstr "Il tuo blogroll"
+
+#: vc_extend/config/override_map.php:5154
+msgid "Link Category"
+msgstr "Link categoria"
+
+#: vc_extend/config/override_map.php:5164
+msgid "Link title"
+msgstr "Link titolo"
+
+#: vc_extend/config/override_map.php:5165
+msgid "Link rating"
+msgstr "Link valore"
+
+#: vc_extend/config/override_map.php:5166
+msgid "Link ID"
+msgstr "Link ID"
+
+#: vc_extend/config/override_map.php:5172
+#: vc_extend/config/override_map.php:5212
+#: vc_extend/config/override_map.php:5246
+#: vc_extend/config/override_map.php:5316
+msgid "Options"
+msgstr "Opzioni"
+
+#: vc_extend/config/override_map.php:5175
+msgid "Show Link Image"
+msgstr "Mostrare immagine link"
+
+#: vc_extend/config/override_map.php:5176
+msgid "Show Link Name"
+msgstr "Mostrare nome link"
+
+#: vc_extend/config/override_map.php:5177
+msgid "Show Link Description"
+msgstr "Mostrare descrizione link"
+
+#: vc_extend/config/override_map.php:5178
+msgid "Show Link Rating"
+msgstr "Mostrare valore link"
+
+#: vc_extend/config/override_map.php:5183
+msgid "Number of links to show"
+msgstr "Numero di link da mostrare"
+
+#: vc_extend/config/override_map.php:5196
+msgid "Categories"
+msgstr "Categorie"
+
+#: vc_extend/config/override_map.php:5202
+msgid "A list or dropdown of categories"
+msgstr "Una lista o un menu a tendina delle categorie"
+
+#: vc_extend/config/override_map.php:5215
+#: vc_extend/config/override_map.php:5249
+msgid "Display as dropdown"
+msgstr "Visualizza come tendina"
+
+#: vc_extend/config/override_map.php:5216
+#: vc_extend/config/override_map.php:5250
+msgid "Show post counts"
+msgstr "Mostra in numero di articoli"
+
+#: vc_extend/config/override_map.php:5217
+msgid "Show hierarchy"
+msgstr "Mostra gerarchia"
+
+#: vc_extend/config/override_map.php:5230
+msgid "Archives"
+msgstr "Archivi"
+
+#: vc_extend/config/override_map.php:5236
+msgid "A monthly archive of your sites posts"
+msgstr "Un archivio mensile dei tuoi articoli"
+
+#: vc_extend/config/override_map.php:5263
+msgid "RSS"
+msgstr "RSS"
+
+#: vc_extend/config/override_map.php:5269
+msgid "Entries from any RSS or Atom feed"
+msgstr "Le voci da qualsiasi feed RSS o Atom"
+
+#: vc_extend/config/override_map.php:5279
+msgid "RSS feed URL"
+msgstr "RSS feed URL"
+
+#: vc_extend/config/override_map.php:5281
+msgid "Enter the RSS feed URL."
+msgstr "Inserisci l'URL del fed RSS."
+
+#: vc_extend/config/override_map.php:5286
+msgid "Items"
+msgstr "Articoli"
+
+#: vc_extend/config/override_map.php:5289
+msgid "10 - Default"
+msgstr "10 - Predefinito"
+
+#: vc_extend/config/override_map.php:5311
+msgid "How many items would you like to display?"
+msgstr "Quanti articoli si desidera visualizzare?"
+
+#: vc_extend/config/override_map.php:5319
+msgid "Display item content?"
+msgstr "Mostrare il contenuto dell'articolo?"
+
+#: vc_extend/config/override_map.php:5320
+msgid "Display item author if available?"
+msgstr "Visualizzare l'autore dell'articolo se disponibile?"
+
+#: vc_extend/config/override_map.php:5321
+msgid "Display item date?"
+msgstr "Visualizzare la data dell'articolo?"
+
+#: vc_extend/config/override_map.php:5336
+msgid "Empty Space"
+msgstr "Spazio vuoto"
+
+#: vc_extend/config/override_map.php:5342
+msgid "Vertical spacer"
+msgstr "Spazio verticale"
+
+#: vc_extend/config/override_map.php:5352
+msgid "Set the empty space height."
+msgstr "Impostare l'altezza dello spazio vuoto."
+
+#: vc_extend/config/override_map.php:5397
+msgid "Heading"
+msgstr "Intestazione"
+
+#: vc_extend/config/override_map.php:5405
+msgid "Text heading"
+msgstr "Intestazione testo"
+
+#: vc_extend/config/override_map.php:5409
+msgid "Heading text"
+msgstr "Testo intestazione"
+
+#: vc_extend/config/override_map.php:5412
+msgid "This is a custom heading element."
+msgstr "Questo è un elemento di intestazione personalizzato."
+
+#: vc_extend/config/override_map.php:5418
+#, fuzzy
+msgid "Automatic heading text"
+msgstr "Test automatico"
+
+#: vc_extend/config/override_map.php:5420
+msgid ""
+"Activate this to pull automatic text content when used as heading for "
+"categories."
+msgstr "Attiva questa opzione usare automaticamente il titolo della categoria."
+
+#: vc_extend/config/override_map.php:5428
+msgid "Element semantic"
+msgstr "Elemento semantico"
+
+#: vc_extend/config/override_map.php:5430
+#: vc_extend/config/override_map.php:5738
+msgid "Specify element tag."
+msgstr "Specificare un elemento tag."
+
+#: vc_extend/config/override_map.php:5437
+msgid "Text size"
+msgstr "Dimensione testo"
+
+#: vc_extend/config/override_map.php:5439
+msgid "Specify text size."
+msgstr "Specifica la dimensione del testo."
+
+#: vc_extend/config/override_map.php:5446
+msgid "Text line height"
+msgstr "Altezza linea testo"
+
+#: vc_extend/config/override_map.php:5448
+#: vc_extend/config/override_map.php:5770
+msgid "Specify text line height."
+msgstr "Specifica l'altezza della linea di testo."
+
+#: vc_extend/config/override_map.php:5454
+msgid "Text letter spacing"
+msgstr "Spaziatura lettere testo "
+
+#: vc_extend/config/override_map.php:5456
+#: vc_extend/config/override_map.php:5777
+msgid "Specify letter spacing."
+msgstr "Specifica la spaziatura delle lettere."
+
+#: vc_extend/config/override_map.php:5462
+msgid "Text font family"
+msgstr "Famiglia font testo"
+
+#: vc_extend/config/override_map.php:5464
+msgid "Specify text font family."
+msgstr "Specifica la famiglia di font del testo."
+
+#: vc_extend/config/override_map.php:5471
+msgid "Text weight"
+msgstr "Peso del testo"
+
+#: vc_extend/config/override_map.php:5473
+msgid "Specify text weight."
+msgstr "Specifica il peso del testo."
+
+#: vc_extend/config/override_map.php:5480
+msgid "Text transform"
+msgstr "Trasformare testo"
+
+#: vc_extend/config/override_map.php:5482
+msgid "Specify the heading text transformation."
+msgstr "Specifica la trasformazione del testo dell'intestazione."
+
+#: vc_extend/config/override_map.php:5493
+msgid "Text italic"
+msgstr "Testo italico"
+
+#: vc_extend/config/override_map.php:5495
+msgid "Transform the text to italic."
+msgstr "Trasformare il testo a italico."
+
+#: vc_extend/config/override_map.php:5503
+msgid "Text color"
+msgstr "Colore testo"
+
+#: vc_extend/config/override_map.php:5505
+msgid "Specify text color."
+msgstr "Specificare il colore del testo."
+
+#: vc_extend/config/override_map.php:5511 vc_extend/config/uncode_map.php:2372
+#: vc_extend/config/uncode_map.php:2453 vc_extend/config/uncode_map.php:2666
+msgid "Separator"
+msgstr "Separatore "
+
+#: vc_extend/config/override_map.php:5513
+msgid "Activate the separator. This will appear under the text."
+msgstr "Attiva il separatore. Apparirà sotto il testo."
+
+#: vc_extend/config/override_map.php:5516
+msgid "Under heading"
+msgstr "Sotto al titolo"
+
+#: vc_extend/config/override_map.php:5517
+msgid "Under subheading"
+msgstr "Sotto al sottotitolo"
+
+#: vc_extend/config/override_map.php:5518
+msgid "Over heading"
+msgstr "Sopra al titolo"
+
+#: vc_extend/config/override_map.php:5524
+msgid "Separator colored"
+msgstr "Separatore colorato"
+
+#: vc_extend/config/override_map.php:5526
+msgid "Color the separator with the accent color."
+msgstr "Colorare il separatore con un colore accentuato."
+
+#: vc_extend/config/override_map.php:5538
+msgid "Separator double space"
+msgstr "Separatore doppio spazio"
+
+#: vc_extend/config/override_map.php:5540
+msgid "Activate to increase the separator space."
+msgstr "Attiva per aumentare lo spazio separatore."
+
+#: vc_extend/config/override_map.php:5552
+msgid "Subheading"
+msgstr "Sottotitolo"
+
+#: vc_extend/config/override_map.php:5554
+msgid "Add a subheading text."
+msgstr "Aggiungi un testo al sottotitolo."
+
+#: vc_extend/config/override_map.php:5570
+msgid "Reduce subheading top space"
+msgstr "Riduci lo spazio sopra al sottotitolo"
+
+#: vc_extend/config/override_map.php:5572
+msgid "Activate this to reduce the subheading top margin."
+msgstr ""
+"Attiva questa opzione per ridurre il margine superiore del sottotitolo."
+
+#: vc_extend/config/override_map.php:5625
+msgid "Icon Box"
+msgstr "Casella icona"
+
+#: vc_extend/config/override_map.php:5631
+msgid "Icon box from icon library"
+msgstr "Casella icona dalla libreria icone"
+
+#: vc_extend/config/override_map.php:5635
+msgid "Module position"
+msgstr "Posizione modulo"
+
+#: vc_extend/config/override_map.php:5639
+msgid "Icon top"
+msgstr "Icona in alto"
+
+#: vc_extend/config/override_map.php:5640
+msgid "Icon bottom"
+msgstr "Icona in basso"
+
+#: vc_extend/config/override_map.php:5641
+msgid "Icon left"
+msgstr "Icona a sinistra"
+
+#: vc_extend/config/override_map.php:5642
+msgid "Icon right"
+msgstr "Icona a destra"
+
+#: vc_extend/config/override_map.php:5644
+msgid "Specify where the icon is positioned inside the module."
+msgstr "Specifica dove viene posizionata l'icona all'interno del modulo."
+
+#: vc_extend/config/override_map.php:5671
+msgid "Media icon"
+msgstr "Icona dei media"
+
+#: vc_extend/config/override_map.php:5674
+msgid "Specify a media icon from the media library."
+msgstr "Scegliere un media dalla libreria media."
+
+#: vc_extend/config/override_map.php:5678 vc_extend/config/uncode_map.php:2513
+msgid "Icon color"
+msgstr "Colore icona"
+
+#: vc_extend/config/override_map.php:5680
+msgid "Specify icon color. NB. This doesn't work for media icons."
+msgstr ""
+
+#: vc_extend/config/override_map.php:5685
+msgid "Icon background style"
+msgstr "Stile sfondo icona"
+
+#: vc_extend/config/override_map.php:5692
+msgid "Background style for icon. NB. This doesn't work for media icons."
+msgstr ""
+
+#: vc_extend/config/override_map.php:5696
+msgid "Icon size"
+msgstr "Dimensione icona"
+
+#: vc_extend/config/override_map.php:5700
+msgid "Icon size. NB. This doesn't work for media icons."
+msgstr ""
+
+#: vc_extend/config/override_map.php:5704
+msgid "Icon outlined"
+msgstr "Icona tratteggiata"
+
+#: vc_extend/config/override_map.php:5706
+#, fuzzy
+msgid "Outlined icon doesn't have a full background color."
+msgstr "L'icona tratteggiata non ha un colore di sfondo completo."
+
+#: vc_extend/config/override_map.php:5717
+msgid "Icon shadow"
+msgstr "Ombra icona"
+
+#: vc_extend/config/override_map.php:5719
+msgid "Icon shadow."
+msgstr "Ombra icona."
+
+#: vc_extend/config/override_map.php:5736
+msgid "Title semantic"
+msgstr "Titolo semantico"
+
+#: vc_extend/config/override_map.php:5744
+msgid "Title size"
+msgstr "Dimensione titolo"
+
+#: vc_extend/config/override_map.php:5746
+msgid "Specify title size."
+msgstr "Specifica la dimensione del titolo."
+
+#: vc_extend/config/override_map.php:5754
+msgid "Specify title font family."
+msgstr "Specifica la famiglia di font del titolo."
+
+#: vc_extend/config/override_map.php:5760
+msgid "Title weight"
+msgstr "Peso del titolo"
+
+#: vc_extend/config/override_map.php:5762
+msgid "Specify title weight."
+msgstr "Specificare il peso del titolo."
+
+#: vc_extend/config/override_map.php:5797
+msgid "Reduce text top space"
+msgstr "Riduci lo spazio superiore del testo"
+
+#: vc_extend/config/override_map.php:5799
+msgid "Activate this to reduce the text top margin."
+msgstr "Attiva questa opzione per ridurre il margine superiore del testo."
+
+#: vc_extend/config/override_map.php:5813
+msgid "Add top margin"
+msgstr "Aggiungi margine superiore"
+
+#: vc_extend/config/override_map.php:5815
+msgid "Add text top margin."
+msgstr "Aggiungi margine superiore testo."
+
+#: vc_extend/config/override_map.php:5831
+msgid "Add link to icon."
+msgstr "Aggiungi un link all'icona."
+
+#: vc_extend/config/override_map.php:5835
+msgid "Link text"
+msgstr "Testo link"
+
+#: vc_extend/config/override_map.php:5837
+msgid "Add a text link if you wish, this will be added under the text."
+msgstr ""
+"Aggiungi un link di testo se lo si desidera, questo verrà aggiunto sotto il "
+"testo."
+
+#: vc_extend/config/uncode_map.php:13 vc_extend/config/uncode_map.php:321
+#: vc_extend/config/uncode_map.php:498 vc_extend/config/uncode_map.php:627
+#, fuzzy
+msgid "element"
+msgstr "Elemento contenitore riga"
+
+#: vc_extend/config/uncode_map.php:25 vc_extend/config/uncode_map.php:333
+#: vc_extend/config/uncode_map.php:510 vc_extend/config/uncode_map.php:639
+msgid "Featured image"
+msgstr "Immagine in evidenza"
+
+#: vc_extend/config/uncode_map.php:29 vc_extend/config/uncode_map.php:337
+#: vc_extend/config/uncode_map.php:514 vc_extend/config/uncode_map.php:643
+msgid "Featured media"
+msgstr "Media in evidenza"
+
+#: vc_extend/config/uncode_map.php:39 vc_extend/config/uncode_map.php:347
+#: vc_extend/config/uncode_map.php:524 vc_extend/config/uncode_map.php:653
+msgid "Link on post"
+msgstr "Link nell'articolo"
+
+#: vc_extend/config/uncode_map.php:67 vc_extend/config/uncode_map.php:375
+#: vc_extend/config/uncode_map.php:552 vc_extend/config/uncode_map.php:691
+msgid "Post type"
+msgstr "Tipo articolo"
+
+#: vc_extend/config/uncode_map.php:71 vc_extend/config/uncode_map.php:379
+msgid "Author"
+msgstr "Autore"
+
+#: vc_extend/config/uncode_map.php:75 vc_extend/config/uncode_map.php:383
+msgid "Date"
+msgstr "Data"
+
+#: vc_extend/config/uncode_map.php:87 vc_extend/config/uncode_map.php:413
+#: vc_extend/config/uncode_map.php:564 vc_extend/config/uncode_map.php:703
+msgid "Excerpt"
+msgstr "Estratto"
+
+#: vc_extend/config/uncode_map.php:91 vc_extend/config/uncode_map.php:417
+#: vc_extend/config/uncode_map.php:568 vc_extend/config/uncode_map.php:707
+msgid "Full content"
+msgstr "Contenuto pieno"
+
+#: vc_extend/config/uncode_map.php:321 vc_extend/config/uncode_map.php:2199
+msgid "Posts"
+msgstr "Articoli"
+
+#: vc_extend/config/uncode_map.php:391
+msgid "No color"
+msgstr "Nessun colore"
+
+#: vc_extend/config/uncode_map.php:395
+msgid "Colored text"
+msgstr "Colore testo"
+
+#: vc_extend/config/uncode_map.php:405
+msgid "Default meta"
+msgstr "Meta predefinito"
+
+#: vc_extend/config/uncode_map.php:423
+msgid "Read more link"
+msgstr "Link leggi di più"
+
+#: vc_extend/config/uncode_map.php:627
+msgid "Products"
+msgstr "Prodotti"
+
+#: vc_extend/config/uncode_map.php:677
+msgid "Hide on sale"
+msgstr ""
+
+#: vc_extend/config/uncode_map.php:681
+#, fuzzy
+msgid "Show on sale"
+msgstr "Mostrare nome link"
+
+#: vc_extend/config/uncode_map.php:713 vc_extend/config/uncode_map.php:2548
+msgid "Price"
+msgstr "Prezzo"
+
+#: vc_extend/config/uncode_map.php:844
+msgid "Index content"
+msgstr "Contenuto indice"
+
+#: vc_extend/config/uncode_map.php:857
+msgid "Create WordPress loop, to populate content from your site."
+msgstr "Creare un loop di WordPress, per popolare i contenuti dal tuo sito."
+
+#: vc_extend/config/uncode_map.php:862
+#, fuzzy
+msgid "Post Offset"
+msgstr "Articoli"
+
+#: vc_extend/config/uncode_map.php:865
+msgid ""
+"Enter the amount of posts that should be skipped in the beginning of the "
+"query."
+msgstr ""
+
+#: vc_extend/config/uncode_map.php:870
+msgid "Automatic query"
+msgstr "Query automatica"
+
+#: vc_extend/config/uncode_map.php:872
+#, fuzzy
+msgid ""
+"Activate this to pull automatic query when used as Content Block for "
+"categories."
+msgstr ""
+"Attiva questa opzione per ridurre il margine superiore del sottotitolo."
+
+#: vc_extend/config/uncode_map.php:897
+msgid "Index background color"
+msgstr "Colore sfondo indice"
+
+#: vc_extend/config/uncode_map.php:1153
+msgid "Pagination"
+msgstr "Numerazione delle pagine"
+
+#: vc_extend/config/uncode_map.php:1155
+msgid "Activate this to add the pagination function."
+msgstr ""
+"Attiva questa opzione per aggiungere la funzione numerazione delle pagine."
+
+#: vc_extend/config/uncode_map.php:1169
+msgid "Infinite load more"
+msgstr "Mostra di più infinito"
+
+#: vc_extend/config/uncode_map.php:1171
+msgid ""
+"Activate this to load more items with scrolling.<br>N.B. This option "
+"doesnt't work is combination with the 'Random' order or with multiple "
+"isotope in the same page."
+msgstr ""
+"Attiva questa opzione per caricare più elementi con lo scorrimento. <br> N."
+"B. Questa opzione non funziona in combinazione con l'ordine 'casuale' o con "
+"isotope multiplo nella stessa pagina."
+
+#: vc_extend/config/uncode_map.php:1189
+msgid "Load more button"
+msgstr "Pulsante mostra di più"
+
+#: vc_extend/config/uncode_map.php:1191
+msgid "Activate this to load more items by pressing the button."
+msgstr "Attiva questa opzione per caricare più elementi premendo il pulsante."
+
+#: vc_extend/config/uncode_map.php:1213
+msgid "Load more button outlined"
+msgstr "Pulsante caricare  di più tratteggiato"
+
+#: vc_extend/config/uncode_map.php:1215
+msgid "Activate this to the have the button outlined."
+msgstr "Attiva questa opzione per avere il pulsante tratteggiato."
+
+#: vc_extend/config/uncode_map.php:1237
+msgid "Load more button text"
+msgstr "Pulsante testo caricare di più"
+
+#: vc_extend/config/uncode_map.php:1239
+msgid "Specify the button label. NB. The default is 'Load more'."
+msgstr ""
+"Specifica l'etichetta del pulsante. N.B. Quella predefinita è 'caricare di "
+"più'."
+
+#: vc_extend/config/uncode_map.php:1258
+msgid "Load more button shape"
+msgstr "Forma del pulsante carica di più"
+
+#: vc_extend/config/uncode_map.php:1260
+msgid "Specify the load more button shape."
+msgstr "Specifica la forma del pulsante carica di più."
+
+#: vc_extend/config/uncode_map.php:1285
+msgid "Load more button color"
+msgstr "Colore del pulsante carica di più"
+
+#: vc_extend/config/uncode_map.php:1287
+msgid "Specify a background color for the load more button."
+msgstr "Specifica il colore di fondo per il pulsante carica si più."
+
+#: vc_extend/config/uncode_map.php:1308
+msgid "Pagination/Infinite skin"
+msgstr "Skin impaginazione/infinito"
+
+#: vc_extend/config/uncode_map.php:1310
+msgid "Specify the pagination/infinite skin color."
+msgstr "Specifica il colore skin impaginazione/infinito."
+
+#: vc_extend/config/uncode_map.php:1325
+msgid "Pagination/Infinite color"
+msgstr "Colore impaginazione/infinito"
+
+#: vc_extend/config/uncode_map.php:1327
+msgid "Specify a background color for the pagination/infinite."
+msgstr "Specifica un colore di fondo per l'impaginazione/infinito."
+
+#: vc_extend/config/uncode_map.php:1340
+msgid "Pagination/Infinite full width"
+msgstr "Impaginazione/infinito a larghezza massima"
+
+#: vc_extend/config/uncode_map.php:1342
+msgid "Activate this to force the full width of the pagination/infinite."
+msgstr ""
+"Attiva questa opzione per forzare la larghezza massima della numerazione "
+"delle pagine/infinito."
+
+#: vc_extend/config/uncode_map.php:1719
+msgid "Text skin"
+msgstr "Testo skin"
+
+#: vc_extend/config/uncode_map.php:1732
+msgid "Specify a background color for the overlay."
+msgstr "Specifica un colore di fondo per la sovrapposizione."
+
+#: vc_extend/config/uncode_map.php:1866
+msgid "Text horizontal alignment mobile"
+msgstr "Allineamento orizzontale del testo mobile"
+
+#: vc_extend/config/uncode_map.php:1868
+msgid "Specify the horizontal alignment in mobile."
+msgstr "Specifica l'allineamento orizzontale nel mobile."
+
+#: vc_extend/config/uncode_map.php:1955
+msgid ""
+"Activate this to make every single elements clickable instead of the whole "
+"block (when availabe)."
+msgstr ""
+"Attivare questa opzione per rendere ogni elemento cliccabile invece "
+"dell'intero blocco (quando disponibile)."
+
+#: vc_extend/config/uncode_map.php:2061
+msgid "Remove border"
+msgstr "Rimuovi bordo"
+
+#: vc_extend/config/uncode_map.php:2074
+msgid "Custom order"
+msgstr "Bordo personalizzato"
+
+#: vc_extend/config/uncode_map.php:2076
+msgid ""
+"Activate this to order the items with drag & drop.<br/>NB. Custom order is "
+"only possible when the 'Infinite load more' or pagination are deactivated."
+msgstr ""
+"Attiva questa opzione per ordinare gli articoli con il drag & drop. <br/> N."
+"B. L'ordine personalizzato è possibile solo quando il 'caricare di più "
+"infinito' o la numerazione delle pagine sono disattivati."
+
+#: vc_extend/config/uncode_map.php:2213
+msgid "Content slider"
+msgstr "Contenuto slider"
+
+#: vc_extend/config/uncode_map.php:2222
+msgid "Uncode slider"
+msgstr "Uncode slider"
+
+#: vc_extend/config/uncode_map.php:2269
+msgid ""
+"Activate the loop option to make the carousel infinite. NB. Don't activate "
+"if the slider contains an Isotope index."
+msgstr ""
+"Attiva l'opzione loop per rendere il carosello infinito. N.B. Non attivare "
+"se lo slider contiene un indice Isotope."
+
+#: vc_extend/config/uncode_map.php:2283
+msgid "Add slide"
+msgstr "Aggiungere slide"
+
+#: vc_extend/config/uncode_map.php:2292
+msgid "Counter"
+msgstr "Contatore"
+
+#: vc_extend/config/uncode_map.php:2298
+msgid "Animated counter"
+msgstr "Contatore animato"
+
+#: vc_extend/config/uncode_map.php:2302
+msgid "Counter value"
+msgstr "Valore del contatore"
+
+#: vc_extend/config/uncode_map.php:2304
+msgid "Input counter value here."
+msgstr "Immetti il valore del contatore qui."
+
+#: vc_extend/config/uncode_map.php:2310
+msgid "Prefix"
+msgstr "Prefisso"
+
+#: vc_extend/config/uncode_map.php:2312
+msgid "Input a prefix to the value."
+msgstr "Impostare un prefisso per il valore."
+
+#: vc_extend/config/uncode_map.php:2317
+msgid "Suffix"
+msgstr "Suffisso"
+
+#: vc_extend/config/uncode_map.php:2319
+msgid "Input a suffix to the value."
+msgstr "Impostare un suffisso per il valore."
+
+#: vc_extend/config/uncode_map.php:2323
+#, fuzzy
+msgid "Counter color"
+msgstr "Colore del  bordo"
+
+#: vc_extend/config/uncode_map.php:2325
+#, fuzzy
+msgid "Specify a color for the counter."
+msgstr "Specifica un colore per l'icona."
+
+#: vc_extend/config/uncode_map.php:2330
+msgid "Counter font size"
+msgstr "Dimensione font contatore"
+
+#: vc_extend/config/uncode_map.php:2332
+msgid "Specify the counter font dimension."
+msgstr "Specifica la dimensione del font del contatore."
+
+#: vc_extend/config/uncode_map.php:2337
+#, fuzzy
+msgid "Counter line height"
+msgstr "Peso font contatore"
+
+#: vc_extend/config/uncode_map.php:2339
+#, fuzzy
+msgid "Specify the counter line height."
+msgstr "Specifica il peso del font del contatore."
+
+#: vc_extend/config/uncode_map.php:2344
+msgid "Counter font family"
+msgstr "Famiglia di font del contatore"
+
+#: vc_extend/config/uncode_map.php:2346
+msgid "Specify the counter font family."
+msgstr "Specifica la famiglia di font del contatore."
+
+#: vc_extend/config/uncode_map.php:2352
+msgid "Counter font weight"
+msgstr "Peso font contatore"
+
+#: vc_extend/config/uncode_map.php:2354
+msgid "Specify the counter font weight."
+msgstr "Specifica il peso del font del contatore."
+
+#: vc_extend/config/uncode_map.php:2360
+msgid "Counter text transform"
+msgstr "Trasformazione del testo del contatore"
+
+#: vc_extend/config/uncode_map.php:2362
+msgid "Specify the counter text transformation."
+msgstr "Specifica la trasformazione del testo del contatore."
+
+#: vc_extend/config/uncode_map.php:2374 vc_extend/config/uncode_map.php:2455
+#: vc_extend/config/uncode_map.php:2668
+msgid "Activate this to add a separator between the value and the description."
+msgstr ""
+"Attiva questa opzione per aggiungere un separatore tra il valore e la "
+"descrizione."
+
+#: vc_extend/config/uncode_map.php:2381 vc_extend/config/uncode_map.php:2462
+msgid "Text under"
+msgstr "Testo sotto"
+
+#: vc_extend/config/uncode_map.php:2383
+msgid "Input a text under the counter."
+msgstr "Immetti un testo sotto il contatore."
+
+#: vc_extend/config/uncode_map.php:2395
+msgid "Countdown"
+msgstr "Conto alla rovescia"
+
+#: vc_extend/config/uncode_map.php:2401
+msgid "Animated countdown"
+msgstr "Conto alla rovescia animato"
+
+#: vc_extend/config/uncode_map.php:2405
+msgid "Final date"
+msgstr "Data finale"
+
+#: vc_extend/config/uncode_map.php:2407
+msgid "Input the countdown date with this format YYYY/MM/DD. ex. 2016/05/20"
+msgstr ""
+"Immetti la data del conto alla rovescia con questo formato YYYY/MM/DD. ex. "
+"2016/05/20"
+
+#: vc_extend/config/uncode_map.php:2412
+msgid "Countdown font size"
+msgstr "Dimensione font conto alla rovescia"
+
+#: vc_extend/config/uncode_map.php:2414
+msgid "Specify the countdown font size."
+msgstr "Specifica la dimensione del font del conto alla rovescia."
+
+#: vc_extend/config/uncode_map.php:2419
+#, fuzzy
+msgid "Countdown line height"
+msgstr "Peso font conto alla rovescia"
+
+#: vc_extend/config/uncode_map.php:2421
+#, fuzzy
+msgid "Specify the countdown line height."
+msgstr "Specifica il peso del font del conto alla rovescia."
+
+#: vc_extend/config/uncode_map.php:2426
+msgid "Countdown font family"
+msgstr "Famiglia di font del conto alla rovescia"
+
+#: vc_extend/config/uncode_map.php:2428
+msgid "Specify the countdown font family."
+msgstr "Specifica la famiglia di font del conto alla rovescia."
+
+#: vc_extend/config/uncode_map.php:2434
+msgid "Countdown font weight"
+msgstr "Peso font conto alla rovescia"
+
+#: vc_extend/config/uncode_map.php:2436
+msgid "Specify the countdown font weight."
+msgstr "Specifica il peso del font del conto alla rovescia."
+
+#: vc_extend/config/uncode_map.php:2441
+msgid "Countdown uppercase"
+msgstr "Conto alla rovescia maiuscolo"
+
+#: vc_extend/config/uncode_map.php:2443
+msgid "Specify the countdown text transformation."
+msgstr "Specifica la trasformazione del testo del conto alla rovescia."
+
+#: vc_extend/config/uncode_map.php:2464
+msgid "Input a text under the countdown."
+msgstr "Immetti un testo sotto il conto alla rovescia."
+
+#: vc_extend/config/uncode_map.php:2476
+msgid "List"
+msgstr "Elenco"
+
+#: vc_extend/config/uncode_map.php:2482
+msgid "List with icon"
+msgstr "Elenco con icona"
+
+#: vc_extend/config/uncode_map.php:2486
+msgid "List text"
+msgstr "Testo elenco"
+
+#: vc_extend/config/uncode_map.php:2491
+msgid "Larger text"
+msgstr "Testo più largo"
+
+#: vc_extend/config/uncode_map.php:2493
+msgid "Activate this to have bigger text."
+msgstr "Attiva questa opzione per avere il testo più grande."
+
+#: vc_extend/config/uncode_map.php:2515
+msgid "Specify a color for the icon."
+msgstr "Specifica un colore per l'icona."
+
+#: vc_extend/config/uncode_map.php:2531 vc_extend/config/uncode_map.php:2537
+msgid "Pricing table"
+msgstr "Tabella dei prezzi"
+
+#: vc_extend/config/uncode_map.php:2543
+msgid ""
+"Insert the price table title and separate with a pipe | if you want to have "
+"subtitle."
+msgstr ""
+"Inserire il titolo della tabella dei prezzi e separare con un pipe | se si "
+"desidera avere un sottotitolo."
+
+#: vc_extend/config/uncode_map.php:2544
+msgid "Title|Subtitle"
+msgstr "Titolo|Sottotitolo"
+
+#: vc_extend/config/uncode_map.php:2550
+msgid ""
+"Insert the price and separate with a pipe | if you want to have subtitle."
+msgstr ""
+"Inserire il prezzo e separare con un pipe | se si desidera avere un "
+"sottotitolo."
+
+#: vc_extend/config/uncode_map.php:2551
+msgid "$50|per month"
+msgstr "$50|per mese"
+
+#: vc_extend/config/uncode_map.php:2555
+msgid "Body"
+msgstr "Corpo"
+
+#: vc_extend/config/uncode_map.php:2557
+msgid ""
+"Insert body text line. Every new line is a block. If you separate with a "
+"pipe | the first part will be with bold style."
+msgstr ""
+"Inserisci riga di testo. Ogni nuova linea è un blocco. Se si separano con un "
+"pipe | la prima parte sarà con stile grassetto."
+
+#: vc_extend/config/uncode_map.php:2563
+msgid "Insert a link if you want a button."
+msgstr "Inserisci un link se vuoi un pulsante."
+
+#: vc_extend/config/uncode_map.php:2567
+msgid "Block color"
+msgstr "Colore blocco "
+
+#: vc_extend/config/uncode_map.php:2569
+msgid "Specify a color for the block."
+msgstr "Specifica un colore per il blocco."
+
+#: vc_extend/config/uncode_map.php:2577
+msgid "Inside elements"
+msgstr "Elementi interni"
+
+#: vc_extend/config/uncode_map.php:2578
+msgid "Top and bottom"
+msgstr "Sopra e sotto"
+
+#: vc_extend/config/uncode_map.php:2580
+msgid "Specify how do you want to color the block."
+msgstr "Specifica come vuoi che sia colorato il blocco."
+
+#: vc_extend/config/uncode_map.php:2588
+msgid "Most popular"
+msgstr "I più popolari"
+
+#: vc_extend/config/uncode_map.php:2590
+msgid "Activate this to make the block to stick out, like featured."
+msgstr "Attiva questa opzione per far risaltare il blocco, come in evidenza."
+
+#: vc_extend/config/uncode_map.php:2599
+msgid "Specify the text aligment."
+msgstr "Specifica l'allineamento del testo."
+
+#: vc_extend/config/uncode_map.php:2614
+msgid "Share"
+msgstr "Condividere"
+
+#: vc_extend/config/uncode_map.php:2620
+msgid "Share buttons"
+msgstr "Pulsanti condivisione"
+
+#: vc_extend/config/uncode_map.php:2624
+msgid "Share layout"
+msgstr "Layout condivisione"
+
+#: vc_extend/config/uncode_map.php:2626
+msgid "Specify the sharing area layout."
+msgstr "Specifica il layout della zona condivisione."
+
+#: vc_extend/config/uncode_map.php:2628
+msgid "One popup button"
+msgstr "Un pulsante popup"
+
+#: vc_extend/config/uncode_map.php:2629
+msgid "Social buttons"
+msgstr "Pulsanti social"
+
+#: vc_extend/config/uncode_map.php:2634
+msgid "Bigger icons"
+msgstr "Icone più grandi"
+
+#: vc_extend/config/uncode_map.php:2636
+msgid "Activate this to have bigger icons."
+msgstr "Attiva questa opzione per avere le icone più grandi."
+
+#: vc_extend/config/uncode_map.php:2647
+msgid "No background"
+msgstr "Nessuno sfondo"
+
+#: vc_extend/config/uncode_map.php:2649
+msgid "Activate this to remove the background hover effect."
+msgstr "Attiva questa opzione per rimuovere l'effetto hover dello sfondo."
+
+#: vc_extend/config/uncode_map.php:2662
+msgid "Insert the label for the share module."
+msgstr "Inserisci l'etichetta per il modulo condivisione."
+
+#: vc_extend/config/uncode_map.php:2687
+msgid "Twenty Twenty"
+msgstr ""
+
+#: vc_extend/config/uncode_map.php:2692
+msgid "Show before-and-after pictures"
+msgstr ""
+
+#: vc_extend/config/uncode_map.php:2696
+#, fuzzy
+msgid "Media before"
+msgstr "Galleria Media"
+
+#: vc_extend/config/uncode_map.php:2704
+#, fuzzy
+msgid "Media after"
+msgstr "Galleria Media"
+
+#: vc_extend/config/uncode_map.php:2732
+#, fuzzy
+msgid "No Content Block found"
+msgstr "Nessun blocco contenuto trovato"
+
+#: vc_extend/config/uncode_map.php:2738
+#, fuzzy
+msgid "Content Block VC"
+msgstr "Blocco contenuto"
+
+#: vc_extend/config/uncode_map.php:2741
+msgid "Place Content Block"
+msgstr "Posizionare blocco contenuto"
+
+#: vc_extend/config/uncode_map.php:2750
+#, fuzzy
+msgid "Choose previously created Content Block from the drop down list."
+msgstr "Scegli il blocco contenuto creato in precedenza dal menu a tendina."
+
+#: vc_extend/config/uncode_map.php:2754
+#, fuzzy
+msgid "Column container settings"
+msgstr "Colore del testo della colonna."
+
+#: vc_extend/config/uncode_map.php:2756
+#, fuzzy, php-format
+msgid ""
+"Activate this to use the Content Block inside a column.%sNB. When using this "
+"option nested row (row child) inside the Content Block will not work."
+msgstr ""
+"Attivare questa opzione per utilizzare il blocco contenuto all’interno di "
+"una colonna.%sNB. Quando si utilizza questa opzione, gli righe interne (row "
+"child) all’interno del blocco contenuto non funzioneranno."
+
+#: vc_extend/init.php:452
+msgid "Custom layout"
+msgstr "Layout personalizzato"
+
+#: vc_extend/init.php:455
+msgid "Drag row to reorder"
+msgstr "Trascinare la riga per riordinare"
+
+#: vc_extend/init.php:457
+msgid "Delete this row"
+msgstr "Cancellare questa riga"
+
+#: vc_extend/init.php:458
+msgid "Edit this row"
+msgstr "Modificare questa riga"
+
+#: vc_extend/init.php:459
+msgid "Clone this row"
+msgstr "Clonare questa riga"
+
+#: vc_extend/init.php:460
+msgid "Toggle row"
+msgstr "Mostra/Nascondi riga"
+
+#~ msgid "No Gravity forms found."
+#~ msgstr "Nessun modulo Gravity trovato."
+
+#~ msgid "Specify a form to display."
+#~ msgstr "Specifica un modulo da visualizzare."
+
+#~ msgid "Gravity Form"
+#~ msgstr "Gravity Form"
+
+#~ msgid "Place Gravity form"
+#~ msgstr "Posiziona Gravity Form"
+
+#~ msgid "Form"
+#~ msgstr "Modulo"
+
+#~ msgid "Specify a form to add it to your post or page."
+#~ msgstr "Specifica un modulo per aggiungerlo al tuo articolo o pagina."
+
+#~ msgid "Display Form Title"
+#~ msgstr "Visualizza il titolo del modulo"
+
+#~ msgid "Yes"
+#~ msgstr "Si"
+
+#~ msgid "Would you like to display the forms title?"
+#~ msgstr "Vuoi visualizzare il titolo del modulo?"
+
+#~ msgid "Display Form Description"
+#~ msgstr "Visualizza la descrizione del modulo"
+
+#~ msgid "Would you like to display the forms description?"
+#~ msgstr "Vuoi visualizzare il titolo della descrizione?"
+
+#~ msgid "Enable AJAX?"
+#~ msgstr "Abilitare AJAX?"
+
+#~ msgid "Enable AJAX submission?"
+#~ msgstr "Abilitare presentazione AJAX?"
+
+#~ msgid "Tab Index"
+#~ msgstr "Indice scheda"
+
+#~ msgid ""
+#~ "(Optional) Specify the starting tab index for the fields of this form. "
+#~ "Leave blank if you're not sure what this is."
+#~ msgstr ""
+#~ "(Facoltativo) Specifica l'indicatore della scheda di partenza per i campi "
+#~ "di questo modulo. Lasciare vuoto se non siete sicuri di cosa si tratta."
+
+#~ msgid "Background style for icon."
+#~ msgstr "Stile sfondo per l'icona."
+
+#~ msgid "Icon size."
+#~ msgstr "Dimensione icona."
+
+#~ msgid "Content block"
+#~ msgstr "Blocco contenuto"
+
+#~ msgid "Use content block inside column"
+#~ msgstr "Utilizzare il blocco contenuto all’interno della colonna"
+
+#~ msgid "Portfolios"
+#~ msgstr "Portfolios"

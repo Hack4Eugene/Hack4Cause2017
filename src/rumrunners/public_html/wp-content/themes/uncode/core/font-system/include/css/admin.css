@@ -1,0 +1,111 @@
+h3.hndle { text-transform: none; letter-spacing: normal; }
+
+/*.uf-wrapper { width: 80%; max-width: 1200px; min-width: 800px; font-family: Tahoma, Geneva, sans-serif; display: inline-block; }*/
+.uf-fonts-for, .uf-fonts-for.hidden { display: none; visibility: hidden; }
+.uf-fonts-for li { padding: 8px 0; border-bottom: 1px dotted #ccc; margin-bottom: 0; position: relative; }
+.uf-group-key-position-1, .uf-fonts-for.shown { display: block; visibility: visible; }
+.uf-wrapper input[type="checkbox"] { margin-right: 5px; }
+.uf-box {
+	width: 40%;
+	margin: 10px 4% 10px 0;
+	float: left;
+	height: 150px;
+	background: #eee;
+	background: -moz-linear-gradient(center top, #eee 20%, #fff 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(center top, #eee 20%, #fff 100%) repeat scroll 0 0 transparent;
+	padding: 10px 1%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.uf-field {
+	margin: 8px 0;
+}
+.uf-field input[type="text"] { width: 200px; }
+input.uf-submit-button {
+	padding: 10px 15px;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	min-width: 120px;
+	font-family: 'Dosis', Tahoma, Geneva, sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	background: #6af;
+	background: -moz-linear-gradient(center top, #336699 20%, #224477 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(center top, #336699 20%, #224477 100%) repeat scroll 0 0 transparent;
+	color: #fff;
+	float: none;
+	border-radius: 3px;
+}
+input.uf-submit-button:hover { color: #fff; }
+.uf-button-bar {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 0;
+	border-top: 1px dotted #ccc;
+	margin-top: 1em;
+}
+.uf-button-bar .option-tree-ui-button {
+	display: inline-block;
+	float: none;
+	text-align: center;
+	min-width: 100px;
+	min-height: 40px;
+}
+.uf-font-container {
+	width: 100%;
+	display: inline-block;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	min-height: 320px;
+}
+#uf-font-stack li {
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	font-size: 18px;
+	line-height: 50px;
+	background: #eee;
+	background: -moz-linear-gradient(center top, #eee 20%, #fff 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(center top, #eee 20%, #fff 100%) repeat scroll 0 0 transparent;
+	margin-bottom: 0;
+}
+#uf-font-stack li.selected {
+	color: #fff;
+	background: #6af;
+	background: -moz-linear-gradient(center top, #336699 20%, #224477 100%) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(center top, #336699 20%, #224477 100%) repeat scroll 0 0 transparent;
+}
+.uf-stack-meta { float: right; font-size: 12px;}
+.uf-font-preview { width: 65%; float: left; }
+.uf-font-stub, .uf-font-variants, .uf-font-subsets, .uf-font-variants-files, .uf-font-family-id { display: none; }
+#uf-font-details { width: 32%; float: right; padding: 10px; line-height: 1.3em; }
+#uf-font-stack { padding: 10px; margin: 0;}
+.uf-prev-add { float: right; }
+.uf-launch-preview { width: 20px; height: 20px; display: inline-block; color: #444; font-size: 16px; text-decoration: none; line-height: 20px; }
+.uf-add-font { width: 20px; height: 20px; display: inline-block; color: #444; font-size: 16px; text-decoration: none; line-height: 20px; }
+.uf-download-font { width: 20px; height: 20px; display: inline-block; color: #444; font-size: 16px; text-decoration: none; line-height: 20px; }
+.uf-delete-download { width: 20px; height: 20px; display: inline-block; color: #444; font-size: 16px; text-decoration: none; line-height: 20px; }
+.uf-remove-font { width: 20px; height: 20px; display: inline-block; line-height: 20px; font-size: 16px; position: relative; top: 2px; text-align: center; cursor: pointer; }
+.uf-launch-preview:hover, .uf-add-font:hover, .uf-remove-font:hover, .uf-download-font:hover, .uf-delete-download:hover { opacity: 1; }
+.uf-main-title { padding: 0.3em 0 0.5em 0px;}
+.uf-gf-title { }
+.uf-variant-subset { display: block; }
+.uf-variant-subset .uf-all-variants { width: 48%; float: left; }
+.uf-variant-subset .uf-all-subsets { width: 48%; float: right; }
+#uf-font-selectors { width: 100%; margin: 10px 0;}
+.uf-selector { width: 100%; display: inline-block; }
+#uf-overlay { position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: #fff; opacity: 0.5; visibility: hidden;}
+
+.uf-all-variants .selectors, .uf-variant-font-selector { float: right; }
+.uf-variant-list li { display: inline-block; width: 100%; }
+.uf-font-wip {
+	opacity: 0.9;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #fff url(../icons/downloading-dots.gif) no-repeat center center;
+}
