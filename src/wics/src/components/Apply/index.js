@@ -362,9 +362,8 @@ export default class Apply extends React.Component {
             <br/>
             <br/>
             <br/>
-            <br/>
-            <br/>
-            <img src={require('/Users/msteelha/AFFECT/public/chatSample.png')} alt="Chat" height={250} style={style_end}/>
+            
+            <img src={require('./chatSample.png')} alt="Chat" height={250} style={style_end}/>
             <footer>
             <div>
             <FlatButton label="Send" secondary={true}/>
