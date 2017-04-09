@@ -1,0 +1,9 @@
+ipython
+jupyter
+python-nvd3
+pandas
+xlrd
+psycopg2
+sqlalchemy
+ipython-sql
+geojson
