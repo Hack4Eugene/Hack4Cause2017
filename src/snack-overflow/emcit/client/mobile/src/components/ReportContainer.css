@@ -1,0 +1,14 @@
+.thanksPage {
+
+    padding: 10%;
+    text-align: center;
+
+
+    h1 {
+        font-size: 3em;
+    }
+
+    button {
+        margin: 50px 0;
+    }
+}

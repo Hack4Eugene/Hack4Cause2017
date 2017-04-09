@@ -1,0 +1,9 @@
+*.pyc
+.idea
+
+config.py
+test.db
+client/node_modules
+static
+
+/venv/*
