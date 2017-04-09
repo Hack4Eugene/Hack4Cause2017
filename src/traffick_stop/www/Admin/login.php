@@ -43,11 +43,30 @@
 	<div class="container" id="login_form">
 		<div class=col-md-3></div>
 		<div class=col-md-6>
-		<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" class="center">
+		<!--<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" class="center">
 			<div class="form-group"><input name="username" class="form-control" placeholder="Username" type="text" required></div>
 			<div class="form-group"><input name="password" class="form-control" placeholder="Password" type="password" required></div>
 			<div class="form-group"><input type="submit" class="btn btn-info" value="Log In"></div>
-		</form>
+		</form> -->
+		<form class="form-horizontal">
+  <div class="form-group">
+	  <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
+    <div class="col-sm-8">
+      <input name="username" type="text" class="form-control" id="inputUsername" placeholder="Username">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-8">
+      <input name="password" type="password" class="form-control" id="inputPassword" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-12 center">
+      <button type="submit" class="btn btn-info">Sign in</button>
+    </div>
+  </div>
+</form>
 		</div>
 		<div class=col-md-3></div>
 	</div><!-- jQuery -->

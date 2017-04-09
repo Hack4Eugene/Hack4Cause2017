@@ -40,7 +40,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		reporter_details
 	) VALUES (
 		'$date',
-		'NOW()',
+		NULL,
 		'$login_session',
 		'',
 		'',
@@ -52,7 +52,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 	)";
 
 	if (mysqli_query($db, $sql_report)) {
-    	echo "Main report created successfully";
+    	//echo "Main report created successfully";
 		$report_id = mysqli_insert_id($db);
 		$sql_person = "INSERT INTO people (
 			ReportID,
@@ -105,15 +105,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 			'$car_blob'
 		)";
 		if (mysqli_query($db, $sql_person)) {
-			echo "New person record created successfully";
+			//echo "New person record created successfully";
 		} else {
 			echo "Error: " . $sql_person . mysqli_error($db);
 		}
 		if (mysqli_query($db, $sql_car)) {
-			echo "New vehicle record created successfully";
+			//echo "New vehicle record created successfully";
 		} else {
 			echo "Error: " . $sql_car . mysqli_error($db);
 		}
+		header("location: thankyou.php");
 	} else {
 		echo "Error: " . $sql_report . mysqli_error($db);
 	}

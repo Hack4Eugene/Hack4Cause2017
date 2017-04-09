@@ -1,11 +1,12 @@
 /* CSS Document */
 body {
-	/*margin-top:4vh;
-	padding-top:2vh;*/
+	margin-top:4vh;
+	padding-top:2vh;
 	background-color:#e2e2e2;
 }
 .container {
 	background-color:#FFFFFF;
+	padding-top:3vh;
 }
 #login_form {
 	border: 1px solid #505050;
