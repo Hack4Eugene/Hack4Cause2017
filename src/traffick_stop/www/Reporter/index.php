@@ -20,11 +20,12 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3 center">
+				
+			</div>
+			<div class="col-md-6 center">
 				<a href="index.php" class="btn btn-info">Report Full</a>
 				<a href="reportvehicle.php" class="btn btn-primary">Report Vehicle</a>
 				<a href="reportperson.php" class="btn btn-primary">Report Person</a>
-			</div>
-			<div class="col-md-6">
 				<h4 class="center" style="color:#b03030">Don't forget: If it's an emergency call 911!</h4>
 				<form class="center" action="report.php" method="post">
 					<p>Time and Place:</p>
