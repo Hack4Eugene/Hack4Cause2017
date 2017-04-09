@@ -4,9 +4,14 @@ import { Row } from 'react-flexbox-grid';
 
 const CategoryIcon = React.createClass({
     render() {
-        const categoryLink = this.props.categoryId !== 4
-            ? `/category/${this.props.categoryId}`
-            : '/parking';
+        let categoryLink;
+        if (this.props.categoryId === 4) {
+            categoryLink = '/parking';
+        } else if (this.props.categoryId === 5) {
+            categoryLink = '/weather';
+        } else {
+            categoryLink = `/category/${this.props.categoryId}`;
+        }
 
         return (
             <div>
