@@ -31,11 +31,3 @@ Jeffrey Knees jknees@uoregon.edu<br/>
 Daniel Su dsu@uoregon.edu<br/>
 Brandon Sov b.r.a.n.d.o.n.s.o.v@gmail.com<br/>
 <br/>
-
-## Installation (to be viewed locally)
-```
-virtualenv env
-source env/bin/activate
-pip install -r requirements.txt
-python3 app.py
-```
