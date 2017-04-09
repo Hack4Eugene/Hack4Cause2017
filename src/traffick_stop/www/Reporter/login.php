@@ -43,7 +43,7 @@
 	<div class="container" id="login_form">
 		<div class=col-md-3></div>
 		<div class=col-md-6>
-		<form class="form-horizontal">
+		<form class="form-horizontal" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
   <div class="form-group">
 	  <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
     <div class="col-sm-8">

@@ -49,7 +49,7 @@
 			<div class="form-group"><input type="submit" class="btn btn-info" value="Log In"></div>
 		</form> -->
 		<form class="form-horizontal">
-  <div class="form-group">
+  <div class="form-group" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 	  <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
     <div class="col-sm-8">
       <input name="username" type="text" class="form-control" id="inputUsername" placeholder="Username">
