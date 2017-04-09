@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{494C97C9-6C15-4455-B461-13DFEC310056}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ReportView.cs">
+    <Files>
+      <File FileName="iOS/OpenningSplash.cs" Line="50" Column="5" />
+      <File FileName="iOS/ReportSplash.cs" Line="10" Column="35" />
+      <File FileName="iOS/ReportFooter.cs" Line="31" Column="10" />
+      <File FileName="iOS/ViewController.cs" Line="9" Column="33" />
+      <File FileName="iOS/ReportView.cs" Line="206" Column="6" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Trafficing.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.00653727-FF06-4904-A67B-68F5D685AADF" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
