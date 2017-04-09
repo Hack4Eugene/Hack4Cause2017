@@ -48,7 +48,7 @@
 			<div class="col-md-4">
 			</div>
 			<div class="col-md-4 center police_auth">
-			Thing to authorize police users, ignore this for now
+				New police users requiring authorization: 0 <!-- Next feature -->
 			</div>
 			<div class="col-md-4">
 			</div>
@@ -136,6 +136,9 @@
 				</div>			
 			</form>
 		</div>
+
+		<!-- --------------------------- Forms above, results below ----------------------- -->
+
 		<div class="row">
 			<?php if (!$hide_recent) { ?>
 			<dive class="col-md-12" id="recent_reports">
@@ -158,7 +161,10 @@
 							while ($row = mysqli_fetch_array($result)) {
 								$row2 = mysqli_fetch_array($result2);
                    				echo "<tr>";
-								echo "<td>".$row['ReportID']."</td>";
+                   				$reportNum = $row['reportID'];
+	                   			$link="<a href=\"full_report.php?id=".$reportNum.">";
+	                   			$link="<a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">";
+								echo "<td>".$link.$row['ReportID']."</a></td>";
 								echo "<td>".$row['location']."</td>";
 								echo "<td>".$row2['person_type']."</td>";
 								echo "<td>".$row2['age_low']." - ".$row2['age_high']."</td>";
@@ -171,6 +177,9 @@
 				</table>
 				<?php } ?>
 			<?php if (!$hide_reports) { ?>
+
+			<!-- ------------------------ Report people ----------------------- -->
+
 			<dive class="col-md-12" id="recent_reports">
 				<h3>Filtered Reports</h3>
 				<table class="table table-striped table-condensed  table-responsive">
@@ -204,19 +213,20 @@
 				</table>
 				<?php } ?>
 			<?php if (!$hide_vehicles) { ?>
+
+			<!-- ---------------------- Show vehicles --------------------------- -->
+
 			<dive class="col-md-12" id="recent_reports">
-				<h3>Filtered Vehicle Reports</h3>
+				<h3>Vehicles</h3>
 				<table class="table table-striped table-condensed  table-responsive">
 						<tr>
-							<th>Report ID</th>
-							<th>Vehicle ID</th>
-							<th>Location</th>
-							<th>Driver</th>
+							<th>Report ID</th> <!-- Add link -->
+							<th>Color</th> <!-- Add date/time before this -->
 							<th>Make</th>
 							<th>Model</th>
-							<th>Color</th>
-							<th>License Number</th>
-							<th>License State</th>
+							<th>State</th>
+							<th>License</th>
+							<th>Location</th>
 							<th>Additional Info</th>
 						</tr>
 						<?php
@@ -228,14 +238,13 @@
 								$row = mysqli_fetch_array($result);
                    				echo "<tr>";
 								echo "<td>".$row['ReportID']."</td>";
-								echo "<td>".$row2['VehicleID']."</td>";
-								echo "<td>".$row['location']."</td>";
-								echo "<td>".$row2['driven_by']."</td>";
+								echo "<td>".$row2['color']."</td>";
 								echo "<td>".$row2['make']."</td>";
 								echo "<td>".$row2['model']."</td>";
-								echo "<td>".$row2['color']."</td>";
-								echo "<td>".$row2['plate']."</td>";
 								echo "<td>".$row2['state']."</td>";
+								echo "<td>".$row2['plate']."</td>";
+								echo "<td>".$row['location']."</td>";
+								echo "<td>".$row2['driven_by']."</td>";
 								echo "<td>".$row['reporter_details']."</td>";
 								echo "</tr>";
 							}
@@ -243,6 +252,9 @@
 				</table>
 				<?php } ?>
 			<?php if (!$hide_people) { ?>
+
+			<!-- -------------------------- People ----------------------- -->
+
 			<dive class="col-md-12" id="recent_reports">
 				<h3>Recent Reports</h3>
 				<table class="table table-striped table-condensed  table-responsive">
