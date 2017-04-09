@@ -1,0 +1,168 @@
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/iron-localstorage/iron-localstorage.html">
+<link rel="import" href="./shared-styles.html">
+<dom-module id="speak-page">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+
+        padding: 10px;
+      }
+    </style>
+    <speak-form></speak-form>
+  </template>
+  <script>
+    Polymer({
+      is: 'speak-page',
+      ready: function () {
+        
+      },
+    });
+
+  </script>
+</dom-module>
+
+<link rel="import" href="../bower_components/iron-input/iron-input.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/paper-input/paper-textarea.html">
+<link rel="import" href="../bower_components/paper-styles/color.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../bower_components/iron-icons/maps-icons.html">
+<link rel="import" href="../bower_components/polymer/lib/elements/dom-if.html">
+<dom-module id="speak-form">
+<template>
+  <style include="shared-styles">
+  </style>
+  <style>
+    .card {
+      padding: 0;
+    }
+
+    #speak-form-container,
+    .wrapper-btns {
+      padding: 16px;
+    }
+
+    .wrapper-btns {
+      padding-top: 0;
+    }
+  </style>
+  <iron-ajax
+    id="xhr"
+    method="post"
+    params='{{params}}'
+    content-type="application/json"
+    handle-as="text"
+    on-response="handleSubmitResponse"
+    on-error="handleSubmitError"></iron-ajax>
+  <h1>Speak and be Heard</h1>
+  <div class="card">
+    <div id="speak-form-container">
+    <form id="ajaxForm">
+      <response-template response="[[response]]"></response-template>
+      <paper-input required minlength="3" error-message="Please be descriptive!" value='{{formData.issueName::change}}' id="issueName" name="issueName" label="Title" type="text" placeholder="Enter your topic title" autosave="test">
+      </paper-input>
+
+      <paper-textarea rows="10" value='{{formData.Story::input}}' id="Story" name="Story" label="Be Heard" placeholder="What do you want to say?" autosave="text"></paper-textarea>
+
+      <paper-input value='{{formData.Tags::change}}' id="tags" name="Tags" label="Tag it" placeholder="Downtown, EMX, Whiteaker, IDX Broker">
+    </form>
+    </div>
+    <div class="card-border">
+      <div class="wrapper-btns">
+        <paper-button raised class="indigo" on-tap="postLogin">
+          <iron-icon icon="icons:speaker-notes"></iron-icon>
+          &nbsp;Speak!
+        </paper-button>
+      </div>
+    </div>
+  </div>
+
+  </template>
+</template>
+<script>
+Polymer({
+  is: 'speak-form',
+  properties: {
+    formData: {
+      type: Object,
+      value: {
+        Creator: "testUser",
+        Author: "Bob Saget",
+        issueName: "",
+        Story: "",
+        Summary: "",
+        Tags: ""
+      }
+    },
+    storedTopic: Object,
+    response: {
+      type: Object,
+      value: {},
+      notify: true,
+      reflectToAttribute: true
+    }
+  },
+  handleSubmitResponse: function(e) {
+    var response = JSON.parse(e.detail.response);
+    if (response.errorMessage) {
+      this.response = Object.assign({}, this.response, { 
+        message: response.errorMessage,
+        className: 'error-message'
+      });
+    } else {
+      this.response = Object.assign({}, this.response, {
+        message: response.body.message,
+        className: 'success-message',
+        id: response.body.id,
+        error: false
+      });
+    }
+  },
+  handleSubmitError: function(e) {
+    this.response.message = e.detail.request.xhr.response;
+    this.response.id = false;
+  },
+  _setReqBody: function () {
+    this.formData.Summary = this.formData.Story.substring(0, 140);
+    this.$.xhr.body = this.formData;
+  },
+  postLogin: function () {
+    this.$.xhr.url = 'https://gabezjlby1.execute-api.us-west-2.amazonaws.com/Hacktest/';
+    this._setReqBody();
+    this.$.xhr.generateRequest();
+  }
+})
+</script>
+</dom-module>
+
+<dom-module id="response-template">
+<template>
+<style include="shared-styles">
+.alert {
+  padding: 15px;
+}
+.error-message {
+  color: #f44336;
+}
+
+.success-message {
+  color: #43a047;
+}
+</style>
+<div class$="[[response.className]]">[[response.message]]</div>
+</template>
+<script>
+  Polymer({
+    is: 'response-template',
+    properties: {
+      response: {
+        type: Object
+      }
+    }
+  })
+</script>
+</dom-module>

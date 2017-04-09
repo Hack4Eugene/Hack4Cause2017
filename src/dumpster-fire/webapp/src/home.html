@@ -1,0 +1,192 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="shared-styles.html">
+<link rel="import" href="assets.html">
+<link rel="import" href="issues.html">
+
+<dom-module id="home-page">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+        padding: 10px;
+      }
+    </style>
+    <style>
+      paper-card {
+          margin-bottom: 16px;
+        }
+      @media(max-width: 1200px) {
+        
+      }
+    </style>
+    <div>
+        <top-block>
+          
+        </top-block>
+    </div>
+  </template>
+
+  <script>
+    class HomePage extends Polymer.Element {
+      static get is() { return 'home-page'; }
+    }
+
+    window.customElements.define(HomePage.is, HomePage);
+  </script>
+</dom-module>
+
+<dom-module id="top-block">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+        padding: 10px;
+      }
+    </style>
+    <div class="card">
+      <h2>About Spoke</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis mollis dapibus. Quisque tempor velit ac nisl volutpat, et eleifend turpis commodo. Mauris eu interdum sem, eu tristique turpis. Nunc neque justo, egestas in arcu sit amet, semper rutrum felis. Donec dapibus tortor vel odio fermentum porttitor. Quisque efficitur justo non justo molestie pellentesque. Suspendisse non imperdiet risus. Etiam pharetra velit vel enim congue, vel laoreet lorem gravida. Cras aliquet congue arcu ac suscipit. Etiam lacinia feugiat molestie. Vestibulum accumsan dolor ut tempus ultricies. Donec sit amet interdum magna, convallis dictum est. Etiam vulputate lorem justo, id vestibulum lectus aliquam at.</p>
+
+        <p>Aliquam egestas auctor tortor, a mollis dolor tincidunt ac. Cras at quam ullamcorper, lacinia nibh sit amet, interdum libero. Ut eu iaculis metus. Cras a velit luctus, aliquet justo id, viverra ex. Vivamus in mollis lectus. Curabitur enim nunc, posuere a ipsum non, mattis imperdiet ex. Proin non nulla nisl. In consectetur arcu vel elementum ultrices. Nullam tempus fermentum magna dapibus rhoncus. Vestibulum sit amet eleifend ligula, vel lacinia nisi. Fusce elementum orci a ligula mattis iaculis.</p>
+
+        <p>Quisque malesuada fringilla sem vel aliquam. Duis rhoncus purus at mauris vehicula facilisis. Quisque vulputate scelerisque pretium. Nullam lacinia, quam nec aliquet imperdiet, dui ipsum eleifend leo, eget fermentum mi metus eu est. Ut eleifend dui ut egestas accumsan. Sed malesuada vehicula sem, feugiat gravida sapien viverra a. Vestibulum vitae blandit mauris. Mauris bibendum, urna ac tincidunt consequat, tortor metus iaculis nulla, ac ullamcorper nulla libero ut lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse mollis, eros eget pharetra dignissim, lorem massa laoreet risus, vel eleifend odio leo ut ipsum. Nullam volutpat, ipsum et feugiat mollis, sapien lectus condimentum dolor, nec tincidunt nunc libero vel ipsum. In ac blandit magna. Curabitur malesuada quam at vestibulum pretium. Sed eu ex sed ante pretium mattis. Etiam malesuada nulla purus, non vestibulum enim ultricies ut.</p>
+
+        <p>Donec vehicula dignissim risus id feugiat. Quisque dapibus ut nisi quis egestas. Ut vehicula purus at libero varius finibus at faucibus tortor. Curabitur ac libero mauris. Proin mollis lorem consectetur erat tempus, et lobortis augue finibus. Proin eu leo volutpat, mattis quam in, feugiat est. Sed consequat feugiat dolor sed posuere. Proin dapibus auctor nibh a gravida. Suspendisse potenti. Morbi luctus pellentesque ipsum, eu tincidunt nisl ullamcorper id. Fusce facilisis tincidunt turpis, eu pulvinar eros scelerisque molestie. Proin luctus in diam eget sollicitudin. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque vitae hendrerit metus, auctor suscipit mi.</p>
+
+        <p>Donec eu porta mauris. Fusce rutrum, eros sed mattis venenatis, ipsum magna tincidunt lacus, eu molestie ligula eros ac ex. Sed at magna suscipit, lobortis lorem id, euismod nisl. Quisque pharetra nulla pretium libero iaculis, vel eleifend nunc auctor. Mauris at convallis elit, vel sagittis orci. Aliquam convallis at dolor ut tincidunt. Nulla dapibus eu eros nec finibus.
+      </p>
+    </div>
+  </template>
+
+  <script>
+    class TopBlock extends Polymer.Element {
+      static get is() { return 'top-block'; }
+    }
+
+    window.customElements.define(TopBlock.is, TopBlock);
+  </script>
+</dom-module>
+
+<dom-module id="user-block">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+      }
+    </style>
+          <slot></slot>
+  </template>
+
+  <script>
+    class UserBlock extends Polymer.Element {
+      static get is() { return 'user-block'; }
+    }
+
+    window.customElements.define(UserBlock.is, UserBlock);
+  </script>
+</dom-module>
+
+<dom-module id="user-image">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+        width: 100%;
+      }
+      .user-image {
+        display: inline-block;
+      }
+      .user-name {
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 15px;
+      }
+      .user-img-wrapper {
+        display: block;
+        text-align: center;
+      }
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    </style>
+        <div class="user-img-wrapper">
+          <div class="user-image">
+            <img src="../assets/branding/User%20Images/Missing%20User%20Image/account-circle.svg" alt="user-image">
+          </div>
+          <div class="user-name">Username</div>
+        </div>
+  </template>
+
+  <script>
+    class UserImage extends Polymer.Element {
+      static get is() { return 'user-image'; }
+    }
+
+    window.customElements.define(UserImage.is, UserImage);
+  </script>
+</dom-module>
+
+<dom-module id="search-issues">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+        padding-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      input {
+        width : 100%;
+      }
+    .indigo {
+      background-color: var(--paper-indigo-500);
+      color: white;
+
+      --paper-button-raised-keyboard-focus: {
+        background-color: var(--paper-pink-a200) !important;
+        color: white !important;
+      };
+    }
+    .centered {
+      text-align: center;
+    }
+    .filtered-issues {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    </style>
+      <form id="ajaxForm">
+        <paper-input value='{{formData.issueName::change}}' on-change='issueSearchChangeHandler' id="issueSearch" name="issueSearch" type="text" autofocus
+          placeholder="Search issues">
+        </paper-input>
+      </form>
+      <div class="filtered-issues">
+        <single-event></single-event>
+      </div>
+        <div class="centered">
+          The issue you care about is not here? 
+          <a href="/speak">Speak!</a>
+        </div>
+  </template>
+
+  <script>
+    class SearchIssues extends Polymer.Element {
+      static get is() { return 'search-issues'; }
+    }
+
+    window.customElements.define(SearchIssues.is, SearchIssues);
+  </script>
+</dom-module>
