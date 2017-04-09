@@ -68,7 +68,7 @@ def publish_poll(request, decision):
 
     decision.published = True
     decision.save()
-    message = decision.event
+    message = decision.event.id
     return HttpResponse(json.dumps(message), content_type='application/json')
 
 
