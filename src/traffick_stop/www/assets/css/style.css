@@ -1,0 +1,40 @@
+/* CSS Document */
+body {
+	margin-top:4vh;
+	padding-top:2vh;
+	background-color:#e2e2e2;
+}
+.container {
+	background-color:#FFFFFF;
+	padding-top:3vh;
+}
+#login_form {
+	border: 1px solid #505050;
+}
+.right {
+    float: right;
+    width: auto;
+    padding: 10px;
+}
+.center {
+    text-align: center;
+}
+.container {
+	border: 1px solid #707070;
+	border-radius: 1vh;
+}
+.police_auth{
+	color: #742424;
+	background-color: #D37676;
+	border: 1px solid #a23333;
+	border-radius: 1vh;
+	margin:5px;
+}
+/*input {
+	width: 67%;
+	margin: 4px;
+}
+select {
+	width: 67%;
+	margin: 4px;
+}*/

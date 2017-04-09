@@ -2,6 +2,7 @@ Date.prototype.getUnixTime = function() { return this.getTime()/1000|0 };
 if(!Date.now) Date.now = function() { return new Date(); }
 Date.time = function() { return Date.now().getUnixTime(); }
 var map;
+var windowLoaded = false;
 //#141414
 
 function initMap(){
@@ -15,7 +16,7 @@ function initMap(){
   marker = new google.maps.Marker({
       map: map
     });
-  map.addListener('rightclick', function(e) {
+  map.addListener('click', function(e) {
         createWindow(e);
     });
 
@@ -34,14 +35,17 @@ function createWindow(e) {
     long.setAttribute("value", longitude);
     console.log("Latitude: " + latitude +'\n' +"Longitude: " + longitude);
 
-    infowindow = new google.maps.InfoWindow;
-    var formData = document.getElementById('form');
-    infowindow.setContent(formData);
-    infowindow.open(map, marker);
-    google.maps.event.addListener(infowindow,'click',function(){
-        window.location.reload();
-    // then, remove the infowindows name from the array
-    });
+    if (windowLoaded == false) {
+      windowLoaded = true;
+      infowindow = new google.maps.InfoWindow;
+      var formData = document.getElementById('form');
+      infowindow.setContent(formData);
+      infowindow.open(map, marker);
+      google.maps.event.addListener(infowindow,'click',function(){
+          window.location.reload();
+      // then, remove the infowindows name from the array
+      });
+    }
 
 }
 
@@ -92,10 +96,10 @@ function addMarkers(markersOld) {
         }
         var aIcon;
         if(markersOld[i][3]){
-            aIcon = 'https://maps.google.com/mapfiles/kml/shapes/parking_lot_maps.png';
+            aIcon = 'https://maps.google.com/mapfiles/ms/icons/red-dot.png';
         }
         else{
-            aIcon = 'https://maps.google.com/mapfiles/kml/shapes/info-i_maps.png';
+            aIcon = 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png';
         }
         marker = new google.maps.Marker({
             position: position,

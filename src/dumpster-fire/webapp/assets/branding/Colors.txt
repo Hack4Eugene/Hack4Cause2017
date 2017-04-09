@@ -1,0 +1,14 @@
+Colors that are prospective of the background. Used colors will be marked via encapsulation of asterisk(*):
+
+Neon-Orange Family:
+	#FFEF00
+	#FFD200
+	#FFA300
+	#FFB901
+	#FF9416
+	#FDE986
+
+Light-Mid Greys:
+	#c1c0c0
+	#a5a5a5
+	#848181

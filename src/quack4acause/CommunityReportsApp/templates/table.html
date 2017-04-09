@@ -4,7 +4,7 @@
   <title>Reports</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="static/table.css" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="../static/table.css" media="screen"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -48,6 +48,17 @@
     .navbar-nav  li a:hover {
       color: #1abc9c !important;
     }
+    .roundedCorn {
+      border-radius: 8px;
+    }
+    .lefties {
+        display: inline;
+        float: left;
+    }
+    .righties {
+        display: inline;
+        float: right;
+    }
   </style>
 </head>
 <body>
@@ -59,68 +70,49 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" >LOOK!</a>
+        <a class="navbar-brand" >look.</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right" id="dropDown">
-          <li><a href="#">My Report</a></li>
-          <li><a href="./map.html">Local</a></li>
+          <li><a href="#">My Reports</a></li>
+          <li><a href="./report">Map</a></li>
+
         </ul>
       </div>
     </div>
   </nav>
 
 <div class="container">
-  <h2>Report</h2>
+  <h2>My Reports</h2>
 
   <table class="table" id="thisTable">
-    <thead>
-      <tr>
-        <th>DateTime</th>
-        <th>Incident</th>
-        <th>Description</th>
-        <th>Anonymous</th>
-        <th>    </th>
-      </tr>
-    </thead>
     <tbody>
     {% for item in reports %}
         {% if (item.isEmergency) %}
-        <tr style= "background-color: rgba(255, 0, 0, 0.7)">
+        <tr style= "background-color: rgba(255, 0, 0, 0.5);">
         {% else %}
-        <tr>
+        <tr style="background-color: rgba(138, 130, 130, 0.5);">
         {% endif %}
-            <td>{{ item.human_time }}</td>
-            {% if (item.isEmergency) %}
-                <td>EMERGENCY!</td>
-            {% else %}
-                <td>Not Urgent</td>
-            {% endif %}
-            <td>
-                <div class="content hideContent"> {{ item.text }}
-                    <p>More details</p>
+            <td class="roundedCorn">
+                <div class="lefties content hideContent" style="padding-left: 15px;"> {{ item.text }}
                     <ul>
-                        <li>This is text</li>
-                        <li>This could be more text</li>
-                        <li>This is text</li>
+                        <br>
+                        <li>Time: {{ item.event_dt.strftime('%m/%d/%Y %H:%M') }}</li>
+                        <li>Loc: {{ item.latitude }}, {{ item.longitude }}</li>
+                        {% if item.isAnonymous %}
+                        <li>Anonymous</li>
+                        {% else %}
+                        <li>Not Anonymous</li>
+                        {% endif %}
                     </ul>
                 </div>
-                <div class="show-more">
+                <div class="lefties show-more">
                     <a href="#">Show more</b>
                 </div>
-
-
-            </td>
-
-            {% if (item.isAnonymous) %}
-                <td>ANONYMOUS</td>
-            {% else %}
-                <td>PUBLIC</td>
-            {% endif %}
-            <td> <form type="hidden" action = "/deleteReport" method="POST">
-                <input type="hidden" value="{{item.id}}" name="id"></input>
-                <input type="submit" value="X" class="btn btn-danger btn-circle delete-row" href="#" ></input>
-                </form> </td>
+                <div class="righties"><form type="hidden" action = "/deleteReport" method="POST">
+                    <input type="hidden" value="{{item.id}}" name="id"></input>
+                    <input type="submit" value="X" class="btn btn-danger btn-circle delete-row" href="#" ></input>
+                </form></div> </td>
         </tr>
 
 
