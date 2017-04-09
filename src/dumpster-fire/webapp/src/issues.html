@@ -1,0 +1,181 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="shared-styles.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+<link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-request.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../bower_components/iron-icons/image-icons.html">
+<app-route
+  route="{{route}}"
+  pattern="/:issue_id"
+  data="{{routeData}}"></app-route>
+
+<dom-module id="issues-page">
+  <template>
+    <style include="shared-styles iron-flex iron-flex-alignment">
+      :host {
+        display: block;
+
+        padding: 10px;
+      }
+    </style>
+    <h1>{{routeData}}</h1>
+    <single-event></single-event>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'issues-page',
+      properties: {
+        events: {
+          type: Object
+        }
+      },
+      ready: function () {
+        
+      },
+      _handleResponse: function (e) {
+        const resp = e.detail.response;
+        this.events = resp;
+        // this.$.getIssuesAjax.generateRequest();
+      }
+    });
+
+  </script>
+</dom-module>
+
+<dom-module id="single-event">
+  <template>
+  <style is="custom-layout" include="shared-styles iron-flex iron-flex-alignment">
+    * {
+      box-sizing: border-box;
+    }
+    .layout {
+      display: inline-block;
+    }
+
+    paper-card {
+      box-sizing: border-box;
+      width: 100%;
+      vertical-align: top;
+    }
+
+    @media(min-width: 1200px) {
+      paper-card {
+       width: 31%;
+       margin: 16px;
+      }
+    }
+
+    a paper-button {
+      color: #555;
+    }
+
+    paper-button {
+      padding: 4px;
+    }
+
+    paper-card div.card-content {
+      margin: 16px;
+    }
+
+    .pull-right {
+      float: right;
+    }
+
+    blockquote {
+      color: #999;
+      border-left: 4px solid rgba(0,0,0,.1);
+      margin: 0;
+      padding-left: 16px;
+    }
+  </style>
+  <iron-ajax
+      id="getIssuesAjax"
+      auto
+      url="https://gabezjlby1.execute-api.us-west-2.amazonaws.com/Hacktest/listissues"
+      method="get"
+      handle-as="json"
+      on-response="_handleResponse"
+      debounce-duration="300"></iron-ajax>
+  <iron-ajax
+    id="upvoteAjax"
+    method="PUT"
+    content-type="application/json"
+    handle-as="text"
+    on-response="handlePutResponse"
+    on-error="handlePuterror"></iron-ajax>
+  <div class="layout">
+    <template is="dom-repeat" id="single-event-inner" items="{{events}}" filter="_shortenStory" observe="Story">
+      <paper-card heading="{{item.issueName}}" image="http://placehold.it/750x150/4285F4/4285f4?text=%20" alt="{{item.issueName}}">
+        <div class="card-content">
+        <p><small>{{item.Author}}</small></p>
+          <blockquote>
+            {{item.Summary}}
+          </blockquote>
+        </div>
+        <div class="card-actions">
+          <paper-button on-tap="_upvote" class="indigo" raised>
+            <iron-icon icon="icons:thumb-up"></iron-icon>
+            &nbsp;{{item.Votes}}
+          </paper-button>
+            <a href="/issues/{{item.issueID}}">
+              <paper-button raised class="pull-right">
+                Read
+                <iron-icon icon="icons:forward"></iron-icon>
+              </paper-button>
+            </a>
+        </div>
+      </paper-card>
+    </template>
+  </div>
+  </template>
+  <script>
+  Polymer({
+    is: 'single-event',
+    properties: {
+      events: {
+        type: Object
+      }
+    },
+    ready: function () {
+
+    },
+    _setReqBody(params) {
+
+    },
+    _upvote(oEvent) {
+      var params = {};
+      params.issueID = oEvent.model.get('item.issueID');
+      params.voteUsers = 'facebookID';
+      this.$.upvoteAjax.url = 'https://gabezjlby1.execute-api.us-west-2.amazonaws.com/Hacktest/issue';
+      this.$.upvoteAjax.body = params;
+      this.$.upvoteAjax.generateRequest();
+    },
+    _shortenStory: function(issue) {
+      if (typeof(issue.Story) != 'undefined') {
+        return issue.Story.substring(0,100);
+      }
+      // return issue.Story.substring(0,100) + '...';
+    },
+     _handleResponse: function (e) {
+        const resp = e.detail.response;
+        this.events = resp;
+        // this.$.getIssuesAjax.generateRequest();
+      }
+  })
+  </script>
+</dom-module>
