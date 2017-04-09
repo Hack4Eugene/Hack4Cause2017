@@ -1,6 +1,6 @@
-# Hack for a Cause2017 Team "Example"
+# Hack for a Cause2017 Team "KeseyAR"
 
-We are addressing the "bla bla bal" challenge.
+We are addressing the "Kesey Square 2.0" challenge.
 
 Team Members:
 assorted peopl  
