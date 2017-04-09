@@ -1,0 +1,30 @@
+body {
+  background: #eee;
+}
+
+#frm {
+  border: solid gray 1px;
+  width:20%;
+  border-radius:5px;
+  margin: 50px auto;
+  background: white;
+  padding: 50px;
+}
+
+#btn {
+    color: #fff;
+    background:#337ab7;
+    display: block;
+    margin: auto;
+  }
+
+h1 {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-size: 48pt;
+  color: #ffcc00
+}
+
+label {
+  font-family: 'Oswald', sans-serif;
+}
