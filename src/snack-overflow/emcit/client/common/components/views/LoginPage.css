@@ -1,0 +1,29 @@
+.loginPage {
+
+    padding: 10px;
+
+    .loginBox {
+
+        max-width: 400px;
+        margin: 5% auto;
+
+        button {
+            float: right;
+        }
+    }
+
+    .logo {
+
+        position: relative;
+        text-align: center;
+        margin: 40px auto;
+
+        img {
+
+            width: 95%;
+            max-width: 350px;
+        }
+    }
+}
+
+

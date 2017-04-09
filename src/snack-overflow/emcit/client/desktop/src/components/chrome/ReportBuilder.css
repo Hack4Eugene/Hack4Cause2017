@@ -1,0 +1,73 @@
+.reportBuilder {
+    .chipBar {
+        position: absolute;
+        top: 0;
+        min-height: 42px;
+        left: 220px;
+        right: 0;
+        background: lightblue;
+        border-bottom: 3px solid #444;
+        z-index: 10000;
+        padding: 0 4px;
+
+        &.emptyChipBar {
+            text-align: center;
+            line-height: 38px;
+            font-size: 23px;
+        }
+    }
+
+    .title {
+        font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .addFilterButton {
+        margin-bottom: 10px;
+    }
+
+    .filters {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 200px;
+        background: rgba(0,0,0,.05);
+        overflow: auto;
+        border-right: 3px solid #444;
+        z-index: 10000;
+        padding: 0 10px;
+    }
+
+    .reportView {
+        position: absolute;
+        top: 40px;
+        left: 220px;
+        right: 0;
+        bottom: 0;
+        overflow: auto;
+    }
+
+    .chip {
+        border: 1px solid #000;
+        color: #000;
+        margin-top: 4px;
+
+        > span:nth-child(2) {
+            position: absolute;
+            right: 0;
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            padding: 4px;
+            margin: 4px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+
+        path {
+            stroke-width: 4px;
+        }
+    }
+}

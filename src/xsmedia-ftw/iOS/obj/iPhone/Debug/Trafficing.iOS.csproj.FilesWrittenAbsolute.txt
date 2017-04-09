@@ -1,0 +1,11 @@
+/Users/katiekizer09/Projects/Trafficing/iOS/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/katiekizer09/Projects/Trafficing/iOS/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/katiekizer09/Projects/Trafficing/iOS/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/katiekizer09/Projects/Trafficing/iOS/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/katiekizer09/Projects/Trafficing/iOS/obj/iPhone/Debug/optimized/
+/Users/katiekizer09/Projects/Trafficing/iOS/bin/iPhone/Debug/Trafficing.iOS.exe.mdb
+/Users/katiekizer09/Projects/Trafficing/iOS/bin/iPhone/Debug/Trafficing.iOS.exe
+/Users/katiekizer09/Projects/Trafficing/iOS/obj/iPhone/Debug/Trafficing.iOS.exe
+/Users/katiekizer09/Projects/Trafficing/iOS/obj/iPhone/Debug/Trafficing.iOS.exe.mdb
+/Users/katiekizer09/Projects/Trafficing/iOS/bin/iPhone/Debug/Trafficing.dll
+/Users/katiekizer09/Projects/Trafficing/iOS/bin/iPhone/Debug/Trafficing.dll.mdb

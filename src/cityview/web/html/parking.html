@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Eugene Cityvew Parking violations</title>
+    <link rel="stylesheet" type="text/css" href="css/start.css">
+    <link rel="stylesheet" href="css/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />    
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/spacelab/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img id="navLogo" src="images/CityLogo.png"><a class="navbar-brand" href="index.html"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="parking.html">Parking<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Building Permits</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div style="height:100%;" id="map"></div>    
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet.ajax.min.js"></script>
+    <script src="js/parking.js"></script>
+  
+</body>
+</html>
