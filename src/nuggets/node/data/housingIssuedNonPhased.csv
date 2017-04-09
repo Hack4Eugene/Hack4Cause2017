@@ -1,0 +1,528 @@
+log_yy,log_number,log_sequence,issued_date,bpr_use_desc,proposed_units,neighborhood,x_coordinate,y_coordinate,bpr_multiple_use_desc,project_name,owner_name,tenant_name,address,EE_year_issued,EE_housing_type,EE_Housing_Mix_Type,lat,lng
+12,5405,1,1/3/13 0:00,Duplex or 2-Family Hs,2,West University Neighbors,4242749,875790,NA,NA,QUINNEY BOB & LESLIE,NA,790 E 17TH AVE,2013,Two to four units,Multi-family,44.0411273,-123.0803391
+12,6062,1,1/3/13 0:00,Single Family Dwelling,1,River Road Community Organization,4227243,890149,NA,NA,KD BLDG LLC,NA,1125 VERONICA LN,2013,Single-family detached,Single-family,44.0788331,-123.1412734
+12,6398,1,1/8/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214585,890787,NA,NA,HAYDEN HOMES LLC,NA,5246 GOLDEN EAGLE DR,2013,Single-family detached,Single-family,44.0798001,-123.1895062
+12,6298,1,1/9/13 0:00,Secondary Dwelling Unit,1,Amazon Neighbors Association,4243559,871376,NA,NA,COUPER AL,NA,"1063 E 27TH AVE, Unit A",2013,Single-family detached,Single-family,44.0287669,-123.0770418
+12,6285,1,1/10/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4241429,899352,NA,NA,MCDUFFIE RICHARD JR & K M,NA,3720 MEADOW VIEW DR,2013,Single-family detached,Single-family,44.105441,-123.0880675
+12,6196,1,1/15/13 0:00,Single Family Dwelling,1,Crest Drive Citizens Association,4235962,867459,NA,NA,JORDAN IVERSON SIGNATURE HOMES DBA,NA,844 W 35TH PL,2013,Single-family detached,Single-family,,
+12,6385,1,1/15/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4245330,896581,NA,NA,MELTEBEKE CONSTRUCTION DBA,NA,2321 PARK VIEW DR,2013,Single-family detached,Single-family,,
+12,6411,1,1/18/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212642,892397,NA,NA,SEERY JESSE,NA,5534 TRIBUTE WAY,2013,Single-family detached,Single-family,44.08407,-123.197129
+13,135,1,1/24/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211214,889922,NA,NA,HAYDEN HOMES LLC,NA,1961 ADELMAN LP,2013,Single-family detached,Single-family,44.0767694,-123.202212
+13,143,1,1/25/13 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4238959,886475,NA,NA,ADKINS JACK L,NA,862 MEADOW BUTTE LP,2013,Single-family detached,Single-family,,
+12,6367,1,1/28/13 0:00,Single Family Dwelling,1,Whiteaker Community Council,4234479,884015,NA,NA,JONES LINDA,NA,205 CROSS PL,2013,Single-family detached,Single-family,,
+12,6395,1,1/29/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211215,889778,NA,NA,HAYDEN HOMES LLC,NA,1972 ADELMAN LP,2013,Single-family detached,Single-family,,
+12,6448,1,1/29/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211252,889777,NA,Rockwood,HAYDEN HOMES LLC,NA,1962 ADELMAN LP,2013,Single-family detached,Single-family,44.0767684,-123.2015112
+12,6259,1,1/30/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4242770,899646,NA,NA,WESTER KATRINA,NA,1970 CRIMSON AVE,2013,Single-family detached,Single-family,44.1067657,-123.0832653
+13,77,1,1/30/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4230993,903841,NA,NA,ADAIR HOMES,NA,530 DEAN AVE,2013,Single-family detached,Single-family,,
+13,40,1,2/1/13 0:00,Secondary Dwelling Unit,1,Active Bethel Citizens,4216725,888304,NA,NA,FINN MICHAEL,NA,"1070 CANDLELIGHT DR, Unit A",2013,Single-family detached,Single-family,44.073035,-123.181062
+13,148,1,2/1/13 0:00,Single Family Dwelling,1,Harlow Neighbors,4246759,884628,NA,NA,LAAKSONEN DAVID,NA,293 WALNUT LN,2013,Single-family detached,Single-family,44.0655635,-123.0668804
+13,198,1,2/7/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4223909,869476,NA,NA,HART WILLY,NA,3377 BENTLEY AVE,2013,Single-family detached,Single-family,44.0219244,-123.1512456
+13,247,1,2/11/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4221049,872605,NA,NA,MOODY JOHN T,NA,2443 ROYALANN LN,2013,Single-family detached,Single-family,44.0305228,-123.1629182
+13,338,1,2/11/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224326,868037,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3562 VISTA HEIGHTS LN,2013,Single-family detached,Single-family,44.0178751,-123.1499305
+13,402,1,2/12/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4228739,897617,NA,NA,LIEBREICH MAX,NA,2465 LENORE DR,2013,Single-family detached,Single-family,44.0994326,-123.1367732
+12,5780,1,2/19/13 0:00,Apartment  1-4 Units,4,Far West Neighborhood Association,4230843,876693,NA,NA,WESTMORELAND VILLAGE LLC,NA,2180 W 16TH AVE,2013,Two to four units,Multi-family,44.0426483,-123.125391
+13,664,1,2/25/13 0:00,Single Family Dwelling,1,River Road Community Organization,4232309,895000,NA,NA,G & R BUILDING CONCEPTS,NA,268 CAROLYN DR,2013,Single-family detached,Single-family,,
+12,6289,1,2/26/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224172,868478,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3485 VISTA HEIGHTS LN,2013,Single-family detached,Single-family,44.0179329,-123.1496458
+13,400,1,2/26/13 0:00,Single Family Dwelling,1,Fairmount Neighbors,4247460,876058,NA,NA,HAWES GEORGE,NA,1611 ORCHARD ST,2013,Single-family detached,Single-family,,
+13,677,1,3/1/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4249032,895475,NA,NA,FUTURE B HOMES INC,NA,3016 LORD BYRON PL,2013,Single-family detached,Single-family,44.0955432,-123.0587816
+13,678,1,3/1/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4249033,895512,NA,NA,FUTURE B HOMES INC,NA,3026 LORD BYRON PL,2013,Single-family detached,Single-family,44.0956167,-123.0587836
+13,694,1,3/1/13 0:00,Single Family Dwelling,1,River Road Community Organization,4231358,891564,NA,NA,GEROT MIKE & ELIZABETH,NA,156 ROSETTA AVE,2013,Single-family detached,Single-family,44.0832369,-123.12584
+12,6256,1,3/4/13 0:00,Single Family Dwelling,1,Southeast Neighbors,4242016,869471,NA,NA,MUNRO JOSH & MORGAN,NA,625 E 31ST AVE,2013,Single-family detached,Single-family,44.0230566,-123.0825178
+13,723,1,3/6/13 0:00,Mfg Home Park or Court,1,Northeast Neighbors,4241157,895776,NA,NA,MHC FALCON WOOD VILLAGE LLC,NA,"1475 GREEN ACRES RD, Unit 108",2013,Single-family detached,Single-family,44.0943083,-123.0906196
+13,747,1,3/7/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214558,885244,NA,NA,GREEN BRIAR LEVEL 3 PROPERTIES LLC,NA,5445 PRANZ PL,2013,Single-family detached,Single-family,44.0642726,-123.1897461
+13,748,1,3/7/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214504,885242,NA,NA,GREEN BRIAR LEVEL 3 PROPERTIES LLC,NA,5449 PRANZ PL,2013,Single-family detached,Single-family,44.0642726,-123.1897461
+13,1023,1,3/11/13 0:00,Single Family Dwelling,1,Southeast Neighbors,4246775,863976,NA,NA,GANSEN MIKE,NA,4225 WENDELL LN,2013,Single-family detached,Single-family,44.0087845,-123.0632686
+13,939,1,3/12/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214549,885311,NA,NA,GREENBRIER LEVEL 3 PROPERTIE,NA,490 RABER RD,2013,Single-family detached,Single-family,44.0650737,-123.1888094
+13,940,1,3/12/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214448,885244,NA,NA,GREENBRIER LEVEL 3 PROPERTIE,NA,5457 PRANZ PL,2013,Single-family detached,Single-family,,
+12,4734,1,3/15/13 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4249761,872764,NA,NA,LAMB LANCE,NA,2380 SUNTREK DR,2013,Single-family detached,Single-family,44.0330031,-123.053951
+13,1125,1,3/15/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4231562,907253,NA,NA,HOMEBUILDERS CONSTRUCTION COMPANY,NA,703 NOTTINGHAM AVE,2013,Single-family detached,Single-family,44.1261223,-123.1280569
+13,201,1,3/22/13 0:00,Single Family Dwelling,1,Southeast Neighbors,4241217,860648,NA,NA,AGUIRRE ANTONIO,NA,4976 FOX HOLLOW RD,2013,Single-family detached,Single-family,43.9991874,-123.0843973
+13,879,1,3/25/13 0:00,Single Family Dwelling,1,Crest Drive Citizens Association,4236215,867406,NA,NA,BLUM VICTOR,NA,814 W 35TH PL,2013,Single-family detached,Single-family,44.0175971,-123.1021758
+13,1187,1,3/26/13 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4239583,890474,NA,NA,CASTRO GILBERT A,NA,1645 CHASA ST,2013,Single-family detached,Single-family,44.0772579,-123.1593338
+13,1175,1,3/27/13 0:00,Mfg Home - Not in a Park,1,Active Bethel Citizens,4217939,892660,NA,NA,HARRISON-JACOBSON INC,NA,2017 GOLDEN GARDENS ST,2013,Single-family detached,Single-family,,
+13,1367,1,3/28/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222040,902644,NA,NA,IVERSON BOYD,NA,3470 CABERNET LN,2013,Single-family detached,Single-family,44.1126196,-123.1621926
+13,1382,1,4/3/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4228452,897493,NA,NA,GARY KONOLD BUILDER,NA,359 LENORE LP,2013,Single-family detached,Single-family,,
+13,331,1,4/8/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4231213,903834,NA,NA,BERGEY DALE,NA,570 DEAN AVE,2013,Single-family detached,Single-family,44.11777,-123.1290365
+13,1369,1,4/9/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211252,889916,NA,NA,HAYDEN HOMES LLC,NA,1953 ADELMAN LP,2013,Single-family detached,Single-family,44.0767692,-123.2020568
+12,5420,1,4/11/13 0:00,Apartment  1-4 Units,4,Far West Neighborhood Association,4230900,876334,NA,NA,WESTMORELAND VILLAGE LLC,NA,2147 W 17TH CT,2013,Two to four units,Multi-family,,
+13,1037,1,4/12/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211004,890001,NA,NA,HAYDEN HOMES LLC,NA,1585 LEGACY ST,2013,Single-family detached,Single-family,,
+13,1400,1,4/15/13 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4239848,888520,NA,NA,WHITE DOUGLAS G & K L,NA,1333 BRICKLEY RD,2013,Single-family detached,Single-family,44.0754037,-123.093287
+13,277,1,4/16/13 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4250844,872964,NA,NA,DILCHER PETER,NA,2331 AUGUSTA ST,2013,Single-family detached,Single-family,44.0338984,-123.0505024
+13,1212,1,4/19/13 0:00,Single Family Dwelling,1,Friendly Area Neighbors,4234914,874325,NA,NA,THERRELL MATTHEW (RYAN) & SOPHIE,NA,1148 W 21ST AVE,2013,Single-family detached,Single-family,44.036281,-123.1102889
+13,1085,1,4/23/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4215421,892291,NA,NA,HENGEL ANDREW,NA,5130 BARGER DR,2013,Single-family detached,Single-family,44.084615,-123.1866407
+13,1591,1,4/23/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212429,892515,NA,NA,GOOSMAN RICHARD & MARY JO,NA,5580 TRADITION ALY,2013,Single-family detached,Single-family,44.0843307,-123.1976541
+13,1705,1,4/24/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211293,889915,NA,Darrington,HAYDEN HOMES LLC,NA,1945 ADELMAN LP,2013,Single-family detached,Single-family,44.0767689,-123.2019017
+13,1897,1,4/24/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214213,890666,NA,NA,HAYDEN HOMES LLC,NA,5354 ELK RIDGE DR,2013,Single-family detached,Single-family,44.0794464,-123.1909616
+13,1543,1,4/29/13 0:00,Single Family Dwelling,1,South University Neighborhood Association,4244539,874306,NA,NA,HANSEN JASEN,NA,2073 ONYX ALY,2013,Single-family detached,Single-family,,
+13,1668,1,5/1/13 0:00,Single Family Dwelling,1,Jefferson Westside Neighbors,4238157,876907,NA,NA,TAYLOR JOSEPH (JOE),NA,1465 LAWRENCE ST,2013,Single-family detached,Single-family,44.043643,-123.098042
+13,1669,1,5/1/13 0:00,Secondary Dwelling Unit,1,Jefferson Westside Neighbors,4238179,876905,NA,NA,TAYLOR JOSEPH (JOE),NA,"1490 LINCOLN ALY, Unit A",2013,Single-family detached,Single-family,44.043376,-123.0977256
+13,1696,1,5/1/13 0:00,Single Family Dwelling,1,River Road Community Organization,4227139,890156,NA,NA,KD BLDG LLC,NA,1145 VERONICA LN,2013,Single-family detached,Single-family,44.0788331,-123.1412734
+13,1780,1,5/1/13 0:00,Single Family Dwelling,1,River Road Community Organization,4227911,891643,NA,NA,GETTY ROBERT,NA,1317 AUDEL AVE,2013,Single-family detached,Single-family,44.0829275,-123.1392703
+13,1679,1,5/2/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224201,867932,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3589 VISTA HEIGHTS LN,2013,Single-family detached,Single-family,44.0178751,-123.1499305
+13,2192,1,5/3/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4230999,903358,NA,NA,HABITAT FOR HUMANITY,NA,3608 YOGI WAY,2013,Single-family detached,Single-family,44.1155856,-123.1283519
+13,1681,1,5/6/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224322,868698,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3439 VISTA HEIGHTS LN,2013,Single-family detached,Single-family,44.0178751,-123.1499305
+13,1895,1,5/6/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214020,891126,NA,NA,HAYDEN HOMES LLC,NA,5291 OLYMPIC CIR,2013,Single-family detached,Single-family,44.0805286,-123.1914074
+13,1896,1,5/6/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214159,890670,NA,NA,HAYDEN HOMES LLC,NA,5378 ELK RIDGE DR,2013,Single-family detached,Single-family,44.0794466,-123.1912936
+13,1898,1,5/6/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214173,890789,NA,Hudson,HAYDEN HOMES LLC,NA,5367 ELK RIDGE DR,2013,Single-family detached,Single-family,,
+13,1903,1,5/6/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222303,902626,NA,NA,NORDIC HOMES & CONSTRUCTION,NA,3477 CABERNET LN,2013,Single-family detached,Single-family,44.112661,-123.162216
+13,1989,1,5/7/13 0:00,Duplex or 2-Family Hs,2,Southeast Neighbors,4243089,866983,NA,NA,IACHELLO GIOVANNI,NA,3635 E AMAZON DR,2013,Two to four units,Multi-family,44.0166948,-123.0782879
+13,1906,1,5/8/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4223955,900830,NA,NA,PAPAZIAN MICHAEL,NA,3095 ARROWHEAD ST,2013,Single-family detached,Single-family,44.1079416,-123.1555674
+13,1899,1,5/9/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214229,890789,NA,Hayden Edgewood,HAYDEN HOMES LLC,NA,5345 ELK RIDGE DR,2013,Single-family detached,Single-family,44.0794451,-123.1909197
+13,1782,1,5/15/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4223869,868269,NA,NA,HEITMAN CUSTOM HOMES,NA,3579 SUMMIT SKY BLVD,2013,Single-family detached,Single-family,44.0187392,-123.1514916
+13,1784,1,5/15/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4223866,868357,NA,NA,HEITMAN CUSTOM HOMES,NA,3587 SUMMIT SKY BLVD,2013,Single-family detached,Single-family,44.0189671,-123.1514875
+13,2135,1,5/15/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224122,868202,NA,NA,HEITMAN CUSTOM HOMES,NA,3523 VISTA HEIGHTS LN,2013,Single-family detached,Single-family,44.0178751,-123.1499305
+13,2137,1,5/15/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224150,868063,NA,NA,HEITMAN CUSTOM HOMES,NA,3553 VISTA HEIGHTS LN,2013,Single-family detached,Single-family,44.0178751,-123.1499305
+12,653,1,5/16/13 0:00,Apartment  1-4 Units,3,West University Neighbors,4241254,875367,NA,NA,DAUGHERTY RICHARD,NA,435 E 18TH ALY,2013,Two to four units,Multi-family,44.0396413,-123.0862682
+13,1775,1,5/16/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4231045,903843,NA,NA,ADAIR HOMES,NA,3686 YOGI WAY,2013,Single-family detached,Single-family,44.116779,-123.1283066
+13,1805,1,5/16/13 0:00,Single Family Dwelling,1,Far West Neighborhood Association,4231413,873595,NA,NA,HOONHOUT PATRICK & JANICE,NA,2050 W 23RD AVE,2013,Single-family detached,Single-family,44.034287,-123.1241469
+13,2031,1,5/16/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211005,889952,NA,NA,HAYDEN HOMES LLC,NA,1575 LEGACY ST,2013,Single-family detached,Single-family,44.0770715,-123.2031039
+13,2057,1,5/16/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214459,885366,NA,NA,GREEN BRIAR LEVEL 3 PROPERTIES LLC,NA,519 ST CHARLES ST,2013,Single-family detached,Single-family,,
+13,2058,1,5/16/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214459,885312,NA,NA,GREENBRIER LEVEL 3 PROPERTIE,NA,495 ST CHARLES ST,2013,Single-family detached,Single-family,44.0655542,-123.1895537
+13,1621,1,5/22/13 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4238861,886507,NA,NA,J & J ADKINS DEVELOPMENT CO,NA,867 MEADOW BUTTE LP,2013,Single-family detached,Single-family,44.0699333,-123.0965068
+13,1840,1,5/23/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4242634,893517,NA,NA,PRUSZ CHAD & KELLY,NA,2041 ELANCO AVE,2013,Single-family detached,Single-family,44.0890233,-123.0830746
+13,2221,1,5/23/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4250457,893665,NA,THE HAWAII,HEITMAN CUSTOM HOMES,NA,2571 CUMBERLAND DR,2013,Single-family detached,Single-family,44.0908867,-123.0536504
+13,1887,1,5/24/13 0:00,Single Family Dwelling,1,Whiteaker Community Council,4236761,882928,NA,NA,GURLEY GANTT,NA,765 CLARK ST,2013,Single-family detached,Single-family,,
+13,2310,1,5/28/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4213983,890885,NA,NA,HAYDEN HOMES LLC,NA,5309 OLYMPIC CIR,2013,Single-family detached,Single-family,44.0794196,-123.1915702
+13,2330,1,5/29/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4231473,907307,NA,NA,CRESCENT HOMES INC,NA,4431 WENDOVER ST,2013,Single-family detached,Single-family,44.1269533,-123.1274734
+13,2389,1,5/29/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212744,892511,NA,NA,SEERY JESSE,NA,5513 TRIBUTE WAY,2013,Single-family detached,Single-family,44.0840585,-123.196615
+13,2387,1,5/30/13 0:00,Mfg Home Park or Court,1,Northeast Neighbors,4241157,895776,NA,NA,MHC FALCON WOOD VILLAGE LLC,NA,"1475 GREEN ACRES RD, Unit 145",2013,Single-family detached,Single-family,44.0943083,-123.0906196
+13,2388,1,5/30/13 0:00,Mfg Home Park or Court,1,Northeast Neighbors,4241157,895776,NA,NA,MHC FALCON WOOD VILLAGE LLC,NA,"1475 GREEN ACRES RD, Unit 122",2013,Single-family detached,Single-family,,
+13,2589,1,5/31/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4250438,893570,NA,NA,HEITMAN CUSTOM HOMES,NA,2549 CUMBERLAND DR,2013,Single-family detached,Single-family,44.0908867,-123.0536504
+13,2706,1,5/31/13 0:00,Duplex or 2-Family Hs,2,Northeast Neighbors,4244713,895720,NA,NA,BOYD HELEN M,NA,2360 BONNIE VIEW DR,2013,Two to four units,Multi-family,44.0957512,-123.0754686
+13,2557,1,6/4/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211333,889912,NA,NA,HAYDEN HOMES LLC,NA,1939 ADELMAN LP,2013,Single-family detached,Single-family,44.0767688,-123.2017853
+13,2611,1,6/4/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211372,889910,NA,Darrington,HAYDEN HOMES LLC,NA,1933 ADELMAN LP,2013,Single-family detached,Single-family,,
+13,2101,1,6/5/13 0:00,Secondary Dwelling Unit,1,Friendly Area Neighbors,4238876,874605,NA,NA,BELLER BYRKE O & KLARISSA N,NA,"2035 CHARNELTON ST, Unit A",2013,Single-family detached,Single-family,44.037384,-123.095211
+13,2672,1,6/12/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4250385,893326,NA,NA,FUTURE B HOMES INC,NA,3316 AMHERST WAY,2013,Single-family detached,Single-family,44.0899069,-123.0535041
+13,2315,1,6/13/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224385,868585,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3444 VISTA HEIGHTS LN,2013,Single-family detached,Single-family,44.0178751,-123.1499305
+13,2625,1,6/13/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4224132,901282,NA,NA,BRADLEY C THORNTON REVOCABLE,NA,3145 SPEARMINT ST,2013,Single-family detached,Single-family,,
+13,2003,1,6/14/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4242925,900809,NA,NA,WALTER CUSTOM HOMES,NA,3953 STERLING WOODS DR,2013,Single-family detached,Single-family,,
+13,2627,1,6/17/13 0:00,Single Family Dwelling,1,Fairmount Neighbors,4247214,871211,NA,NA,BRIAN MURRY HOMES,NA,1957 E 28TH AVE,2013,Single-family detached,Single-family,44.0288011,-123.0631505
+13,2923,1,6/18/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212633,892517,NA,NA,SEERY JESSE,NA,5537 TRIBUTE WAY,2013,Single-family detached,Single-family,44.0840717,-123.197206
+13,2638,1,6/24/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224419,868363,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3341 SUMMIT SKY BLVD,2013,Single-family detached,Single-family,44.0188862,-123.150358
+13,2727,1,6/25/13 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4241384,889387,NA,Shaniko,BRUCE WIECHERT CUSTOM HOMES,NA,1711 CAL YOUNG RD,2013,Single-family detached,Single-family,44.0776644,-123.0874552
+13,2703,1,6/26/13 0:00,Single Family Dwelling,1,West University Neighbors,4241839,876014,NA,NA,JAMES & KIRIN WALSH TRUST,NA,577 E 17TH AVE,2013,Single-family detached,Single-family,44.0411178,-123.0840501
+13,1737,1,7/1/13 0:00,Single Family Dwelling,1,Goodpasture Island Neighbors,4236483,895351,NA,NA,MALHI DIVYA,NA,3347 RIVERPLACE DR,2013,Single-family detached,Single-family,,
+13,2713,1,7/1/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4218490,887554,NA,NA,LODGE RANDY,NA,10 SHEFFIELD CT,2013,Single-family detached,Single-family,,
+13,3005,1,7/5/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4210997,889904,NA,NA,HAYDEN HOMES LLC,NA,1565 LEGACY ST,2013,Single-family detached,Single-family,,
+13,3114,1,7/5/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211008,890050,NA,NA,HAYDEN HOMES LLC,NA,1595 LEGACY ST,2013,Single-family detached,Single-family,44.0805822,-123.2033454
+13,3080,1,7/8/13 0:00,Single Family Dwelling,1,River Road Community Organization,4227405,889905,NA,Hudson,KNODE KEVIN,NA,728 ROSSMORE ST,2013,Single-family detached,Single-family,44.0783436,-123.1404105
+13,3204,1,7/8/13 0:00,Single Family Dwelling,1,River Road Community Organization,4227075,890216,NA,Boulder,KD BLDG LLC,NA,1167 VERONICA LN,2013,Single-family detached,Single-family,,
+13,1392,1,7/9/13 0:00,Retirement Home,119,Northeast Neighbors,4247188,895884,NA,NA,S K EUGENE LLC,CRESCENT PARK SENIOR LIVING,2951 COBURG RD,2013,Five or more units,Multi-family,,
+13,3081,1,7/10/13 0:00,Single Family Dwelling,1,River Road Community Organization,4227536,889999,NA,Santa Cruz,KNODE KEVIN,NA,741 ROSSMORE ST,2013,Single-family detached,Single-family,44.0785861,-123.1404087
+13,3082,1,7/10/13 0:00,Single Family Dwelling,1,River Road Community Organization,4227539,890051,NA,NA,KNODE KEVIN,NA,749 ROSSMORE ST,2013,Single-family detached,Single-family,44.0787343,-123.1404075
+13,3221,1,7/12/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4217070,894294,NA,NA,O'CONNELL MIKE,NA,4771 CODY AVE,2013,Single-family detached,Single-family,,
+13,2008,1,7/15/13 0:00,Apartment  5-19 Units,8,West University Neighbors,4241921,877151,NA,NA,ANSLOW & DEGENEAULT,NA,585 E 14TH AVE,2013,Five or more units,Multi-family,,
+13,2855,1,7/17/13 0:00,Single Family Dwelling,1,Southeast Neighbors,4245477,862768,NA,NA,HARRIS TOD R,NA,1472 BARBER DR,2013,Single-family detached,Single-family,44.0053026,-123.0690533
+13,1849,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4245975,896837,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2410 LAKEVIEW DR,2013,Two to four units,Multi-family,,
+13,1850,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4246038,896807,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2420 LAKEVIEW DR,2013,Two to four units,Multi-family,,
+13,1851,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4246100,896798,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2430 LAKEVIEW DR,2013,Two to four units,Multi-family,,
+13,1852,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4246149,896796,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2440 LAKEVIEW DR,2013,Two to four units,Multi-family,44.0990922,-123.0710661
+13,1853,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4246189,896795,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2450 LAKEVIEW DR,2013,Two to four units,Multi-family,,
+13,1854,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4246228,896794,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2460 LAKEVIEW DR,2013,Two to four units,Multi-family,44.099087,-123.0710264
+13,1855,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4246312,896792,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2480 LAKEVIEW DR,2013,Two to four units,Multi-family,44.0990817,-123.0709867
+13,1856,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4246422,896791,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2540 LAKEVIEW DR,2013,Two to four units,Multi-family,44.099003,-123.0704797
+13,1857,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4246480,896786,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2550 LAKEVIEW DR,2013,Two to four units,Multi-family,44.099003,-123.0704797
+13,1858,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4246537,896783,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2560 LAKEVIEW DR,2013,Two to four units,Multi-family,,
+13,1859,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4246585,896782,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2570 LAKEVIEW DR,2013,Two to four units,Multi-family,44.099003,-123.0704797
+13,1860,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4246642,896783,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2580 LAKEVIEW DR,2013,Two to four units,Multi-family,,
+13,1861,1,7/18/13 0:00,Apartment  1-4 Units,4,Northeast Neighbors,4246707,896780,NA,NA,LAKEVIEW DRIVE LLC,LAKE VIEW APARTMENTS,2590 LAKEVIEW DR,2013,Two to four units,Multi-family,44.099003,-123.0704797
+13,3313,1,7/18/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4228450,897438,NA,NA,GARY KONOLD BUILDER,NA,369 LENORE LP,2013,Single-family detached,Single-family,44.099427,-123.1373955
+13,3276,1,7/22/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4228736,897375,NA,NA,818 SJL LLC,NA,2411 LENORE DR,2013,Single-family detached,Single-family,,
+13,3010,1,7/23/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4241400,899255,NA,NA,STEELE TYSON,NA,3698 MEADOW VIEW DR,2013,Single-family detached,Single-family,,
+13,2120,1,7/29/13 0:00,Single Family Dwelling,1,Southeast Neighbors,4244248,862457,NA,NA,HISEL JOHN M & CARLYNN E,NA,4414 DILLARD RD,2013,Single-family detached,Single-family,,
+13,3061,1,7/30/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4229703,900160,NA,NA,RIDGEWOOD CONSTRUCTION,NA,2941 AVA ST,2013,Single-family detached,Single-family,44.1068294,-123.1347543
+13,3617,1,7/30/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4213992,891005,NA,Lot 143,HAYDEN HOMES LLC,NA,5299 OLYMPIC CIR,2013,Single-family detached,Single-family,,
+13,3618,1,7/30/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214211,890995,NA,Lot 149,HAYDEN HOMES LLC,NA,5355 GOLDEN EAGLE DR,2013,Single-family detached,Single-family,44.0800093,-123.1909962
+13,3619,1,7/30/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214116,890888,NA,Lot 167,HAYDEN HOMES LLC,NA,5306 OLYMPIC CIR,2013,Single-family detached,Single-family,,
+13,3402,1,7/31/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214461,885421,NA,NA,GREENBRIER LEVEL 3 PROPERTIE,NA,533 ST CHARLES ST,2013,Single-family detached,Single-family,,
+13,3535,1,8/1/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4249038,895541,NA,NA,FUTURE B HOMES INC,NA,3036 LORD BYRON PL,2013,Single-family detached,Single-family,,
+13,3029,1,8/2/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4244401,899604,NA,Cascade Modified,HEITMAN CUSTOM HOMES,NA,3744 NORWICH AVE,2013,Single-family detached,Single-family,,
+13,3471,1,8/2/13 0:00,Mfg Home Park or Court,1,Active Bethel Citizens,4217107,890608,NA,Briarwood MHP,BRIARWOOD,NA,"1400 CANDLELIGHT DR, Unit 159",2013,Single-family detached,Single-family,,
+13,3852,1,8/2/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4250707,893478,NA,NA,HEITMAN CUSTOM HOMES,NA,3353 AMHERST WAY,2013,Single-family detached,Single-family,44.0900922,-123.0524845
+13,1248,1,8/5/13 0:00,Single Family Dwelling,1,Harlow Neighbors,4247738,890900,NA,NA,ADKINS MARK,NA,1699 BEST LN,2013,Single-family detached,Single-family,44.0827719,-123.0640278
+13,3690,1,8/6/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214180,890872,NA,Hudson,HAYDEN HOMES LLC,NA,5362 GOLDEN EAGLE DR,2013,Single-family detached,Single-family,44.0800093,-123.1911322
+13,3401,1,8/8/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214683,885847,NA,NA,GREENBRIER LEVEL 3 PROPERTIE,NA,673 RABER RD,2013,Single-family detached,Single-family,,
+13,3413,1,8/13/13 0:00,Secondary Dwelling Unit,1,Crest Drive Citizens Association,4235435,870540,NA,NA,POULOS DONALD C,NA,"2892 ADAMS ST, Unit A",2013,Single-family detached,Single-family,,
+13,3975,1,8/13/13 0:00,Mfg Home Park or Court,1,Active Bethel Citizens,4217107,890608,NA,NA,BRIARWOOD,NA,"1400 CANDLELIGHT DR, Unit 130",2013,Single-family detached,Single-family,,
+13,3997,1,8/13/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4250530,893478,NA,NA,FUTURE B HOMES INC,NA,3333 AMHERST WAY,2013,Single-family detached,Single-family,44.0898801,-123.0513888
+13,2963,1,8/14/13 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4250476,872219,NA,NA,ST CLAIR ED,NA,2530 AUGUSTA ST,2013,Single-family detached,Single-family,44.0318959,-123.0505355
+13,30,1,8/16/13 0:00,Apartment  20+ Units,52,Downtown Neighborhood Association,4239144,877699,NA,Capstone Phase 2 - Westside,CAPSTONE COLLEGIATE COMMUNITIES LLC,NA,1298 OLIVE ST,2013,Five or more units,Multi-family,44.0455319,-123.0942768
+13,31,1,8/16/13 0:00,Apartment  20+ Units,94,Downtown Neighborhood Association,4239144,877699,NA,Capstone Phase 2 - Westside,CAPSTONE COLLEGIATE COMMUNITIES LLC,NA,1298 OLIVE ST,2013,Five or more units,Multi-family,44.0455319,-123.0942768
+13,3060,1,8/16/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4229421,900175,NA,NA,RIDGEWOOD CONSTRUCTION,NA,2929 AVA ST,2013,Single-family detached,Single-family,,
+13,3297,1,8/16/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4229490,900171,NA,NA,RIDGEWOOD CONSTRUCTION,NA,2933 AVA ST,2013,Single-family detached,Single-family,,
+13,3837,1,8/16/13 0:00,Secondary Dwelling Unit,1,Fairmount Neighbors,4246559,874866,NA,NA,BROWN G Z,NA,"1820 E 19TH AVE, Unit A",2013,Single-family detached,Single-family,,
+13,3838,1,8/16/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4243676,897882,NA,NA,SCHAR CONSTRUCTION,NA,3374 TALON ST,2013,Single-family detached,Single-family,,
+13,4256,1,8/21/13 0:00,Single Family Dwelling,1,Southeast Neighbors,4240662,868889,NA,NA,GAUTIER CLAYTON ROBERT & BAKER GAIL,NA,350 E 32ND AVE,2013,Single-family detached,Single-family,44.021755,-123.087808
+13,4166,1,8/26/13 0:00,Mfg Home - Not in a Park,1,Crest Drive Citizens Association,4235801,870681,NA,NA,TIMMONS CRAIG & KLEIN MAE,NA,2871 ADAMS ST,2013,Single-family detached,Single-family,44.026408,-123.1070416
+13,4264,1,8/26/13 0:00,Mfg Home Park or Court,1,Northeast Neighbors,4241157,895776,NA,Falconwood Village,MHC FALCON WOOD VILLAGE LLC,NA,"1475 GREEN ACRES RD, Unit 100",2013,Single-family detached,Single-family,,
+13,4265,1,8/26/13 0:00,Mfg Home Park or Court,1,Northeast Neighbors,4241157,895776,NA,Falconwood Village,MHC FALCON WOOD VILLAGE LLC,NA,"1475 GREEN ACRES RD, Unit 148",2013,Single-family detached,Single-family,,
+13,4266,1,8/26/13 0:00,Mfg Home Park or Court,1,Northeast Neighbors,4241157,895776,NA,Falconwood Village,MHC FALCON WOOD VILLAGE LLC,NA,"1475 GREEN ACRES RD, Unit 5",2013,Single-family detached,Single-family,,
+13,4226,1,8/30/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4243030,897110,NA,NA,PARADISE DEVELOPMENT CO,NA,3170 LAKE CREST DR,2013,Single-family detached,Single-family,,
+13,4230,1,8/30/13 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4240297,889347,NA,NA,FUTURE B HOMES INC,NA,1438 PIPER LN,2013,Single-family detached,Single-family,,
+13,4231,1,8/30/13 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4240355,889342,NA,NA,FUTURE B HOMES INC,NA,1442 PIPER LN,2013,Single-family detached,Single-family,44.0784238,-123.0908368
+13,4046,1,9/3/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4229549,900163,NA,NA,RIDGEWOOD CONSTRUCTION,NA,2937 AVA ST,2013,Single-family detached,Single-family,,
+13,3024,1,9/4/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4250432,893479,NA,NA,HEITMAN CUSTOM HOMES,NA,2527 CUMBERLAND DR,2013,Single-family detached,Single-family,44.0908867,-123.0536504
+13,3760,1,9/5/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224270,868658,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3451 VISTA HEIGHTS LN,2013,Single-family detached,Single-family,,
+13,2035,1,9/9/13 0:00,"Condo, Row or Townhouse",1,Friendly Area Neighbors,4236006,871566,NA,"Lucia Townhomes Building ""B""",LUCIA COMMUNITY LLC,NA,2712 FRIENDLY ST,2013,Single-family attached,Multi-family,,
+13,2036,1,9/9/13 0:00,"Condo, Row or Townhouse",1,Friendly Area Neighbors,4236006,871546,NA,"Lucia Townhomes Building ""B""",LUCIA COMMUNITY LLC,NA,2714 FRIENDLY ST,2013,Single-family attached,Multi-family,,
+13,2037,1,9/9/13 0:00,"Condo, Row or Townhouse",1,Friendly Area Neighbors,4236004,871529,NA,"Lucia Townhomes Building ""B""",LUCIA COMMUNITY LLC,NA,2716 FRIENDLY ST,2013,Single-family attached,Multi-family,44.0287584,-123.1055335
+13,2038,1,9/9/13 0:00,"Condo, Row or Townhouse",1,Friendly Area Neighbors,4236004,871509,NA,"Lucia Townhomes Building ""B""",LUCIA COMMUNITY LLC,NA,2718 FRIENDLY ST,2013,Single-family attached,Multi-family,44.0287363,-123.1055332
+13,4193,1,9/13/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4213972,890397,NA,NA,HAYDEN HOMES LLC,NA,5351 OLYMPIC CIR,2013,Single-family detached,Single-family,,
+13,4596,1,9/17/13 0:00,Secondary Dwelling Unit,1,South University Neighborhood Association,4243613,873941,NA,NA,PAMELA A PANUM TRUST,NA,"1035 E 22ND AVE, Unit A",2013,Single-family detached,Single-family,44.035955,-123.077132
+13,3059,1,9/20/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4226082,886803,NA,NA,RIDGEWOOD CONSTRUCTION,NA,741 WIDE SITE ST,2013,Single-family detached,Single-family,,
+13,4045,1,9/20/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4226085,886748,NA,NA,RIDGEWOOD CONSTRUCTION,NA,735 WIDE SITE ST,2013,Single-family detached,Single-family,44.0695319,-123.1455368
+13,4524,1,9/20/13 0:00,Mfg Home Park or Court,1,West Eugene Community Organization,4221599,877190,NA,NA,CHURCHILL MEADOWS MHC LLC,NA,"1415 S BERTELSEN RD, Unit 116",2013,Single-family detached,Single-family,,
+13,4731,1,9/20/13 0:00,Mfg Home Park or Court,1,West Eugene Community Organization,4221599,877190,NA,NA,CHURCHILL MEADOWS MHC LLC,NA,"1415 S BERTELSEN RD, Unit 65",2013,Single-family detached,Single-family,44.0432355,-123.1607392
+13,4616,1,9/23/13 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4240215,889307,NA,NA,BUTLER DANE,NA,1405 HAMMOCK ST,2013,Single-family detached,Single-family,,
+13,4331,1,9/26/13 0:00,Single Family Dwelling,1,Fairmount Neighbors,4247308,871118,NA,NA,MURRY BRIAN,NA,2796 SPRING BLVD,2013,Single-family detached,Single-family,,
+13,4573,1,9/30/13 0:00,Single Family Dwelling,1,Harlow Neighbors,4249114,889846,NA,NA,EVERALL ERIC,NA,1471 BARRINGTON AVE,2013,Single-family detached,Single-family,44.0798525,-123.058028
+13,4799,1,10/2/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4250644,893318,NA,NA,ANSLOW & DEGENEAULT,NA,3350 AMHERST WAY,2013,Single-family detached,Single-family,,
+13,4849,1,10/2/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4244231,896754,NA,NA,CHAVEZ LIVING TRUST,NA,2219 LAKEVIEW DR,2013,Single-family detached,Single-family,,
+13,2636,1,10/3/13 0:00,Single Family Dwelling,1,Southeast Neighbors,4237400,862103,NA,NA,SWENSON ERIC A & MCCAFFREY C,NA,251 ROCKRIDGE LP,2013,Single-family detached,Single-family,44.0039549,-123.0993069
+13,4896,1,10/4/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4249036,895572,NA,NA,FUTURE B HOMES INC,NA,3046 LORD BYRON PL,2013,Single-family detached,Single-family,,
+9,2531,1,10/7/13 0:00,Single Family Dwelling,1,Southeast Neighbors,4247687,862273,NA,NA,ROSS RICK,NA,4580 SPRING BLVD,2013,Single-family detached,Single-family,44.0040184,-123.0598724
+13,4169,1,10/9/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4226064,869739,NA,Edgefield,HOVISS DEVELOPMENT GROUP,NA,3049 DEERBRUSH WAY,2013,Single-family detached,Single-family,,
+13,4171,1,10/9/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4225994,869702,NA,Edgefield,HOVISS DEVELOPMENT GROUP,NA,3045 DEERBRUSH WAY,2013,Single-family detached,Single-family,44.0225271,-123.1439791
+13,5083,1,10/11/13 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4253504,872261,NA,NA,TRENDSETTER HOMES,NA,3662 ROCKCRESS RD,2013,Single-family detached,Single-family,44.0320994,-123.0392503
+13,3311,1,10/15/13 0:00,Single Family Dwelling,1,Southeast Neighbors,4247089,863371,NA,Dan Cooper,COOPER DANIEL W (DAN),NA,2008 E 43RD AVE,2013,Single-family detached,Single-family,,
+13,4605,1,10/15/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4232721,899037,NA,NA,TAIT L B,NA,2718 ECHO LN,2013,Single-family detached,Single-family,,
+13,4981,1,10/15/13 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4253626,871871,NA,NA,LAZARICH SAM,NA,2641 CASCARA DR,2013,Single-family detached,Single-family,,
+13,4870,1,10/16/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4229350,900181,NA,NA,RIDGEWOOD CONSTRUCTION,NA,2925 AVA ST,2013,Single-family detached,Single-family,,
+13,4395,1,10/17/13 0:00,Single Family Dwelling,1,South University Neighborhood Association,4243601,873499,NA,NA,CHESLUK CELIA,NA,1043 E 23RD AVE,2013,Single-family detached,Single-family,44.0347668,-123.0771126
+13,3729,1,10/18/13 0:00,Apartment  1-4 Units,4,Far West Neighborhood Association,4230942,876397,NA,NA,WESTMORELAND VILLAGE LLC,NA,2117 W 17TH CT,2013,Two to four units,Multi-family,,
+13,4392,1,10/18/13 0:00,"Condo, Row or Townhouse",7,South University Neighborhood Association,4243169,875164,NA,NA,HAWES GEORGE,NA,1881 KINCAID ST,2013,Single-family attached,Multi-family,44.0391531,-123.0792369
+13,4863,1,10/18/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212690,892513,NA,NA,SEERY JESSE,NA,5525 TRIBUTE WAY,2013,Single-family detached,Single-family,44.084064,-123.1968611
+13,5121,1,10/18/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222196,903226,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3528 BUTTERFLY CREEK LN,2013,Single-family detached,Single-family,,
+13,5160,1,10/18/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222216,902705,NA,NA,NORDIC HOMES & CONSTRUCTION,NA,3489 CABERNET LN,2013,Single-family detached,Single-family,,
+13,4876,1,10/21/13 0:00,Single Family Dwelling,1,River Road Community Organization,4227402,889830,NA,NA,KD BLDG LLC,NA,712 ROSSMORE ST,2013,Single-family detached,Single-family,,
+13,4728,1,10/24/13 0:00,Secondary Dwelling Unit,1,River Road Community Organization,4230049,890778,NA,NA,REIMAN EMILY,NA,"1160 MAPLE DR, Unit A",2013,Single-family detached,Single-family,,
+13,5176,1,10/24/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4251031,893468,NA,NA,FUTURE B HOMES INC,NA,3387 AMHERST WAY,2013,Single-family detached,Single-family,44.0899105,-123.0523675
+13,5347,1,10/24/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4242591,897312,NA,NA,MELTEBEKE CONSTRUCTION DBA,NA,3262 LAKE WOOD DR,2013,Single-family detached,Single-family,,
+13,5004,1,10/25/13 0:00,Secondary Dwelling Unit,1,Active Bethel Citizens,4219642,891127,Single Family Dwelling,NA,MCCULLOUGH ANDREW & AMY,NA,"1585 SCANDIA ST, Unit A",2013,Single-family detached,Single-family,,
+13,5241,1,10/28/13 0:00,Single Family Dwelling,1,Jefferson Westside Neighbors,4238207,877010,NA,NA,TAYLOR MADE HOMES INC,NA,1425 LAWRENCE ST,2013,Single-family detached,Single-family,,
+13,5526,1,10/31/13 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4240215,889372,NA,NA,FUTURE B HOMES INC,NA,1427 HAMMOCK ST,2013,Single-family detached,Single-family,,
+13,5158,1,11/4/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4231432,907136,NA,NA,NORDIC HOMES & CONSTRUCTION,NA,630 NOTTINGHAM AVE,2013,Single-family detached,Single-family,44.1261245,-123.1275151
+13,4404,1,11/6/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4250725,893772,NA,NA,HEITMAN CUSTOM HOMES,NA,2562 CHESAPEAKE DR,2013,Single-family detached,Single-family,,
+13,5392,1,11/6/13 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224122,868275,NA,NA,HEITMAN CUSTOM HOMES,NA,3260 SUMMIT SKY BLVD,2013,Single-family detached,Single-family,44.0187703,-123.1505717
+13,4275,1,11/15/13 0:00,Apartment  5-19 Units,6,West University Neighbors,4240988,875959,NA,NA,DEGENEAULT & ANSLOW INC,DUCK POND APARTMENTS,363 E 17TH AVE,2013,Five or more units,Multi-family,44.041123,-123.0874447
+13,5351,1,11/19/13 0:00,Single Family Dwelling,1,River Road Community Organization,4224641,894664,NA,NA,G & R BUILDING CONCEPTS,NA,1794 ALLEA DR,2013,Single-family detached,Single-family,44.0904508,-123.151103
+13,4939,1,11/21/13 0:00,Duplex or 2-Family Hs,2,Santa Clara Community Organization,4229364,900281,NA,NA,OGREN HAROLD C & VONA L,NA,2965 AVA ST,2013,Two to four units,Multi-family,,
+13,6008,1,11/26/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4228450,897383,NA,NA,KONOLD GARY,NA,381 LENORE LP,2013,Single-family detached,Single-family,44.099427,-123.1373955
+13,6091,1,11/27/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222405,903232,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3535 BUTTERFLY CREEK LN,2013,Single-family detached,Single-family,44.1141221,-123.1618377
+13,6117,1,11/27/13 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222322,903231,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3529 BUTTERFLY CREEK LN,2013,Single-family detached,Single-family,,
+13,6102,1,12/5/13 0:00,Single Family Dwelling,1,Crest Drive Citizens Association,4237546,865960,NA,NA,MTN INVESTMENTS LLC,NA,375 W 39TH AVE,2013,Single-family detached,Single-family,44.0133912,-123.0990132
+13,4665,1,12/23/13 0:00,Apartment  1-4 Units,3,Downtown Neighborhood Association,4239678,878101,Vacant Shop or Office,NA,ROSCOE DIVINE LLC,NA,1167 WILLAMETTE ST,2013,Two to four units,Multi-family,44.0470403,-123.0926139
+13,6293,1,12/26/13 0:00,Single Family Dwelling,1,Active Bethel Citizens,4221808,885522,NA,NA,HACSA LANE COUNTY,NA,384 HOPE LP,2013,Single-family detached,Single-family,44.0657507,-123.1616349
+13,3731,1,12/31/13 0:00,Duplex or 2-Family Hs,2,Far West Neighborhood Association,4231049,876695,NA,NA,WESTMORELAND VILLAGE LLC,NA,2146 W 16TH AVE,2013,Two to four units,Multi-family,44.0426524,-123.1248528
+13,6396,1,12/31/13 0:00,Single Family Dwelling,1,Northeast Neighbors,4250712,893593,NA,NA,FUTURE B HOMES INC,NA,3360 WYNDHAM CT,2013,Single-family detached,Single-family,44.0906744,-123.0524197
+13,5506,1,1/2/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214462,885532,NA,NA,GREENBRIER LEVEL 3 PROPERTIE,NA,589 ST CHARLES ST,2014,Single-family detached,Single-family,44.0655542,-123.1895537
+13,5962,1,1/3/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211612,889763,NA,NA,HAYDEN HOMES LLC,NA,1896 ADELMAN LP,2014,Single-family detached,Single-family,,
+13,6549,1,1/3/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4249019,895099,NA,NA,FUTURE B HOMES INC,NA,2902 LORD BYRON PL,2014,Single-family detached,Single-family,44.0944131,-123.058781
+13,5751,1,1/6/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4242785,899468,NA,NA,WESTER KATRINA,NA,3632 STERLING WOODS DR,2014,Single-family detached,Single-family,44.1059531,-123.082619
+13,4675,1,1/7/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224551,868573,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3241 TIMBERLINE DR,2014,Single-family detached,Single-family,,
+13,5653,1,1/13/14 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4250004,870641,NA,NA,CUNNEEN JOE,NA,3032 HENDRICKS HILL DR,2014,Single-family detached,Single-family,44.0264347,-123.0519315
+13,5892,1,1/13/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4246765,863834,NA,NA,GANSEN MIKE,NA,4220 WENDELL LN,2014,Single-family detached,Single-family,,
+13,6598,1,1/13/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224488,868354,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3351 SUMMIT SKY BLVD,2014,Single-family detached,Single-family,,
+14,46,1,1/21/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222203,903483,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3568 BUTTERFLY CREEK LN,2014,Single-family detached,Single-family,,
+14,47,1,1/21/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222338,903511,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3569 BUTTERFLY CREEK LN,2014,Single-family detached,Single-family,44.1142092,-123.1618354
+14,172,1,1/21/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4249022,895134,NA,NA,FUTURE B HOMES INC,NA,2912 LORD BYRON PL,2014,Single-family detached,Single-family,44.0944998,-123.0587824
+14,351,1,1/24/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4245734,865980,NA,NA,COOLEY LAWRENCE,NA,3781 PINE CANYON DR,2014,Single-family detached,Single-family,44.0141809,-123.0697493
+14,352,1,1/24/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4245433,865992,NA,NA,COOLEY LAWRENCE,NA,3779 PINE CANYON DR,2014,Single-family detached,Single-family,44.0141943,-123.0697354
+13,5495,1,1/28/14 0:00,Apartment  20+ Units,183,Downtown Neighborhood Association,4241822,879162,Restaurants,The Hub,CORE CAMPUS EUGENE LLC,NA,515 E BROADWAY,2014,Five or more units,Multi-family,44.0501649,-123.0845005
+13,6729,1,1/28/14 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4253475,872105,NA,NA,KURIHARA WALLACE,NA,2620 CASCARA DR,2014,Single-family detached,Single-family,44.0318241,-123.0393812
+14,88,1,1/30/14 0:00,Single Family Dwelling,1,Crest Drive Citizens Association,4236109,867662,NA,Mascord 22125A,BRUCE WIECHERT CUSTOM HOMES,NA,877 W 35TH PL,2014,Single-family detached,Single-family,,
+14,127,1,1/31/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4243076,897287,NA,NA,MELTEBEKE CONSTRUCTION DBA,NA,2077 LAKELAND WAY,2014,Single-family detached,Single-family,44.0997988,-123.0819296
+14,290,1,1/31/14 0:00,Mfg Home - Not in a Park,1,Santa Clara Community Organization,4233203,897857,NA,NA,LINDSAY BONNIE LYNN,NA,2621 ROSS LN,2014,Single-family detached,Single-family,,
+14,358,1,1/31/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4242733,897353,NA,NA,MELTEBEKE CONSTRUCTION DBA,NA,3275 LAKE WOOD DR,2014,Single-family detached,Single-family,,
+14,280,1,2/5/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222051,902381,NA,NA,NORDIC HOMES & CONSTRUCTION,NA,3442 CABERNET LN,2014,Single-family detached,Single-family,,
+14,423,1,2/5/14 0:00,Mfg Home Park or Court,1,Santa Clara Community Organization,4233564,896929,NA,NA,SKL INVESTMENTS LLC,NA,"501 DIVISION AVE, Unit 3",2014,Single-family detached,Single-family,44.099049,-123.11716
+14,354,1,2/12/14 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4253145,872286,NA,NA,MACKENZIE DAVID,NA,2589 ABIGAIL LN,2014,Single-family detached,Single-family,,
+14,470,1,2/19/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4231425,907029,NA,NA,HOMEBUILDERS CONSTRUCTION COMPANY,NA,633 WATSON DR,2014,Single-family detached,Single-family,44.125406,-123.1274816
+13,4624,1,2/20/14 0:00,Apartment  20+ Units,162,Fairmount Neighbors,4248218,877182,NA,Garden Avenue,AMERICAN CAMPUS COMMUNITIES,GARDEN AVENUE APARTMENTS,2125 FRANKLIN BLVD,2014,Five or more units,Multi-family,44.045236,-123.0599657
+13,4625,1,2/20/14 0:00,Apartment  20+ Units,30,Fairmount Neighbors,4248218,877182,NA,Garden Avenue,AMERICAN CAMPUS COMMUNITIES,GARDEN AVENUE APARTMENTS,2125 FRANKLIN BLVD,2014,Five or more units,Multi-family,44.045236,-123.0599657
+14,495,1,2/21/14 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4239962,893136,NA,NA,NORDIC HOMES & CONSTRUCTION,NA,2215 WILDWOOD ST,2014,Single-family detached,Single-family,44.0880926,-123.0935417
+14,540,1,2/25/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222199,903421,NA,NA,WIECHERT BRUCE,NA,3562 BUTTERFLY CREEK LN,2014,Single-family detached,Single-family,44.1141939,-123.1618358
+14,766,1,2/27/14 0:00,Mfg Home Park or Court,1,Active Bethel Citizens,4214949,888055,NA,NA,SUNBURST HOMES,NA,"1199 N TERRY ST, Unit 159",2014,Single-family detached,Single-family,,
+14,225,1,2/28/14 0:00,Apartment  1-4 Units,4,Far West Neighborhood Association,4231566,876215,NA,Westmoreland Village,KNIGHTS DUANE,NA,2004 W 17TH AVE,2014,Two to four units,Multi-family,,
+13,6614,1,3/3/14 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4244413,891416,NA,NA,REYNOLDS JEREMY,NA,2259 JEPPESEN ACRES RD,2014,Single-family detached,Single-family,,
+13,6616,1,3/3/14 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4244423,891481,NA,NA,WRIGHTINGTON DAN,NA,2263 JEPPESEN ACRES RD,2014,Single-family detached,Single-family,44.0835135,-123.0758881
+14,415,1,3/3/14 0:00,Single Family Dwelling,1,Fairmount Neighbors,4247282,871186,NA,NA,SMITH CRAIG H,NA,2788 SPRING BLVD,2014,Single-family detached,Single-family,44.0287423,-123.0626192
+14,226,1,3/4/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4241110,860837,NA,SFD Gansen. Ryan McDonnald 541,JUSTICE GUY D,NA,5125 MIRAMAR ST,2014,Single-family detached,Single-family,44.00004,-123.0855023
+14,815,1,3/4/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4241877,869622,NA,NA,LUNDBERG ERIC W & KATHLEEN A,NA,3010 HUMMINGBIRD LN,2014,Single-family detached,Single-family,,
+13,3028,1,3/6/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4244731,899586,NA,NA,HEITMAN CUSTOM HOMES,NA,3743 NORWICH AVE,2014,Single-family detached,Single-family,44.1060655,-123.0764949
+14,160,1,3/7/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4227775,874217,NA,NA,RIDGEWOOD CONSTRUCTION,NA,3305 PARK HILLS DR,2014,Single-family detached,Single-family,44.0351951,-123.1372153
+14,1248,1,3/13/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4249036,895602,NA,NA,FUTURE B HOMES INC,NA,3056 LORD BYRON PL,2014,Single-family detached,Single-family,,
+13,5675,1,3/14/14 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4242611,889597,NA,NA,DEVERS BRANDON,NA,1503 MORNINGSIDE DR,2014,Single-family detached,Single-family,44.078612,-123.0828238
+14,909,1,3/19/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222325,903429,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3563 BUTTERFLY CREEK LN,2014,Single-family detached,Single-family,,
+14,1065,1,3/19/14 0:00,Single Family Dwelling,1,Harlow Neighbors,4249048,889854,NA,NA,OREGON ESTATES LLC,NA,1477 BARRINGTON AVE,2014,Single-family detached,Single-family,,
+14,1283,1,3/24/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4242989,897295,NA,NA,MELTEBEKE CONSTRUCTION DBA,NA,2057 LAKELAND WAY,2014,Single-family detached,Single-family,44.0998,-123.0822749
+14,1418,1,3/25/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4249022,895163,NA,NA,FUTURE B HOMES INC,NA,2922 LORD BYRON PL,2014,Single-family detached,Single-family,44.0945866,-123.0587838
+14,1443,1,3/26/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3536 BUTTERFLY CREEK,2014,Single-family detached,Single-family,,
+14,1250,1,3/27/14 0:00,Single Family Dwelling,1,River Road Community Organization,4227536,889948,NA,Hudson,KD BLDG LLC,NA,733 ROSSMORE ST,2014,Single-family detached,Single-family,44.0784379,-123.1404098
+14,1259,1,3/27/14 0:00,Single Family Dwelling,1,River Road Community Organization,4227528,889894,NA,NA,KD BLDG LLC,NA,723 ROSSMORE ST,2014,Single-family detached,Single-family,44.0782527,-123.1404112
+14,1260,1,3/27/14 0:00,Single Family Dwelling,1,River Road Community Organization,4227525,889789,NA,Santa Cruz,KD BLDG LLC,NA,715 ROSSMORE ST,2014,Single-family detached,Single-family,44.0781318,-123.1404122
+14,1262,1,3/27/14 0:00,Single Family Dwelling,1,River Road Community Organization,4227189,890027,NA,Hudson,KD BLDG LLC,NA,1130 VERONICA LN,2014,Single-family detached,Single-family,44.0788331,-123.1412734
+14,1263,1,3/27/14 0:00,Single Family Dwelling,1,River Road Community Organization,4227128,890031,NA,NA,KD BLDG LLC,NA,1140 VERONICA LN,2014,Single-family detached,Single-family,44.0788331,-123.1412734
+13,6092,1,3/31/14 0:00,Single Family Dwelling,1,Fairmount Neighbors,4247475,871840,NA,NA,LITTLE SANDY & BLEWSTER KELLEY,NA,2705 CAPITAL DR,2014,Single-family detached,Single-family,44.030363,-123.0624464
+14,1274,1,4/1/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211641,889906,NA,Clearwater,HAYDEN HOMES LLC,NA,1895 ADELMAN LP,2014,Single-family detached,Single-family,44.0767663,-123.2006986
+14,1623,1,4/3/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222465,903285,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3541 BUTTERFLY CREEK LN,2014,Single-family detached,Single-family,44.1141375,-123.1618373
+14,86,1,4/4/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4226930,871332,NA,NA,HUTCHISON STEVEN,NA,3436 MOUNTAIN ASH BLVD,2014,Single-family detached,Single-family,,
+14,478,1,4/4/14 0:00,Duplex or 2-Family Hs,2,Unknown,4211781,944612,NA,NA,CHRISTENSEN JOHN P & TAE S,NA,560 W 15TH AVE,2014,Two to four units,Multi-family,,
+14,1210,1,4/4/14 0:00,Mfg Home - Not in a Park,1,Unknown,NA,NA,NA,NA,FLECK DARRELD M & LINDA C,NA,137 BUSHNELL LN,2014,Single-family detached,Single-family,44.0922522,-123.1462435
+14,1451,1,4/7/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211659,889758,NA,NA,HAYDEN HOMES LLC,NA,1884 ADELMAN LP,2014,Single-family detached,Single-family,,
+14,1452,1,4/7/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211694,889994,NA,Metolius,HAYDEN HOMES LLC,NA,5779 AVALON ALY,2014,Single-family detached,Single-family,44.0774546,-123.2010356
+14,1453,1,4/7/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211758,889746,NA,Orchard,HAYDEN HOMES LLC,NA,1864 ADELMAN LP,2014,Single-family detached,Single-family,44.076756,-123.1996984
+14,1462,1,4/8/14 0:00,Single Family Dwelling,1,Friendly Area Neighbors,4234802,871362,NA,NA,BAKER GEORGE B,NA,1178 W 27TH PL,2014,Single-family detached,Single-family,44.0283006,-123.1104638
+14,1824,1,4/8/14 0:00,Mfg Home Park or Court,1,Northeast Neighbors,4241157,895776,NA,NA,MHC FALCON WOOD VILLAGE LLC,NA,"1475 GREEN ACRES RD, Unit 150",2014,Single-family detached,Single-family,44.0943083,-123.0906196
+14,1825,1,4/8/14 0:00,Mfg Home Park or Court,1,Northeast Neighbors,4241157,895776,NA,NA,MHC FALCON WOOD VILLAGE LLC,NA,"1475 GREEN ACRES RD, Unit 7",2014,Single-family detached,Single-family,44.0943083,-123.0906196
+14,1538,1,4/10/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4230234,875950,NA,NA,DUNG PHAM CHI,NA,1810 CITY VIEW ST,2014,Single-family detached,Single-family,44.040303,-123.12832
+14,1275,1,4/14/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211646,890004,NA,Prelim,HAYDEN HOMES LLC,NA,5789 AVALON ALY,2014,Single-family detached,Single-family,44.0774546,-123.2010356
+14,1448,1,4/14/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211696,889903,NA,Edgewood,HAYDEN HOMES LLC,NA,1887 ADELMAN LP,2014,Single-family detached,Single-family,,
+14,1676,1,4/15/14 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4238759,886075,NA,NA,JACK ADKINS CONSTRUCTION,NA,1042 ABBIE LN,2014,Single-family detached,Single-family,44.0688346,-123.0962386
+14,1582,1,4/18/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,HAYDEN HOMES LLC,NA,5739 AVALON ALY,2014,Single-family detached,Single-family,,
+14,1628,1,4/21/14 0:00,Single Family Dwelling,1,Harlow Neighbors,4248293,883784,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3224 SORREL WAY,2014,Single-family detached,Single-family,44.063616,-123.0609866
+14,1743,1,4/21/14 0:00,Single Family Dwelling,1,Harlow Neighbors,4248287,883717,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3218 SORREL WAY,2014,Single-family detached,Single-family,44.063616,-123.0609866
+14,1797,1,4/22/14 0:00,Single Family Dwelling,1,South University Neighborhood Association,4244379,873547,NA,NA,WEST JANE A,NA,2261 UNIVERSITY ST,2014,Single-family detached,Single-family,,
+14,1236,1,4/24/14 0:00,Single Family Dwelling,1,River Road Community Organization,4233411,885996,NA,NA,DICUS KRISTOPHER J,NA,465 RIVER RD,2014,Single-family detached,Single-family,44.068241,-123.116574
+14,1865,1,4/24/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,RIDGEWOOD CONSTRUCTION,NA,2953 AVA,2014,Single-family detached,Single-family,,
+14,1997,1,4/24/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211714,889760,NA,Stoneridge,HAYDEN HOMES LLC,NA,1872 ADELMAN LP,2014,Single-family detached,Single-family,,
+13,6765,1,4/28/14 0:00,Apartment  1-4 Units,3,Jefferson Westside Neighbors,4239506,876900,Professional Office Bldg,NA,IVERSON JORDAN,NA,1460 WILLAMETTE ST,2014,Two to four units,Multi-family,,
+14,1747,1,4/28/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222119,902421,NA,NA,NORDIC HOMES & CONSTRUCTION,NA,3438 CABERNET LN,2014,Single-family detached,Single-family,,
+14,2022,1,4/28/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4249035,895631,NA,005-353,FUTURE B HOMES INC,NA,3066 LORD BYRON PL,2014,Single-family detached,Single-family,,
+14,1882,1,5/1/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224174,867999,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3571 VISTA HEIGHTS LN,2014,Single-family detached,Single-family,,
+14,2054,1,5/5/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,GARY KONOLD BUILDER,NA,393 LENORE LP,2014,Single-family detached,Single-family,,
+14,1998,1,5/6/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,HAYDEN HOMES LLC,NA,1856 ADELMAN LP,2014,Single-family detached,Single-family,44.0767592,-123.1995164
+14,2088,1,5/6/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,HABITAT FOR HUMANITY,NA,3613 YOGI WAY,2014,Single-family detached,Single-family,44.11578,-123.1283539
+14,2005,1,5/7/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,RUHOFF RODNEY C,NA,3345 AMHERST WAY,2014,Single-family detached,Single-family,,
+14,1917,1,5/8/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222198,903354,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3554 BUTTERFLY CREEK LN,2014,Single-family detached,Single-family,44.1141734,-123.1618364
+14,2559,1,5/9/14 0:00,Mfg Home Park or Court,1,Active Bethel Citizens,4214888,895429,NA,NA,SAINT LUCIA/ROWAN OAK MHC LL,NA,"2333 N TERRY ST, Unit 70",2014,Single-family detached,Single-family,,
+14,1788,1,5/12/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,EQUITY HOME BUILDERS,NA,3668 SNOWBERRY RD,2014,Single-family detached,Single-family,44.0301976,-123.0417141
+14,1789,1,5/12/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,EQUITY HOME BUILDERS,NA,3678 SNOWBERRY RD,2014,Single-family detached,Single-family,,
+14,2266,1,5/13/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222343,903616,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3593 BUTTERFLY CREEK LN,2014,Single-family detached,Single-family,,
+14,2333,1,5/15/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4244835,899430,NA,NA,HEITMAN CUSTOM HOMES,NA,3731 NORWICH AVE,2014,Single-family detached,Single-family,44.1060655,-123.0764949
+14,2182,1,5/21/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4228883,899170,NA,NA,CHANEY NICHOLAS,NA,241 IRVING RD,2014,Single-family detached,Single-family,,
+14,2298,1,5/21/14 0:00,"Condo, Row or Townhouse",1,Cal Young Neighborhood Association,4243449,884885,NA,NA,SMITH DAVID E & ANNETTE M,NA,2169 WESTWOOD LN,2014,Single-family attached,Multi-family,44.0658009,-123.0825185
+14,2303,1,5/21/14 0:00,"Condo, Row or Townhouse",1,Cal Young Neighborhood Association,4243450,884928,NA,NA,SMITH DAVID E & ANNETTE M,NA,2173 WESTWOOD LN,2014,Single-family attached,Multi-family,,
+14,2306,1,5/21/14 0:00,"Condo, Row or Townhouse",1,Cal Young Neighborhood Association,4243452,884974,NA,NA,SMITH DAVID E & ANNETTE M,NA,2181 WESTWOOD LN,2014,Single-family attached,Multi-family,44.0658008,-123.0825159
+14,2477,1,5/21/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4228891,899240,NA,NA,CHANEY NICHOLAS,NA,237 IRVING RD,2014,Single-family detached,Single-family,44.1034483,-123.13594
+14,2308,1,5/22/14 0:00,"Condo, Row or Townhouse",1,Cal Young Neighborhood Association,4243544,884975,NA,NA,SMITH DAVID E & ANNETTE M,NA,2185 WESTWOOD LN,2014,Single-family attached,Multi-family,44.0658008,-123.082515
+14,2309,1,5/22/14 0:00,"Condo, Row or Townhouse",1,Cal Young Neighborhood Association,4243543,884928,NA,NA,SMITH DAVID E & ANNETTE M,NA,2191 WESTWOOD LN,2014,Single-family attached,Multi-family,,
+14,2310,1,5/22/14 0:00,"Condo, Row or Townhouse",1,Cal Young Neighborhood Association,4243540,884886,NA,NA,SMITH DAVID E & ANNETTE M,NA,2197 WESTWOOD LN,2014,Single-family attached,Multi-family,,
+13,5858,1,5/23/14 0:00,Single Family Dwelling,1,River Road Community Organization,4230692,890006,NA,NA,RATERMAN SAGE,NA,880 W HILLIARD LN,2014,Single-family detached,Single-family,44.0791971,-123.1283662
+14,1756,1,5/23/14 0:00,Comml Warehs & Storage,1,Churchill Area Neighbors,4216551,878258,Single Family Dwelling,NA,WILLOW CREEK HOLDINGS LLC,WILLOW CREEK SELF STORAGE,29905 WILLOW CREEK RD,2014,Single-family detached,Single-family,44.0455166,-123.1795709
+14,2394,1,5/23/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211962,889753,NA,NA,HAYDEN HOMES LLC,NA,1826 ADELMAN LP,2014,Single-family detached,Single-family,44.0769533,-123.1991655
+14,2496,1,5/27/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211746,889907,NA,Rockwood,HAYDEN HOMES LLC,NA,1879 ADELMAN LP,2014,Single-family detached,Single-family,44.0767625,-123.2003241
+14,1329,1,5/28/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214467,885477,NA,NA,GREEN BRIAR LEVEL 3 PROPERTIES LLC,NA,563 ST CHARLES ST,2014,Single-family detached,Single-family,,
+14,1884,1,5/28/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224443,868754,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3415 VISTA HEIGHTS LN,2014,Single-family detached,Single-family,44.0178751,-123.1499305
+14,2290,1,5/29/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4220147,891294,NA,NA,JERNBERG DENNIS S,NA,4208 BOSTON LN,2014,Single-family detached,Single-family,44.0816753,-123.1684096
+14,2582,1,5/30/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4231132,903667,NA,NA,LARRY KENT COOPER CONSTRUCTION,NA,3653 YOGI WAY,2014,Single-family detached,Single-family,,
+14,2449,1,6/2/14 0:00,Secondary Dwelling Unit,1,Laurel Hill Valley Citizens,4250554,874933,NA,NA,GATCHEV TZVETAN,NA,"2765 E 18TH AVE, Unit A",2014,Single-family detached,Single-family,,
+14,2467,1,6/2/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4249041,895660,NA,NA,ML EXCHANGE LLC,NA,3076 LORD BYRON PL,2014,Single-family detached,Single-family,,
+14,2626,1,6/2/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4221976,902599,NA,NA,NORDIC HOMES & CONSTRUCTION,NA,3474 CABERNET LN,2014,Single-family detached,Single-family,,
+14,2353,1,6/3/14 0:00,Mfg Home - Not in a Park,1,Active Bethel Citizens,4222995,884670,NA,NA,KAPAKAHI INVESTMENTS,NA,161 WAITE ST,2014,Single-family detached,Single-family,44.0638162,-123.1572346
+14,2679,1,6/4/14 0:00,Single Family Dwelling,1,Harlow Neighbors,4250522,888854,NA,NA,MELTEBEKE CONSTRUCTION DBA,NA,1196 REGENCY DR,2014,Single-family detached,Single-family,,
+14,2289,1,6/5/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4220146,891239,NA,NA,JERNBERG DENNIS S,NA,1790 ECHO HOLLOW RD,2014,Single-family detached,Single-family,44.0814559,-123.1680902
+14,2368,1,6/10/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4228230,870542,NA,NA,KNACKSTEDT JAMES & KARLA,NA,2735 SUNCREST AVE,2014,Single-family detached,Single-family,,
+14,2773,1,6/10/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212689,892608,NA,NA,SEEREY JESSIE,NA,5531 TRADITION ALY,2014,Single-family detached,Single-family,,
+14,2920,1,6/10/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222206,903551,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3584 BUTTERFLY CREEK LN,2014,Single-family detached,Single-family,,
+14,2316,1,6/12/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4249021,895193,NA,0058-343,FUTURE B HOMES INC,NA,2932 LORD BYRON PL,2014,Single-family detached,Single-family,,
+14,2636,1,6/17/14 0:00,Secondary Dwelling Unit,1,Southeast Neighbors,4239487,866268,NA,NA,WAYMAN JOSEPH L,NA,"30 E 38TH AVE, Unit A",2014,Single-family detached,Single-family,44.014545,-123.091942
+14,2995,1,6/17/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4246885,863971,NA,NA,KROLL JILL,NA,4231 WENDELL LN,2014,Single-family detached,Single-family,44.0085701,-123.0632281
+13,508,1,6/19/14 0:00,Apartment  20+ Units,12,River Road Community Organization,4231247,892728,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,135 HATTON AVE,2014,Five or more units,Multi-family,,
+13,509,1,6/19/14 0:00,Apartment  20+ Units,12,River Road Community Organization,4231447,892720,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,75 HATTON AVE,2014,Five or more units,Multi-family,44.0861491,-123.1266776
+13,510,1,6/19/14 0:00,Apartment  20+ Units,12,River Road Community Organization,4231532,892714,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,65 HATTON AVE,2014,Five or more units,Multi-family,,
+13,511,1,6/19/14 0:00,Apartment  20+ Units,12,River Road Community Organization,4231729,892717,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,25 HATTON AVE,2014,Five or more units,Multi-family,44.0863842,-123.1245426
+13,512,1,6/19/14 0:00,Apartment  20+ Units,12,River Road Community Organization,4231312,892493,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,110 HATTON AVE,2014,Five or more units,Multi-family,,
+13,513,1,6/19/14 0:00,Apartment  20+ Units,12,River Road Community Organization,4231501,892484,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,70 HATTON AVE,2014,Five or more units,Multi-family,,
+13,514,1,6/19/14 0:00,Apartment  20+ Units,12,River Road Community Organization,4231341,892487,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,100 HATTON AVE,2014,Five or more units,Multi-family,44.0861491,-123.1266776
+13,515,1,6/19/14 0:00,Apartment  20+ Units,12,River Road Community Organization,4231343,892518,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,50 HATTON AVE,2014,Five or more units,Multi-family,44.0861965,-123.1245552
+13,516,1,6/19/14 0:00,Apartment  20+ Units,12,River Road Community Organization,4231514,892513,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,20 HATTON AVE,2014,Five or more units,Multi-family,44.0861965,-123.1245552
+13,517,1,6/19/14 0:00,Apartment  20+ Units,24,River Road Community Organization,4231391,892487,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,90 HATTON AVE,2014,Five or more units,Multi-family,44.0861491,-123.1266776
+13,518,1,6/19/14 0:00,Apartment  20+ Units,12,River Road Community Organization,4231440,892485,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,80 HATTON AVE,2014,Five or more units,Multi-family,44.0861491,-123.1266776
+13,519,1,6/19/14 0:00,Apartment  20+ Units,24,River Road Community Organization,4231397,892512,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,40 HATTON AVE,2014,Five or more units,Multi-family,44.0861965,-123.1245552
+13,520,1,6/19/14 0:00,Apartment  20+ Units,24,River Road Community Organization,4231458,892511,NA,NA,EVERGREEN HOUSING DEVELOPMENT,RIVER ROAD APARTMENTS,30 HATTON AVE,2014,Five or more units,Multi-family,,
+14,1955,1,6/20/14 0:00,Secondary Dwelling Unit,1,South University Neighborhood Association,4243591,874347,NA,NA,STREISINGER LOTTE,NA,"2074 POTTER ALY, Unit A",2014,Single-family detached,Single-family,,
+14,2716,1,6/20/14 0:00,Secondary Dwelling Unit,1,Cal Young Neighborhood Association,4240053,891229,NA,NA,GALLINGER JOHN,NA,"1362 JEPPESEN AVE, Unit A",2014,Single-family detached,Single-family,,
+14,2725,1,6/23/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4227024,873915,NA,NA,RUSSELL MARGO & DONDI,NA,2379 TODD ST,2014,Single-family detached,Single-family,,
+14,3186,1,6/24/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4232227,900454,NA,NA,FUTURE B HOMES INC,NA,2944 MILES WAY,2014,Single-family detached,Single-family,44.1069179,-123.123497
+14,3264,1,6/24/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,WIECHERT BRUCE,NA,3577 BUTTERFLY CREEK DR,2014,Single-family detached,Single-family,,
+14,2881,1,6/26/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,MAHADEVAN KARTHIK,NA,1121 CRENSHAW,2014,Single-family detached,Single-family,,
+14,1977,1,6/27/14 0:00,Single Family Dwelling,1,Amazon Neighbors Association,4245212,872438,NA,NA,STEWART KRISTINA A,NA,"1486 E 25TH AVE, Unit A",2014,Single-family detached,Single-family,,
+14,3021,1,6/30/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4238627,861094,NA,NA,QUANTUM CONSTRUCTION DBA,NA,31 MARLBORO LN,2014,Single-family detached,Single-family,44.0000765,-123.0951473
+14,3256,1,7/1/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,WESTER KATRINA,NA,3646 STERLING WOODS DR,2014,Single-family detached,Single-family,44.1060773,-123.0826195
+14,3327,1,7/2/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222457,903368,NA,NA,WIECHERT BRUCE,NA,3547 BUTTERFLY CREEK LN,2014,Single-family detached,Single-family,,
+14,3312,1,7/3/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222432,903605,NA,Stonecreek,WIECHERT BRUCE,NA,3585 BUTTERFLY CREEK LN,2014,Single-family detached,Single-family,,
+14,3386,1,7/3/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,Sequoia,BRUCE WIECHERT CUSTOM HOMES,NA,3555 BUTTERFLY  CREEK LN,2014,Single-family detached,Single-family,44.1141734,-123.1618364
+14,3364,1,7/7/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212645,892595,NA,NA,SEERY JESSE,NA,5539 TRADITION ALY,2014,Single-family detached,Single-family,44.0843307,-123.1976541
+14,3363,1,7/8/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212727,892596,NA,NA,SEERY JESSE,NA,5523 TRADITION ALY,2014,Single-family detached,Single-family,44.0843307,-123.1976541
+14,2577,1,7/9/14 0:00,Mfg Home - Not in a Park,1,River Road Community Organization,4230742,890043,NA,NA,KREINDEL JOEL (RICO),NA,870 W HILLIARD LN,2014,Single-family detached,Single-family,,
+14,3470,1,7/9/14 0:00,Single Family Dwelling,1,South University Neighborhood Association,4242601,873532,NA,NA,WOODS WAZIR,NA,2281 ALDER ALY,2014,Single-family detached,Single-family,44.0347651,-123.0810209
+14,1419,1,7/11/14 0:00,Recreation Center-General,4,Northeast Neighbors,4246270,896259,Apartment  1-4 Units,Bascom Village,ST VINCENT DE PAUL,NA,3090 MATT DR,2014,Two to four units,Multi-family,,
+14,1420,1,7/11/14 0:00,Duplex or 2-Family Hs,2,Northeast Neighbors,4246139,896235,NA,Bascom Village,ST VINCENT DE PAUL,NA,2464 PARK VIEW DR,2014,Two to four units,Multi-family,44.0974944,-123.0699232
+14,1421,1,7/11/14 0:00,Duplex or 2-Family Hs,2,Northeast Neighbors,4246093,896235,NA,Bascom Village,ST VINCENT DE PAUL,NA,2452 PARK VIEW DR,2014,Two to four units,Multi-family,,
+14,1422,1,7/11/14 0:00,Duplex or 2-Family Hs,2,Northeast Neighbors,4246057,896237,NA,Bascom Village,ST VINCENT DE PAUL,NA,2438 PARK VIEW DR,2014,Two to four units,Multi-family,44.0974926,-123.0702544
+14,1423,1,7/11/14 0:00,Duplex or 2-Family Hs,2,Northeast Neighbors,4246010,896237,NA,Bascom Village,ST VINCENT DE PAUL,NA,2420 PARK VIEW DR,2014,Two to four units,Multi-family,,
+14,1424,1,7/11/14 0:00,Duplex or 2-Family Hs,2,Northeast Neighbors,4245961,896240,NA,Bascom Village,ST VINCENT DE PAUL,NA,2410 PARK VIEW DR,2014,Two to four units,Multi-family,44.0974898,-123.0711226
+14,1425,1,7/11/14 0:00,Duplex or 2-Family Hs,2,Northeast Neighbors,4246270,896239,NA,Bascom Village,ST VINCENT DE PAUL,NA,3084 MATT DR,2014,Two to four units,Multi-family,44.0970435,-123.0693284
+14,1426,1,7/11/14 0:00,Duplex or 2-Family Hs,2,Northeast Neighbors,4246270,896221,NA,Bascom Village,ST VINCENT DE PAUL,NA,3080 MATT DR,2014,Two to four units,Multi-family,44.0969475,-123.0693278
+14,1427,1,7/11/14 0:00,Duplex or 2-Family Hs,2,Northeast Neighbors,4246270,896175,NA,Bascom Village,ST VINCENT DE PAUL,NA,3074 MATT DR,2014,Two to four units,Multi-family,44.0968035,-123.069327
+14,1428,1,7/11/14 0:00,Duplex or 2-Family Hs,2,Northeast Neighbors,4246269,896124,NA,Bascom Village,ST VINCENT DE PAUL,NA,3068 MATT DR,2014,Two to four units,Multi-family,44.0967555,-123.0693267
+14,1429,1,7/11/14 0:00,Duplex or 2-Family Hs,2,Northeast Neighbors,4246270,896065,NA,Bascom Village,ST VINCENT DE PAUL,NA,3062 MATT DR,2014,Two to four units,Multi-family,,
+14,1430,1,7/11/14 0:00,Apartment  5-19 Units,8,Northeast Neighbors,4246271,896037,NA,Bascom Village,ST VINCENT DE PAUL,NA,3060 MATT DR,2014,Five or more units,Multi-family,44.0967555,-123.0693267
+14,1431,1,7/11/14 0:00,Apartment  5-19 Units,7,Northeast Neighbors,4246269,896089,NA,Bascom Village,ST VINCENT DE PAUL,NA,3066 MATT DR,2014,Five or more units,Multi-family,,
+14,1432,1,7/11/14 0:00,Apartment  5-19 Units,7,Northeast Neighbors,4246269,896152,NA,Bascom Village,ST VINCENT DE PAUL,NA,3072 MATT DR,2014,Five or more units,Multi-family,,
+14,1433,1,7/11/14 0:00,Apartment  5-19 Units,7,Northeast Neighbors,4246270,896199,NA,Bascom Village,ST VINCENT DE PAUL,NA,3078 MATT DR,2014,Five or more units,Multi-family,,
+14,3534,1,7/11/14 0:00,Single Family Dwelling,1,River Road Community Organization,4227082,890285,NA,NA,ZORN TOM,NA,1189 VERONICA LN,2014,Single-family detached,Single-family,,
+14,2722,1,7/15/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4232099,903450,NA,NA,WEBER KIMBERLY ANNE & KELLY,NA,775 WILKES DR,2014,Single-family detached,Single-family,,
+14,3544,1,7/15/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211860,889750,NA,Umpqua,HAYDEN HOMES LLC,NA,1842 ADELMAN LP,2014,Single-family detached,Single-family,44.0768797,-123.1992555
+14,3545,1,7/15/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211953,889886,NA,Teton,HAYDEN HOMES LLC,NA,1837 ADELMAN LP,2014,Single-family detached,Single-family,44.0768063,-123.1993562
+14,3547,1,7/16/14 0:00,Single Family Dwelling,1,River Road Community Organization,4230831,892202,NA,NA,WOODARD MARASHA & CARRIE,NA,1365 MANZANA ST,2014,Single-family detached,Single-family,,
+14,3493,1,7/17/14 0:00,Secondary Dwelling Unit,1,Friendly Area Neighbors,4236058,873033,NA,NA,TAYLOR CALAN K & KARINA J,NA,"2406 FRIENDLY ST, Unit A",2014,Single-family detached,Single-family,,
+14,3710,1,7/21/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,FUTURE B HOMES INC,NA,2942 LORD BYRON,2014,Single-family detached,Single-family,44.09476,-123.0587865
+14,3253,1,7/22/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224222,868606,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3463 VISTA HEIGHTS LN,2014,Single-family detached,Single-family,,
+14,2736,1,7/25/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4246399,863468,NA,NA,GREENLEAF PROPERTIES LLC,NA,1845 E 43RD AVE,2014,Single-family detached,Single-family,,
+14,3712,1,7/28/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4250612,893771,NA,NA,BUTLER DANE,NA,3343 WYNDHAM CT,2014,Single-family detached,Single-family,,
+14,2617,1,7/29/14 0:00,Duplex or 2-Family Hs,2,Santa Clara Community Organization,4233603,903137,NA,NA,ZEEDYK STEVEN J & NOEL,NA,1189 RIVER LOOP 1,2014,Two to four units,Multi-family,44.1149439,-123.1181322
+14,3928,1,7/30/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211796,889897,NA,NA,HAYDEN HOMES LLC,NA,1861 ADELMAN LP,2014,Single-family detached,Single-family,44.0767581,-123.1999029
+14,3927,1,8/5/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211735,889995,NA,Jordan,HAYDEN HOMES LLC,NA,5769 AVALON ALY,2014,Single-family detached,Single-family,,
+14,4121,1,8/5/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224747,877105,NA,Tamarack G L,BRUCE WIECHERT CUSTOM HOMES,NA,3741 PACHYSANDRA PL,2014,Single-family detached,Single-family,44.0428353,-123.1492433
+14,4122,1,8/5/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224799,877098,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3735 PACHYSANDRA PL,2014,Single-family detached,Single-family,44.0428353,-123.1492433
+14,3546,1,8/8/14 0:00,Single Family Dwelling,1,River Road Community Organization,4231415,891564,NA,NA,GEROT MIKE & BETH,NA,148 ROSETTA AVE,2014,Single-family detached,Single-family,44.083443,-123.125439
+14,4102,1,8/8/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4244702,899281,NA,NA,HEITMAN CUSTOM HOMES,NA,3719 NORWICH AVE,2014,Single-family detached,Single-family,,
+14,3251,1,8/12/14 0:00,Duplex or 2-Family Hs,2,Churchill Area Neighbors,4221000,876197,NA,NA,HENRY GARY,NA,4130 HENRY CT,2014,Two to four units,Multi-family,,
+14,4025,1,8/13/14 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4253290,872273,NA,NA,DAY ERIC L,NA,3632 ROCKCRESS RD,2014,Single-family detached,Single-family,44.0319545,-123.0393007
+14,2596,1,8/14/14 0:00,Mfg Home - Not in a Park,1,Santa Clara Community Organization,4233611,903094,NA,NA,DELACRUZ RIGOBERTO,NA,1185 RIVER LOOP 1,2014,Single-family detached,Single-family,44.1147558,-123.1181243
+14,3691,1,8/14/14 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4240450,887330,NA,NA,MICHAEL HIATT CONSTRUCTION,NA,475 SPYGLASS DR,2014,Single-family detached,Single-family,44.0754712,-123.0899062
+14,4103,1,8/19/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4244644,899362,NA,NA,HEITMAN CUSTOM HOMES,NA,3715 NORWICH AVE,2014,Single-family detached,Single-family,44.1060655,-123.0764949
+14,3487,1,8/21/14 0:00,"Condo, Row or Townhouse",1,Friendly Area Neighbors,4236017,871467,NA,NA,LUCIA COMMUNITY LLC,NA,2722 FRIENDLY ST,2014,Single-family attached,Multi-family,,
+14,3488,1,8/21/14 0:00,"Condo, Row or Townhouse",1,Friendly Area Neighbors,4235993,871468,NA,Lucia,LUCIA COMMUNITY LLC,NA,2724 FRIENDLY ST,2014,Single-family attached,Multi-family,44.0286703,-123.1055325
+14,3489,1,8/21/14 0:00,"Condo, Row or Townhouse",1,Friendly Area Neighbors,4235974,871467,NA,NA,LUCIA COMMUNITY LLC,NA,2726 FRIENDLY ST,2014,Single-family attached,Multi-family,,
+14,3490,1,8/21/14 0:00,"Condo, Row or Townhouse",1,Friendly Area Neighbors,4235951,871469,NA,NA,LUCIA COMMUNITY LLC,NA,2728 FRIENDLY ST,2014,Single-family attached,Multi-family,,
+14,3713,1,8/21/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4228196,899260,NA,NA,BRUCE KYLE,NA,383 IRVING RD,2014,Single-family detached,Single-family,44.1034546,-123.138861
+14,4511,1,8/22/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212057,889972,NA,Orchard,HAYDEN HOMES LLC,NA,1821 ADELMAN LP,2014,Single-family detached,Single-family,,
+14,4575,1,8/22/14 0:00,Secondary Dwelling Unit,1,River Road Community Organization,4232190,889072,NA,NA,BAUGNON BRYAN J,NA,"120 ELKAY DR, Unit A",2014,Single-family detached,Single-family,,
+14,4512,1,8/26/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212164,889838,NA,Waterville w/ 3-car garage,HAYDEN HOMES LLC,NA,1497 MCCARTY WAY,2014,Single-family detached,Single-family,,
+14,4696,1,8/26/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224275,876954,NA,Redrock,BRUCE WIECHERT CUSTOM HOMES,NA,3786 PACHYSANDRA PL,2014,Single-family detached,Single-family,44.0428353,-123.1492433
+14,4703,1,8/26/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212110,889973,NA,Umpqua,HAYDEN HOMES LLC,NA,1811 ADELMAN LP,2014,Single-family detached,Single-family,44.0769533,-123.1991655
+14,4705,1,8/28/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211975,889980,NA,Metolius,HAYDEN HOMES LLC,NA,5709 AVALON ALY,2014,Single-family detached,Single-family,,
+14,4248,1,8/29/14 0:00,Secondary Dwelling Unit,1,Jefferson Westside Neighbors,4238252,876847,NA,NA,RANDALL WILLIAM,NA,351 W 15TH AVE,2014,Single-family detached,Single-family,44.0433198,-123.09776
+14,4221,1,9/8/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224634,868390,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3229 TIMBERLINE DR,2014,Single-family detached,Single-family,,
+14,4223,1,9/8/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224564,868506,NA,NA,STONE BRIDGE HOMES NW LLC,NA,3237 TIMBERLINE DR,2014,Single-family detached,Single-family,,
+14,1933,1,9/9/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4241382,870076,NA,NA,THERRELL MATTHEW,NA,2945 FERRY ST,2014,Single-family detached,Single-family,44.0251635,-123.0854613
+14,4371,1,9/9/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4214471,885804,NA,NA,M N H CONSTRUCTION,NA,639 ST CHARLES ST,2014,Single-family detached,Single-family,,
+14,4706,1,9/10/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211896,889888,NA,Rockwood,HAYDEN HOMES LLC,NA,1845 ADELMAN LP,2014,Single-family detached,Single-family,,
+14,4812,1,9/10/14 0:00,Single Family Dwelling,1,Jefferson Westside Neighbors,4238171,876851,NA,NA,RANDALL WILLIAM,NA,1491 LAWRENCE ST,2014,Single-family detached,Single-family,,
+14,4798,1,9/16/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4221002,873837,NA,NA,HEITMAN CUSTOM HOMES,NA,2340 ROLLIE LP,2014,Single-family detached,Single-family,,
+14,4854,1,9/16/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211934,889982,NA,Jordan 3 car Lot 71,HAYDEN HOMES LLC,NA,5719 AVALON ALY,2014,Single-family detached,Single-family,44.0774546,-123.2010356
+14,4962,1,9/16/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224637,877106,NA,Sequoia,WIECHERT BRUCE,NA,3753 PACHYSANDRA PL,2014,Single-family detached,Single-family,,
+14,4972,1,9/16/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211914,889755,NA,Umpqua 2 car Lof 55,HAYDEN HOMES LLC,NA,1834 ADELMAN LP,2014,Single-family detached,Single-family,,
+14,4964,1,9/17/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224692,877110,NA,Tamarack G R,WIECHERT BRUCE,NA,3747 PACHYSANDRA PL,2014,Single-family detached,Single-family,,
+14,4966,1,9/17/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4222205,903616,NA,NA,WIECHERT BRUCE,NA,3596 BUTTERFLY CREEK LN,2014,Single-family detached,Single-family,,
+14,4273,1,9/18/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4213280,894926,NA,NA,LEONARD MATTHEW & CANDICE,NA,2255 DAKOTA ST,2014,Single-family detached,Single-family,44.0908656,-123.1956147
+14,4855,1,9/18/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212158,889974,NA,Waterville 2 car,HAYDEN HOMES LLC,NA,1803 ADELMAN LP,2014,Single-family detached,Single-family,,
+14,4794,1,9/19/14 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4252980,871537,NA,NA,WINTER JEFFREY K & LYNN R,NA,3605 SNOWBERRY RD,2014,Single-family detached,Single-family,,
+14,4593,1,9/22/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,WINDOM TRACEY & PAM,NA,1080 CAL YOUNG RD,2014,Single-family detached,Single-family,44.0776549,-123.0985945
+14,4857,1,9/22/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,NORDIC HOMES & CONSTRUCTION,NA,4462 WENDOVER ST,2014,Single-family detached,Single-family,,
+14,4971,1,9/22/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212015,889976,NA,Jordan 2 car,HAYDEN HOMES LLC,NA,5701 AVALON ALY,2014,Single-family detached,Single-family,,
+14,5106,1,9/22/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,HAYDEN HOMES LLC,NA,1491 MCCARTY WAY,2014,Single-family detached,Single-family,44.0770069,-123.19879
+14,4148,1,9/23/14 0:00,Secondary Dwelling Unit,1,Friendly Area Neighbors,4237529,875386,NA,NA,COLEMAN THERESA D,NA,1871 WASHINGTON ALY,2014,Single-family detached,Single-family,44.0393412,-123.1005521
+14,4967,1,9/23/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4249020,895253,NA,Crescent Village,FUTURE B HOMES INC,NA,2952 LORD BYRON PL,2014,Single-family detached,Single-family,44.0948468,-123.0587879
+14,4969,1,9/23/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4249041,895692,NA,NA,BUTLER MICHAEL A & LORI J,NA,3086 LORD BYRON PL,2014,Single-family detached,Single-family,44.096054,-123.059045
+14,4995,1,9/24/14 0:00,Secondary Dwelling Unit,1,Friendly Area Neighbors,4239077,871313,NA,NA,EDMONDS BARBARA LYNN,NA,"2751 MCMILLAN ALY, Unit A",2014,Single-family detached,Single-family,,
+14,4927,1,9/25/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,CASTRO GILBERT A,NA,91 HILL VIEW LANE 1,2014,Single-family detached,Single-family,44.100064,-123.0616134
+14,4748,1,9/26/14 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4253008,871814,NA,NA,PATEL BHARAT N & DEEPA,NA,2694 ABIGAIL LN,2014,Single-family detached,Single-family,44.0322133,-123.0409518
+14,1149,1,9/29/14 0:00,Comml Warehs & Storage,1,Active Bethel Citizens,4226521,884545,Single Family Dwelling,House Hold Storage Facility,BOLES TODD,NA,3151 MEADOW LN,2014,Two to four units,Multi-family,,
+14,4895,1,9/29/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4229644,900269,NA,NA,RIDGEWOOD CONSTRUCTION,NA,2949 AVA ST,2014,Single-family detached,Single-family,,
+14,5093,1,9/30/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4231775,900539,NA,NA,FUTURE B HOMES INC,NA,512 SILVER MEADOWS DR,2014,Single-family detached,Single-family,,
+14,1932,1,10/1/14 0:00,Secondary Dwelling Unit,1,South University Neighborhood Association,4245419,874499,NA,NA,SEGLER SUE,NA,"1470 E 20TH AVE, Unit A",2014,Single-family detached,Single-family,44.037513,-123.070341
+14,3519,1,10/2/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4246902,862403,NA,NA,HAWES GEORGE,NA,2029 WHY WORRY LN,2014,Single-family detached,Single-family,,
+14,4627,1,10/8/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4223338,869303,NA,NA,HEITMAN CUSTOM HOMES,NA,3944 LOS ALTOS LN,2014,Single-family detached,Single-family,44.0218608,-123.1535602
+14,4874,1,10/8/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4229342,869288,NA,NA,HEITMAN CUSTOM HOMES,NA,2626 BLACKTAIL DR,2014,Single-family detached,Single-family,,
+14,4943,1,10/8/14 0:00,Single Family Dwelling,1,River Road Community Organization,4225224,896209,NA,NA,EBERT SHAWN R,NA,2060 DELTA ST,2014,Single-family detached,Single-family,44.0954342,-123.1497022
+14,2820,1,10/9/14 0:00,Apartment  5-19 Units,12,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2821,1,10/9/14 0:00,Apartment  5-19 Units,12,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2822,1,10/9/14 0:00,Apartment  5-19 Units,18,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2823,1,10/9/14 0:00,Apartment  5-19 Units,12,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2824,1,10/9/14 0:00,Apartment  5-19 Units,18,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2825,1,10/9/14 0:00,Apartment  5-19 Units,12,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2826,1,10/9/14 0:00,Apartment  5-19 Units,12,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2827,1,10/9/14 0:00,Apartment  5-19 Units,12,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2828,1,10/9/14 0:00,Apartment  5-19 Units,12,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2829,1,10/9/14 0:00,Apartment  5-19 Units,18,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2830,1,10/9/14 0:00,Apartment  20+ Units,24,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2831,1,10/9/14 0:00,Apartment  20+ Units,24,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2832,1,10/9/14 0:00,Apartment  5-19 Units,12,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2833,1,10/9/14 0:00,Apartment  5-19 Units,12,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2834,1,10/9/14 0:00,Apartment  5-19 Units,12,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2835,1,10/9/14 0:00,Apartment  5-19 Units,18,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,2836,1,10/9/14 0:00,Apartment  5-19 Units,12,West Eugene Community Organization,4224444,877815,NA,NA,"BAILEY HILL PARTNERS, LLC",NA,3655 W 13TH AVE,2014,Five or more units,Multi-family,44.0449585,-123.1499065
+14,3560,1,10/9/14 0:00,Apartment  20+ Units,30,Crest Drive Citizens Association,4239115,870139,NA,Cascade Manor,CASCADE MANOR INC,NA,65 W 30TH AVE,2014,Five or more units,Multi-family,,
+14,1131,1,10/15/14 0:00,Single Family Dwelling,1,River Road Community Organization,4226411,895004,NA,NA,FLECK DARRELD M & LINDA C,NA,1797 BERWIN LN,2014,Single-family detached,Single-family,44.0919167,-123.1453161
+14,4372,1,10/15/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4222265,890536,NA,NA,LASSEN JAMES (JIM),NA,1615 TANEY ST,2014,Single-family detached,Single-family,44.0794711,-123.1605155
+14,4731,1,10/15/14 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4239986,888871,NA,NA,ROBERTS TIM,NA,1370 HAMMOCK ST,2014,Single-family detached,Single-family,44.0769654,-123.0921942
+14,5568,1,10/15/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,KONOLD GARY,NA,4220 HEINS CT,2014,Single-family detached,Single-family,44.0924905,-123.1689023
+14,5397,1,10/17/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4225744,903936,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,916 LEONARDS WAY,2014,Single-family detached,Single-family,,
+14,3176,1,10/20/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212478,892607,NA,NA,POZDNYAKOVA TATYANA,NA,5569 TRADITION ALY,2014,Single-family detached,Single-family,,
+14,5439,1,10/20/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4225726,904254,NA,NA,WIECHERT BRUCE,NA,3767 WOODVIEW AVE,2014,Single-family detached,Single-family,,
+14,4732,1,10/21/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4241653,868326,NA,NA,SCHULTZ PAUL,NA,3333 FERRY ST,2014,Single-family detached,Single-family,44.0205932,-123.0841727
+14,2528,1,10/22/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4225618,886751,NA,NA,LONG RUSSELL,NA,3335 BELL AVE,2014,Single-family detached,Single-family,,
+14,4402,1,10/23/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224097,867911,NA,Pralanga 3 car A-2065,PAHLISCH HOMES INC,NA,3534 SUMMIT SKY BLVD,2014,Single-family detached,Single-family,44.0177599,-123.1505799
+14,5170,1,10/23/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4223912,867838,NA,NA,PAHLISCH HOMES INC,NA,3539 SUMMIT SKY BLVD,2014,Single-family detached,Single-family,,
+14,5346,1,10/23/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4243743,864838,NA,NA,GANSEN CONSTRUCTION,NA,3960 POTTER ST,2014,Single-family detached,Single-family,,
+14,5692,1,10/27/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,MELTEBEKE CONSTRUCTION DBA,NA,2061 LAKELAND WAY,2014,Single-family detached,Single-family,,
+14,5714,1,10/27/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4225545,904080,NA,Sequoia bonus room,BRUCE WIECHERT CUSTOM HOMES,NA,3732 WOODVIEW AVE,2014,Single-family detached,Single-family,44.1167848,-123.1491171
+14,5715,1,10/27/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4225544,904022,NA,Shaniko,BRUCE WIECHERT CUSTOM HOMES,NA,3720 WOODVIEW AVE,2014,Single-family detached,Single-family,44.1167848,-123.1491171
+14,5783,1,10/27/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4225673,903930,NA,NA,WIECHERT BRUCE,NA,920 LEONARDS WAY,2014,Single-family detached,Single-family,44.1167629,-123.1499435
+14,5784,1,10/27/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4225721,904123,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3741 WOODVIEW AVE,2014,Single-family detached,Single-family,,
+14,5631,1,10/29/14 0:00,Mfg Home - Not in a Park,1,River Road Community Organization,4228642,894831,NA,NA,KREINDEL RICO,NA,571 HAMILTON AVE,2014,Single-family detached,Single-family,44.0916758,-123.1373302
+14,5475,1,10/30/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4227394,871488,NA,NA,JORDAN IVERSON SIGNATURE HOMES DBA,NA,2766 HALLMARK LN,2014,Single-family detached,Single-family,,
+14,5634,1,10/30/14 0:00,Single Family Dwelling,1,Crest Drive Citizens Association,4236125,867409,NA,NA,AGUERO JESSE,NA,824 W 35TH PL,2014,Single-family detached,Single-family,,
+14,5689,1,10/30/14 0:00,Single Family Dwelling,1,River Road Community Organization,4225063,895649,NA,NA,CRESCENT HOMES INC,NA,1918 DEBRA SUE CT,2014,Single-family detached,Single-family,,
+14,5721,1,10/30/14 0:00,Single Family Dwelling,1,River Road Community Organization,4225116,895649,NA,NA,CRESCENT HOMES INC,NA,1914 DEBRA SUE CT,2014,Single-family detached,Single-family,44.0943656,-123.1499935
+14,5057,1,10/31/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4228342,906710,NA,NA,PARKER DON,NA,99 SPRING CREEK DR,2014,Single-family detached,Single-family,,
+14,5781,1,11/4/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4241764,869134,NA,NA,MASSIMI TERRA,NA,514 E 31ST AVE,2014,Single-family detached,Single-family,,
+14,4286,1,11/5/14 0:00,Single Family Dwelling,1,River Road Community Organization,4224562,894704,NA,NA,G & R BUILDING CONCEPTS,NA,1798 ALLEA DR,2014,Single-family detached,Single-family,44.0904516,-123.1511754
+14,5684,1,11/6/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211773,889995,NA,Jordan 2 car,HAYDEN HOMES LLC,NA,5759 AVALON ALY,2014,Single-family detached,Single-family,44.0774546,-123.2010356
+14,5892,1,11/6/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4211817,889994,NA,Metolius,HAYDEN HOMES LLC,NA,5749 AVALON ALY,2014,Single-family detached,Single-family,44.0774546,-123.2010356
+14,6081,1,11/6/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4249021,895283,NA,005-353,FUTURE B HOMES INC,NA,2962 LORD BYRON PL,2014,Single-family detached,Single-family,,
+14,5562,1,11/13/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4227026,899169,NA,NA,OLSEN ROBERT D,NA,581 IRVING RD,2014,Single-family detached,Single-family,44.1034493,-123.1431802
+14,5883,1,11/14/14 0:00,Single Family Dwelling,1,River Road Community Organization,4230547,887004,NA,NA,HOMEBUYERS.ORG LLC,NA,287 KNAPP LN,2014,Single-family detached,Single-family,44.070659,-123.128503
+14,6189,1,11/14/14 0:00,Single Family Dwelling,1,Jefferson Westside Neighbors,4237288,877318,NA,NA,ST VINCENT DE PAUL,NA,1364 JEFFERSON ST,2014,Single-family detached,Single-family,44.0447339,-123.1012666
+14,5071,1,11/17/14 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4253446,872000,NA,NA,CRYMES ROBERT & JILL,NA,3688 SNOWBERRY RD,2014,Single-family detached,Single-family,44.0301976,-123.0417141
+14,6082,1,11/17/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4231785,900704,NA,NA,FUTURE B HOMES INC,NA,515 SILVER MEADOWS DR,2014,Single-family detached,Single-family,44.1081047,-123.1255127
+14,6133,1,11/17/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4228605,897675,NA,NA,818 SJL LLC,NA,303 LENORE LP,2014,Single-family detached,Single-family,44.0995603,-123.1372869
+14,6134,1,11/17/14 0:00,Single Family Dwelling,1,Unknown,NA,NA,NA,NA,OREGON ESTATES LLC,NA,1492 BARRINGTON AVE,2014,Single-family detached,Single-family,,
+14,6186,1,11/20/14 0:00,Mfg Home - Not in a Park,1,River Road Community Organization,4228601,894770,NA,NA,KREINDEL RICO,NA,581 HAMILTON AVE,2014,Single-family detached,Single-family,44.0916872,-123.1373303
+14,3594,1,11/21/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224708,867858,NA,Ridgefield,TIMBERLINE HILLS INVESTORS LLC,NA,3590 MOUNTAIN QUAIL LN,2014,Single-family detached,Single-family,,
+14,3824,1,11/21/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224681,867940,NA,NA,PAHLISCH HOMES INC,NA,3580 MOUNTAIN QUAIL LN,2014,Single-family detached,Single-family,,
+14,3829,1,11/21/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224647,868004,NA,NA,PAHLISCH HOMES INC,NA,3570 MOUNTAIN QUAIL LN,2014,Single-family detached,Single-family,,
+14,6302,1,11/21/14 0:00,Single Family Dwelling,1,River Road Community Organization,4225159,895879,NA,NA,TK HOMES,NA,1950 DEBRA SUE CT,2014,Single-family detached,Single-family,,
+14,6329,1,11/24/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4231341,907358,NA,Paxton,NORDIC HOMES & CONSTRUCTION,NA,4442 WENDOVER ST,2014,Single-family detached,Single-family,,
+14,6357,1,11/24/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4225723,904191,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3755 WOODVIEW AVE,2014,Single-family detached,Single-family,,
+14,6355,1,11/25/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4226131,903752,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3622 STARK ST,2014,Single-family detached,Single-family,44.1163395,-123.1466816
+14,6105,1,12/1/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4251054,894765,NA,NA,ANSLOW & DEGENEAULT,NA,2685 VALLEY FORGE DR,2014,Single-family detached,Single-family,44.0936034,-123.0515824
+14,6732,1,12/2/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4224743,885766,NA,NA,ALVORD-TAYLOR INC,NA,3440 WOOD AVE,2014,Single-family detached,Single-family,44.0667789,-123.150266
+14,6561,1,12/3/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4225546,904262,NA,Mascord 22151A,BRUCE WIECHERT CUSTOM HOMES,NA,3768 WOODVIEW AVE,2014,Single-family detached,Single-family,,
+14,6811,1,12/3/14 0:00,Mfg Home Park or Court,1,West Eugene Community Organization,4221599,877190,NA,NA,CHURCHILL MEADOWS MHC LLC,NA,"1415 S BERTELSEN RD, Unit 124",2014,Single-family detached,Single-family,44.0432355,-123.1607392
+14,6406,1,12/5/14 0:00,Single Family Dwelling,1,River Road Community Organization,4225163,895940,NA,Kayla,RIDGEWOOD CONSTRUCTION,NA,1958 DEBRA SUE CT,2014,Single-family detached,Single-family,,
+14,6555,1,12/9/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4212037,889722,NA,Waterville 2-car,HAYDEN HOMES LLC,NA,1482 MCCARTY WAY,2014,Single-family detached,Single-family,44.0770069,-123.19879
+14,6405,1,12/10/14 0:00,Single Family Dwelling,1,River Road Community Organization,4225166,895983,NA,Anna,RIDGEWOOD CONSTRUCTION,NA,1972 DEBRA SUE CT,2014,Single-family detached,Single-family,44.0949327,-123.1497334
+14,6745,1,12/10/14 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4237075,888610,NA,Metolious Wiechert,BRUCE WIECHERT CUSTOM HOMES,NA,1238 WOODFIELD DR,2014,Single-family detached,Single-family,44.075479,-123.1034631
+14,6746,1,12/10/14 0:00,Single Family Dwelling,1,Santa Clara Community Organization,4225719,904060,NA,NA,BRUCE WIECHERT CUSTOM HOMES,NA,3725 WOODVIEW AVE,2014,Single-family detached,Single-family,,
+14,5886,1,12/12/14 0:00,Single Family Dwelling,1,Laurel Hill Valley Citizens,4253359,872273,NA,NA,NEIWERT DEAN D & TIFFANY M,NA,3642 ROCKCRESS RD,2014,Single-family detached,Single-family,,
+14,5618,1,12/18/14 0:00,Single Family Dwelling,1,Crest Drive Citizens Association,4236439,866887,NA,NA,ALLARDT MARY FRANCES,NA,810 W 38TH AVE,2014,Single-family detached,Single-family,,
+14,4277,1,12/23/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4243353,900395,NA,NA,ADKINS MARK,NA,3848 GILHAM RD,2014,Single-family detached,Single-family,,
+14,4677,1,12/23/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224940,867802,NA,NA,TIMBERLINE HILLS INVESTORS LLC,NA,3433 SUMMIT SKY BLVD,2014,Single-family detached,Single-family,,
+14,6945,1,12/23/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224650,876968,NA,Redrock Model,BRUCE WIECHERT CUSTOM HOMES,NA,3748 PACHYSANDRA PL,2014,Single-family detached,Single-family,44.0428353,-123.1492433
+14,6165,1,12/24/14 0:00,Single Family Dwelling,1,Southeast Neighbors,4247032,864594,NA,NA,HEITMAN CUSTOM HOMES,NA,4022 SPRING KNOLL DR,2014,Single-family detached,Single-family,44.0104624,-123.0624525
+14,6591,1,12/24/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4244822,899514,NA,NA,HEITMAN CUSTOM HOMES,NA,3735 NORWICH AVE,2014,Single-family detached,Single-family,44.106174,-123.0755274
+14,7074,1,12/24/14 0:00,Single Family Dwelling,1,Cal Young Neighborhood Association,4237078,888660,NA,Thornsby,BRUCE WIECHERT CUSTOM HOMES,NA,1246 WOODFIELD DR,2014,Single-family detached,Single-family,,
+14,7111,1,12/24/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224498,876966,NA,NA,WIECHERT BRUCE,NA,3762 PACHYSANDRA PL,2014,Single-family detached,Single-family,44.0428353,-123.1492433
+14,7073,1,12/26/14 0:00,Single Family Dwelling,1,Churchill Area Neighbors,4224720,876968,NA,Sequoia,BRUCE WIECHERT CUSTOM HOMES,NA,3742 PACHYSANDRA PL,2014,Single-family detached,Single-family,,
+14,7105,1,12/26/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4249022,895313,NA,Crescent Village,FUTURE B HOMES INC,NA,2972 LORD BYRON PL,2014,Single-family detached,Single-family,,
+14,7051,1,12/30/14 0:00,Single Family Dwelling,1,Active Bethel Citizens,4221806,885486,NA,NA,UNIVERSITY OF OREGON,NA,382 HOPE LP,2014,Single-family detached,Single-family,,
+14,6856,1,12/31/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4246077,895976,NA,The Rockwood,HAYDEN HOMES LLC,NA,3025 GUADALUPE WAY,2014,Single-family detached,Single-family,,
+14,6857,1,12/31/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4246273,895967,NA,Linwood,HAYDEN HOMES LLC,NA,3041 GUADALUPE WAY,2014,Single-family detached,Single-family,,
+14,6859,1,12/31/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4245941,895918,NA,The Middleton - Lot #21,HAYDEN HOMES LLC,NA,3011 GUADALUPE WAY,2014,Single-family detached,Single-family,44.0962594,-123.0699123
+14,6860,1,12/31/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4246173,895971,NA,The Middleton - Lot #13,HAYDEN HOMES LLC,NA,3039 GUADALUPE WAY,2014,Single-family detached,Single-family,44.0960296,-123.0696623
+14,6863,1,12/31/14 0:00,Single Family Dwelling,1,Northeast Neighbors,4245968,895980,NA,The Talent - Lot #19,HAYDEN HOMES LLC,NA,3021 GUADALUPE WAY,2014,Single-family detached,Single-family,44.0962594,-123.0699123
