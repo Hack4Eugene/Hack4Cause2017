@@ -24,9 +24,6 @@
          		header("location: index.php");
 			}else {
 				$error = "Your Login Name or Password is invalid";
-				echo $error;
-				echo $password;
-				echo $password_hash_db;
 			}
 		}
 		?>

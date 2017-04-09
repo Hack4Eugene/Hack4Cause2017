@@ -67,7 +67,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="form-group"><select name="filter" class="form-control">
-						<option value="id">Report ID</option>
+						<option value="ReportID">Report ID</option>
 						<option value="username">Username</option>
 						<option value="location">Location</option>
 					</select></div>
@@ -91,6 +91,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="form-group"><select name="filter" class="form-control">
+						<option value="ReportID">Report ID</option>
 						<option value="make">Make</option>
 						<option value="model">Model</option>
 						<option value="color">Color</option>
@@ -117,6 +118,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="form-group"><select name="filter" class="form-control">
+						<option value="ReportID">Report ID</option>
 						<option value="name">Name</option>
 						<option value="age">Age</option>
 						<option value="race">Race</option>
@@ -266,7 +268,7 @@
 							while ($row2 = mysqli_fetch_array($result2)) {
 								$row = mysqli_fetch_array($result);
                    				echo "<tr>";
-								echo "<td>".$row['ReportID']."</td>";
+								echo "<td>".$row2['ReportID']."</td>";
 								echo "<td>".$row['location']."</td>";
 								echo "<td>".$row2['name']."</td>";
 								echo "<td>".$row2['race']."</td>";

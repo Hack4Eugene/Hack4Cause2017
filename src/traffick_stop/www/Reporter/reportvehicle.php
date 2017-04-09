@@ -20,8 +20,8 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3 center">
-				<a href="index.php" class="btn btn-info">Report Full</a>
-				<a href="reportvehicle.php" class="btn btn-primary">Report Vehicle</a>
+				<a href="index.php" class="btn btn-primary">Report Full</a>
+				<a href="reportvehicle.php" class="btn btn-info">Report Vehicle</a>
 				<a href="reportperson.php" class="btn btn-primary">Report Person</a>
 			</div>
 			<div class="col-md-6">
@@ -31,31 +31,6 @@
 					<div class="form-group"><input name="date" type="text" class="form-control" placeholder="Date"></div>
 					<div class="form-group"><input name="location" type="text" class="form-control" placeholder="Location / Address"></div>
 					<div class="form-group"><input name="location2" type="text" class="form-control" placeholder="Hotel / Suite Number"></div>
-					<p>Person:</p>
-					<div class="form-group"><select name="person_type" class="form-control"></div>
-					<option value="">Type:</option>
-					<option value="pimp">Pimp</option>
-					<option value="victim">Victim</option>
-					<option value="buyer">Buyer</option>
-					<option value="witness">Witness</option>
-					<option value="other">Other</option>
-					</select></div>
-					<div class="form-group"><input name="person_name" type="text" class="form-control" placeholder="Person 1 Name"></div>
-					<div class="form-group"><select name="person_gender" class="form-control"></div>
-					<option value="">Gender:</option>
-					<option value="M">Male</option>
-					<option value="F">Female</option>
-					</select></div>
-					<div class="form-group"><input name="person_race" type="text" class="form-control" placeholder="Person 1 Race"></div>
-					<div class="form-group"><input name="person_height" type="text" class="form-control" placeholder="Person 1 Approximate Height (Inches)"></div>
-					<div class="form-group"><input name="person_age_low" type="text" class="form-control" placeholder="Person 1 Age (Low Guess)"></div>
-					<div class="form-group"><input name="person_age_high" type="text" class="form-control" placeholder="Person 1 Age (High Guess)"></div>
-					<div class="form-group"><input name="build" type="text" class="form-control" placeholder="Build"></div>
-					<div class="form-group"><input name="person_hair_color" type="text" class="form-control" placeholder="Person 1 Hair Color"></div>
-					<div class="form-group"><input name="person_hair_length" type="text" class="form-control" placeholder="Person 1 Hair Length"></div>
-					<div class="form-group"><input name="person_eye_color" type="text" class="form-control" placeholder="Person 1 Eye Color"></div>
-					<div class="form-group"><input name="person_clothing" type="text" class="form-control" placeholder="Person 1 Clothing"></div>
-					<div class="form-group"><textarea name="person_blob" class="form-control" placeholder="Additional Personal Details" rows="5"></textarea></div>
 					<p>Transportation:</p>
 					<div class="form-group"><input name="car_color" type="text" class="form-control" placeholder="Car Color"></div>
 					<div class="form-group"><input name="car_make" type="text" class="form-control" placeholder="Car Make"></div>

@@ -20,9 +20,9 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3 center">
-				<a href="index.php" class="btn btn-info">Report Full</a>
+				<a href="index.php" class="btn btn-primary">Report Full</a>
 				<a href="reportvehicle.php" class="btn btn-primary">Report Vehicle</a>
-				<a href="reportperson.php" class="btn btn-primary">Report Person</a>
+				<a href="reportperson.php" class="btn btn-info">Report Person</a>
 			</div>
 			<div class="col-md-6">
 				<h4 class="center" style="color:#b03030">Don't forget: If it's an emergency call 911!</h4>
@@ -46,31 +46,16 @@
 					<option value="M">Male</option>
 					<option value="F">Female</option>
 					</select></div>
-					<div class="form-group"><input name="person_race" type="text" class="form-control" placeholder="Person 1 Race"></div>
-					<div class="form-group"><input name="person_height" type="text" class="form-control" placeholder="Person 1 Approximate Height (Inches)"></div>
-					<div class="form-group"><input name="person_age_low" type="text" class="form-control" placeholder="Person 1 Age (Low Guess)"></div>
-					<div class="form-group"><input name="person_age_high" type="text" class="form-control" placeholder="Person 1 Age (High Guess)"></div>
+					<div class="form-group"><input name="person_race" type="text" class="form-control" placeholder="Person's Race"></div>
+					<div class="form-group"><input name="person_height" type="text" class="form-control" placeholder="Person's Approximate Height (Inches)"></div>
+					<div class="form-group"><input name="person_age_low" type="text" class="form-control" placeholder="Person's Age (Low Guess)"></div>
+					<div class="form-group"><input name="person_age_high" type="text" class="form-control" placeholder="Person's Age (High Guess)"></div>
 					<div class="form-group"><input name="build" type="text" class="form-control" placeholder="Build"></div>
-					<div class="form-group"><input name="person_hair_color" type="text" class="form-control" placeholder="Person 1 Hair Color"></div>
-					<div class="form-group"><input name="person_hair_length" type="text" class="form-control" placeholder="Person 1 Hair Length"></div>
-					<div class="form-group"><input name="person_eye_color" type="text" class="form-control" placeholder="Person 1 Eye Color"></div>
-					<div class="form-group"><input name="person_clothing" type="text" class="form-control" placeholder="Person 1 Clothing"></div>
+					<div class="form-group"><input name="person_hair_color" type="text" class="form-control" placeholder="Person's Hair Color"></div>
+					<div class="form-group"><input name="person_hair_length" type="text" class="form-control" placeholder="Person's Hair Length"></div>
+					<div class="form-group"><input name="person_eye_color" type="text" class="form-control" placeholder="Person's Eye Color"></div>
+					<div class="form-group"><input name="person_clothing" type="text" class="form-control" placeholder="Person's Clothing"></div>
 					<div class="form-group"><textarea name="person_blob" class="form-control" placeholder="Additional Personal Details" rows="5"></textarea></div>
-					<p>Transportation:</p>
-					<div class="form-group"><input name="car_color" type="text" class="form-control" placeholder="Car Color"></div>
-					<div class="form-group"><input name="car_make" type="text" class="form-control" placeholder="Car Make"></div>
-					<div class="form-group"><input name="car_model" type="text" class="form-control" placeholder="Car Model"></div>
-					<div class="form-group"><input name="car_license_number" type="text" class="form-control" placeholder="License Plate Number"></div>
-					<div class="form-group"><input name="car_license_state" type="text" class="form-control" placeholder="License Plate State"></div>
-					<div class="form-group"><select name="car_driver" class="form-control"></div>
-					<option value="">Car Driver:</option>
-					<option value="pimp">Pimp</option>
-					<option value="victim">Victim</option>
-					<option value="buyer">Buyer</option>
-					<option value="witness">Witness</option>
-					<option value="other">Other</option>
-					</select></div>
-					<div class="form-group"><textarea name="car_blob" class="form-control" placeholder="Additional Transportation Details" rows="5"></textarea></div>
 					<p>Additional Info:</p>
 					<div class="form-group"><textarea name="info_blob" class="form-control" placeholder="Additional Details" rows="5"></textarea></div>
 					<div class="form-group"><input type="submit" class="btn btn-info" value="Submit Report"></div>
