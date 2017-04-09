@@ -1,0 +1,194 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="shared-styles.html">
+<link rel="import" href="assets.html">
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="../bower_components/google-signin/google-signin.html">
+    <link rel="import" href="../elements/google-signin-status.html">
+    <link rel="import" href="../elements/google-plus-friends.html">
+    <link rel="import" href="../elements/picasa-photo-uploads.html">
+
+<dom-module id="login-page">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+        padding: 10px;
+      }
+    </style>
+          <login-block>
+            <spoke-wrapper></spoke-wrapper>
+              <login-methods>
+                <facebook-login></facebook-login>
+                <google-login></google-login>
+              </login-methods>
+              <login-help></login-help>
+          </login-block>
+  </template>
+
+  <script>
+    class LoginPage extends Polymer.Element {
+      static get is() { return 'login-page'; }
+    }
+
+    window.customElements.define(LoginPage.is, LoginPage);
+  </script>
+</dom-module>
+
+<!-- login wrapper -->
+<dom-module id="login-block">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+      }
+
+      .card {
+        margin: 0 auto;
+      }
+
+      @media(min-width: 768px) {
+        .card {
+          width: 50%;
+        }
+      }
+
+      @media(min-width: 1200px) {
+        .card {
+          width: 40%;
+        }
+      }
+    </style>
+    <div class="card">
+      <slot></slot>
+    </div>
+  </template>
+  <script>
+    class LoginBlock extends Polymer.Element {
+      static get is() { return 'login-block'}
+      static get properties() {
+        return {
+        }
+      }
+    }
+
+    window.customElements.define(LoginBlock.is, LoginBlock);
+  </script>
+</dom-module>
+
+<!-- login method wrapper -->
+<dom-module id="login-methods">
+  <template>
+    <style>
+      :host {
+        display: block;
+        width: 140px;
+        margin: auto;
+      }
+    </style>
+    <slot></slot>
+  </template>
+  <script>
+    class LoginMethods extends Polymer.Element {
+      static get is() { return 'login-methods'}
+      static get properties() {
+        return {
+        }
+      }
+    }
+
+    window.customElements.define(LoginMethods.is, LoginMethods);
+  </script>
+</dom-module>
+
+<!-- facebook login -->
+<dom-module id="facebook-login">
+  <template>
+    <style>
+      :host {
+        display: inline-block;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 65px;
+      }
+      img {
+        width: 50px;
+      }
+    </style>
+    <img src="/assets/branding/Images/Button%20Icons/Facebook%20Icon%20-%20Circle.svg" title="Click here to login with your facebook account">
+  </template>
+  <script>
+    class FacebookLogin extends Polymer.Element {
+      static get is() { return 'facebook-login'; }
+      static get properties() {
+        return {
+        }
+      }
+      
+    }
+    window.customElements.define(FacebookLogin.is, FacebookLogin);
+  </script>
+</dom-module>
+
+<!-- google plus login -->
+<dom-module id="google-login">
+  <template>
+    <style>
+      :host {
+        display: inline-block;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 65px;
+      }
+      img {
+        width: 50px;
+      }
+    </style>
+    <img title="Click here to login with your Google+ account" src="/assets/branding/Images/Button%20Icons/Google%20Plus%20Icon%20-%20Circle.svg">
+  </template>
+  <script>
+    class GoogleLogin extends Polymer.Element {
+      static get is() { return 'google-login'; }
+      static get properties() {
+        return {
+        }
+      }
+    }
+    window.customElements.define(GoogleLogin.is, GoogleLogin);
+  </script>
+</dom-module>
+
+<!-- login help -->
+<dom-module id="login-help">
+  <template>
+    <style>
+      :host {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    </style>
+    need help?
+  </template>
+  <script>
+    class LoginHelp extends Polymer.Element {
+      static get is() { return 'login-help'; }
+      static get properties() {
+        return {
+        }
+      }
+    }
+    window.customElements.define(LoginHelp.is, LoginHelp);
+  </script>
+</dom-module>
