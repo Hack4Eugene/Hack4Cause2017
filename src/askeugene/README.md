@@ -1,12 +1,11 @@
 # Hack for a Cause2017 Team "Example"
 
-We are addressing the "bla bla bal" challenge.
+We are addressing the City Council, Keesey Square and Hutch Theatre challenge.
 
 Team Members:
 
-me      my@gmail.com  
-friend  friend@school.edu  
-hodor   hodor@hodor.hodor  
+Chris Lee      me@masterleetech.com  
+Neil Anuskiewicz neila345@gmail.com
 
 We using the following components:
 

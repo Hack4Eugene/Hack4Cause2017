@@ -1,0 +1,94 @@
+{% extends "base/base_venue.html" %}
+{% load static i18n %}
+{% block title %}Events{% endblock %}
+
+{% block HeaderStyles %}
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        table.dataTable thead{border:0}
+        table.dataTable tfoot{border:0}
+        table.dataTable.no-footer{border:0}
+        table.dataTable.no-footer{border:0}
+table.dataTable tr.odd { background-color: #E2E4FF; }
+table.dataTable tr.even { background-color: white; }
+    </style>
+
+
+
+{% endblock %}
+
+{% block HeroText %}{% trans "Events" %}{% endblock %}
+
+{% block body %}
+    <button type="button" class="btn btn-primary pull-right" id="{{ decision.id }}">Add new event</button>
+ <!--EVENTS Panel START-->
+<div class="panel panel-default" >
+  <div class="panel-heading">
+    <h3 class="panel-title">Current Events @ {{ venue.name }}
+
+    </h3>
+
+  </div>
+  <div class="panel-body">
+      <div class="row" style="padding: 15px">
+
+
+
+    <table style="width:98%" id="table_events" border="0">
+      <thead>
+      <tr>
+        <th>Event Name</th>
+        <th>Number of external users</th>
+        <th>Number of internal users</th>
+        <th>Event Creation Date</th>
+      </tr>
+      </thead>
+      <tbody>
+      {% for event in events %}
+          <tr>
+            <td><a href="{% url 'event_detail' event.id %}">{{ event.name }}</a></td>
+            <td>{{ event.number_of_external_users }}</td>
+            <td>{{ event.number_of_internal_users }}</td>
+            <td>{{ event.date_created }}</td>
+          </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+<!--EVENTS Panel END-->
+
+
+
+
+
+
+
+
+    <script language="JavaScript">
+    $(document).ready(function() {
+        $('#table_events').DataTable({
+
+            "bPaginate": true,
+            "bLengthChange": true,
+            "bFilter": true,
+            "bSort": true,
+            "bInfo": false
+                }
+
+
+
+        );
+        } );
+    </script>
+
+
+
+{% endblock %}
