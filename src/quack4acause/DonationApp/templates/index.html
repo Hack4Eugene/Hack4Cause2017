@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>EUGChange</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+    }
+    html, body {height: 100%;}
+    p {font-size: 16px;}
+    .margin {margin-bottom: 45px;}
+    .bg-0 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+    }
+    .bg-1 {
+        background-color: rgba(81, 145, 205, 0.45); /* Blue */
+        color: #ffffff;
+        height: 100%;
+    }
+    .img-1 {
+      background: url("../static/img/city.jpg");
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0% 100%;
+      height: 100%;
+      overflow-y: none;
+    }
+    .bg-2 {
+        background-color: #474e5d; /* Dark Blue */
+        color: #ffffff;
+    }
+    .bg-3 {
+        background-color: #ffffff; /* White */
+        color: #555555;
+    }
+    .bg-4 {
+        background-color: #2f2f2f; /* Black Gray */
+        color: #fff;
+    }
+    .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+    .navbar-nav  li a:hover {
+        color: #1abc9c !important;
+    }
+    .btn-xlarge {
+     padding: 18px 28px;
+     font-size: 22px;
+     line-height: normal;
+     -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+             border-radius: 8px;
+     border-color: #75818c;
+     display: block;
+     margin: 0 auto;
+     color: #75818c;
+     background-color: #F7C500;
+     max-width: 500px;
+     width: 80%;
+     margin-bottom: 5%;
+    }
+    .car-img {
+      margin: 0 auto;
+      width: 30%;
+      height: 30%;
+    }
+    .logo-img {
+      width: 50%;
+      height: 50%;
+      max-width: 75px;
+      max-height: 75px;
+      display: inline;
+      margin: 5px;
+    }
+    .spons-img {
+      width: 40%;
+      height: 40%;
+      max-width: 200px;
+      max-height: 200px;
+      display: inline;
+    }
+    #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 28px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: lightgrey;
+    text-decoration: bold;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #myBtn:hover {
+    background-color: #555;
+    text-decoration: none;
+  }
+  .carousel-indicators li {
+    border-radius: 0;
+  }
+  div div h3 {
+    margin-top: 30px;
+    padding-top: 10px;
+  }
+  hr.style14 { 
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #F0F0F0, #D0D0D0, #F0F0F0);
+    background-image: -moz-linear-gradient(left, #F0F0F0, #D0D0D0, #F0F0F0);
+    background-image: -ms-linear-gradient(left, #F0F0F0, #D0D0D0, #F0F0F0);
+    background-image: -o-linear-gradient(left, #F0F0F0, #D0D0D0, #F0F0F0); 
+  }
+  hr.style15 {
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #474e5d, #D0D0D0, #474e5d);
+    background-image: -moz-linear-gradient(left, #474e5d, #D0D0D0, #474e5d);
+    background-image: -ms-linear-gradient(left, #474e5d, #D0D0D0, #474e5d);
+    background-image: -o-linear-gradient(left, #474e5d, #D0D0D0, #474e5d); 
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img src="../static/logos/ECicon.png" style="height: 50px; width: auto\9; float: left; padding-left: 15px; padding-right: 5px;">
+      <a class="navbar-brand" href="#" style="padding-right: 5px">EUGChange</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#aboutSect">About</a></li>
+        <li><a href="#buys">Proceeds</a></li>
+        <li><a href="#partnershipBox">Sponsors</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="img-1" id = "donate">
+  <div class="container-fluid bg-1 text-center">
+    <h2 style="margin-bottom: 5%; font-size: 6vmin; margin-top: 0px;">A safe way to help the homeless</h2>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+      <!-- Identify your business so that you can collect the payments. -->
+    <input type="hidden" name="business"
+        value="ACCCOOOUNNTNAME: We don't got one">
+
+    <!-- Specify a Donate button. -->
+    <input type="hidden" name="cmd" value="_donations">
+
+    <!-- Specify details about the contribution -->
+    <input type="hidden" name="item_name" value="Donation to the homeless">
+    <input type="hidden" name="item_number" value="EUGChange">
+    <input type="hidden" name="currency_code" value="USD">
+
+    <input type="submit" value="Donate" name="submit" title="PayPal - The safer, easier way to pay online!" class="btn-xlarge">
+    <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+
+    </form>
+    <p style="margin-right: 25%; margin-left: 25%; font-size: 3vmin; margin-bottom: 5%;">EUGChange is a secure alternative to giving to panhandlers.</p>
+  </div>
+</div>
+
+<!-- Second Container (Grid) -->
+<div id="aboutSect" class="container-fluid bg-3 text-center">
+  <h2 >About</h2>
+  <hr class="style14">
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-4">
+    <h3>What?</h3>
+      <p style="text-align: left;">Many of us are uncomfortable giving money to panhandlers, but really want to help people in need. EUGChange sends your gift to a dedicated fund at St. Vincent de Paul, providing direct service to homeless residents and helping you give wisely on the go.</p>
+    </div>
+    <div class="col-sm-2"></div>
+    <div class="col-sm-4">
+    <h3>Why?</h3>
+      <p style="text-align: left;">Using EUGChange takes away the incentives driving dense concentrations of panhandlers in lively pedestrian areas such as downtown. It also provides an easy way to support experienced providers of services to people in need, document your real-time giving for tax purposes, and make sure your money will help improve lives.</p>
+    </div>
+    <div class="col-sm-1"></div>
+    <a href="#myNavbar" id="myBtn" title="Go to top"><b>^</b></a>
+    <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    </script>
+  </div>
+</div>
+
+<!-- Third Container -->
+<div id="buys" class="container-fluid bg-2 text-center">
+  <h2 class="margin">What Your Money Buys</h2>
+  <hr class="style15">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators" style="bottom: 20px">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="../static/img/clothing_white.svg" alt="Pic1" class="car-img">
+      <h3>Clothing</h3>
+    </div>
+    <div class="item">
+      <img src="../static/img/food_white.svg" alt="Pic 2" class="car-img">
+      <h3>Food</h3>
+    </div>
+    <div class="item">
+      <img src="../static/img/shower_white.svg" alt="Pic 3" class="car-img">
+      <h3>Showers</h3>
+    </div>
+    <div class="item">
+      <img src="../static/img/house_white.svg" alt="Pic 4" class="car-img">
+      <h3>Shelter</h3>
+    </div>
+    <div class="item">
+      <img src="../static/img/teaching_white.svg" alt="Pic 5" class="car-img" >
+      <h3>Job Training</h3>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+</div>
+
+<!-- Fourth Container -->
+<div class="container-fluid bg-4 text-center">
+  <div class="container text-center" id = partnershipBox style="width: 40%; height:auto; padding-left: 0px; padding-right: 0px; width: 100%;">
+    <p style="margin-bottom: 0px;">Partnering with</p>
+    <a href="https://www.eugene-or.gov/"><img src="../static/img/CoE_logo_2clr.jpg" class="img-responsive img-circle logo-img" alt="Image"></a>
+    <a href="http://www.svdp.us/what-we-do/homeless-services/"><img src="../static/img/stpaul logo.jpg" class="img-responsive img-circle logo-img" alt="Image"></a>
+  </div>
+</div>
+
+
+<script>
+  $('a[href*=\\#]').on('click', function(event){     
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+  });
+</script>
+
+
+
+
+<!-- Footer -->
+
+</body>
+</html>

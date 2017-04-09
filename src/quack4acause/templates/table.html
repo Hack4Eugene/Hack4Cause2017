@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Reports</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="static/table.css" media="screen"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Report</h2>
+
+  <table class="table" id="thisTable">
+    <thead>
+      <tr>
+        <th>DateTime</th>
+        <th>Incident</th>
+        <th>Description</th>
+        <th>Anonymous</th>
+        <th>    </th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for item in reports %}
+        {% if (item.isEmergency) %}
+        <tr style= "background-color: rgba(255, 0, 0, 0.7)">
+        {% else %}
+        <tr>
+        {% endif %}
+            <td>{{ item.human_time }}</td>
+            {% if (item.isEmergency) %}
+                <td>EMERGENCY!</td>
+            {% else %}
+                <td>Not Urgent</td>
+            {% endif %}
+            <td>
+                <div class="content hideContent"> {{ item.text }}
+                    <p>More details</p>
+                    <ul>
+                        <li>This is text</li>
+                        <li>This could be more text</li>
+                        <li>This is text</li>
+                    </ul>
+                </div>
+                <div class="show-more">
+                    <a href="#">Show more</b>
+                </div>
+
+
+            </td>
+
+            {% if (item.isAnonymous) %}
+                <td>ANONYMOUS</td>
+            {% else %}
+                <td>PUBLIC</td>
+            {% endif %}
+            <td> <form type="hidden" action = "/deleteReport" method="POST">
+                <input type="hidden" value="{{item.id}}" name="id"></input>
+                <input type="submit" value="X" class="btn btn-danger btn-circle delete-row" href="#" ></input>
+                </form> </td>
+        </tr>
+
+
+    {% endfor %}
+
+
+    </tbody>
+  </table>
+</div>
+
+<script type="text/javascript">
+  $('#thisTable').on('click', 'button', function() {
+  $(this).closest('tr').remove();
+
+  //check if no more rows and remove the table
+  if ($('#thisTable tbody tr').length == 0) {
+    $('#thisTable').remove();
+  }
+});
+    $(".show-more a").on("click", function() {
+        console.log("TEST");
+        var $this = $(this);
+        var $content = $this.parent().prev("div.content");
+        var linkText = $this.text().toUpperCase();
+
+        if(linkText === "SHOW MORE"){
+            linkText = "Show less";
+            $content.addClass("showContent").removeClass("hideContent");
+        } else {
+            linkText = "Show more";
+            $content.addClass("hideContent").removeClass("showContent");
+        };
+
+        $this.text(linkText);
+    });
+</script>
+
+</body>
+</html>
