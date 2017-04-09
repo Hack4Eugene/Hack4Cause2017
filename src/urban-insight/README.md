@@ -9,12 +9,26 @@ To address the "Eugene Community Dashboard" challenge, we utilized the latest we
 -	Dan Keith:      dan@quantumclay.com
 -	Lan Guo:        lan.guo14@gmail.com
 
+### User Understanding
+
+Our understanding of our target user (as opposed to the challenge stakeholders) is that they may be Eugene residents like us, or they may be interested in understanding Eugene's story for purposes of considering moving or doing business here. So our focus was on making visible important aspects such as Livability, Transportation, Education and so on. We wanted to provide insight.
+
 
 ### Technical Approach
 
 Our goals were to deliver a working, sustainable and extensible dashboard platform and to populate it with some of the data provided by the stakeholders for this challenge. We concentrated primarily on creating a compelling dashboard experience that we believe can be extended by the stakeholders if they choose to continue the project.
 
 We chose to adopt a modern, *serverless* architecture, which is more scalable and easier to deploy and extend than relying upon custom server code. This means that the web application we developed can be easily deployed via most web site mechanisms. For example, we use GitHub Pages to serve up our example at: [Urban Insight Site](http://urbaninsight.site).
+
+### Data used
+
+
+### Things we accomplished and left undone
+
+We incorporated the shapefiles of the Eugene neighborhoods and their year 2000 population into one of our maps.
+
+We wanted to build some time-series graphs from the year 2000-2012 property data, and tie this in the with map. But we ran out of time.
+
 
 ### Technology Used
 

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDp63Wn_B-idvgOa7YzFztzuUtgQbX8Ok4&libraries=places"></script>
+
+    <link href="/static/material-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Oxygen', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="entry"></div>
+    <script>var INITIAL_STATE = {{ state|safe }};</script>
+    <script src="/static/mobile.js"></script>
+</body>
+</html>

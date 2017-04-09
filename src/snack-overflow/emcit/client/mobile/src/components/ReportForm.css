@@ -1,0 +1,28 @@
+.reportContainer {
+    width: 94%;
+    padding: 3%;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 70px;
+
+    h1 {
+        letter-spacing: 3px;
+        color: #394648;
+    }
+
+    .details textarea{
+        border-right: 1px solid rgba(0, 0, 0, 0.12);
+        padding-right: 5px;
+    }
+
+    textarea {
+
+        min-height: 120px;
+    }
+
+    .submitButton {
+        float: right;
+    }
+}
+
+
