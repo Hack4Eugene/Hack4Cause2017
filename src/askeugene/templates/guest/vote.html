@@ -1,0 +1,72 @@
+{% extends "base/base_guest.html" %}
+{% load static i18n %}
+{% block title %}Vote!{% endblock %}
+
+{% block HeaderStyles %}
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+
+    </style>
+
+
+    <script>
+    $(function() {
+        $('#ThankYouPanel').hide();
+
+         $(".vote").click(function(){
+            $.get( "/guest/submit-vote/" + this.id + "/", function( data ) {
+                $('#voting_panel').hide();
+                $('#ThankYouPanel').show();
+            });
+        });
+    });
+    </script>
+
+{% endblock %}
+
+{% block body %}
+     <!--Vote Panel START-->
+    <div class="panel panel-default" style="width: 500px;" id="voting_panel">
+      <div class="panel-heading">
+        <h3 class="panel-title">Vote</h3>
+      </div>
+      <div class="panel-body">
+          <div class="row">
+            <div class="container">
+                <div class="alert alert-{{ notification_type }}" role="alert" style="width: 420px;">
+
+                  <span class="sr-only">{{ notification_type }}:</span>
+                  {{ message }}
+                </div>
+            </div>
+
+            {% for answer in decision_answers %}
+                <button type="button" class="btn btn-primary vote" id="{{ answer.id }}" style="width: 420px;white-space: normal;margin-left:30px">
+                    {{ answer.name }}</button><br><br>
+            {% endfor %}
+          </div>
+      </div>
+    </div>
+    <!--Vote Panel END-->
+
+    <div class="alert alert-success" role="alert" style="width: 420px;" id="ThankYouPanel">
+      Thank you for your vote!  Your screen will automatically refresh if there is a new vote.<br>
+        {% if event.can_provide_input %}
+            If you would like to ask Eugene a question.  Feel free to submit a question:
+            <input type="text" name="question" value="">
+
+        {% endif %}
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

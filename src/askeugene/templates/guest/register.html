@@ -1,0 +1,31 @@
+{% extends "base/base_guest.html" %}
+{% load static i18n %}
+{% block title %}Register{% endblock %}
+
+{% block HeaderStyles %}
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style type="text/css"></style>
+{% endblock %}
+
+{% block HeroText %}{% trans "Register" %}{% endblock %}
+
+{% block body %}
+    <div class="container">
+
+         <!--Live Panel START-->
+        <div class="panel panel-default" >
+          <div class="panel-heading">
+            <h3 class="panel-title">Register</h3>
+          </div>
+          <div class="panel-body">
+            <form action="/guest/register/" method="post" name="register_guest" id="form_register">
+            <label for="f_name_input">First Name</label><input type="text" name="first_name" id="f_name_input"><br>
+            <label for="zip_code_input">Zip Code</label><input type="text" name="zip_code" id="zip_code_input"><br>
+            <input type="hidden" name="event_id" id="event_id" value="{{ event.id }}">
+                <input type="submit" value="Register" class="btn btn-primary">
+            </form>
+          </div>
+        </div>
+        <!--Live Panel END-->
+    </div>
+{% endblock %}

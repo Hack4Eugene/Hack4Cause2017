@@ -1,0 +1,146 @@
+{% extends "base/base_venue.html" %}
+{% load static i18n %}
+{% block title %}Dashboard{% endblock %}
+
+{% block HeaderStyles %}
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+
+    </style>
+
+
+
+{% endblock %}
+
+{% block HeroText %}{% trans "Dashboard" %}{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <h2>Dashboard</h2>
+        <div class="row">
+            <div class="col-md-8">
+                 <!--Live Panel START-->
+                <div class="panel panel-default" >
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Current Decisions</h3>
+                  </div>
+                  <div class="panel-body">
+                      <div class="row">
+                          <div class="col-md-6"><canvas id="myChart" width="300" height="300" style="max-width:300px; max-height:300px"></canvas></div>
+
+                      </div>
+                  </div>
+                </div>
+                <!--Live Panel END-->
+            </div>
+            <div class="col-md-4">
+                 <!--Live Panel START-->
+                <div class="panel panel-default" >
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Past decisions</h3>
+                  </div>
+                  <div class="panel-body">
+                    <canvas id="myChart3" width="300" height="300" style="max-width:200px; max-height:200px"></canvas>
+                    <canvas id="myChart4" width="300" height="300" style="max-width:200px; max-height:200px"></canvas>
+                    <canvas id="myChart5" width="300" height="300" style="max-width:200px; max-height:200px"></canvas>
+                  </div>
+                </div>
+                <!--Live Panel END-->
+            </div>
+        </div>
+
+
+        <script>
+            var data = {
+            labels: ["Red","Blue","Yellow"],
+            datasets: [{data: [200, 50, 100],
+                        backgroundColor: ["#FF6384","#36A2EB","#FFCE56"],
+                        hoverBackgroundColor: [ "#FF6384","#36A2EB","#FFCE56"]
+                }]
+            };
+            var ctx = document.getElementById("myChart");
+            var myPieChart = new Chart(ctx,{
+                type: 'pie',
+                data: data
+            });
+        </script>
+
+
+    </div>
+
+        <script>
+            var data = {
+            labels: ["Red","Blue","Yellow"],
+            datasets: [{data: [300, 50, 100],
+                        backgroundColor: ["#FF6384","#36A2EB","#FFCE56"],
+                        hoverBackgroundColor: [ "#FF6384","#36A2EB","#FFCE56"]
+                }]
+            };
+            var ctx = document.getElementById("myChart");
+            var myPieChart = new Chart(ctx,{
+                type: 'pie',
+                data: data
+            });
+        </script>
+
+        <script>
+            var data = {
+            labels: ["Red","Blue","Yellow"],
+            datasets: [{data: [300, 50, 100],
+                        backgroundColor: ["#FF6384","#36A2EB","#FFCE56"],
+                        hoverBackgroundColor: [ "#FF6384","#36A2EB","#FFCE56"]
+                }]
+            };
+            var ctx = document.getElementById("myChart2");
+            var myPieChart = new Chart(ctx,{
+                type: 'pie',
+                data: data
+            });
+        </script>
+
+        <script>
+            var data = {
+            labels: ["Red","Blue","Yellow"],
+            datasets: [{data: [300, 50, 100],
+                        backgroundColor: ["#FF6384","#36A2EB","#FFCE56"],
+                        hoverBackgroundColor: [ "#FF6384","#36A2EB","#FFCE56"]
+                }]
+            };
+            var ctx = document.getElementById("myChart3");
+            var myPieChart = new Chart(ctx,{
+                type: 'pie',
+                data: data
+            });
+        </script>
+
+        <script>
+            var data = {
+            labels: ["Red","Blue","Yellow"],
+            datasets: [{data: [300, 50, 100],
+                        backgroundColor: ["#FF6384","#36A2EB","#FFCE56"],
+                        hoverBackgroundColor: [ "#FF6384","#36A2EB","#FFCE56"]
+                }]
+            };
+            var ctx = document.getElementById("myChart4");
+            var myPieChart = new Chart(ctx,{
+                type: 'pie',
+                data: data
+            });
+        </script>
+
+        <script>
+            var data = {
+            labels: ["Red","Blue","Yellow"],
+            datasets: [{data: [300, 50, 100],
+                        backgroundColor: ["#FF6384","#36A2EB","#FFCE56"],
+                        hoverBackgroundColor: [ "#FF6384","#36A2EB","#FFCE56"]
+                }]
+            };
+            var ctx = document.getElementById("myChart5");
+            var myPieChart = new Chart(ctx,{
+                type: 'pie',
+                data: data
+            });
+        </script>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base/base_guest.html" %}
+{% load static i18n %}
+{% block title %}Vote!{% endblock %}
+
+{% block HeaderStyles %}
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+
+    </style>
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="fb-profile">
+            <div class="fb-profile-text">
+                <h1>Sorry you cannot vote unless you are connected to this venue's local wi-fi hot spot.</h1>
+            </div>
+        </div>
+    </div>
+{% endblock %}
