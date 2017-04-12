@@ -29,5 +29,5 @@ Chris Brooks cbrooks4@uoregon.edu<br/>
 Alex Geoffrey apg@uorgeon.edu<br/>
 Jeffrey Knees jknees@uoregon.edu<br/>
 Daniel Su dsu@uoregon.edu<br/>
-Brandon Sov b.r.a.n.d.o.n.s.o.v@gmail.com<br/>
+Brandon Sov brandonsov@gmail.com<br/>
 <br/>
